@@ -874,6 +874,17 @@
                 },
                 {
                     "name": "",
+                    "id": "004e732e-2330-42d7-9527-9d0c1d29610a",
+                    "path": "<VarjoIndexController>{LeftHand}/primary",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "UI Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "71d94579-1bf4-4034-ab9e-e7166842128f",
                     "path": "<XRController>{LeftHand}/{Trigger}",
                     "interactions": "",
@@ -1661,6 +1672,17 @@
                     "name": "",
                     "id": "1652c26e-d835-461f-b46b-55b146fd9bba",
                     "path": "<MetaAimHand>{RightHand}/indexPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "UI Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f2fed4c-0ebb-44bd-91de-ed71e88026d6",
+                    "path": "<VarjoIndexController>{RightHand}/primary",
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
