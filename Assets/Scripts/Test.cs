@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+    public int numberOfViews;
+    //private ArrayList<>
     public void PrintMessage()
     {
         Debug.Log("Got clicked");
     }
+
+
 }
