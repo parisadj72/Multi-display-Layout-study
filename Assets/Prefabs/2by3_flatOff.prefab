@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8003972323805061057}
+  - component: {fileID: 3494702676214693508}
   m_Layer: 0
   m_Name: 2by3_flatOff
   m_TagString: Untagged
@@ -37,6 +38,19 @@ Transform:
   - {fileID: 1102294241853235368}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3494702676214693508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724718977111775172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c45bff218903247bd94786342e5299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewLayout: {fileID: 2724718977111775172}
 --- !u!1001 &2497691733593615023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -173,7 +187,7 @@ PrefabInstance:
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
@@ -349,7 +363,7 @@ PrefabInstance:
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4362439856457320951, guid: 6c5eb061614de5547a055e53464f8a8f, type: 3}
@@ -499,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
@@ -675,7 +689,7 @@ PrefabInstance:
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
@@ -851,7 +865,7 @@ PrefabInstance:
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
@@ -1027,7 +1041,7 @@ PrefabInstance:
     - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2685635606919454259, guid: f9bce0a130e799a46b1c92faa49acd39,
         type: 3}

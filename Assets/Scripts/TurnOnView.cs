@@ -1,50 +1,65 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TurnOnView : MonoBehaviour
 {
     public GameObject viewLayout;
-    private List<Transform> views = new List<Transform>();
-    private int numberOfWindows;
-    private Boolean isOn = false;
+    private View view;
+    private List<View> views = new List<View>();
 
-    public int trials = 5;
+    private int numberOfWindows;
+    public static int trials = 5;
 
     private void Start()
     {
         InitializeLayout();
         RandomWindowOn();
+        RandomWindowOn();
+        RandomWindowOn();
+    }
+    private void InitializeLayout()
+    {
+        Transform[] childTransforms = GetComponentsInChildren<Transform>();
+
+        foreach (Transform childTransform in childTransforms)
+        {
+            View view = childTransform.GetComponent<View>();
+
+            if (view != null)
+            {
+                views.Add(view);
+            }
+        }
+        numberOfWindows = views.Count;
+        //print(numberOfWindows);
     }
 
     private void RandomWindowOn()
     {
         int turnedOnWindow = UnityEngine.Random.Range(0, numberOfWindows);
-
-        views[turnedOnWindow].GetComponent<Toggle>().isOn = true;
+        views[turnedOnWindow].TurnOn(true);
     }
 
-    private void InitializeLayout()
+    private void TraverseList(List<Transform> list)
     {
-        foreach (Transform t in transform)
+        foreach (Transform t in list)
         {
             print(t.name);
-            views.Add(t);
-            numberOfWindows = views.Count;
-
         }
-        print(numberOfWindows);
     }
 
-    public void decreaseTrials()
-    {
-        if (isOn)
-        {
-        trials--;
-        }
-        print("Trials left: " +  trials);
-    }
+
+    //public void decreaseTrials()
+    //{
+    //    if (view.IsOn)
+    //    {
+    //        trials--;
+    //    }
+    //    print("Trials left: " + trials);
+    //}
 }
 //t.GetComponent<Toggle>().isOn = true
