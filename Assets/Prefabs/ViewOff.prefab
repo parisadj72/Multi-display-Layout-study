@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 4763543298597676229}
   - component: {fileID: 8647120462922697338}
   - component: {fileID: 7614190843849590286}
-  - component: {fileID: 7183331481504942373}
   m_Layer: 5
   m_Name: ViewOff
   m_TagString: Untagged
@@ -211,18 +210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewWindow: {fileID: 4640705136126319992}
---- !u!114 &7183331481504942373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4640705136126319992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e577a3af31ac5d0419691e523b02d6d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6028537914143177823
 GameObject:
   m_ObjectHideFlags: 0

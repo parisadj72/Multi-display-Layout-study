@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 
-public class View : MonoBehaviour, ISelectHandler
+public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 {
     public GameObject viewWindow;
     private Toggle toggle;
@@ -63,7 +63,7 @@ public class View : MonoBehaviour, ISelectHandler
     {
         //print("Event activated");
         SetStatus();
-        print("Window is on? " + IsOn);
+        //print("Window is on? " + IsOn);
     }
 
     public void OnSelect(BaseEventData eventData)
@@ -71,5 +71,10 @@ public class View : MonoBehaviour, ISelectHandler
         print(this.gameObject.name + " was selected");
         //TurnOff();
         //DisableInteraction();
+    }
+
+    public void OnDeselect(BaseEventData eventData)
+    {
+        print("Deselected");
     }
 }

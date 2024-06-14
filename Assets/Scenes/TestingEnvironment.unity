@@ -714,16 +714,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViewOff
       objectReference: {fileID: 0}
-    - target: {fileID: 4640705136126319992, guid: 6c5eb061614de5547a055e53464f8a8f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
-        type: 3}
-      propertyPath: m_Interactable
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
