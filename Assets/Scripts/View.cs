@@ -7,16 +7,22 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 
-public class View : MonoBehaviour
+public class View : MonoBehaviour, ISelectHandler
 {
     public GameObject viewWindow;
+    private Toggle toggle;
     private Boolean isOn;
+    private Boolean hasBeenClicked;
 
     private void Start()
     {
-        IsOn = viewWindow.GetComponent<Toggle>().isOn;
-        TurnOn(true);
+        toggle = viewWindow.GetComponent<Toggle>();
+        IsOn = toggle.isOn;
+        HasBeenClicked = false;
+        //print("IsOn = " + IsOn);
+        //TurnOn(true);
         //DisableInteraction();
+        //EventTest();
     }
 
     public Boolean IsOn
@@ -25,16 +31,22 @@ public class View : MonoBehaviour
         set { isOn = value; }
     }
 
+    public Boolean HasBeenClicked
+    {
+        get { return hasBeenClicked; }
+        set { hasBeenClicked = value; }
+    }
+
     public void TurnOn(bool isOn)
     {
+        toggle.isOn = isOn;
         IsOn = isOn;
-        GetComponent<Toggle>().isOn = isOn;
-        GetComponent<TrackedDeviceGraphicRaycaster>().enabled = isOn;
+        toggle.interactable = isOn;
     }
 
     public void SetStatus()
     {
-        IsOn = viewWindow.GetComponent<Toggle>().isOn;
+        IsOn = toggle.isOn;
     }
 
     public void TurnOff()
@@ -44,12 +56,20 @@ public class View : MonoBehaviour
 
     public void DisableInteraction()
     {
-        GetComponent<TrackedDeviceGraphicRaycaster>().enabled = false;
+        toggle.interactable = false;
     }
 
     public void EventTest()
     {
-        print("Event activated");
+        //print("Event activated");
+        SetStatus();
         print("Window is on? " + IsOn);
+    }
+
+    public void OnSelect(BaseEventData eventData)
+    {
+        print(this.gameObject.name + " was selected");
+        //TurnOff();
+        //DisableInteraction();
     }
 }

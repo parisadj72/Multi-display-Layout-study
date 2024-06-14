@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectionTask : MonoBehaviour
 {
     private View view;
     private List<View> views = new List<View>();
 
+    private ToggleGroup toggleGroup;
     private int numberOfWindows;
     private int turnedOnWindow;
     public int trials = 5;
 
     private void Start()
     {
+        toggleGroup = GetComponent<ToggleGroup>();
+        toggleGroup.SetAllTogglesOff();
         InitializeLayout();
         //StartCoroutine(RandomWindowOn());
     }
