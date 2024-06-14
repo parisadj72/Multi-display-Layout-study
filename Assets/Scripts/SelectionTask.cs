@@ -1,26 +1,22 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager.UI;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class TurnOnView : MonoBehaviour
+public class SelectionTask : MonoBehaviour
 {
-    public GameObject viewLayout;
     private View view;
     private List<View> views = new List<View>();
 
     private int numberOfWindows;
-    public static int trials = 5;
+    private int turnedOnWindow;
+    public int trials = 5;
 
     private void Start()
     {
         InitializeLayout();
-        RandomWindowOn();
-        RandomWindowOn();
-        RandomWindowOn();
+        //StartCoroutine(RandomWindowOn());
     }
+
     private void InitializeLayout()
     {
         Transform[] childTransforms = GetComponentsInChildren<Transform>();
@@ -38,12 +34,25 @@ public class TurnOnView : MonoBehaviour
         //print(numberOfWindows);
     }
 
-    private void RandomWindowOn()
+    IEnumerator RandomWindowOn()
     {
-        int turnedOnWindow = UnityEngine.Random.Range(0, numberOfWindows);
-        views[turnedOnWindow].TurnOn(true);
+        for (int i = trials; i > 0; i--)
+        {
+            turnedOnWindow = UnityEngine.Random.Range(0, numberOfWindows);
+
+            views[turnedOnWindow].TurnOn(true);
+            print("Window on is: " + (turnedOnWindow + 1));
+
+            yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
+        }
+
     }
 
+    public void OnWindowClicked()
+    {
+        print("OnWindowClicked() called...");
+        views[turnedOnWindow].TurnOff();
+    }
     private void TraverseList(List<Transform> list)
     {
         foreach (Transform t in list)
@@ -51,15 +60,4 @@ public class TurnOnView : MonoBehaviour
             print(t.name);
         }
     }
-
-
-    //public void decreaseTrials()
-    //{
-    //    if (view.IsOn)
-    //    {
-    //        trials--;
-    //    }
-    //    print("Trials left: " + trials);
-    //}
 }
-//t.GetComponent<Toggle>().isOn = true

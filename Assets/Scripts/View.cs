@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 
@@ -12,7 +14,9 @@ public class View : MonoBehaviour
 
     private void Start()
     {
-        DisableInteraction();
+        IsOn = viewWindow.GetComponent<Toggle>().isOn;
+        TurnOn(true);
+        //DisableInteraction();
     }
 
     public Boolean IsOn
@@ -21,30 +25,31 @@ public class View : MonoBehaviour
         set { isOn = value; }
     }
 
-    public void SetState()
-    {
-        IsOn = viewWindow.GetComponent<Toggle>().isOn;
-        print("Window is: " + IsOn);
-    }
-
     public void TurnOn(bool isOn)
     {
         IsOn = isOn;
-        viewWindow.GetComponent<Toggle>().isOn = isOn;
+        GetComponent<Toggle>().isOn = isOn;
         GetComponent<TrackedDeviceGraphicRaycaster>().enabled = isOn;
+    }
+
+    public void SetStatus()
+    {
+        IsOn = viewWindow.GetComponent<Toggle>().isOn;
     }
 
     public void TurnOff()
     {
-        if (isOn && GetComponent<TrackedDeviceGraphicRaycaster>().enabled)
-        {
-            IsOn = false;
-            DisableInteraction();
-        }
+        TurnOn(false);
     }
 
     public void DisableInteraction()
     {
         GetComponent<TrackedDeviceGraphicRaycaster>().enabled = false;
+    }
+
+    public void EventTest()
+    {
+        print("Event activated");
+        print("Window is on? " + IsOn);
     }
 }
