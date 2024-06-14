@@ -17,12 +17,17 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
     private void Start()
     {
         toggle = viewWindow.GetComponent<Toggle>();
-        IsOn = toggle.isOn;
-        HasBeenClicked = false;
+        print("The toggle is: " + toggle.name);
+        SetStatus();
         //print("IsOn = " + IsOn);
         //TurnOn(true);
         //DisableInteraction();
         //EventTest();
+    }
+
+    public void Awake()
+    {
+        Start();
     }
 
     public Boolean IsOn
@@ -39,6 +44,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void TurnOn(bool isOn)
     {
+        //print("Toggle is: " + toggle.name);
         toggle.isOn = isOn;
         IsOn = isOn;
         toggle.interactable = isOn;
@@ -68,13 +74,14 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
-        print(this.gameObject.name + " was selected");
+
+        //print(this.gameObject.name + " was selected");
         //TurnOff();
         //DisableInteraction();
     }
 
     public void OnDeselect(BaseEventData eventData)
     {
-        print("Deselected");
+        //print("Deselected");
     }
 }

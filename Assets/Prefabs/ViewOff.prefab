@@ -186,7 +186,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 7614190843849590286}
         m_TargetAssemblyTypeName: View, Assembly-CSharp
-        m_MethodName: EventTest
+        m_MethodName: SetStatus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

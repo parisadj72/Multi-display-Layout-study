@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class SelectionTask : MonoBehaviour
 {
-    private View view;
     private List<View> views = new List<View>();
 
     private ToggleGroup toggleGroup;
@@ -18,7 +17,7 @@ public class SelectionTask : MonoBehaviour
         toggleGroup = GetComponent<ToggleGroup>();
         toggleGroup.SetAllTogglesOff();
         InitializeLayout();
-        //StartCoroutine(RandomWindowOn());
+        StartCoroutine(RandomWindowOn());
     }
 
     private void InitializeLayout()
@@ -43,9 +42,10 @@ public class SelectionTask : MonoBehaviour
         for (int i = trials; i > 0; i--)
         {
             turnedOnWindow = UnityEngine.Random.Range(0, numberOfWindows);
+            //print("Number was: " + turnedOnWindow);
 
             views[turnedOnWindow].TurnOn(true);
-            print("Window on is: " + (turnedOnWindow + 1));
+            //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
         }
@@ -57,11 +57,11 @@ public class SelectionTask : MonoBehaviour
         print("OnWindowClicked() called...");
         views[turnedOnWindow].TurnOff();
     }
-    private void TraverseList(List<Transform> list)
+    private void TraverseList(List<View> list)
     {
-        foreach (Transform t in list)
+        foreach (View view in list)
         {
-            print(t.name);
+            print(view.name);
         }
     }
 }
