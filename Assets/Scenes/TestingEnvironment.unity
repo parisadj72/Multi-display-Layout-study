@@ -484,59 +484,19 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2486020654355664082, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486020654355664082, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486020654355664082, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1666306082}
-    - target: {fileID: 2486020654355664082, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486020654355664082, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetStatus
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486020654355664082, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: View, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 2724718977111775172, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
       propertyPath: m_Name
       value: 2by3_flatOff
       objectReference: {fileID: 0}
-    - target: {fileID: 3489958780301820015, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4619695164928011444, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
       propertyPath: trials
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 5084213685000060742, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
+    - target: {fileID: 6600983269572008328, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7786185032516061051, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8003972323805061057, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
@@ -589,22 +549,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9205540130294392412, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1b7c159825fb1f4a8ac0f5dc499b73e, type: 3}
---- !u!1 &1666306082 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1938720586138147792, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1417488051}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1872476094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -717,11 +666,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ViewOff
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640705136126319992, guid: 6c5eb061614de5547a055e53464f8a8f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
