@@ -17,7 +17,7 @@ public class SelectionTask : MonoBehaviour
         toggleGroup = GetComponent<ToggleGroup>();
         toggleGroup.SetAllTogglesOff();
         InitializeLayout();
-        StartCoroutine(RandomWindowOn());
+        //StartCoroutine(RandomWindowOn());
     }
 
     private void InitializeLayout()
@@ -52,11 +52,6 @@ public class SelectionTask : MonoBehaviour
 
     }
 
-    public void OnWindowClicked()
-    {
-        print("OnWindowClicked() called...");
-        views[turnedOnWindow].TurnOff();
-    }
     private void TraverseList(List<View> list)
     {
         foreach (View view in list)

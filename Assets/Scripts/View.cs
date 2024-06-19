@@ -6,18 +6,17 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
+using static UnityEngine.ParticleSystem;
 
-public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
+public class View : MonoBehaviour, ISelectHandler
 {
-    public GameObject viewWindow;
     private Toggle toggle;
     private Boolean isOn;
-    private Boolean hasBeenClicked;
+    private Boolean hasBeenClicked = false;
 
     private void Start()
     {
-        toggle = viewWindow.GetComponent<Toggle>();
-        print("The toggle is: " + toggle.name);
+        toggle = GetComponent<Toggle>();
         SetStatus();
         //print("IsOn = " + IsOn);
         //TurnOn(true);
@@ -55,11 +54,6 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
         IsOn = toggle.isOn;
     }
 
-    public void TurnOff()
-    {
-        TurnOn(false);
-    }
-
     public void DisableInteraction()
     {
         toggle.interactable = false;
@@ -74,14 +68,38 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
-
-        //print(this.gameObject.name + " was selected");
+        if (IsOn && !hasBeenClicked)
+        {
+            print("view clicked. Disable now?");
+            StartCoroutine(WaitUntilOff());
+        }
+        //print("the view is off...");
         //TurnOff();
         //DisableInteraction();
     }
 
-    public void OnDeselect(BaseEventData eventData)
+    IEnumerator WaitUntilOff()
     {
-        //print("Deselected");
+        yield return new WaitUntil(() => !IsOn);
+
+        print("view is now off");
+        DisableInteraction();
     }
+
+    private void Update()
+    {
+        if (IsOn && !hasBeenClicked)
+        {
+            //print("view is still on");
+        }
+        //print("view is now off");
+        //hasBeenClicked = true;
+        //DisableInteraction();
+
+    }
+
+    //public void OnDeselect(BaseEventData eventData)
+    //{
+    //    print("Deselected");
+    //}
 }

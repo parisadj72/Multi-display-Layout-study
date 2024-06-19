@@ -519,10 +519,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2by3_flatOff
       objectReference: {fileID: 0}
+    - target: {fileID: 3489958780301820015, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4619695164928011444, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
       propertyPath: trials
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5084213685000060742, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7786185032516061051, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
@@ -578,6 +588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205540130294392412, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -706,7 +721,7 @@ PrefabInstance:
     - target: {fileID: 4640705136126319992, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
