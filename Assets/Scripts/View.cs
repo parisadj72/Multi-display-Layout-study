@@ -8,8 +8,9 @@ using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 using static UnityEngine.ParticleSystem;
 
-public class View : MonoBehaviour, ISelectHandler
+public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 {
+    public Boolean disabledAtStartup = true;
     private Toggle toggle;
     private Boolean isOn;
     private Boolean hasBeenClicked = false;
@@ -18,6 +19,11 @@ public class View : MonoBehaviour, ISelectHandler
     {
         toggle = GetComponent<Toggle>();
         SetStatus();
+
+        if (disabledAtStartup)
+        {
+            DisableInteraction();
+        }
         //print("IsOn = " + IsOn);
         //TurnOn(true);
         //DisableInteraction();
@@ -72,6 +78,7 @@ public class View : MonoBehaviour, ISelectHandler
         {
             print("view clicked. Disable now?");
             StartCoroutine(WaitUntilOff());
+            OnDeselect(eventData);
         }
         //print("the view is off...");
         //TurnOff();
@@ -86,20 +93,9 @@ public class View : MonoBehaviour, ISelectHandler
         DisableInteraction();
     }
 
-    private void Update()
+
+    public void OnDeselect(BaseEventData eventData)
     {
-        if (IsOn && !hasBeenClicked)
-        {
-            //print("view is still on");
-        }
-        //print("view is now off");
-        //hasBeenClicked = true;
-        //DisableInteraction();
-
+        //print("Deselected");
     }
-
-    //public void OnDeselect(BaseEventData eventData)
-    //{
-    //    print("Deselected");
-    //}
 }

@@ -17,7 +17,7 @@ public class SelectionTask : MonoBehaviour
         toggleGroup = GetComponent<ToggleGroup>();
         toggleGroup.SetAllTogglesOff();
         InitializeLayout();
-        //StartCoroutine(RandomWindowOn());
+        StartCoroutine(RandomWindowOn());
     }
 
     private void InitializeLayout()
@@ -48,6 +48,11 @@ public class SelectionTask : MonoBehaviour
             //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
+
+            if (views[turnedOnWindow].IsOn)
+            {
+                print("View did not turn off");
+            }
         }
 
     }
