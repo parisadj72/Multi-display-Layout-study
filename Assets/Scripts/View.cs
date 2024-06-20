@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.UI;
+using Varjo.XR;
 using static UnityEngine.ParticleSystem;
 
 public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
@@ -50,9 +51,9 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
     public void TurnOn(bool isOn)
     {
         //print("Toggle is: " + toggle.name);
+        toggle.interactable = isOn;
         toggle.isOn = isOn;
         IsOn = isOn;
-        toggle.interactable = isOn;
     }
 
     public void SetStatus()
