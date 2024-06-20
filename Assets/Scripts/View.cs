@@ -9,7 +9,7 @@ using UnityEngine.XR.Interaction.Toolkit.UI;
 using Varjo.XR;
 using static UnityEngine.ParticleSystem;
 
-public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
+public class View : MonoBehaviour, ISelectHandler
 {
     public Boolean disabledAtStartup = true;
     private Toggle toggle;
@@ -31,11 +31,6 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
         //EventTest();
     }
 
-    public void Awake()
-    {
-        Start();
-    }
-
     public Boolean IsOn
     {
         get { return isOn; }
@@ -50,8 +45,12 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void TurnOn(bool isOn)
     {
-        //print("Toggle is: " + toggle.name);
+        if (disabledAtStartup && !toggle.interactable && IsOn)
+        {
+            print("the view is not interactable. Turn on now.");
+        }
         toggle.interactable = isOn;
+        //print("Interaction enabled: " + toggle.interactable);
         toggle.isOn = isOn;
         IsOn = isOn;
     }
@@ -66,24 +65,13 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
         toggle.interactable = false;
     }
 
-    public void EventTest()
-    {
-        //print("Event activated");
-        SetStatus();
-        //print("Window is on? " + IsOn);
-    }
-
     public void OnSelect(BaseEventData eventData)
     {
         if (IsOn && !hasBeenClicked)
         {
             print("view clicked. Disable now?");
             StartCoroutine(WaitUntilOff());
-            OnDeselect(eventData);
         }
-        //print("the view is off...");
-        //TurnOff();
-        //DisableInteraction();
     }
 
     IEnumerator WaitUntilOff()
@@ -92,11 +80,5 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler
 
         print("view is now off");
         DisableInteraction();
-    }
-
-
-    public void OnDeselect(BaseEventData eventData)
-    {
-        //print("Deselected");
     }
 }
