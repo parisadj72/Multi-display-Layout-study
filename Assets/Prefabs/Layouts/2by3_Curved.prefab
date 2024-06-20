@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 1745386820312637725}
   - component: {fileID: 2460059735554887586}
   - component: {fileID: 3713313892111647702}
+  - component: {fileID: 5131571744800396543}
   m_Layer: 5
   m_Name: ViewOff1
   m_TagString: Untagged
@@ -317,6 +318,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
+--- !u!114 &5131571744800396543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892714500362770592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd482afbab29ab409e113c3a9300b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angle: 45
+  customPivot: {fileID: 6519978652729988477}
 --- !u!1 &3514094890199048349
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4496685733325279283}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 53.7, y: -55.6, z: 0.6}
   m_LocalScale: {x: 160.36047, y: 310.08136, z: 160.36047}
   m_ConstrainProportionsScale: 0
@@ -747,8 +762,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6234496324439021963}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 91.04203, y: 112.86961, z: -36.02335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.7, y: -55.6, z: 0.6}
   m_LocalScale: {x: 160.36047, y: 310.08136, z: 160.36047}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1129,6 +1144,7 @@ GameObject:
   - component: {fileID: 7367029509114115948}
   - component: {fileID: 6640501665777490387}
   - component: {fileID: 5587974352489780647}
+  - component: {fileID: 9110466448236890664}
   m_Layer: 5
   m_Name: ViewOff4
   m_TagString: Untagged
@@ -1325,6 +1341,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
+--- !u!114 &9110466448236890664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223892077106007761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd482afbab29ab409e113c3a9300b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  angle: 45
+  customPivot: {fileID: 1524431341859918814}
 --- !u!1 &7314954796040731867
 GameObject:
   m_ObjectHideFlags: 0
