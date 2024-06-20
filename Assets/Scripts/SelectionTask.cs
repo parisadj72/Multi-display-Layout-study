@@ -7,15 +7,12 @@ public class SelectionTask : MonoBehaviour
 {
     private List<View> views = new List<View>();
 
-    private ToggleGroup toggleGroup;
     private int numberOfWindows;
     private int turnedOnWindow;
     public int trials = 5;
 
     private void Start()
     {
-        toggleGroup = GetComponent<ToggleGroup>();
-        toggleGroup.SetAllTogglesOff();
         InitializeLayout();
         StartCoroutine(RandomWindowOn());
     }
@@ -48,11 +45,6 @@ public class SelectionTask : MonoBehaviour
             //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
-
-            if (views[turnedOnWindow].IsOn)
-            {
-                print("View did not turn off");
-            }
         }
 
     }
