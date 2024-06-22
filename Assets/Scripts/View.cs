@@ -16,7 +16,7 @@ public class View : MonoBehaviour, ISelectHandler
     private Boolean isOn;
     private Boolean hasBeenClicked = false;
 
-    private void Start()
+    private void Awake()
     {
         toggle = GetComponent<Toggle>();
         SetStatus();
@@ -43,16 +43,12 @@ public class View : MonoBehaviour, ISelectHandler
         set { hasBeenClicked = value; }
     }
 
-    public void TurnOn(bool isOn)
+    public void TurnOn(Boolean isOn)
     {
-        if (disabledAtStartup && !toggle.interactable && IsOn)
-        {
-            print("the view is not interactable. Turn on now.");
-        }
-        toggle.interactable = isOn;
-        //print("Interaction enabled: " + toggle.interactable);
-        toggle.isOn = isOn;
         IsOn = isOn;
+        toggle.interactable = isOn;
+        toggle.isOn = isOn;
+        //print("Interaction enabled: " + toggle.interactable);
     }
 
     public void SetStatus()

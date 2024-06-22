@@ -9,6 +9,6 @@ public class Instantiate : MonoBehaviour
     private void Awake()
     {
         
-        Instantiate(InstantiatePrefab, this.transform);
+        Instantiate(InstantiatePrefab, new Vector3(0,0,0), Quaternion.identity);
     }
 }
