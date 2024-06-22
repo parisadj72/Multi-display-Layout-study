@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Instantiate : MonoBehaviour
 {
-    public GameObject InstantiatePrefab;
-    public Transform location;
+    public GameObject layoutPrefab;
     private void Awake()
     {
         
-        Instantiate(InstantiatePrefab, new Vector3(0,0,0), Quaternion.identity);
+        Instantiate(layoutPrefab, new Vector3(0,0,0), Quaternion.identity);
     }
 }

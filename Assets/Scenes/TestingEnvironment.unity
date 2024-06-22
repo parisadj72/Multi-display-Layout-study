@@ -271,11 +271,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2by3_Curved
       objectReference: {fileID: 0}
-    - target: {fileID: 8094827240751199827, guid: 8ef4bfa80e124d84ab4e7254df369916,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1417,20 +1412,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6248281259073499012, guid: 79835cdcbdf3f6345a7b7361105467bb,
-        type: 3}
-      propertyPath: trials
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 9080522435351608871, guid: 79835cdcbdf3f6345a7b7361105467bb,
         type: 3}
       propertyPath: m_Name
       value: StackedLayout6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9080522435351608871, guid: 79835cdcbdf3f6345a7b7361105467bb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1449,11 +1434,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 2by3_flatOff
-      objectReference: {fileID: 0}
-    - target: {fileID: 2724718977111775172, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8003972323805061057, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
@@ -1957,9 +1937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0c90ea26b370349ae1768738b61bb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InstantiatePrefab: {fileID: 2724718977111775172, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
+  layoutPrefab: {fileID: 2724718977111775172, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
     type: 3}
-  location: {fileID: 2083760329}
 --- !u!4 &2083760329
 Transform:
   m_ObjectHideFlags: 0
