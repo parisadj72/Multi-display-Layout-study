@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,14 @@ public class SelectionTask : MonoBehaviour
     private int numberOfWindows;
     private int turnedOnWindow;
     public int trials = 5;
+
+    private Boolean taskDone;
+
+    public Boolean TaskDone
+    {
+        get { return taskDone; }
+        set { taskDone = value; }
+    }
 
     private void Start()
     {
@@ -46,7 +55,7 @@ public class SelectionTask : MonoBehaviour
 
             yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
         }
-
+        TaskDone = true;
     }
 
     private void TraverseList(List<View> list)
