@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Experiment1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public List<GameObject> layouts = new List<GameObject>();
+    private void Awake()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void InitializeExperiment()
     {
-        
+
+        for (int i = 9; i >= 0; i--)
+        {
+            print("Doing first task...");
+
+        }
+    }
+
+    IEnumerator WaitForTask()
+    {
+        print("Task in progress");
+
+        yield return new WaitUntil(() => layouts[0].)
     }
 }
