@@ -12,7 +12,7 @@ public class SelectionTask : MonoBehaviour
     private int turnedOnWindow;
     public int trials = 5;
 
-    private Boolean taskDone;
+    private Boolean taskDone = false;
 
     public Boolean TaskDone
     {
@@ -55,6 +55,7 @@ public class SelectionTask : MonoBehaviour
 
             yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
         }
+        print("Selection task is done");
         TaskDone = true;
     }
 
