@@ -12,7 +12,7 @@ public class SelectionTask : MonoBehaviour
     private int turnedOnWindow;
     public int trials = 5;
 
-    private Boolean taskDone = false;
+    private Boolean taskDone;
 
     public Boolean TaskDone
     {
@@ -20,10 +20,14 @@ public class SelectionTask : MonoBehaviour
         set { taskDone = value; }
     }
 
-    private void Start()
+    private void Awake()
     {
         InitializeLayout();
-        StartCoroutine(RandomWindowOn());
+    }
+
+    private void Start()
+    {
+        StartCoroutine(Task1());
     }
 
     private void InitializeLayout()
@@ -41,6 +45,7 @@ public class SelectionTask : MonoBehaviour
         }
         numberOfWindows = views.Count;
         //print(numberOfWindows);
+        TaskDone = false;
     }
 
     IEnumerator RandomWindowOn()
@@ -55,8 +60,15 @@ public class SelectionTask : MonoBehaviour
 
             yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
         }
-        print("Selection task is done");
         TaskDone = true;
+    }
+
+    IEnumerator Task1()
+    {
+        StartCoroutine (RandomWindowOn());
+        yield return new WaitUntil(() => TaskDone);
+        print("Task is finished");
+        Destroy(this.gameObject);
     }
 
     private void TraverseList(List<View> list)

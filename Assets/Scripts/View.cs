@@ -11,24 +11,19 @@ using static UnityEngine.ParticleSystem;
 
 public class View : MonoBehaviour, ISelectHandler
 {
-    public Boolean disabledAtStartup = true;
     private Toggle toggle;
     private Boolean isOn;
-    private Boolean hasBeenClicked = false;
+    private Boolean isInteractable;
+    public Boolean disabledAtStartup = true;
 
     private void Awake()
     {
-        toggle = GetComponent<Toggle>();
-        SetStatus();
+        InitializeView();
 
         if (disabledAtStartup)
         {
             DisableInteraction();
         }
-        //print("IsOn = " + IsOn);
-        //TurnOn(true);
-        //DisableInteraction();
-        //EventTest();
     }
 
     public Boolean IsOn
@@ -37,10 +32,15 @@ public class View : MonoBehaviour, ISelectHandler
         set { isOn = value; }
     }
 
-    public Boolean HasBeenClicked
+    private void InitializeView()
     {
-        get { return hasBeenClicked; }
-        set { hasBeenClicked = value; }
+        toggle = GetComponent<Toggle>();
+        isInteractable = toggle.interactable;
+        IsOn = toggle.isOn;
+    }
+    public void SetStatus()
+    {
+        IsOn = toggle.isOn;
     }
 
     public void TurnOn(Boolean isOn)
@@ -51,11 +51,6 @@ public class View : MonoBehaviour, ISelectHandler
         //print("Interaction enabled: " + toggle.interactable);
     }
 
-    public void SetStatus()
-    {
-        IsOn = toggle.isOn;
-    }
-
     public void DisableInteraction()
     {
         toggle.interactable = false;
@@ -63,9 +58,9 @@ public class View : MonoBehaviour, ISelectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
-        if (IsOn && !hasBeenClicked)
+        if (IsOn)
         {
-            print("view clicked. Disable now?");
+            //print("view clicked. Disable now?");
             StartCoroutine(WaitUntilOff());
         }
     }
@@ -74,7 +69,7 @@ public class View : MonoBehaviour, ISelectHandler
     {
         yield return new WaitUntil(() => !IsOn);
 
-        print("view is now off");
+        //print("view is now off");
         DisableInteraction();
     }
 }
