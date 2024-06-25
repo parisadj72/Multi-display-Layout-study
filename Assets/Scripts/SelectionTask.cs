@@ -68,7 +68,7 @@ public class SelectionTask : MonoBehaviour
         StartCoroutine (RandomWindowOn());
         yield return new WaitUntil(() => TaskDone);
         print("Task is finished");
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, 5);
     }
 
     private void TraverseList(List<View> list)
