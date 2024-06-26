@@ -6,6 +6,10 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(CanvasGroup))]
 public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    public GameObject child;
+    public Transform parent;
+    public Transform previousParent;
+
     private void Awake()
     {
 
@@ -25,8 +29,9 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         if (eventData.pointerCurrentRaycast.isValid)
         {
             print("OnDrag");
-            var currentRaycastPosition = eventData.pointerCurrentRaycast.worldPosition;
-            transform.position = currentRaycastPosition;
+            //var currentRaycastPosition = eventData.pointerCurrentRaycast.worldPosition;
+            //transform.position = currentRaycastPosition;
+            child.transform.SetParent(parent);
         }
     }
 
@@ -34,6 +39,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     {
         print("OnEndDrag");
         GetComponent<CanvasGroup>().blocksRaycasts = true;
+        child.transform.SetParent(previousParent);
     }
 
 }
