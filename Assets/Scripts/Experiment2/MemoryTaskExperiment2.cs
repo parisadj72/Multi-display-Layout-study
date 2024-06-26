@@ -47,6 +47,7 @@ public class MemoryTaskExperiment2 : MonoBehaviour
 
                 if (view != null)
                 {
+                    view.TurnOff();
                     view.DisableInteraction();
                     views.Add(view);
                 }
@@ -68,6 +69,9 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                 }
 
                 yield return new WaitUntil(() => views[rand2[0]].IsOn && views[rand2[1]].IsOn);
+
+                for (int j = 0; j < 2; j++) 
+                    views[rand2[j]].DisableInteraction();
             }
             else if (numberOfWindows == 6)
             {
@@ -82,7 +86,11 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                     views[rand3[j]].TurnOff();
                     views[rand3[j]].EnableInteraction();
                 }
+                
                 yield return new WaitUntil(() => views[rand3[0]].IsOn && views[rand3[1]].IsOn && views[rand3[2]].IsOn);
+
+                for (int j = 0; j < 3; j++) // turn on 3 random views
+                    views[rand3[j]].DisableInteraction();
             }
             else // numberOfWindows == 12
             {
@@ -97,7 +105,11 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                     views[rand5[j]].TurnOff();
                     views[rand5[j]].EnableInteraction();
                 }
+                
                 yield return new WaitUntil(() => views[rand5[0]].IsOn && views[rand5[1]].IsOn && views[rand5[2]].IsOn && views[rand5[3]].IsOn && views[rand5[4]].IsOn);
+                
+                for (int j = 0; j < 5; j++) 
+                    views[rand5[j]].DisableInteraction();
             }
 
             yield return new WaitForSeconds(5);
