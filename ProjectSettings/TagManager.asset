@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ViewOn
   - Anchor
+  - LeftStabilizer
+  - RightStabilizer
   layers:
   - Default
   - TransparentFX
