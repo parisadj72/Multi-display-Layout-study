@@ -935,7 +935,7 @@ GameObject:
   - component: {fileID: 896959700382734188}
   - component: {fileID: 120813349700149099}
   m_Layer: 0
-  m_Name: RayInteractor
+  m_Name: RayInteractorLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2010,7 +2010,7 @@ GameObject:
   - component: {fileID: 1762508385871304194}
   - component: {fileID: 8524229202543682896}
   m_Layer: 0
-  m_Name: RayInteractor
+  m_Name: RayInteractorRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
