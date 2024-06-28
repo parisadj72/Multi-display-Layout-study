@@ -1194,10 +1194,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   child: {fileID: 1356874717}
-  parent: {fileID: 1763528092}
   previousParent: {fileID: 1694119595}
-  leftStabilizer: {fileID: 0}
-  rightStabilizer: {fileID: 0}
+  leftStabilizer: {fileID: 1763528092}
+  rightStabilizer: {fileID: 2136875535}
 --- !u!1001 &1398240078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2170,6 +2169,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 142656816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2136875535 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5601649928096422587, guid: bba8f992431da2046bf5f48363280835,
+    type: 3}
+  m_PrefabInstance: {fileID: 2041545646}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
