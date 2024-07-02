@@ -12,8 +12,10 @@ using static UnityEngine.ParticleSystem;
 public class View : MonoBehaviour, ISelectHandler
 {
     private Toggle toggle;
+
     private Boolean isOn;
     private Boolean isInteractable;
+
     public Boolean disabledAtStartup = true;
 
     private void Awake()
