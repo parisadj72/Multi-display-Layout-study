@@ -36,7 +36,7 @@ public class MemoryTaskExperiment2 : MonoBehaviour
         for (int i = 0; i < list.Count; i++)
         {
             GameObject layout = gameObject.transform.GetChild(list[i]).gameObject;
-            layout.transform.position = new Vector3(0.0f, 0.6f, 0.0f);
+            layout.transform.position = new Vector3(0.0f, 0.8f, 0.0f);
             layout.SetActive(true);
 
             List<ViewScript> views = new List<ViewScript>();            
