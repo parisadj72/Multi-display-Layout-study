@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6021928121401839869}
   - component: {fileID: 6248281259073499012}
+  - component: {fileID: -8828033283855211702}
   m_Layer: 0
   m_Name: StackedLayout6Socket
   m_TagString: Untagged
@@ -57,6 +58,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trials: 15
+--- !u!114 &-8828033283855211702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080522435351608871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bd296ff8a9d3f4e9a1117623e4a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &750485796744976257
 PrefabInstance:
   m_ObjectHideFlags: 0
