@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.UI;
 
 public class SelectionTaskExperiment1 : MonoBehaviour
 {
@@ -84,7 +85,7 @@ public class SelectionTaskExperiment1 : MonoBehaviour
 
                 views[randomOrder[j]].TurnOn();
                 views[randomOrder[j]].EnableInteraction();
-                yield return new WaitUntil(() => !views[randomOrder[j]].IsOn);
+                yield return new WaitUntil(() => !views[randomOrder[j]].GetComponent<Toggle>().isOn);
 
                 //finish timer -> timePerSelection -> write time to the file
                 File.AppendAllText(timerFilePath, "timePerSelection: " + timePerSelection + "\n");
@@ -100,7 +101,17 @@ public class SelectionTaskExperiment1 : MonoBehaviour
             yield return new WaitForSeconds(5);
             layout.SetActive(false);
 
+            //log Error: Wrong Selections
+            File.AppendAllText(timerFilePath, "OUTPUT OF EACH RUN (Errors): \n");
+
+            float sumOfNumberOfWorngSelections = 0;
+            for(int k = 0; k < views.Count; k++)
+            {
+                sumOfNumberOfWorngSelections += views[k].WrongClickCounter;
+            }
+            File.AppendAllText(timerFilePath, "Number Of Wrong Selections = " + sumOfNumberOfWorngSelections + "\n \n");
         }
+
     }
 
     // Update is called once per frame

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MemoryTaskExperiment2 : MonoBehaviour
 {
@@ -85,7 +86,7 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                     views[rand2[j]].EnableInteraction();
                 }
 
-                yield return new WaitUntil(() => views[rand2[0]].IsOn && views[rand2[1]].IsOn);
+                yield return new WaitUntil(() => views[rand2[0]].GetComponent<Toggle>().isOn && views[rand2[1]].GetComponent<Toggle>().isOn);
 
                 //finish timer -> timePerTrial -> write time to the file
                 File.AppendAllText(timerFilePath, "timePerTrial (2 Selections): " + timePerTrial + "\n");
@@ -110,7 +111,7 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                     views[rand3[j]].EnableInteraction();
                 }
                 
-                yield return new WaitUntil(() => views[rand3[0]].IsOn && views[rand3[1]].IsOn && views[rand3[2]].IsOn);
+                yield return new WaitUntil(() => views[rand3[0]].GetComponent<Toggle>().isOn && views[rand3[1]].GetComponent<Toggle>().isOn && views[rand3[2]].GetComponent<Toggle>().isOn);
 
                 //finish timer -> timePerTrial -> write time to the file
                 File.AppendAllText(timerFilePath, "timePerTrial (3 Selections): " + timePerTrial + "\n");
@@ -135,7 +136,7 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                     views[rand5[j]].EnableInteraction();
                 }
                 
-                yield return new WaitUntil(() => views[rand5[0]].IsOn && views[rand5[1]].IsOn && views[rand5[2]].IsOn && views[rand5[3]].IsOn && views[rand5[4]].IsOn);
+                yield return new WaitUntil(() => views[rand5[0]].GetComponent<Toggle>().isOn && views[rand5[1]].GetComponent<Toggle>().isOn && views[rand5[2]].GetComponent<Toggle>().isOn && views[rand5[3]].GetComponent<Toggle>().isOn && views[rand5[4]].GetComponent<Toggle>().isOn);
 
                 //finish timer -> timePerTrial -> write time to the file
                 File.AppendAllText(timerFilePath, "timePerTrial (5 Selections): " + timePerTrial + "\n");
@@ -146,6 +147,16 @@ public class MemoryTaskExperiment2 : MonoBehaviour
 
             yield return new WaitForSeconds(5);
             layout.SetActive(false);
+
+            //log Error: Wrong Selections
+            File.AppendAllText(timerFilePath, "OUTPUT OF EACH RUN (Errors): \n");
+
+            float sumOfNumberOfWorngSelections = 0;
+            for (int k = 0; k < views.Count; k++)
+            {
+                sumOfNumberOfWorngSelections += views[k].WrongClickCounter;
+            }
+            File.AppendAllText(timerFilePath, "Number Of Wrong Selections = " + sumOfNumberOfWorngSelections + "\n \n");
 
         }
     }

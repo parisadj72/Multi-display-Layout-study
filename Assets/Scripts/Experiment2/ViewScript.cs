@@ -4,17 +4,21 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ViewScript : MonoBehaviour
+public class ViewScript : MonoBehaviour, IPointerClickHandler
 {
     public Boolean disabledAtStartup = true;
     private Toggle toggle;
-    private Boolean isOn;
-    private Boolean hasBeenClicked = false;
+    private float wrongClickCounter = 0;
+
+    public float WrongClickCounter
+    {
+        get { return wrongClickCounter; }
+        set { wrongClickCounter = value; }
+    }
 
     private void Awake()
     {
         toggle = GetComponent<Toggle>();
-        SetStatus();
 
         if (disabledAtStartup)
         {
@@ -22,33 +26,13 @@ public class ViewScript : MonoBehaviour
         }
     }
 
-    public Boolean IsOn
-    {
-        get { return isOn; }
-        set { isOn = value; }
-    }
-
-    public Boolean HasBeenClicked
-    {
-        get { return hasBeenClicked; }
-        set { hasBeenClicked = value; }
-    }
-
     public void TurnOn()
     {
-        IsOn = true;
-        //toggle.interactable = true;
         toggle.isOn = true;
     }
     public void TurnOff()
     {
-        IsOn = false;
         toggle.isOn = false;
-    }
-
-    public void SetStatus()
-    {
-        IsOn = toggle.isOn;
     }
 
     public void DisableInteraction()
@@ -59,21 +43,9 @@ public class ViewScript : MonoBehaviour
     {
         toggle.interactable = true;
     }
-
-    public void OnSelect(BaseEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
-        if (IsOn && !hasBeenClicked)
-        {
-            print("view clicked. Disable now?");
-            StartCoroutine(WaitUntilOff());
-        }
-    }
-
-    IEnumerator WaitUntilOff()
-    {
-        yield return new WaitUntil(() => !IsOn);
-
-        print("view is now off");
-        DisableInteraction();
+        if (!toggle.interactable)
+            wrongClickCounter++;
     }
 }
