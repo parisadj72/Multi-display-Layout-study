@@ -1,11 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class SelectionTaskExperiment1 : MonoBehaviour
 {
     public int numberOfTrials = 5;
     public int numberOfRepeatPerLayout = 3;
+    private float timePerSelection;
+    private float timePerNumberOfTrialsSelection;
+    string timerFilePath = "Assets/Scripts/Experiment1/OutputTimerLog/Exp1timer.txt";
+
+    private void createFile(string filePathName)
+    {
+        if (File.Exists(filePathName))
+        {
+            //add a heading inside the .txt file
+            File.WriteAllText(filePathName, "OUTPUT OF EACH RUN (Time): \n \n");
+        }
+    }
     private List<int> generateUniqueRandoms(int size, int repeat)
     {
         List<int> list = new List<int>(new int[size * repeat]);
@@ -29,6 +42,9 @@ public class SelectionTaskExperiment1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //create the output file per run/participant
+        createFile(timerFilePath);
+
         StartCoroutine(waiter());
     }
     IEnumerator waiter()
@@ -57,17 +73,29 @@ public class SelectionTaskExperiment1 : MonoBehaviour
             int numberOfWindows = views.Count;
 
             List<int> randomOrder = generateUniqueRandoms(numberOfWindows, numberOfTrials); // random order
-            
+
+            //start timer -> timePerNumberOfTrialsSelection
+            timePerNumberOfTrialsSelection = 0;
+
             for (int j = 0; j < numberOfTrials; j++) // turn on one random view and enable interaction
             {
+                //start timer -> timePerSelection
+                timePerSelection = 0;
+
                 views[randomOrder[j]].TurnOn();
                 views[randomOrder[j]].EnableInteraction();
                 yield return new WaitUntil(() => !views[randomOrder[j]].IsOn);
+
+                //finish timer -> timePerSelection -> write time to the file
+                File.AppendAllText(timerFilePath, "timePerSelection: " + timePerSelection + "\n");
 
                 // turn off the view and disable interaction
                 views[randomOrder[j]].TurnOff();
                 views[randomOrder[j]].DisableInteraction();
             }
+
+            //finish timer -> timePerNumberOfTrialsSelection -> write time to the file
+            File.AppendAllText(timerFilePath, "timePerTrial (" + numberOfTrials + " Selections): " + timePerNumberOfTrialsSelection + "\n \n");
 
             yield return new WaitForSeconds(5);
             layout.SetActive(false);
@@ -78,6 +106,7 @@ public class SelectionTaskExperiment1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        timePerNumberOfTrialsSelection += Time.deltaTime;
+        timePerSelection += Time.deltaTime;
     }
 }

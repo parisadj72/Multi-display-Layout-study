@@ -1,10 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using UnityEngine;
 
 public class MemoryTaskExperiment2 : MonoBehaviour
 {
+    public int numberOfRepeatPerLayout = 3;
+    private float timePerTrial;
+    string timerFilePath = "Assets/Scripts/Experiment2/OutputTimerLog/Exp2timer.txt";
+    private void createFile(string filePathName)
+    {
+        if (File.Exists(filePathName))
+        {
+            //add a heading inside the .txt file
+            File.WriteAllText(filePathName, "OUTPUT OF EACH RUN (Time): \n \n");
+        }
+    }
     private List<int> generateUniqueRandoms(int size, int repeat)
     {
         List<int> list = new List<int>(new int[size * repeat]);
@@ -27,11 +38,14 @@ public class MemoryTaskExperiment2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //create the output file per run/participant
+        createFile(timerFilePath);
+
         StartCoroutine(waiter());
     }
     IEnumerator waiter()
     {
-        List<int> list = generateUniqueRandoms(gameObject.transform.childCount, 3);
+        List<int> list = generateUniqueRandoms(gameObject.transform.childCount, numberOfRepeatPerLayout);
 
         for (int i = 0; i < list.Count; i++)
         {
@@ -56,6 +70,9 @@ public class MemoryTaskExperiment2 : MonoBehaviour
 
             if (numberOfWindows == 3)
             {
+                //start timer -> timePerTrial
+                timePerTrial = 0;
+
                 List<int> rand2 = generateUniqueRandoms(3, 1); // random order
                 for (int j = 0; j < 2; j++) // turn on 2 random views
                     views[rand2[j]].TurnOn();
@@ -70,11 +87,17 @@ public class MemoryTaskExperiment2 : MonoBehaviour
 
                 yield return new WaitUntil(() => views[rand2[0]].IsOn && views[rand2[1]].IsOn);
 
+                //finish timer -> timePerTrial -> write time to the file
+                File.AppendAllText(timerFilePath, "timePerTrial (2 Selections): " + timePerTrial + "\n");
+
                 for (int j = 0; j < 2; j++) 
                     views[rand2[j]].DisableInteraction();
             }
             else if (numberOfWindows == 6)
             {
+                //start timer -> timePerTrial
+                timePerTrial = 0;
+
                 List<int> rand3 = generateUniqueRandoms(6, 1);
                 for (int j = 0; j < 3; j++) // turn on 3 random views
                     views[rand3[j]].TurnOn();
@@ -89,11 +112,17 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                 
                 yield return new WaitUntil(() => views[rand3[0]].IsOn && views[rand3[1]].IsOn && views[rand3[2]].IsOn);
 
+                //finish timer -> timePerTrial -> write time to the file
+                File.AppendAllText(timerFilePath, "timePerTrial (3 Selections): " + timePerTrial + "\n");
+
                 for (int j = 0; j < 3; j++) // turn on 3 random views
                     views[rand3[j]].DisableInteraction();
             }
             else // numberOfWindows == 12
             {
+                //start timer -> timePerTrial
+                timePerTrial = 0;
+
                 List<int> rand5 = generateUniqueRandoms(12, 1);
                 for (int j = 0; j < 5; j++) // turn on 5 random views
                     views[rand5[j]].TurnOn();
@@ -107,7 +136,10 @@ public class MemoryTaskExperiment2 : MonoBehaviour
                 }
                 
                 yield return new WaitUntil(() => views[rand5[0]].IsOn && views[rand5[1]].IsOn && views[rand5[2]].IsOn && views[rand5[3]].IsOn && views[rand5[4]].IsOn);
-                
+
+                //finish timer -> timePerTrial -> write time to the file
+                File.AppendAllText(timerFilePath, "timePerTrial (5 Selections): " + timePerTrial + "\n");
+
                 for (int j = 0; j < 5; j++) 
                     views[rand5[j]].DisableInteraction();
             }
@@ -121,6 +153,6 @@ public class MemoryTaskExperiment2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        timePerTrial += Time.deltaTime;
     }
 }
