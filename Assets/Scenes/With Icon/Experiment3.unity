@@ -186,6 +186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedLayout12Socket
       objectReference: {fileID: 0}
+    - target: {fileID: 9080522435351608871, guid: c37deb4d7d77e6041a92d9eb67e03a41,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -243,6 +248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 3by4_flatOffSocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724718977111775172, guid: ed48987455fba0d4fb0bfe842b8d3c8b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8003972323805061057, guid: ed48987455fba0d4fb0bfe842b8d3c8b,
         type: 3}
@@ -429,6 +439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 1by3FlatSocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724718977111775172, guid: 10cfbb9118458f94aa7470c9f006c7f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8003972323805061057, guid: 10cfbb9118458f94aa7470c9f006c7f6,
         type: 3}
@@ -751,6 +766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedLayout3Socket
       objectReference: {fileID: 0}
+    - target: {fileID: 9080522435351608871, guid: 0953acec08427774cb256e3007938f27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -824,6 +844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 2by3_CurvedSocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094827240751199827, guid: 644d4d54476d9d34ab9dafc376c1d4ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1115,6 +1140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StackedLayout6Socket
+      objectReference: {fileID: 0}
+    - target: {fileID: 9080522435351608871, guid: 625906995c280d9479541151757993e4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1506,7 +1536,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1882928007}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1694806141
@@ -1612,6 +1643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3by4_CurvedSocket
       objectReference: {fileID: 0}
+    - target: {fileID: 8094827240751199827, guid: 716a21bfc3c15fe468e5bd1dc61dae8b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1712,13 +1748,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882928003}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 97}
   m_LocalScale: {x: 0.1924501, y: 0.1924501, z: 0.1924501}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 328170385}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1694119595}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2298,6 +2334,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694806142}
     m_Modifications:
+    - target: {fileID: 776972516981420167, guid: 9d8125cddd48203468594d8618733644,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4803541117935659700, guid: 9d8125cddd48203468594d8618733644,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2377,6 +2418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2by3_flatOffSocket
       objectReference: {fileID: 0}
+    - target: {fileID: 2724718977111775172, guid: f41316e656a339147abdfc7fa1a9bd24,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8003972323805061057, guid: f41316e656a339147abdfc7fa1a9bd24,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2447,4 +2493,3 @@ SceneRoots:
   - {fileID: 157853981}
   - {fileID: 1694806142}
   - {fileID: 1694119595}
-  - {fileID: 1882928007}
