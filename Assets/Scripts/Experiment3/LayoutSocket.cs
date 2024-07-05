@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -15,7 +13,7 @@ public class LayoutSocket : MonoBehaviour
     public void OnAttach()
     {
         IXRSelectInteractable obj = socketInteractor.GetOldestInteractableSelected();
-        
+
         print(obj.transform.name);
 
         if (obj.transform.GetComponent<View>() != null)

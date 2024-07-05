@@ -1,8 +1,6 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Experiment1 : MonoBehaviour
 {
@@ -26,9 +24,11 @@ public class Experiment1 : MonoBehaviour
         while (randomLayouts.Count < layouts.Count)
         {
             int randomLayout = UnityEngine.Random.Range(0, layouts.Count);
-            if(randomLayouts.Contains(randomLayout)) {
+            if (randomLayouts.Contains(randomLayout))
+            {
                 continue;
-            } else randomLayouts.Add(randomLayout);
+            }
+            else randomLayouts.Add(randomLayout);
         }
     }
 

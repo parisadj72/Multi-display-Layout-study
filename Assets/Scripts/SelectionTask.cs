@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class SelectionTask : MonoBehaviour
 {
@@ -65,7 +64,7 @@ public class SelectionTask : MonoBehaviour
 
     IEnumerator Task1()
     {
-        StartCoroutine (RandomWindowOn());
+        StartCoroutine(RandomWindowOn());
         yield return new WaitUntil(() => TaskDone);
         print("Task is finished");
         Destroy(this.gameObject, 5);
