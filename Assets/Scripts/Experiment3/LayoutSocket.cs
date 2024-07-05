@@ -5,17 +5,23 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class LayoutSocket : MonoBehaviour
 {
-    private XRSocketInteractor interactor;
-    private GameObject selectedView;
+    private XRSocketInteractor socketInteractor;
+    private string lastIcon;
     void Start()
     {
-        interactor = GetComponent<XRSocketInteractor>();
+        socketInteractor = GetComponent<XRSocketInteractor>();
     }
 
-    public void HoldView()
+    public void OnAttach()
     {
-        IXRSelectInteractable obj = interactor.GetOldestInteractableSelected();
+        IXRSelectInteractable obj = socketInteractor.GetOldestInteractableSelected();
+        
         print(obj.transform.name);
-        obj.transform.SetParent(transform.parent);
+
+        if (obj.transform.GetComponent<View>() != null)
+        {
+            lastIcon = obj.transform.GetComponent<View>().Icon;
+            print("Icon is: " + lastIcon);
+        }
     }
 }
