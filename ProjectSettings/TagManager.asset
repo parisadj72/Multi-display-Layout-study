@@ -8,6 +8,8 @@ TagManager:
   - Anchor
   - LeftStabilizer
   - RightStabilizer
+  - View
+  - PuzzleView
   layers:
   - Default
   - TransparentFX
