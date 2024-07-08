@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Socket : MonoBehaviour
 {
     public RawImage LastIcon;
+    private XRSocketInteractor socketInteractor;
     /*public string LastIcon
     {
         get { return lastIcon; }
@@ -19,12 +20,18 @@ public class Socket : MonoBehaviour
             lastIcon = obj.transform.GetComponent<ViewScript>().Icon;
         }
     }*/
+    void Start()
+    {
+        socketInteractor = GetComponent<XRSocketInteractor>();
+    }
+
     public void OnAttach()
     {
-        List<IXRSelectInteractable> obj = GetComponent<XRSocketInteractor>().interactablesSelected;
-        if (obj[0].transform.GetComponent<ViewScript>() != null)
+        IXRSelectInteractable obj = socketInteractor.GetOldestInteractableSelected();
+        if (obj.transform.GetComponent<ViewScript>() != null)
         {
-            LastIcon = obj[0].transform.GetChild(1).GetChild(0).GetComponent<RawImage>();
+            LastIcon = obj.transform.GetChild(1).GetChild(0).GetComponent<RawImage>();
+            print("socket entered");
         }
     }
 }
