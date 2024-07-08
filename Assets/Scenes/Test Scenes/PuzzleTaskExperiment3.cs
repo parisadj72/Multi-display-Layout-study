@@ -43,6 +43,7 @@ public class PuzzleTaskExperiment3 : MonoBehaviour
 
             List<ViewScript> views = new List<ViewScript>();
             List<ViewScript> puzzleViews = new List<ViewScript>();
+            List<Socket> sockets = new List<Socket>();
 
             Transform[] ViewsTransforms = layout.GetComponentsInChildren<Transform>();
             foreach (Transform childTransform in ViewsTransforms)
@@ -69,11 +70,14 @@ public class PuzzleTaskExperiment3 : MonoBehaviour
                         puzzleViews.Add(view);
                     }
                 }
+                if (childTransform.tag == "Socket")
+                {
+                    Socket socket = childTransform.GetComponent<Socket>();
+                    if (socket != null)
+                        sockets.Add(socket);
+                }
             }
             int numberOfWindows = views.Count;
-
-            //for(int j = 0; j < views.Count; j++) // enable interaction for all 
-                //views[j].EnableInteraction();
 
             if (numberOfWindows == 3)
             {
@@ -87,10 +91,12 @@ public class PuzzleTaskExperiment3 : MonoBehaviour
                 puzzleViews[rand2[1]].TurnOn(); // turn on 2 other puzzle views
                 puzzleViews[rand2[2]].TurnOn();
                 puzzleViews[rand2[1]].gameObject.transform.GetChild(1).GetChild(0).GetComponent<RawImage>().texture = rawImageTextures[0]; // swap icons
+                puzzleViews[rand2[1]].UpdateIcon(rawImageTextures[0].name);
                 puzzleViews[rand2[2]].gameObject.transform.GetChild(1).GetChild(0).GetComponent<RawImage>().texture = rawImageTextures[1];
+                puzzleViews[rand2[2]].UpdateIcon(rawImageTextures[1].name);
 
                 //wait until the last swap happens and icons matches
-                yield return new WaitUntil(() => checkIcons(views, puzzleViews));
+                yield return new WaitUntil(() => checkIcons(sockets, puzzleViews));
 
             }
             else if (numberOfWindows == 6)
@@ -124,18 +130,18 @@ public class PuzzleTaskExperiment3 : MonoBehaviour
     }
 
 
-    private bool checkIcons(List<ViewScript> views, List<ViewScript> puzzleViews)
+    private bool checkIcons(List<Socket> sockets, List<ViewScript> puzzleViews)
     {
         bool solved = false;
-        for(int i = 0; i < views.Count; i++)
+        for(int i = 0; i < sockets.Count; i++)
         {
-            if (views[i].Status())
+            if (puzzleViews[i].Status())
             {
-                Texture viewTexture = views[i].gameObject.transform.GetChild(1).GetChild(0).GetComponent<RawImage>().texture;
-                Texture puzzleViewTexture = puzzleViews[i].gameObject.transform.GetChild(1).GetChild(0).GetComponent<RawImage>().texture;
-                if (!viewTexture.name.Equals(puzzleViewTexture.name))
+                string socketIconName = sockets[i].LastIcon.texture.name;
+                string puzzleViewIcon = puzzleViews[i].Icon;
+                if (!socketIconName.Equals(puzzleViewIcon))
                     return false;
-                else if (i == views.Count - 1)
+                else if (i == sockets.Count - 1)
                     return true;
             }
         }

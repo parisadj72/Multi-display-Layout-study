@@ -9,28 +9,33 @@ public class ViewScript : MonoBehaviour, IPointerClickHandler
     public Boolean disabledAtStartup = true;
     private Toggle toggle;
     private float wrongClickCounter = 0;
-    //private Texture iconTexture;
+    private string icon;
 
     public float WrongClickCounter
     {
         get { return wrongClickCounter; }
         set { wrongClickCounter = value; }
     }
-    /*public Texture IconTexture
+    public string Icon
     {
-        get { return iconTexture; }
-        set { iconTexture = value; }
-    }*/
+        get { return icon; }
+        set { icon = value; }
+    }
 
     private void Awake()
     {
         toggle = GetComponent<Toggle>();
-        //iconTexture = transform.GetChild(1).GetChild(0).GetComponent<RawImage>().texture;
+        icon = transform.GetChild(1).GetChild(0).GetComponent<RawImage>().texture.name;
 
         if (disabledAtStartup)
         {
             DisableInteraction();
         }
+    }
+
+    public void UpdateIcon(string name)
+    {
+        icon = name;
     }
 
     public bool Status()
