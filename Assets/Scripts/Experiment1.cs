@@ -19,6 +19,8 @@ public class Experiment1 : MonoBehaviour
 
     private void RandomizeLayouts()
     {
+        // The randomLayouts list must be initialized to contain a first random number (layout in editor)
+        // Otherwise we get a null object exception
         randomLayouts.Add(UnityEngine.Random.Range(0, layouts.Count));
 
         while (randomLayouts.Count < layouts.Count)
