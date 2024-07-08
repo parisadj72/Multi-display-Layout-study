@@ -8,7 +8,7 @@ public class SelectionTask : MonoBehaviour
     private List<View> views = new List<View>();
 
     private int numberOfWindows;
-    private int turnedOnWindow;
+    private int windowNumberOn;
     public int trials = 5;
 
     private Boolean taskDone;
@@ -51,13 +51,13 @@ public class SelectionTask : MonoBehaviour
     {
         for (int i = trials; i > 0; i--)
         {
-            turnedOnWindow = UnityEngine.Random.Range(0, numberOfWindows);
+            windowNumberOn = UnityEngine.Random.Range(0, numberOfWindows);
             //print("Number was: " + turnedOnWindow);
 
-            views[turnedOnWindow].TurnOn(true);
+            views[windowNumberOn].TurnOn(true);
             //print("Window on is: " + (turnedOnWindow + 1));
 
-            yield return new WaitUntil(() => !views[turnedOnWindow].IsOn);
+            yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
         }
         TaskDone = true;
     }
