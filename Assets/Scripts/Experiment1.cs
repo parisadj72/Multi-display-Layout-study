@@ -23,15 +23,17 @@ public class Experiment1 : MonoBehaviour
         // Otherwise we get a null object exception
         randomLayouts.Add(UnityEngine.Random.Range(0, layouts.Count));
 
-        while (randomLayouts.Count < layouts.Count)
-        {
-            int randomLayout = UnityEngine.Random.Range(0, layouts.Count);
-            if (randomLayouts.Contains(randomLayout))
-            {
-                continue;
-            }
-            else randomLayouts.Add(randomLayout);
-        }
+        //while (randomLayouts.Count < layouts.Count)
+        //{
+        //    int randomLayout = UnityEngine.Random.Range(0, layouts.Count);
+        //    if (randomLayouts.Contains(randomLayout))
+        //    {
+        //        continue;
+        //    }
+        //    else randomLayouts.Add(randomLayout);
+        //}
+
+        randomLayouts = RandomGenerator.randomizeList(layouts.Count);
     }
 
     IEnumerator WaitForTask()
