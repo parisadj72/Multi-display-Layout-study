@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -11,14 +10,6 @@ public class Socket : MonoBehaviour
     {
         get { return lastIcon; }
         set { lastIcon = value; }
-    }
-    void Start()
-    {
-        IXRSelectInteractable obj = GetComponent<XRSocketInteractor>().firstInteractableSelected;
-        if (obj.transform.GetComponent<ViewScript>() != null)
-        {
-            lastIcon = obj.transform.GetComponent<ViewScript>().Icon;
-        }
     }*/
     void Start()
     {
@@ -31,7 +22,7 @@ public class Socket : MonoBehaviour
         if (obj.transform.GetComponent<ViewScript>() != null)
         {
             LastIcon = obj.transform.GetChild(1).GetChild(0).GetComponent<RawImage>();
-            print("socket entered");
+            print("Socket is : " + transform.name + " View is: " + obj.transform.name);
         }
     }
 }
