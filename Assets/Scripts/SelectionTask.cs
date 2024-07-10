@@ -8,7 +8,11 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SelectionTask : MonoBehaviour
 {
     private List<View> views = new List<View>();
-
+    public List<View> Views
+    {
+        get { return views; }
+        set { views = value; }
+    }
     private List<Texture2D> textures = new List<Texture2D>();
     private List<int> randomIcons;
 
@@ -112,21 +116,18 @@ public class SelectionTask : MonoBehaviour
                 windowsOn = RandomGenerator.randomizeList(numberOfWindows);
 
                 for (int i = 0; i < 2; i++)
-                {
                     views[windowsOn[i]].TurnOn(true, false);
-                }
-
+                
                 yield return new WaitForSeconds(5);
 
                 for (int i = 0; i < 2; i++)
-                {
                     views[windowsOn[i]].TurnOn(false, true);
-                }
+             
+                for (int i = 0; i < 2; i++)
+                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
 
                 for (int i = 0; i < 2; i++)
-                {
-                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
+                    views[windowsOn[i]].DisableInteraction();
 
                 TaskDone = true;
                 break;
@@ -137,21 +138,18 @@ public class SelectionTask : MonoBehaviour
                 TraverseList(windowsOn);
 
                 for (int i = 0; i < 3; i++)
-                {
                     views[windowsOn[i]].TurnOn(true, false);
-                }
 
                 yield return new WaitForSeconds(5);
 
                 for (int i = 0; i < 3; i++)
-                {
                     views[windowsOn[i]].TurnOn(false, true);
-                }
-
+                
                 for (int i = 0; i < 3; i++)
-                {
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
+                
+                for (int i = 0; i < 3; i++)
+                    views[windowsOn[i]].DisableInteraction();
 
                 TaskDone = true;
                 break;
@@ -162,21 +160,19 @@ public class SelectionTask : MonoBehaviour
                 TraverseList(windowsOn);
 
                 for (int i = 0; i < 5; i++)
-                {
                     views[windowsOn[i]].TurnOn(true, false);
-                }
 
                 yield return new WaitForSeconds(5);
 
                 for (int i = 0; i < 5; i++)
-                {
                     views[windowsOn[i]].TurnOn(false, true);
-                }
 
                 for (int i = 0; i < 5; i++)
-                {
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
+
+                for (int i = 0; i < 5; i++)
+                    views[windowsOn[i]].DisableInteraction();
+
                 TaskDone = true;
                 break;
         }

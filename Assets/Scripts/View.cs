@@ -17,6 +17,12 @@ public class View : MonoBehaviour, ISelectHandler
 
     public Boolean disabledAtStartup = true;
 
+    private float wrongClickCounter = 0;
+    public float WrongClickCounter
+    {
+        get { return wrongClickCounter; }
+        set { wrongClickCounter = value; }
+    }
     private void Awake()
     {
         InitializeView();
@@ -131,5 +137,11 @@ public class View : MonoBehaviour, ISelectHandler
 
         //print("view is now off");
         DisableInteraction();
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (!toggle.interactable)
+            wrongClickCounter++;
     }
 }
