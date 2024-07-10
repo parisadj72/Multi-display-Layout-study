@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Experiment1 : MonoBehaviour
@@ -8,6 +9,8 @@ public class Experiment1 : MonoBehaviour
     private List<int> randomLayouts = new List<int>();
     private int instantiatedLayout;
     private SelectionTask currentLayout;
+    private float timer;
+    private string timerFilePath;
 
     public enum Experiment { Exp1, Exp2, Exp3 };
     public Experiment experiment;
@@ -18,6 +21,7 @@ public class Experiment1 : MonoBehaviour
     }
     private void Start()
     {
+        createOutputFile();
         StartCoroutine(WaitForTask());
     }
 
@@ -27,17 +31,35 @@ public class Experiment1 : MonoBehaviour
 
         for (int i = 0; i < randomLayouts.Count; i++)
         {
+            //start timer
+            timer = 0;
+
             instantiatedLayout = randomLayouts[i];
             Instantiate(layouts[instantiatedLayout], transform);
 
             currentLayout = GetComponentInChildren<SelectionTask>();
 
             yield return new WaitUntil(() => currentLayout.TaskDone);
+
+            //Log time per trial in the file
+            File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections): " + timer + "\n \n");
+
             print(currentLayout.name);
             Destroy(currentLayout.gameObject, 5);
             yield return new WaitForSeconds(5);
             //StartCoroutine(TakeBreak(5));
         }
+    }
+    private void createOutputFile()
+    {
+        int subjectID = 1;
+        timerFilePath = "Assets/OutputLog/subject" + subjectID + experiment + ".txt";
+        while (File.Exists(timerFilePath))
+        {
+            subjectID++;
+            timerFilePath = "Assets/OutputLog/subject" + subjectID + experiment + ".txt";
+        }
+        File.WriteAllText(timerFilePath, "OUTPUT OF EACH RUN (" + experiment + "): \n \n");
     }
 
     IEnumerator TakeBreak(int time)
@@ -56,6 +78,7 @@ public class Experiment1 : MonoBehaviour
 
     private void Update()
     {
+        timer += Time.deltaTime;
         if (Input.GetKey(KeyCode.I))
         {
             LayoutInfo();

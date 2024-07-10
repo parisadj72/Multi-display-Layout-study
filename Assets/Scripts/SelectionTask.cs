@@ -107,29 +107,31 @@ public class SelectionTask : MonoBehaviour
         switch (numberOfWindows)
         {
             case 3:
+                selections = 2;
                 //print("3-view layout");
                 windowsOn = RandomGenerator.randomizeList(numberOfWindows);
 
-                for (int i = 0; i < 1; i++)
+                for (int i = 0; i < 2; i++)
                 {
                     views[windowsOn[i]].TurnOn(true, false);
                 }
 
                 yield return new WaitForSeconds(5);
 
-                for (int i = 0; i < 1; i++)
+                for (int i = 0; i < 2; i++)
                 {
                     views[windowsOn[i]].TurnOn(false, true);
                 }
 
-                for (int i = 0; i < 1; i++)
+                for (int i = 0; i < 2; i++)
                 {
-                yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
+                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
                 }
 
                 TaskDone = true;
                 break;
             case 6:
+                selections = 3;
                 //print("6-view layout");
                 windowsOn = RandomGenerator.randomizeList(numberOfWindows);
                 TraverseList(windowsOn);
@@ -154,6 +156,7 @@ public class SelectionTask : MonoBehaviour
                 TaskDone = true;
                 break;
             case 12:
+                selections = 5;
                 //print("12-view layout");
                 windowsOn = RandomGenerator.randomizeList(numberOfWindows);
                 TraverseList(windowsOn);
