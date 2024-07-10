@@ -31,10 +31,9 @@ public class SelectionTask : MonoBehaviour
 
     private void Start()
     {
-        ExperimentSetup();
         InitializeIconList();
         RandomizeIcons();
-        StartCoroutine(Task1());
+        ExperimentSetup();
     }
 
     private void InitializeLayout()
@@ -61,7 +60,7 @@ public class SelectionTask : MonoBehaviour
         UnityEngine.Object[] loadedIcons;
 
         loadedIcons = Resources.LoadAll("ViewIcons", typeof(Texture2D));
-        
+
         foreach (var icon in loadedIcons)
         {
             Texture2D texture2D = icon as Texture2D;
@@ -93,12 +92,102 @@ public class SelectionTask : MonoBehaviour
             windowNumberOn = UnityEngine.Random.Range(0, numberOfWindows);
             //print("Number was: " + turnedOnWindow);
 
-            views[windowNumberOn].TurnOn(true);
+            views[windowNumberOn].TurnOn(true, true);
             //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
         }
         TaskDone = true;
+    }
+
+    IEnumerator RandomWindowsOn()
+    {
+        List<int> windowsOn;
+
+        switch (numberOfWindows)
+        {
+            case 3:
+                //print("3-view layout");
+                windowsOn = RandomGenerator.randomizeList(numberOfWindows);
+
+                for (int i = 0; i < 1; i++)
+                {
+                    views[windowsOn[i]].TurnOn(true, false);
+                }
+
+                yield return new WaitForSeconds(5);
+
+                for (int i = 0; i < 1; i++)
+                {
+                    views[windowsOn[i]].TurnOn(false, true);
+                }
+
+                for (int i = 0; i < 1; i++)
+                {
+                yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
+                }
+
+                TaskDone = true;
+                break;
+            case 6:
+                //print("6-view layout");
+                windowsOn = RandomGenerator.randomizeList(numberOfWindows);
+                TraverseList(windowsOn);
+
+                for (int i = 0; i < 3; i++)
+                {
+                    views[windowsOn[i]].TurnOn(true, false);
+                }
+
+                yield return new WaitForSeconds(5);
+
+                for (int i = 0; i < 3; i++)
+                {
+                    views[windowsOn[i]].TurnOn(false, true);
+                }
+
+                for (int i = 0; i < 3; i++)
+                {
+                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
+                }
+
+                TaskDone = true;
+                break;
+            case 12:
+                //print("12-view layout");
+                windowsOn = RandomGenerator.randomizeList(numberOfWindows);
+                TraverseList(windowsOn);
+
+                for (int i = 0; i < 5; i++)
+                {
+                    views[windowsOn[i]].TurnOn(true, false);
+                }
+
+                yield return new WaitForSeconds(5);
+
+                for (int i = 0; i < 5; i++)
+                {
+                    views[windowsOn[i]].TurnOn(false, true);
+                }
+
+                for (int i = 0; i < 5; i++)
+                {
+                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
+                }
+                TaskDone = true;
+                break;
+        }
+
+        yield return new WaitForSeconds(1);
+
+        //List<int> windows = RandomGenerator.randomizeList(numberOfWindows);
+        //for (int i = 0; i < numberOfWindows; i++)
+        //{
+        //    views[windows[i]].TurnOn(true);
+        //    yield return new WaitForSeconds(5);
+        //    views[windows[i]].TurnOff();
+        //}
+
     }
 
     //IEnumerator RandomWindowsOn(int onToBe)
@@ -129,11 +218,26 @@ public class SelectionTask : MonoBehaviour
         print("Task1 is finished");
     }
 
+    IEnumerator Task2()
+    {
+        StartCoroutine(RandomWindowsOn());
+        yield return new WaitUntil(() => TaskDone);
+        print("Task2 is finished");
+    }
+
     private void TraverseList(List<View> list)
     {
         foreach (View view in list)
         {
             print(view.name);
+        }
+    }
+
+    private void TraverseList(List<int> list)
+    {
+        foreach (int view in list)
+        {
+            print(view);
         }
     }
 
@@ -155,10 +259,12 @@ public class SelectionTask : MonoBehaviour
             case Experiment1.Experiment.Exp1:
                 print("Exp1 selected");
                 DisableDrag();
+                StartCoroutine(Task1());
                 break;
             case Experiment1.Experiment.Exp2:
                 print("Exp2 selected");
                 DisableDrag();
+                StartCoroutine(Task2());
                 break;
             case Experiment1.Experiment.Exp3:
                 print("Exp3 selected");

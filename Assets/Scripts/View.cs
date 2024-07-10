@@ -71,13 +71,14 @@ public class View : MonoBehaviour, ISelectHandler
         IsOn = toggle.isOn;
     }
 
-    public void TurnOn(Boolean isOn)
+    public void TurnOn(Boolean isOn, bool enableInteraction)
     {
         IsOn = isOn;
-        toggle.interactable = isOn;
+        toggle.interactable = enableInteraction;
         toggle.isOn = isOn;
         //print("Interaction enabled: " + toggle.interactable);
     }
+
 
     public string GetImage()
     {
