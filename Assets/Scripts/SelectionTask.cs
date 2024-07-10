@@ -8,6 +8,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SelectionTask : MonoBehaviour
 {
     private List<View> views = new List<View>();
+    private List<LayoutSocket> sockets = new List<LayoutSocket>();
 
     private List<Texture2D> textures = new List<Texture2D>();
     private List<int> randomIcons;
@@ -43,13 +44,20 @@ public class SelectionTask : MonoBehaviour
         foreach (Transform childTransform in childTransforms)
         {
             View view = childTransform.GetComponent<View>();
+            LayoutSocket socket = childTransform.GetComponent<LayoutSocket>();
 
             if (view != null)
             {
                 views.Add(view);
             }
+
+            if (socket != null)
+            {
+                sockets.Add(socket);
+            }
         }
         numberOfWindows = views.Count;
+        print(sockets.Count);
         //print(numberOfWindows);
         TaskDone = false;
 
@@ -182,36 +190,7 @@ public class SelectionTask : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1);
-
-        //List<int> windows = RandomGenerator.randomizeList(numberOfWindows);
-        //for (int i = 0; i < numberOfWindows; i++)
-        //{
-        //    views[windows[i]].TurnOn(true);
-        //    yield return new WaitForSeconds(5);
-        //    views[windows[i]].TurnOff();
-        //}
-
     }
-
-    //IEnumerator RandomWindowsOn(int onToBe)
-    //{
-    //    for (int i = selections; i > 0; i--)
-    //    {
-    //        windowsOn = RandomGenerator.randomizeList(numberOfWindows);
-
-    //        for (int j = 0; j < windowsOn.Count; j++)
-    //        {
-    //            views[j].TurnOn(true);
-
-    //        }
-    //        //print("Number was: " + turnedOnWindow);
-
-    //        //print("Window on is: " + (turnedOnWindow + 1));
-
-    //        yield return new WaitUntil(() => areViewsOn());
-    //    }
-    //    TaskDone = true;
-    //}
 
     IEnumerator Task1()
     {
@@ -226,6 +205,12 @@ public class SelectionTask : MonoBehaviour
         StartCoroutine(RandomWindowsOn());
         yield return new WaitUntil(() => TaskDone);
         print("Task2 is finished");
+    }
+
+    IEnumerator Task3()
+    {
+        yield return new WaitUntil(() => TaskDone);
+        print("Task3 is finished");
     }
 
     private void TraverseList(List<View> list)
@@ -251,6 +236,11 @@ public class SelectionTask : MonoBehaviour
             view.GetComponent<XRGrabInteractable>().enabled = false;
             view.GetComponent<BoxCollider>().enabled = false;
         }
+
+        foreach (LayoutSocket socket in sockets)
+        {
+            socket.gameObject.SetActive(false);
+        }
     }
 
     private void ExperimentSetup()
@@ -271,6 +261,7 @@ public class SelectionTask : MonoBehaviour
                 break;
             case Experiment1.Experiment.Exp3:
                 print("Exp3 selected");
+                StartCoroutine(Task3());
                 break;
         }
     }
