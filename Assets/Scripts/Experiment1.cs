@@ -7,33 +7,18 @@ public class Experiment1 : MonoBehaviour
     public List<SelectionTask> layouts = new List<SelectionTask>();
     private List<int> randomLayouts = new List<int>();
     private int instantiatedLayout;
+    private SelectionTask currentLayout;
+
+    public enum Experiment { Exp1, Exp2, Exp3 };
+    public Experiment experiment;
 
     private void Awake()
     {
-        RandomizeLayouts();
+        randomLayouts = RandomGenerator.randomizeList(layouts.Count);
     }
     private void Start()
     {
         StartCoroutine(WaitForTask());
-    }
-
-    private void RandomizeLayouts()
-    {
-        // The randomLayouts list must be initialized to contain a first random number (layout in editor)
-        // Otherwise we get a null object exception
-        randomLayouts.Add(UnityEngine.Random.Range(0, layouts.Count));
-
-        //while (randomLayouts.Count < layouts.Count)
-        //{
-        //    int randomLayout = UnityEngine.Random.Range(0, layouts.Count);
-        //    if (randomLayouts.Contains(randomLayout))
-        //    {
-        //        continue;
-        //    }
-        //    else randomLayouts.Add(randomLayout);
-        //}
-
-        randomLayouts = RandomGenerator.randomizeList(layouts.Count);
     }
 
     IEnumerator WaitForTask()
@@ -45,13 +30,21 @@ public class Experiment1 : MonoBehaviour
             instantiatedLayout = randomLayouts[i];
             Instantiate(layouts[instantiatedLayout], transform);
 
-            yield return new WaitUntil(() => transform.childCount == 0);
-            StartCoroutine(TakeBreak(5));
+            currentLayout = GetComponentInChildren<SelectionTask>();
+
+            yield return new WaitUntil(() => currentLayout.TaskDone);
+            print(currentLayout.name);
+            Destroy(currentLayout.gameObject, 5);
+            yield return new WaitForSeconds(5);
+            //StartCoroutine(TakeBreak(5));
         }
     }
 
     IEnumerator TakeBreak(int time)
     {
+        //Learned something new today: Calling a coroutine to stop the 
+        // execution of another one does not work. 
+        // What stops is the coroutine you call. Not the calling coroutine
         yield return new WaitForSeconds(time);
     }
 

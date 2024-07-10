@@ -3,11 +3,14 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
+using static Unity.VisualScripting.Metadata;
 
 public class View : MonoBehaviour, ISelectHandler
 {
     private Toggle toggle;
     private string icon;
+    private RawImage rawIcon;
 
     private Boolean isOn;
     private Boolean isInteractable;
@@ -36,13 +39,32 @@ public class View : MonoBehaviour, ISelectHandler
         set { icon = value; }
     }
 
+    public RawImage RawIcon
+    {
+        get { return rawIcon; }
+        set { rawIcon = value; }
+    }
+
     private void InitializeView()
     {
         toggle = GetComponent<Toggle>();
-        icon = GetImage();
+
+        //icon = GetImage();
         //print(icon);
         isInteractable = toggle.interactable;
         IsOn = toggle.isOn;
+
+        Transform[] children = GetComponentsInChildren<Transform>(true);
+
+        foreach (Transform child in children)
+        {
+            //print(child.gameObject);
+            if (child.gameObject.name == "On")
+            {
+                rawIcon = child.GetComponentInChildren<RawImage>();
+                //print(rawImage.texture);
+            }
+        }
     }
     public void SetStatus()
     {
@@ -59,7 +81,6 @@ public class View : MonoBehaviour, ISelectHandler
 
     public string GetImage()
     {
-        RawImage rawImage = null;
         Transform[] children = GetComponentsInChildren<Transform>(true);
 
         foreach (Transform child in children)
@@ -67,11 +88,26 @@ public class View : MonoBehaviour, ISelectHandler
             //print(child.gameObject);
             if (child.gameObject.name == "On")
             {
-                rawImage = child.GetComponentInChildren<RawImage>();
+                rawIcon = child.GetComponentInChildren<RawImage>();
                 //print(rawImage.texture);
             }
         }
-        return rawImage.texture.name;
+        return rawIcon.texture.name;
+    }
+
+    public void SetImage(string image)
+    {
+        Transform[] children = GetComponentsInChildren<Transform>(true);
+
+        foreach (Transform child in children)
+        {
+            //print(child.gameObject);
+            if (child.gameObject.name == "On")
+            {
+                rawIcon = child.GetComponentInChildren<RawImage>();
+                //print(rawImage.texture);
+            }
+        }
     }
 
     public void DisableInteraction()

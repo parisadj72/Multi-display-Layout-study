@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fd0d4b93067d94d8db1c26d0f81f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trials: 5
+  selections: 5
 --- !u!1001 &2497691733593615023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,6 +555,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8003972323805061057}
     m_Modifications:
+    - target: {fileID: 374390011941869204, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2532479253789309611, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: m_Pivot.x

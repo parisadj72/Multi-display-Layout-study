@@ -8,9 +8,6 @@ public class PuzzleLayout : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    // We are gonna need some code to get the size of the layout and take it from there. 
+    // If the layout only has three views, randomize the first three images and so on
 }
