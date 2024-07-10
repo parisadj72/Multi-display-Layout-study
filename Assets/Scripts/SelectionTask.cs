@@ -1,9 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -11,9 +8,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SelectionTask : MonoBehaviour
 {
     private List<View> views = new List<View>();
-    private List<int> windowsOn = new List<int>();
 
-    private List<RawImage> rawImages = new List<RawImage>();
+    private List<Texture2D> textures = new List<Texture2D>();
+    private List<int> randomIcons;
 
     private int numberOfWindows;
     private int windowNumberOn;
@@ -35,7 +32,8 @@ public class SelectionTask : MonoBehaviour
     private void Start()
     {
         ExperimentSetup();
-        GetRawImageList();
+        InitializeIconList();
+        RandomizeIcons();
         StartCoroutine(Task1());
     }
 
@@ -58,50 +56,32 @@ public class SelectionTask : MonoBehaviour
 
     }
 
-    private void GetRawImageList()
+    private void InitializeIconList()
     {
-        //string path = "Assets/Resources/Icons/";
-        //string[] images = Directory.GetFiles(path, "*.png", SearchOption.TopDirectoryOnly);
-        //foreach (string image in images)
-        //{
-        //    print(image);
-        //}
+        UnityEngine.Object[] loadedIcons;
 
-        //    RawImage icon = AssetDatabase.LoadAssetAtPath(image, typeof(Texture2D)) as RawImage;
-        //    print(icon.mainTexture);
-        //    if (icon != null)
-        //    {
-        //        rawImages.Add(icon as RawImage);
-        //        print("image added to list");
-        //    }
-        //}
-
-        //foreach (RawImage rI in rawImages)
-        //{
-        //    print(rI.mainTexture.name);
-        //}
-        UnityEngine.Object[] textures;
-
-        textures = Resources.LoadAll("ViewIcons", typeof(Texture2D));
-        foreach (var t in textures)
+        loadedIcons = Resources.LoadAll("ViewIcons", typeof(Texture2D));
+        
+        foreach (var icon in loadedIcons)
         {
-            Texture2D texture2D = t as Texture2D;
-            print(texture2D.name);
-            //rawImages.Add(texture2D);
-            //Texture2D texture2D = t as Texture2D;
-            //RawImage converted = 
-            //converted.texture = texture2D;
-            //rawImages.Add(converted);
+            Texture2D texture2D = icon as Texture2D;
+            textures.Add(texture2D);
         }
 
-        foreach (RawImage t in rawImages)
-        {
-            print(t);
-        }
-        //    foreach (View view in views)
+        //foreach (Texture2D icon in textures)
         //{
-        //    view.RawIcon.texture = texture;
+        //    print(icon.name);
         //}
+    }
+
+    private void RandomizeIcons()
+    {
+        randomIcons = RandomGenerator.randomizeList(textures.Count);
+
+        for (int i = 0; i < views.Count; i++)
+        {
+            views[i].RawIcon.texture = textures[randomIcons[i]];
+        }
     }
 
     // This method is for task 1
