@@ -52,8 +52,7 @@ public class Experiment1 : MonoBehaviour
             {
                 sumOfNumberOfWorngSelections += currentLayout.Views[k].WrongClickCounter;
             }
-            print("----------------------------------" + sumOfNumberOfWorngSelections);
-            File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per trial): " + sumOfNumberOfWorngSelections + "\n \n");
+            File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
 
 
             print(currentLayout.name);
