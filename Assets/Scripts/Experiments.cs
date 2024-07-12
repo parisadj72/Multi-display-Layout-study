@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class Experiment1 : MonoBehaviour
+public class Experiments : MonoBehaviour
 {
-    public List<SelectionTask> layouts = new List<SelectionTask>();
-    private SelectionTask currentLayout;
-    private SelectionTask layoutCopy;
+    public List<TaskManagement> layouts = new List<TaskManagement>();
+    private TaskManagement currentLayout;
+    private TaskManagement layoutCopy;
 
     private List<int> randomLayouts = new List<int>();
 
@@ -45,7 +45,7 @@ public class Experiment1 : MonoBehaviour
 
             Instantiate(layouts[instantiatedLayout], transform);
 
-            currentLayout = GetComponentInChildren<SelectionTask>();
+            currentLayout = GetComponentInChildren<TaskManagement>();
 
             if (experiment == Experiment.Exp3)
             {
@@ -108,7 +108,7 @@ public class Experiment1 : MonoBehaviour
         }
     }
 
-    private void CopyAndDisplace(SelectionTask original)
+    private void CopyAndDisplace(TaskManagement original)
     {
         layoutCopy = original;
 
@@ -141,9 +141,9 @@ public class Experiment1 : MonoBehaviour
         }
     }
 
-    private void TraverseList(List<SelectionTask> list)
+    private void TraverseList(List<TaskManagement> list)
     {
-        foreach (SelectionTask selT in list)
+        foreach (TaskManagement selT in list)
         {
             print(selT.name);
         }

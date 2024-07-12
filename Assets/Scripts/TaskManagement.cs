@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class SelectionTask : MonoBehaviour
+public class TaskManagement : MonoBehaviour
 {
     private List<View> views = new List<View>();
     private List<LayoutSocket> sockets = new List<LayoutSocket>();
@@ -273,7 +273,7 @@ public class SelectionTask : MonoBehaviour
 
     private void ExperimentSetup()
     {
-        Experiment1 parent = GetComponentInParent<Experiment1>();
+        Experiments parent = GetComponentInParent<Experiments>();
 
         if (parent == null)
         {
@@ -282,17 +282,17 @@ public class SelectionTask : MonoBehaviour
 
         switch (parent.experiment)
         {
-            case Experiment1.Experiment.Exp1:
+            case Experiments.Experiment.Exp1:
                 print("Exp1 selected");
                 DisableDrag();
                 StartCoroutine(Task1());
                 break;
-            case Experiment1.Experiment.Exp2:
+            case Experiments.Experiment.Exp2:
                 print("Exp2 selected");
                 DisableDrag();
                 StartCoroutine(Task2());
                 break;
-            case Experiment1.Experiment.Exp3:
+            case Experiments.Experiment.Exp3:
                 print("Exp3 selected");
                 StartCoroutine(Task3());
                 break;
