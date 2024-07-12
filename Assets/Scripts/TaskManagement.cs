@@ -123,98 +123,25 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator RandomWindowsOn()
     {
-        switch (numberOfWindows)
-        {
-            case 3:
-                selections = 2;
-                //print("3-view layout");
-                windowsOn = RandomGenerator.randomizeList(numberOfWindows);
+        windowsOn = RandomGenerator.randomizeList(numberOfWindows);
 
-                for (int i = 0; i < 2; i++)
-                {
-                    views[windowsOn[i]].TurnOn(true, false);
-                }
+        selections = (numberOfWindows / 3) + 1;
 
-                yield return new WaitForSeconds(5);
+        for (int i = 0; i < selections; i++)
+            views[windowsOn[i]].TurnOn(true, false);
 
-                for (int i = 0; i < 2; i++)
-                {
-                    views[windowsOn[i]].TurnOn(false, true);
-                }
+        yield return new WaitForSeconds(5);
 
-                for (int i = 0; i < 2; i++)
-                {
-                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
+        for (int i = 0; i < selections; i++)
+            views[windowsOn[i]].TurnOn(false, true);
 
-                for (int i = 0; i < 2; i++)
-                {
-                    views[windowsOn[i]].DisableInteraction();
-                }
+        for (int i = 0; i < selections; i++)
+            yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
 
-                TaskDone = true;
-                break;
-            case 6:
-                selections = 3;
-                //print("6-view layout");
-                windowsOn = RandomGenerator.randomizeList(numberOfWindows);
-                TraverseList(windowsOn);
+        for (int i = 0; i < selections; i++)
+            views[windowsOn[i]].DisableInteraction();
 
-                for (int i = 0; i < 3; i++)
-                {
-                    views[windowsOn[i]].TurnOn(true, false);
-                }
-
-                yield return new WaitForSeconds(5);
-
-                for (int i = 0; i < 3; i++)
-                {
-                    views[windowsOn[i]].TurnOn(false, true);
-                }
-
-                for (int i = 0; i < 3; i++)
-                {
-                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
-
-                for (int i = 0; i < 3; i++)
-                {
-                    views[windowsOn[i]].DisableInteraction();
-                }
-
-                TaskDone = true;
-                break;
-            case 12:
-                selections = 5;
-                //print("12-view layout");
-                windowsOn = RandomGenerator.randomizeList(numberOfWindows);
-                TraverseList(windowsOn);
-
-                for (int i = 0; i < 5; i++)
-                {
-                    views[windowsOn[i]].TurnOn(true, false);
-                }
-
-                yield return new WaitForSeconds(5);
-
-                for (int i = 0; i < 5; i++)
-                {
-                    views[windowsOn[i]].TurnOn(false, true);
-                }
-
-                for (int i = 0; i < 5; i++)
-                {
-                    yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
-
-                for (int i = 0; i < 5; i++)
-                {
-                    views[windowsOn[i]].DisableInteraction();
-                }
-
-                TaskDone = true;
-                break;
-        }
+        TaskDone = true;
 
         yield return new WaitForSeconds(1);
     }
