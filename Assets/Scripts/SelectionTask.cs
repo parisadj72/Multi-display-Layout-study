@@ -137,6 +137,11 @@ public class SelectionTask : MonoBehaviour
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
                 }
 
+                for (int i = 0; i < 2; i++)
+                {
+                    views[windowsOn[i]].DisableInteraction();
+                }
+
                 TaskDone = true;
                 break;
             case 6:
@@ -160,6 +165,11 @@ public class SelectionTask : MonoBehaviour
                 for (int i = 0; i < 3; i++)
                 {
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
+                }
+
+                for (int i = 0; i < 3; i++)
+                {
+                    views[windowsOn[i]].DisableInteraction();
                 }
 
                 TaskDone = true;
@@ -186,6 +196,12 @@ public class SelectionTask : MonoBehaviour
                 {
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
                 }
+
+                for (int i = 0; i < 5; i++)
+                {
+                    views[windowsOn[i]].DisableInteraction();
+                }
+
                 TaskDone = true;
                 break;
         }
