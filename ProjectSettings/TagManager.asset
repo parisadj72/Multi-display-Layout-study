@@ -11,6 +11,7 @@ TagManager:
   - View
   - PuzzleView
   - Socket
+  - Stack
   layers:
   - Default
   - TransparentFX

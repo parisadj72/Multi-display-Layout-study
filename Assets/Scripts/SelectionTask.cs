@@ -27,6 +27,12 @@ public class SelectionTask : MonoBehaviour
         set { taskDone = value; }
     }
 
+    public List<View> Views
+    {
+        get { return views; }
+        set { views = value; }
+    }
+
     private void Awake()
     {
         InitializeLayout();
