@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using static Unity.VisualScripting.Metadata;
 
-public class View : MonoBehaviour, ISelectHandler
+public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
 {
     private Toggle toggle;
     private string icon;

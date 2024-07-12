@@ -47,13 +47,19 @@ public class Experiment1 : MonoBehaviour
             //Log time per trial in the file
             File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections): " + timer + "\n \n");
 
+            //log Error: Wrong Selections
+            for (int k = 0; k < currentLayout.Views.Count; k++)
+            {
+                sumOfNumberOfWorngSelections += currentLayout.Views[k].WrongClickCounter;
+            }
+            print("----------------------------------" + sumOfNumberOfWorngSelections);
+            File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per trial): " + sumOfNumberOfWorngSelections + "\n \n");
+
+
             print(currentLayout.name);
             Destroy(currentLayout.gameObject, 5);
 
-            //log Error: Wrong Selections
-            File.AppendAllText(timerFilePath, "\n \n OUTPUT OF EACH RUN (Errors): \n");
-            File.AppendAllText(timerFilePath, "Number Of Wrong Selections = " + sumOfNumberOfWorngSelections + "\n \n");
-
+            
             yield return new WaitForSeconds(5);
             //StartCoroutine(TakeBreak(5));
         }
@@ -87,10 +93,6 @@ public class Experiment1 : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        for (int k = 0; k < currentLayout.Views.Count; k++)
-        {
-            sumOfNumberOfWorngSelections += currentLayout.Views[k].WrongClickCounter;
-        }
         if (Input.GetKey(KeyCode.I))
         {
             LayoutInfo();
