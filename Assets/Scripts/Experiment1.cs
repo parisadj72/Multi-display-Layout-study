@@ -6,9 +6,13 @@ using UnityEngine;
 public class Experiment1 : MonoBehaviour
 {
     public List<SelectionTask> layouts = new List<SelectionTask>();
-    private List<int> randomLayouts = new List<int>();
-    private int instantiatedLayout;
     private SelectionTask currentLayout;
+    private SelectionTask layoutCopy;
+
+    private List<int> randomLayouts = new List<int>();
+
+    private int instantiatedLayout;
+
     private float timer;
     float sumOfNumberOfWorngSelections;
     private string timerFilePath;
@@ -38,9 +42,15 @@ public class Experiment1 : MonoBehaviour
             sumOfNumberOfWorngSelections = 0;
 
             instantiatedLayout = randomLayouts[i];
+
             Instantiate(layouts[instantiatedLayout], transform);
 
             currentLayout = GetComponentInChildren<SelectionTask>();
+
+            if (experiment == Experiment.Exp3)
+            {
+                CopyAndDisplace(currentLayout);
+            }
 
             yield return new WaitUntil(() => currentLayout.TaskDone);
 
@@ -95,6 +105,39 @@ public class Experiment1 : MonoBehaviour
         if (Input.GetKey(KeyCode.I))
         {
             LayoutInfo();
+        }
+    }
+
+    private void CopyAndDisplace(SelectionTask original)
+    {
+        layoutCopy = original;
+
+        switch (layoutCopy.NumberOfWindows)
+        {
+            case 3:
+                print("3 views");
+                if (layoutCopy.gameObject.tag == "Stack")
+                {
+                    print("got stack");
+                    // Move to the right
+                    Instantiate(layoutCopy, transform);
+                    layoutCopy.Textures = original.Textures;
+                }
+                else
+                {
+                    // Move up
+                    Instantiate(layoutCopy, transform);
+
+                }
+                break;
+            case 6:
+                print("6 views");
+                Instantiate(layoutCopy, transform);
+                break;
+            case 12:
+                print("12 views");
+                Instantiate(layoutCopy, transform);
+                break;
         }
     }
 

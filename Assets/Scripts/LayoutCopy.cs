@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class SelectionTask : MonoBehaviour
+public class LayoutCopy : MonoBehaviour
 {
     private List<View> views = new List<View>();
     private List<LayoutSocket> sockets = new List<LayoutSocket>();
@@ -45,7 +45,6 @@ public class SelectionTask : MonoBehaviour
     {
         InitializeIconList();
         RandomizeIcons();
-        ExperimentSetup();
     }
 
     private void InitializeLayout()
@@ -147,11 +146,6 @@ public class SelectionTask : MonoBehaviour
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
                 }
 
-                for (int i = 0; i < 2; i++)
-                {
-                    views[windowsOn[i]].DisableInteraction();
-                }
-
                 TaskDone = true;
                 break;
             case 6:
@@ -175,11 +169,6 @@ public class SelectionTask : MonoBehaviour
                 for (int i = 0; i < 3; i++)
                 {
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
-                }
-
-                for (int i = 0; i < 3; i++)
-                {
-                    views[windowsOn[i]].DisableInteraction();
                 }
 
                 TaskDone = true;
@@ -206,39 +195,11 @@ public class SelectionTask : MonoBehaviour
                 {
                     yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
                 }
-
-                for (int i = 0; i < 5; i++)
-                {
-                    views[windowsOn[i]].DisableInteraction();
-                }
-
                 TaskDone = true;
                 break;
         }
 
         yield return new WaitForSeconds(1);
-    }
-
-    IEnumerator Task1()
-    {
-        //DisableDrag();
-        StartCoroutine(RandomWindowOn());
-        yield return new WaitUntil(() => TaskDone);
-        print("Task1 is finished");
-    }
-
-    IEnumerator Task2()
-    {
-        StartCoroutine(RandomWindowsOn());
-        yield return new WaitUntil(() => TaskDone);
-        print("Task2 is finished");
-    }
-
-    IEnumerator Task3()
-    {
-        // Call coroutine here and set task done
-        yield return new WaitUntil(() => TaskDone);
-        print("Task3 is finished");
     }
 
     private void TraverseList(List<View> list)
@@ -268,38 +229,6 @@ public class SelectionTask : MonoBehaviour
         foreach (LayoutSocket socket in sockets)
         {
             socket.gameObject.SetActive(false);
-        }
-    }
-
-    private void ExperimentSetup()
-    {
-        Experiment1 parent = GetComponentInParent<Experiment1>();
-
-        if (parent == null)
-        {
-            print("parent is null");
-        }
-
-        switch (parent.experiment)
-        {
-            case Experiment1.Experiment.Exp1:
-                print("Exp1 selected");
-                DisableDrag();
-                StartCoroutine(Task1());
-                break;
-            case Experiment1.Experiment.Exp2:
-                print("Exp2 selected");
-                DisableDrag();
-                StartCoroutine(Task2());
-                break;
-            case Experiment1.Experiment.Exp3:
-                print("Exp3 selected");
-                StartCoroutine(Task3());
-                break;
-
-            default:
-                print("got copied?");
-                break;
         }
     }
 }
