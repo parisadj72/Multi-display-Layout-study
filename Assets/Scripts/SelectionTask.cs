@@ -13,6 +13,8 @@ public class SelectionTask : MonoBehaviour
     private List<Texture2D> textures = new List<Texture2D>();
     private List<int> randomIcons;
 
+    List<int> windowsOn;
+
     private int numberOfWindows;
     private int windowNumberOn;
     public int selections = 5;
@@ -74,11 +76,6 @@ public class SelectionTask : MonoBehaviour
             Texture2D texture2D = icon as Texture2D;
             textures.Add(texture2D);
         }
-
-        //foreach (Texture2D icon in textures)
-        //{
-        //    print(icon.name);
-        //}
     }
 
     private void RandomizeIcons()
@@ -110,8 +107,6 @@ public class SelectionTask : MonoBehaviour
 
     IEnumerator RandomWindowsOn()
     {
-        List<int> windowsOn;
-
         switch (numberOfWindows)
         {
             case 3:
