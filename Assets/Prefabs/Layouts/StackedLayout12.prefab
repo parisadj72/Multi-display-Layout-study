@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6021928121401839869}
   - component: {fileID: 6248281259073499012}
+  - component: {fileID: 209238088288936223}
   m_Layer: 0
   m_Name: StackedLayout12
   m_TagString: Stack
@@ -69,6 +70,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections: 5
+--- !u!114 &209238088288936223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9080522435351608871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1001 &312832842978602018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -331,6 +345,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView6
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -604,6 +623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView5
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1001,6 +1025,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView8
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1398,6 +1427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView11
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1552,6 +1586,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView3
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1701,6 +1740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView4
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1959,6 +2003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView1
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2108,6 +2157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView10
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2287,6 +2341,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2684,6 +2743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView7
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2957,6 +3021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView9
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3230,6 +3299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StackedView12
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 209238088288936223}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

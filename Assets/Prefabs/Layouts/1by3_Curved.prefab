@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4803541117935659700}
   - component: {fileID: 776972516981420167}
+  - component: {fileID: 9022325800277266625}
   m_Layer: 0
   m_Name: 1by3_Curved
   m_TagString: Untagged
@@ -51,6 +52,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selections: 5
+--- !u!114 &9022325800277266625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8094827240751199827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1001 &596948841745110991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -164,6 +178,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViewOff3
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 9022325800277266625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -288,6 +307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViewOff2
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 9022325800277266625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -784,6 +808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViewOff1
       objectReference: {fileID: 0}
+    - target: {fileID: 8647120462922697338, guid: 6c5eb061614de5547a055e53464f8a8f,
+        type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 9022325800277266625}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
