@@ -8,11 +8,13 @@ public class TaskManagement : MonoBehaviour
 {
     private List<View> views = new List<View>();
     private List<LayoutSocket> sockets = new List<LayoutSocket>();
+    private PuzzleLayout puzzleLayout;
+    private Experiments parent;
 
     private List<Texture2D> textures = new List<Texture2D>();
     private List<int> randomIcons;
 
-    List<int> windowsOn;
+    private List<int> viewOrder;
 
     private int numberOfWindows;
     private int windowNumberOn;
@@ -44,12 +46,26 @@ public class TaskManagement : MonoBehaviour
     private void Start()
     {
         InitializeIconList();
+        viewOrder = RandomGenerator.randomizeList(numberOfWindows);
+        randomIcons = RandomGenerator.randomizeList(numberOfWindows);
+        print("Icons: " + randomIcons.Count);
         RandomizeIcons();
-        ExperimentSetup();
+
+        puzzleLayout.gameObject.SetActive(true);
+
+        //if (parent.experiment == Experiments.Experiment.Exp3)
+        //{
+        CopyLayout();
+        //}
+
+        //ExperimentSetup();
+        KeepRandomOn();
     }
 
     private void InitializeLayout()
     {
+        puzzleLayout = GetComponentInChildren<PuzzleLayout>(true);
+
         Transform[] childTransforms = GetComponentsInChildren<Transform>();
 
         foreach (Transform childTransform in childTransforms)
@@ -57,7 +73,7 @@ public class TaskManagement : MonoBehaviour
             View view = childTransform.GetComponent<View>();
             LayoutSocket socket = childTransform.GetComponent<LayoutSocket>();
 
-            if (view != null)
+            if (view != null && view.gameObject.tag.Equals("View"))
             {
                 views.Add(view);
             }
@@ -69,7 +85,7 @@ public class TaskManagement : MonoBehaviour
         }
         numberOfWindows = views.Count;
         //print(sockets.Count);
-        //print(numberOfWindows);
+        print("Layout windows: " + numberOfWindows);
         TaskDone = false;
 
     }
@@ -89,12 +105,21 @@ public class TaskManagement : MonoBehaviour
 
     private void RandomizeIcons()
     {
-        randomIcons = RandomGenerator.randomizeList(textures.Count);
 
         for (int i = 0; i < views.Count; i++)
         {
             views[i].RawIcon.texture = textures[randomIcons[i]];
         }
+    }
+
+    private void CopyLayout()
+    {
+        puzzleLayout.CopyFields(textures, randomIcons, viewOrder);
+    }
+
+    private bool IsExp3()
+    {
+        return (parent.experiment == Experiments.Experiment.Exp3);
     }
 
     //public SelectionTask CopyLayout(SelectionTask layout)
@@ -123,47 +148,63 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator RandomWindowsOn()
     {
-        windowsOn = RandomGenerator.randomizeList(numberOfWindows);
-
         selections = (numberOfWindows / 3) + 1;
 
         for (int i = 0; i < selections; i++)
-            views[windowsOn[i]].TurnOn(true, false);
+            views[viewOrder[i]].TurnOn(true, false);
 
         yield return new WaitForSeconds(5);
 
         for (int i = 0; i < selections; i++)
-            views[windowsOn[i]].TurnOn(false, true);
+            views[viewOrder[i]].TurnOn(false, true);
+
 
         for (int i = 0; i < selections; i++)
-            yield return new WaitUntil(() => checkAllOnDisableOns(views, windowsOn));
+        {
+            yield return new WaitUntil(() => views[viewOrder[i]].IsOn);
+            views[viewOrder[i]].DisableInteraction();
+        }
 
         for (int i = 0; i < selections; i++)
-            views[windowsOn[i]].DisableInteraction();
+            views[viewOrder[i]].DisableInteraction();
 
         TaskDone = true;
 
         yield return new WaitForSeconds(1);
     }
 
-    private bool checkAllOnDisableOns(List<View> views, List<int> windowsOn)
+    IEnumerator KeepRandomOn()
     {
+        selections = (numberOfWindows / 3) + 1;
+
         for (int i = 0; i < selections; i++)
-            if (views[windowsOn[i]].IsOn)
-                views[windowsOn[i]].DisableInteraction();
-        for (int i = 0; i < selections; i++)
+            views[viewOrder[i]].TurnOn(true, false);
+
+        yield return new WaitForSeconds(5);
+
+       
+
+        //TaskDone = true;
+
+        yield return new WaitForSeconds(1);
+    }
+
+    IEnumerator CountWindowsOn()
+    {
+        int onCount = 0;
+
+        foreach (View view in views)
         {
-            if (views[windowsOn[i]].IsOn)
-                continue;
-            else
-                return false;
+            if (view.IsOn)
+            {
+                onCount++;
+                yield return new WaitUntil(() => onCount == selections);
+            }
         }
-        return true;
     }
 
     IEnumerator Task1()
     {
-        //DisableDrag();
         StartCoroutine(RandomWindowOn());
         yield return new WaitUntil(() => TaskDone);
         print("Task1 is finished");
@@ -178,26 +219,12 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator Task3()
     {
+        KeepRandomOn();
         // Call coroutine here and set task done
         yield return new WaitUntil(() => TaskDone);
         print("Task3 is finished");
     }
 
-    private void TraverseList(List<View> list)
-    {
-        foreach (View view in list)
-        {
-            print(view.name);
-        }
-    }
-
-    private void TraverseList(List<int> list)
-    {
-        foreach (int view in list)
-        {
-            print(view);
-        }
-    }
 
     public void DisableDrag()
     {
@@ -215,7 +242,6 @@ public class TaskManagement : MonoBehaviour
 
     private void ExperimentSetup()
     {
-        Experiments parent = GetComponentInParent<Experiments>();
 
         if (parent == null)
         {
@@ -236,12 +262,28 @@ public class TaskManagement : MonoBehaviour
                 break;
             case Experiments.Experiment.Exp3:
                 print("Exp3 selected");
+                // StartCoroutine() or method to copy and randomize puzzle layout
                 StartCoroutine(Task3());
                 break;
 
             default:
                 print("got copied?");
                 break;
+        }
+    }
+    private void TraverseList(List<View> list)
+    {
+        foreach (View view in list)
+        {
+            print(view.name);
+        }
+    }
+
+    private void TraverseList(List<int> list)
+    {
+        foreach (int view in list)
+        {
+            print(view);
         }
     }
 }

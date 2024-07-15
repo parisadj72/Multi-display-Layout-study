@@ -47,11 +47,6 @@ public class Experiments : MonoBehaviour
 
             currentLayout = GetComponentInChildren<TaskManagement>();
 
-            if (experiment == Experiment.Exp3)
-            {
-                CopyAndDisplace(currentLayout);
-            }
-
             yield return new WaitUntil(() => currentLayout.TaskDone);
 
             //Log time per trial in the file
@@ -65,7 +60,7 @@ public class Experiments : MonoBehaviour
             File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
 
 
-            print(currentLayout.name);
+            //print(currentLayout.name);
             Destroy(currentLayout.gameObject, 5);
 
             
@@ -105,39 +100,6 @@ public class Experiments : MonoBehaviour
         if (Input.GetKey(KeyCode.I))
         {
             LayoutInfo();
-        }
-    }
-
-    private void CopyAndDisplace(TaskManagement original)
-    {
-        layoutCopy = original;
-
-        switch (layoutCopy.NumberOfWindows)
-        {
-            case 3:
-                print("3 views");
-                if (layoutCopy.gameObject.tag == "Stack")
-                {
-                    print("got stack");
-                    // Move to the right
-                    Instantiate(layoutCopy, transform);
-                    layoutCopy.Textures = original.Textures;
-                }
-                else
-                {
-                    // Move up
-                    Instantiate(layoutCopy, transform);
-
-                }
-                break;
-            case 6:
-                print("6 views");
-                Instantiate(layoutCopy, transform);
-                break;
-            case 12:
-                print("12 views");
-                Instantiate(layoutCopy, transform);
-                break;
         }
     }
 
