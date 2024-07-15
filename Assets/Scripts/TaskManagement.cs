@@ -161,8 +161,7 @@ public class TaskManagement : MonoBehaviour
 
         for (int i = 0; i < selections; i++)
         {
-            yield return new WaitUntil(() => views[viewOrder[i]].IsOn);
-            views[viewOrder[i]].DisableInteraction();
+            yield return new WaitUntil(() => checkAllOnDisableOns(views, viewOrder));
         }
 
         for (int i = 0; i < selections; i++)
@@ -171,6 +170,21 @@ public class TaskManagement : MonoBehaviour
         TaskDone = true;
 
         yield return new WaitForSeconds(1);
+    }
+
+    private bool checkAllOnDisableOns(List<View> views, List<int> viewOrder)
+    {
+        for (int i = 0; i < selections; i++)
+            if (views[viewOrder[i]].IsOn)
+                views[viewOrder[i]].DisableInteraction();
+        for (int i = 0; i < selections; i++)
+        {
+            if (views[viewOrder[i]].IsOn)
+                continue;
+            else
+                return false;
+        }
+        return true;
     }
 
     IEnumerator KeepRandomOn()
