@@ -136,7 +136,7 @@ public class TaskManagement : MonoBehaviour
             views[windowsOn[i]].TurnOn(false, true);
 
         for (int i = 0; i < selections; i++)
-            yield return new WaitUntil(() => views[windowsOn[i]].IsOn);
+            yield return new WaitUntil(() => checkAllOnDisableOns(views, windowsOn));
 
         for (int i = 0; i < selections; i++)
             views[windowsOn[i]].DisableInteraction();
@@ -144,6 +144,21 @@ public class TaskManagement : MonoBehaviour
         TaskDone = true;
 
         yield return new WaitForSeconds(1);
+    }
+
+    private bool checkAllOnDisableOns(List<View> views, List<int> windowsOn)
+    {
+        for (int i = 0; i < selections; i++)
+            if (views[windowsOn[i]].IsOn)
+                views[windowsOn[i]].DisableInteraction();
+        for (int i = 0; i < selections; i++)
+        {
+            if (views[windowsOn[i]].IsOn)
+                continue;
+            else
+                return false;
+        }
+        return true;
     }
 
     IEnumerator Task1()
