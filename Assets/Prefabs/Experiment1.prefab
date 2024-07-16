@@ -44,5 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad1864c550b71a4286c98a0b70e02cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layouts: []
+  layouts:
+  - {fileID: 4619695164928011444, guid: d79c67c784646a842acd0d63a26a44f3, type: 3}
+  - {fileID: 4619695164928011444, guid: c1b7c159825fb1f4a8ac0f5dc499b73e, type: 3}
+  - {fileID: 4619695164928011444, guid: b52d6ca7e25be29498fdded4e51b10b4, type: 3}
+  - {fileID: 776972516981420167, guid: b5898b696229e2a4895842176f8e57fa, type: 3}
+  - {fileID: 776972516981420167, guid: 8ef4bfa80e124d84ab4e7254df369916, type: 3}
+  - {fileID: 776972516981420167, guid: 69eab81b5885f1047bd52fb18d747452, type: 3}
+  - {fileID: 6248281259073499012, guid: 66dd98db8649a344ea3f9259bcf169d8, type: 3}
+  - {fileID: 6248281259073499012, guid: 79835cdcbdf3f6345a7b7361105467bb, type: 3}
+  - {fileID: 6248281259073499012, guid: 9c4fbef5a62822649b1ae80d3a2d5431, type: 3}
   experiment: 0

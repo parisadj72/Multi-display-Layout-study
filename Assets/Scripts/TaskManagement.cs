@@ -51,19 +51,12 @@ public class TaskManagement : MonoBehaviour
         print("Icons: " + randomIcons.Count);
         RandomizeIcons();
 
-        puzzleLayout.gameObject.SetActive(true);
-
-        //if (parent.experiment == Experiments.Experiment.Exp3)
-        //{
-        CopyLayout();
-        //}
-
-        //ExperimentSetup();
-        KeepRandomOn();
+        ExperimentSetup();
     }
 
     private void InitializeLayout()
     {
+        parent = GetComponentInParent<Experiments>();
         puzzleLayout = GetComponentInChildren<PuzzleLayout>(true);
 
         Transform[] childTransforms = GetComponentsInChildren<Transform>();
@@ -105,7 +98,6 @@ public class TaskManagement : MonoBehaviour
 
     private void RandomizeIcons()
     {
-
         for (int i = 0; i < views.Count; i++)
         {
             views[i].RawIcon.texture = textures[randomIcons[i]];
@@ -233,6 +225,7 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator Task3()
     {
+        CopyLayout();
         KeepRandomOn();
         // Call coroutine here and set task done
         yield return new WaitUntil(() => TaskDone);
@@ -276,6 +269,7 @@ public class TaskManagement : MonoBehaviour
                 break;
             case Experiments.Experiment.Exp3:
                 print("Exp3 selected");
+                puzzleLayout.gameObject.SetActive(true);
                 // StartCoroutine() or method to copy and randomize puzzle layout
                 StartCoroutine(Task3());
                 break;

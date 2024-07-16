@@ -45,6 +45,7 @@ public class PuzzleLayout : MonoBehaviour
         for (int i = 0; i < views.Count; i++)
         {
             modelIcons.Add(icons[i]);
+            views[i].RawIcon.texture = modelTextures[modelIcons[i]];
             print("Icons index: " + modelIcons[i]);
         }
 
@@ -54,7 +55,9 @@ public class PuzzleLayout : MonoBehaviour
             print("windows on: " + viewOrder[i]);
         }
 
-        for (int i = 0; i < views.Count; i++)
+        int selections = (views.Count / 3) + 1;
+
+        for (int i = 0; i < selections; i++)
         {
             views[modelOrder[i]].TurnOn(true, false);
         }
