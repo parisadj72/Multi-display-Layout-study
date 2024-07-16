@@ -20,4 +20,22 @@ public class RandomGenerator : MonoBehaviour
         }
         return randomList;
     }
+    public static List<int> shuffleList(List<int> list)
+    {
+        List<int> list2 = new List<int>();
+        List<int> indexList = new List<int>();
+
+        while (indexList.Count != list.Count)
+        {
+            int rand = UnityEngine.Random.Range(0, list.Count);
+            if (indexList.Contains(rand))
+                continue;
+            else
+            {
+                list2.Add(list[rand]);
+                indexList.Add(rand);
+            }
+        }
+        return list2;
+    }
 }
