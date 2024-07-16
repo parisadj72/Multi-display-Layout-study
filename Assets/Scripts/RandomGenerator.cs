@@ -20,9 +20,9 @@ public class RandomGenerator : MonoBehaviour
         }
         return randomList;
     }
-    public static List<int> shuffleList(List<int> list)
+    public static List<Texture> shuffleList(List<Texture> list)
     {
-        List<int> list2 = new List<int>();
+        List<Texture> list2 = new List<Texture>();
         List<int> indexList = new List<int>();
 
         while (indexList.Count != list.Count)

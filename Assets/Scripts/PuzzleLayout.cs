@@ -61,5 +61,16 @@ public class PuzzleLayout : MonoBehaviour
         {
             views[modelOrder[i]].TurnOn(true, false);
         }
+
+        List<Texture> texlistOns = new List<Texture>();
+        for (int i = 0; i < selections; i++)
+        {
+            texlistOns.Add(views[modelOrder[i]].RawIcon.texture);
+        }
+        texlistOns = RandomGenerator.shuffleList(texlistOns);
+        for (int i = 0; i < selections; i++)
+        {
+            views[modelOrder[i]].RawIcon.texture = texlistOns[i];
+        }
     }
 }
