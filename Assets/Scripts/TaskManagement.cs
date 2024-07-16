@@ -186,6 +186,16 @@ public class TaskManagement : MonoBehaviour
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(true, false);
 
+        yield return new WaitForSeconds(2);
+
+        for (int i = 0; i < views.Count; i++)
+        {
+            if (!views[i].IsOn)
+            {
+                DisableDrag(views[i], sockets[i]);
+            }
+        }
+
         yield return new WaitForSeconds(3);
 
         foreach (LayoutSocket socket in sockets)
@@ -193,7 +203,7 @@ public class TaskManagement : MonoBehaviour
             print(socket.LastIcon);
         }
 
-        foreach(View v in puzzleLayout.Views)
+        foreach (View v in puzzleLayout.Views)
         {
             print(v.RawIcon.texture.name);
         }
@@ -257,12 +267,20 @@ public class TaskManagement : MonoBehaviour
         }
     }
 
+    public void DisableDrag(View view, LayoutSocket socket)
+    {
+        view.GetComponent<XRGrabInteractable>().enabled = false;
+        view.GetComponent<BoxCollider>().enabled = false;
+
+        socket.gameObject.SetActive(false);
+    }
+
     private bool CheckIcons(List<LayoutSocket> layoutSockets, PuzzleLayout puzzleLayout)
     {
         List<View> viewsList = puzzleLayout.Views;
         for (int i = 0; i < layoutSockets.Count; i++)
         {
-            if (layoutSockets[i].LastIcon.Equals(viewsList[i].RawIcon.texture.name))
+            if (!views[i].IsOn || (layoutSockets[i].LastIcon.Equals(viewsList[i].RawIcon.texture.name) && layoutSockets[i].GetComponent<XRSocketInteractor>().hasSelection))
             {
                 continue;
             }
