@@ -22,7 +22,7 @@ public class Experiments : MonoBehaviour
 
     private void Awake()
     {
-        randomLayouts = RandomGenerator.randomizeList(layouts.Count);
+        randomLayouts = RandomGenerator.generateUniqueRandoms(layouts.Count, 5);
     }
     private void Start()
     {
@@ -63,7 +63,17 @@ public class Experiments : MonoBehaviour
             //print(currentLayout.name);
             Destroy(currentLayout.gameObject, 5);
 
-            
+            if (experiment == Experiment.Exp3)
+            {
+                GameObject[] remainingViews = GameObject.FindGameObjectsWithTag("View");
+
+                foreach (GameObject go in remainingViews)
+                {
+                    Destroy(go, 5);
+                }
+            }
+
+
             yield return new WaitForSeconds(5);
             //StartCoroutine(TakeBreak(5));
         }

@@ -38,4 +38,24 @@ public class RandomGenerator : MonoBehaviour
         }
         return list2;
     }
+
+    public static List<int> generateUniqueRandoms(int size, int repeat)
+    {
+        List<int> list = new List<int>(new int[size * repeat]);
+        List<int> countList = new List<int>(new int[size]);
+
+        for (int j = 0; j < size * repeat; j++)
+        {
+            int Rand = Random.Range(0, size);
+
+            while (list.Contains(Rand) && countList[Rand] >= repeat)
+            {
+                Rand = Random.Range(0, size);
+            }
+
+            list[j] = Rand;
+            countList[Rand]++;
+        }
+        return list;
+    }
 }

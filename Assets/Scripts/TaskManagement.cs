@@ -188,9 +188,7 @@ public class TaskManagement : MonoBehaviour
 
         yield return new WaitForSeconds(5);
 
-       
-
-        //TaskDone = true;
+        TaskDone = true;
 
         yield return new WaitForSeconds(1);
     }
@@ -214,6 +212,7 @@ public class TaskManagement : MonoBehaviour
         StartCoroutine(RandomWindowOn());
         yield return new WaitUntil(() => TaskDone);
         print("Task1 is finished");
+
     }
 
     IEnumerator Task2()
@@ -221,6 +220,7 @@ public class TaskManagement : MonoBehaviour
         StartCoroutine(RandomWindowsOn());
         yield return new WaitUntil(() => TaskDone);
         print("Task2 is finished");
+
     }
 
     IEnumerator Task3()
