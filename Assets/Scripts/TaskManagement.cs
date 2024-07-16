@@ -48,7 +48,7 @@ public class TaskManagement : MonoBehaviour
         InitializeIconList();
         viewOrder = RandomGenerator.randomizeList(numberOfWindows);
         randomIcons = RandomGenerator.randomizeList(numberOfWindows);
-        print("Icons: " + randomIcons.Count);
+        //print("Icons: " + randomIcons.Count);
         RandomizeIcons();
 
         ExperimentSetup();
@@ -78,7 +78,7 @@ public class TaskManagement : MonoBehaviour
         }
         numberOfWindows = views.Count;
         //print(sockets.Count);
-        print("Layout windows: " + numberOfWindows);
+        //print("Layout windows: " + numberOfWindows);
         TaskDone = false;
 
     }
@@ -186,11 +186,21 @@ public class TaskManagement : MonoBehaviour
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(true, false);
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
+
+        foreach (LayoutSocket socket in sockets)
+        {
+            print(socket.LastIcon);
+        }
+
+        foreach(View v in puzzleLayout.Views)
+        {
+            print(v.RawIcon.texture.name);
+        }
+
+        yield return new WaitUntil(() => CheckIcons(sockets, puzzleLayout));
 
         TaskDone = true;
-
-        yield return new WaitForSeconds(1);
     }
 
     IEnumerator CountWindowsOn()
@@ -245,6 +255,20 @@ public class TaskManagement : MonoBehaviour
         {
             socket.gameObject.SetActive(false);
         }
+    }
+
+    private bool CheckIcons(List<LayoutSocket> layoutSockets, PuzzleLayout puzzleLayout)
+    {
+        List<View> viewsList = puzzleLayout.Views;
+        for (int i = 0; i < layoutSockets.Count; i++)
+        {
+            if (layoutSockets[i].LastIcon.Equals(viewsList[i].RawIcon.texture.name))
+            {
+                continue;
+            }
+            else return false;
+        }
+        return true;
     }
 
     private void ExperimentSetup()

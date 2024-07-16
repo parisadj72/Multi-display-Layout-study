@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6263451824927068211}
   m_Layer: 5
   m_Name: ViewOff7
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 1495368325407818428}
   m_Layer: 5
   m_Name: ViewOff11
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1260,7 +1260,7 @@ GameObject:
   - component: {fileID: 3892658852689983110}
   m_Layer: 5
   m_Name: ViewOff3
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2801,7 +2801,7 @@ GameObject:
   - component: {fileID: 8868410106152950487}
   m_Layer: 5
   m_Name: ViewOff12
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3087,7 +3087,7 @@ GameObject:
   - component: {fileID: 354827678897956986}
   m_Layer: 5
   m_Name: ViewOff5
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3298,7 +3298,7 @@ GameObject:
   - component: {fileID: 7584403637105389240}
   m_Layer: 5
   m_Name: ViewOff10
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3882,7 +3882,7 @@ GameObject:
   - component: {fileID: 4184208483993710535}
   m_Layer: 5
   m_Name: ViewOff2
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4224,7 +4224,7 @@ GameObject:
   - component: {fileID: 8019251761324179976}
   m_Layer: 5
   m_Name: ViewOff1
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4586,7 +4586,7 @@ GameObject:
   - component: {fileID: 1568741784569782838}
   m_Layer: 5
   m_Name: ViewOff9
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4872,7 +4872,7 @@ GameObject:
   - component: {fileID: 4134939511288070011}
   m_Layer: 5
   m_Name: ViewOff4
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5385,7 +5385,7 @@ GameObject:
   - component: {fileID: 6644143657129004847}
   m_Layer: 5
   m_Name: ViewOff8
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5671,7 +5671,7 @@ GameObject:
   - component: {fileID: 5946532434955653379}
   m_Layer: 5
   m_Name: ViewOff6
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

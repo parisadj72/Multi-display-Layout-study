@@ -27,8 +27,8 @@ public class LayoutSocket : MonoBehaviour
         if (obj.transform.GetComponent<View>() != null)
         {
             lastIcon = obj.transform.GetComponent<View>().RawIcon.texture.name;
-            print("Socket name is: " + transform.name + ". And view is: " + obj.transform.name);
-            print("Last icon was: " + lastIcon);
+            //print("Socket name is: " + transform.name + ". And view is: " + obj.transform.name);
+            //print("Last icon was: " + lastIcon);
         }
     }
 }

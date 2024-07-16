@@ -10,12 +10,12 @@ public class PuzzleLayout : MonoBehaviour
     private List<int> modelIcons = new List<int>();
     private List<int> modelOrder = new List<int>();
 
+    public List<View> Views { get => views; set => views = value; }
+    public List<int> ModelOrder { get => modelOrder; set => modelOrder = value; }
+
     private void Awake()
     {
         InitializeLayout();
-    }
-    void Start()
-    {
     }
 
     private void InitializeLayout()
@@ -29,7 +29,7 @@ public class PuzzleLayout : MonoBehaviour
             if (view != null)
             {
                 views.Add(view);
-                print("View added");
+                //print("View added");
             }
         }
     }
@@ -39,20 +39,20 @@ public class PuzzleLayout : MonoBehaviour
         for (int i = 0; i < views.Count; i++)
         {
             modelTextures.Add(texList[i]);
-            print(modelTextures[i].name);
+            //print(modelTextures[i].name);
         }
 
         for (int i = 0; i < views.Count; i++)
         {
             modelIcons.Add(icons[i]);
             views[i].RawIcon.texture = modelTextures[modelIcons[i]];
-            print("Icons index: " + modelIcons[i]);
+            //print("Icons index: " + modelIcons[i]);
         }
 
         for (int i = 0; i < views.Count; i++)
         {
             modelOrder.Add(viewOrder[i]);
-            print("windows on: " + viewOrder[i]);
+            //print("windows on: " + viewOrder[i]);
         }
 
         int selections = (views.Count / 3) + 1;

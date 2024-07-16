@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 6907660705133968145}
   m_Layer: 5
   m_Name: StackedView1
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -797,7 +797,7 @@ GameObject:
   - component: {fileID: 1726497956786532658}
   m_Layer: 5
   m_Name: StackedView3
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1305,7 +1305,7 @@ GameObject:
   - component: {fileID: 4930839756088473595}
   m_Layer: 5
   m_Name: StackedView2
-  m_TagString: Untagged
+  m_TagString: PuzzleView
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
