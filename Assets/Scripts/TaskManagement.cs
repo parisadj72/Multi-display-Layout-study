@@ -226,7 +226,7 @@ public class TaskManagement : MonoBehaviour
     IEnumerator Task3()
     {
         CopyLayout();
-        KeepRandomOn();
+        StartCoroutine(KeepRandomOn());
         // Call coroutine here and set task done
         yield return new WaitUntil(() => TaskDone);
         print("Task3 is finished");
