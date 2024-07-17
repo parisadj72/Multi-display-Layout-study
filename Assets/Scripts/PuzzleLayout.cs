@@ -10,8 +10,11 @@ public class PuzzleLayout : MonoBehaviour
     private List<int> modelIcons = new List<int>();
     private List<int> modelOrder = new List<int>();
 
+    List<Texture> texlistOns = new List<Texture>();
+
     public List<View> Views { get => views; set => views = value; }
     public List<int> ModelOrder { get => modelOrder; set => modelOrder = value; }
+    public List<Texture> TexlistOns { get => texlistOns; set => texlistOns = value; }
 
     private void Awake()
     {
@@ -39,20 +42,15 @@ public class PuzzleLayout : MonoBehaviour
         for (int i = 0; i < views.Count; i++)
         {
             modelTextures.Add(texList[i]);
+            modelIcons.Add(icons[i]);
+            modelOrder.Add(viewOrder[i]);
             //print(modelTextures[i].name);
         }
 
         for (int i = 0; i < views.Count; i++)
         {
-            modelIcons.Add(icons[i]);
             views[i].RawIcon.texture = modelTextures[modelIcons[i]];
             //print("Icons index: " + modelIcons[i]);
-        }
-
-        for (int i = 0; i < views.Count; i++)
-        {
-            modelOrder.Add(viewOrder[i]);
-            //print("windows on: " + viewOrder[i]);
         }
 
         int selections = (views.Count / 3) + 1;
@@ -62,12 +60,42 @@ public class PuzzleLayout : MonoBehaviour
             views[modelOrder[i]].TurnOn(true, false);
         }
 
-        List<Texture> texlistOns = new List<Texture>();
         for (int i = 0; i < selections; i++)
         {
             texlistOns.Add(views[modelOrder[i]].RawIcon.texture);
         }
+
+        List<Texture> copy = new List<Texture>();
+
+        for (int i = 0; i < texlistOns.Count; i++)
+        {
+            Texture tex = texlistOns[i];
+            copy.Add(tex);
+        }
+
         texlistOns = RandomGenerator.shuffleList(texlistOns);
+
+        if (copy.Equals(texlistOns)) {
+            print("Lists are equal. Shuffle again");
+        }
+
+        //bool flag = true;
+        //while (flag)
+        //{
+        //    for (int i = 0; i < texlistOns.Count; i++)
+        //    {
+        //        while (copy[i] != texlistOns[i])
+        //        {
+        //            flag = false;
+        //        }
+        //    }
+        //    if (flag)
+        //    {
+        //        texlistOns = RandomGenerator.shuffleList(texlistOns);
+        //    }
+        //}
+
+
         for (int i = 0; i < selections; i++)
         {
             views[modelOrder[i]].RawIcon.texture = texlistOns[i];

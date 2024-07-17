@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.UI;
 
 public class TaskManagement : MonoBehaviour
 {
@@ -186,26 +187,25 @@ public class TaskManagement : MonoBehaviour
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(true, false);
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
 
         for (int i = 0; i < views.Count; i++)
         {
             if (!views[i].IsOn)
             {
                 DisableDrag(views[i], sockets[i]);
+                views[i].GetComponent<TrackedDeviceGraphicRaycaster>().enabled = false;
             }
         }
 
-        yield return new WaitForSeconds(3);
-
         foreach (LayoutSocket socket in sockets)
         {
-            print(socket.LastIcon);
+            //print(socket.LastIcon);
         }
 
         foreach (View v in puzzleLayout.Views)
         {
-            print(v.RawIcon.texture.name);
+            //print(v.RawIcon.texture.name);
         }
 
         yield return new WaitUntil(() => CheckIcons(sockets, puzzleLayout));
@@ -247,7 +247,7 @@ public class TaskManagement : MonoBehaviour
     {
         CopyLayout();
         StartCoroutine(KeepRandomOn());
-        // Call coroutine here and set task done
+
         yield return new WaitUntil(() => TaskDone);
         print("Task3 is finished");
     }
