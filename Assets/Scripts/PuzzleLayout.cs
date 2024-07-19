@@ -75,9 +75,39 @@ public class PuzzleLayout : MonoBehaviour
 
         texlistOns = RandomGenerator.shuffleList(texlistOns);
 
-        if (copy.Equals(texlistOns)) {
-            print("Lists are equal. Shuffle again");
+        for (int i = 0; i < selections; i++)
+        {
+            views[modelOrder[i]].RawIcon.texture = texlistOns[i];
         }
+
+        if (views.Count == 3)
+        {
+            print("3-view layout is present");
+            for (int i = 0; i < copy.Count; ++i)
+            {
+                if (!views[i].IsOn)
+                {
+                    continue;
+                }
+                else
+                {
+                    if (copy[i].name.Equals(TexlistOns[i].name))
+                    {
+                        print("Icons are the same. Shuffle again");
+                        while (copy[i].name.Equals(texlistOns[i].name))
+                        {
+                            texlistOns = RandomGenerator.shuffleList(texlistOns);
+                        }
+                    }
+                }
+            }
+        }
+
+        for (int i = 0; i < selections; i++)
+        {
+            views[modelOrder[i]].RawIcon.texture = texlistOns[i];
+        }
+
 
         //bool flag = true;
         //while (flag)
@@ -94,11 +124,5 @@ public class PuzzleLayout : MonoBehaviour
         //        texlistOns = RandomGenerator.shuffleList(texlistOns);
         //    }
         //}
-
-
-        for (int i = 0; i < selections; i++)
-        {
-            views[modelOrder[i]].RawIcon.texture = texlistOns[i];
-        }
     }
 }
