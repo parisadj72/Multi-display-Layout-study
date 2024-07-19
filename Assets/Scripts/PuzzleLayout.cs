@@ -101,12 +101,13 @@ public class PuzzleLayout : MonoBehaviour
                     }
                 }
             }
+
+            for (int i = 0; i < selections; i++)
+            {
+                views[modelOrder[i]].RawIcon.texture = texlistOns[i];
+            }
         }
 
-        for (int i = 0; i < selections; i++)
-        {
-            views[modelOrder[i]].RawIcon.texture = texlistOns[i];
-        }
 
 
         //bool flag = true;
