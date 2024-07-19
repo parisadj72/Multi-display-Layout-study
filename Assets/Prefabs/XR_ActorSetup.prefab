@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 3576072065840060887}
   - component: {fileID: 6309646988103517800}
   - component: {fileID: 5665818702532081067}
+  - component: {fileID: 3272709527962056227}
   m_Layer: 0
   m_Name: Left Controller
   m_TagString: Untagged
@@ -362,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ac216f0eb04754b1d938aac6380b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ManipulationInteractionGroup: {fileID: 0}
+  m_ManipulationInteractionGroup: {fileID: 3272709527962056227}
   m_DirectInteractor: {fileID: 0}
   m_RayInteractor: {fileID: 1726094117578376206}
   m_TeleportInteractor: {fileID: 0}
@@ -381,7 +382,37 @@ MonoBehaviour:
   m_UIScrollingEnabled: 1
   m_RayInteractorChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8161568929133464659}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_aimTarget
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3272709527962056227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883443009180560368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a50d88b55b45648927679791f472de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GroupName: Left
+  m_InteractionManager: {fileID: 0}
+  m_StartingGroupMembers:
+  - {fileID: 1726094117578376206}
+  m_StartingInteractionOverridesMap: []
 --- !u!1 &2651528291608556570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,7 +1136,7 @@ MonoBehaviour:
   m_BlockUIOnInteractableSelection: 1
   m_AllowAnchorControl: 1
   m_UseForceGrab: 0
-  m_RotateSpeed: 180
+  m_RotateSpeed: 0
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
@@ -1762,6 +1793,7 @@ GameObject:
   - component: {fileID: 5601649928096422587}
   - component: {fileID: 3610396336233377015}
   - component: {fileID: 5402376636521491519}
+  - component: {fileID: 4501669405544096672}
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Untagged
@@ -2042,7 +2074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ac216f0eb04754b1d938aac6380b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ManipulationInteractionGroup: {fileID: 0}
+  m_ManipulationInteractionGroup: {fileID: 4501669405544096672}
   m_DirectInteractor: {fileID: 0}
   m_RayInteractor: {fileID: 3073279104181611553}
   m_TeleportInteractor: {fileID: 0}
@@ -2056,12 +2088,42 @@ MonoBehaviour:
   m_Move: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_UIScroll: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  m_SmoothMotionEnabled: 1
-  m_SmoothTurnEnabled: 0
+  m_SmoothMotionEnabled: 0
+  m_SmoothTurnEnabled: 1
   m_UIScrollingEnabled: 1
   m_RayInteractorChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4881517372172136410}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_aimTarget
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4501669405544096672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909832882888017476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a50d88b55b45648927679791f472de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GroupName: Right
+  m_InteractionManager: {fileID: 0}
+  m_StartingGroupMembers:
+  - {fileID: 3073279104181611553}
+  m_StartingInteractionOverridesMap: []
 --- !u!1 &6974868795339968885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,9 +2273,9 @@ MonoBehaviour:
   m_TimeToAutoDeselect: 3
   m_EnableUIInteraction: 1
   m_BlockUIOnInteractableSelection: 1
-  m_AllowAnchorControl: 0
+  m_AllowAnchorControl: 1
   m_UseForceGrab: 0
-  m_RotateSpeed: 180
+  m_RotateSpeed: 0
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
