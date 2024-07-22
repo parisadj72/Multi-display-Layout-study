@@ -80,33 +80,32 @@ public class PuzzleLayout : MonoBehaviour
             views[modelOrder[i]].RawIcon.texture = texlistOns[i];
         }
 
-        if (views.Count == 3)
+
+        //print("3 or 6-view layout is present");
+        for (int i = 0; i < copy.Count; ++i)
         {
-            print("3-view layout is present");
-            for (int i = 0; i < copy.Count; ++i)
+            if (!views[i].IsOn)
             {
-                if (!views[i].IsOn)
+                continue;
+            }
+            else
+            {
+                if (copy[i].name.Equals(texlistOns[i].name))
                 {
-                    continue;
-                }
-                else
-                {
-                    if (copy[i].name.Equals(TexlistOns[i].name))
+                    print("Icons are the same. Shuffle again");
+                    while (copy[i].name.Equals(texlistOns[i].name))
                     {
-                        print("Icons are the same. Shuffle again");
-                        while (copy[i].name.Equals(texlistOns[i].name))
-                        {
-                            texlistOns = RandomGenerator.shuffleList(texlistOns);
-                        }
+                        texlistOns = RandomGenerator.shuffleList(texlistOns);
                     }
                 }
             }
-
-            for (int i = 0; i < selections; i++)
-            {
-                views[modelOrder[i]].RawIcon.texture = texlistOns[i];
-            }
         }
+
+        for (int i = 0; i < selections; i++)
+        {
+            views[modelOrder[i]].RawIcon.texture = texlistOns[i];
+        }
+
 
 
 
