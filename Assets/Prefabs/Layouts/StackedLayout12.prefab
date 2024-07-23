@@ -8009,11 +8009,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6021928121401839869}
     m_Modifications:
-    - target: {fileID: 374390011941869204, guid: 6c5eb061614de5547a055e53464f8a8f,
-        type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2019826732794894956, guid: 6c5eb061614de5547a055e53464f8a8f,
         type: 3}
       propertyPath: m_Color.a

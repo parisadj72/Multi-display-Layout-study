@@ -6,13 +6,13 @@ TagManager:
   tags:
   - ViewOn
   - Anchor
-  - LeftStabilizer
-  - RightStabilizer
   - View
   - PuzzleView
   - Socket
   - Stack
   - Model
+  - LeftRay
+  - RightRay
   layers:
   - Default
   - TransparentFX

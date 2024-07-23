@@ -129,7 +129,7 @@ public class TaskManagement : MonoBehaviour
         for (int i = selections; i > 0; i--)
         {
             windowNumberOn = UnityEngine.Random.Range(0, numberOfWindows);
-            //print("Number was: " + turnedOnWindow);
+            //print("Number was: " + windowNumberOn);
 
             views[windowNumberOn].TurnOn(true, true);
             //print("Window on is: " + (turnedOnWindow + 1));
@@ -141,12 +141,24 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator RandomWindowsOn()
     {
+        GameObject left = GameObject.FindGameObjectWithTag("LeftRay");
+        GameObject right = GameObject.FindGameObjectWithTag("RightRay");
+
+        XRInteractorLineVisual leftRay = left.GetComponent<XRInteractorLineVisual>();
+        XRInteractorLineVisual rightRay = right.GetComponent<XRInteractorLineVisual>();
+
+        leftRay.enabled = false;
+        rightRay.enabled = false;
+
         selections = (numberOfWindows / 3) + 1;
 
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(true, false);
 
         yield return new WaitForSeconds(5);
+
+        leftRay.enabled = true;
+        rightRay.enabled = true;
 
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(false, true);
