@@ -310,7 +310,7 @@ public class TaskManagement : MonoBehaviour
                 StartCoroutine(Task2());
                 break;
             case Experiments.Experiment.Exp3:
-                DisableDrag();
+                //DisableDrag();
                 print("Exp3 selected");
                 puzzleLayout.gameObject.SetActive(true);
                 // StartCoroutine() or method to copy and randomize puzzle layout
