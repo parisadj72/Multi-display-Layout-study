@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -11,9 +12,12 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     private Toggle toggle;
     private string icon;
     private RawImage rawIcon;
+    private Color selectedColor;
+    private Color normalColor;
 
     private Boolean isOn;
     private Boolean isInteractable;
+    private bool swap = false;
 
     public Boolean disabledAtStartup = true;
 
@@ -51,9 +55,14 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
         set { rawIcon = value; }
     }
 
+    public Color SelectedColor { get => selectedColor; set => selectedColor = value; }
+    public Color NormalColor { get => normalColor; set => normalColor = value; }
+    public bool Swap { get => swap; set => swap = value; }
+
     private void InitializeView()
     {
         toggle = GetComponent<Toggle>();
+        selectedColor = toggle.colors.pressedColor;
 
         //icon = GetImage();
         //print(icon);
@@ -68,6 +77,7 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
             if (child.gameObject.name == "On")
             {
                 rawIcon = child.GetComponentInChildren<RawImage>();
+                normalColor = child.GetComponent<Image>().color;
                 //print(rawImage.texture);
             }
         }
@@ -117,6 +127,11 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
         }
     }
 
+    private void changeColor(Color color)
+    {
+
+    }
+
     public void DisableInteraction()
     {
         toggle.interactable = false;
@@ -126,8 +141,8 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     {
         if (IsOn)
         {
-            //print("view clicked. Disable now?");
             StartCoroutine(WaitUntilOff());
+            //print("view clicked. Disable now?");
         }
     }
 

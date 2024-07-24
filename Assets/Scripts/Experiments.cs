@@ -22,7 +22,7 @@ public class Experiments : MonoBehaviour
 
     private void Awake()
     {
-        randomLayouts = RandomGenerator.generateUniqueRandoms(layouts.Count, 5);
+        randomLayouts = RandomGenerator.generateUniqueRandoms(layouts.Count, 3);
     }
     private void Start()
     {
