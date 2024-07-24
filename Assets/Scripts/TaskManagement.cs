@@ -192,7 +192,7 @@ public class TaskManagement : MonoBehaviour
         return true;
     }
 
-    IEnumerator KeepRandomOn()
+    IEnumerator PuzzleTaskDrag()
     {
         selections = (numberOfWindows / 3) + 1;
 
@@ -210,17 +210,29 @@ public class TaskManagement : MonoBehaviour
             }
         }
 
-        foreach (LayoutSocket socket in sockets)
-        {
-            //print(socket.LastIcon);
-        }
+        //foreach (LayoutSocket socket in sockets)
+        //{
+        //    print(socket.LastIcon);
+        //}
 
-        foreach (View v in puzzleLayout.Views)
-        {
-            //print(v.RawIcon.texture.name);
-        }
+        //foreach (View v in puzzleLayout.Views)
+        //{
+        //    print(v.RawIcon.texture.name);
+        //}
 
         yield return new WaitUntil(() => CheckIcons(sockets, puzzleLayout));
+
+        TaskDone = true;
+    }
+
+    IEnumerator PuzzleTaskSwap()
+    {
+        selections = (numberOfWindows / 3) + 1;
+
+        for (int i = 0; i < selections; i++)
+            views[viewOrder[i]].TurnOn(true, false);
+
+        yield return new WaitForSeconds(3);
 
         TaskDone = true;
     }
@@ -258,7 +270,7 @@ public class TaskManagement : MonoBehaviour
     IEnumerator Task3()
     {
         CopyLayout();
-        StartCoroutine(KeepRandomOn());
+        StartCoroutine(PuzzleTaskSwap());
 
         yield return new WaitUntil(() => TaskDone);
         print("Task3 is finished");
@@ -322,7 +334,7 @@ public class TaskManagement : MonoBehaviour
                 StartCoroutine(Task2());
                 break;
             case Experiments.Experiment.Exp3:
-                //DisableDrag();
+                DisableDrag();
                 print("Exp3 selected");
                 puzzleLayout.gameObject.SetActive(true);
                 // StartCoroutine() or method to copy and randomize puzzle layout
