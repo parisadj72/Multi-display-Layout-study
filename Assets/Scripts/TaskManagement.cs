@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 
@@ -9,6 +10,7 @@ public class TaskManagement : MonoBehaviour
 {
     private List<View> views = new List<View>();
     private List<LayoutSocket> sockets = new List<LayoutSocket>();
+    private List<View> puzzleViews = new List<View>();
     private PuzzleLayout puzzleLayout;
     private Experiments parent;
 
@@ -19,7 +21,9 @@ public class TaskManagement : MonoBehaviour
 
     private int numberOfWindows;
     private int windowNumberOn;
+    public int task1Selections = 5;
     public int selections = 5;
+
 
     private Boolean taskDone;
 
@@ -78,6 +82,9 @@ public class TaskManagement : MonoBehaviour
             }
         }
         numberOfWindows = views.Count;
+
+        selections = (numberOfWindows / 3) + 1;
+
         //print(sockets.Count);
         //print("Layout windows: " + numberOfWindows);
         TaskDone = false;
@@ -126,7 +133,7 @@ public class TaskManagement : MonoBehaviour
     // It is meant to turn on one view at a time
     IEnumerator RandomWindowOn()
     {
-        for (int i = selections; i > 0; i--)
+        for (int i = task1Selections; i > 0; i--)
         {
             windowNumberOn = UnityEngine.Random.Range(0, numberOfWindows);
             //print("Number was: " + windowNumberOn);
@@ -149,8 +156,6 @@ public class TaskManagement : MonoBehaviour
 
         leftRay.enabled = false;
         rightRay.enabled = false;
-
-        selections = (numberOfWindows / 3) + 1;
 
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(true, false);
@@ -230,11 +235,77 @@ public class TaskManagement : MonoBehaviour
         selections = (numberOfWindows / 3) + 1;
 
         for (int i = 0; i < selections; i++)
-            views[viewOrder[i]].TurnOn(true, false);
+        {
+            puzzleViews.Add(views[viewOrder[i]]);
+            puzzleViews[i].TurnOn(true, true);
+        }
 
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
+
+        for (int i = 0; i < views.Count; i++)
+        {
+            if (!views[i].IsOn)
+            {
+                DisableDrag(views[i], sockets[i]);
+                views[i].GetComponent<TrackedDeviceGraphicRaycaster>().enabled = false;
+            }
+        }
+
+        yield return new WaitUntil(() => TwoViewsSelected());
+
+        yield return new WaitUntil(() => CpompareIcons(puzzleLayout));
 
         TaskDone = true;
+    }
+
+    private bool CpompareIcons(PuzzleLayout puzzleLayout)
+    {
+        for (int i = 0; i < puzzleViews.Count; i++)
+        {
+            if (puzzleViews[i].IsOn  && (puzzleViews[i].RawIcon.texture.name.Equals(puzzleLayout.ModelTextures[puzzleLayout.ModelIcons[i]].name)))
+            {
+                return true;
+            }
+            else return false;
+        }
+        return false;
+    }
+    private bool TwoViewsSelected()
+    {
+        List<Texture> images = new List<Texture>();
+        int count = 0;
+        int index = 0;
+        for (int i = 0; i < puzzleViews.Count; i++)
+        {
+            if (puzzleViews[i].IsSelected)
+            {
+                count++;
+                //print("View got selected");
+                if (count == 1)
+                {
+                    images.Add(puzzleViews[i].RawIcon.texture);
+                    index = i;
+                }
+                if (count == 2)
+                {
+                    images.Add(puzzleViews[i].RawIcon.texture);
+                    puzzleViews[index].RawIcon.texture = images[1];
+                    puzzleViews[i].RawIcon.texture = images[0];
+                    print("two views selected. Swap now");
+                    puzzleViews[i].changeColor(Color.white);
+                    puzzleViews[index].changeColor(Color.white);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    private void EnableSwap()
+    {
+        for (int i = 0; i < numberOfWindows; i++)
+        {
+            views[viewOrder[i]].Swap = true;
+        }
     }
 
     IEnumerator CountWindowsOn()
@@ -334,7 +405,8 @@ public class TaskManagement : MonoBehaviour
                 StartCoroutine(Task2());
                 break;
             case Experiments.Experiment.Exp3:
-                DisableDrag();
+                //DisableDrag();
+                EnableSwap();
                 print("Exp3 selected");
                 puzzleLayout.gameObject.SetActive(true);
                 // StartCoroutine() or method to copy and randomize puzzle layout

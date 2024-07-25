@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using static Unity.VisualScripting.Metadata;
 
-public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
+public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerClickHandler
 {
     private Toggle toggle;
     private string icon;
@@ -15,9 +15,12 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     private Color selectedColor;
     private Color normalColor;
 
+    private GameObject on;
+
     private Boolean isOn;
     private Boolean isInteractable;
     private bool swap = false;
+    private bool isSelected = false;
 
     public Boolean disabledAtStartup = true;
 
@@ -26,15 +29,6 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     {
         get { return wrongClickCounter; }
         set { wrongClickCounter = value; }
-    }
-    private void Awake()
-    {
-        InitializeView();
-
-        if (disabledAtStartup)
-        {
-            DisableInteraction();
-        }
     }
 
     public Boolean IsOn
@@ -58,6 +52,17 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     public Color SelectedColor { get => selectedColor; set => selectedColor = value; }
     public Color NormalColor { get => normalColor; set => normalColor = value; }
     public bool Swap { get => swap; set => swap = value; }
+    public bool IsSelected { get => isSelected; set => isSelected = value; }
+
+    private void Awake()
+    {
+        InitializeView();
+
+        if (disabledAtStartup)
+        {
+            DisableInteraction();
+        }
+    }
 
     private void InitializeView()
     {
@@ -76,6 +81,7 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
             //print(child.gameObject);
             if (child.gameObject.name == "On")
             {
+                on = child.gameObject;
                 rawIcon = child.GetComponentInChildren<RawImage>();
                 normalColor = child.GetComponent<Image>().color;
                 //print(rawImage.texture);
@@ -127,9 +133,18 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
         }
     }
 
-    private void changeColor(Color color)
+    public void changeColor(Color color)
     {
+        Transform[] children = GetComponentsInChildren<Transform>(true);
 
+        foreach (Transform child in children)
+        {
+            //print(child.gameObject);
+            if (child.gameObject.name == "On")
+            {
+                child.gameObject.GetComponent<Image>().color = color;
+            }
+        }
     }
 
     public void DisableInteraction()
@@ -141,9 +156,21 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     {
         if (IsOn)
         {
+            IsSelected = true;
             StartCoroutine(WaitUntilOff());
             //print("view clicked. Disable now?");
         }
+    }
+
+    public void OnDeselect(BaseEventData eventData)
+    {
+        if (Swap)
+        {
+            changeColor(selectedColor);
+            TurnOn(true, true);
+            Swap = false;
+        }
+        print("Got deselected?");
     }
 
     IEnumerator WaitUntilOff()
@@ -157,6 +184,8 @@ public class View : MonoBehaviour, ISelectHandler, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         if (!toggle.interactable)
+        {
             wrongClickCounter++;
+        }
     }
 }

@@ -15,6 +15,8 @@ public class PuzzleLayout : MonoBehaviour
     public List<View> Views { get => views; set => views = value; }
     public List<int> ModelOrder { get => modelOrder; set => modelOrder = value; }
     public List<Texture> TexlistOns { get => texlistOns; set => texlistOns = value; }
+    public List<Texture2D> ModelTextures { get => modelTextures; set => modelTextures = value; }
+    public List<int> ModelIcons { get => modelIcons; set => modelIcons = value; }
 
     private void Awake()
     {
