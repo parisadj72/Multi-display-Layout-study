@@ -24,6 +24,8 @@ public class TaskManagement : MonoBehaviour
     public int task1Selections = 5;
     public int selections = 5;
 
+    private int selectedViewsCounter = 0;
+
 
     private Boolean taskDone;
 
@@ -42,6 +44,7 @@ public class TaskManagement : MonoBehaviour
     public List<Texture2D> Textures { get => textures; set => textures = value; }
     public List<int> RandomIcons { get => randomIcons; set => randomIcons = value; }
     public int NumberOfWindows { get => numberOfWindows; set => numberOfWindows = value; }
+    public int SelectedViewsCounter { get => selectedViewsCounter; set => selectedViewsCounter = value; }
 
     private void Awake()
     {
@@ -251,7 +254,7 @@ public class TaskManagement : MonoBehaviour
             }
         }
 
-        yield return new WaitUntil(() => TwoViewsSelected());
+        //yield return new WaitUntil(() => TwoViewsSelected());
 
         yield return new WaitUntil(() => CpompareIcons(puzzleLayout));
 
@@ -262,44 +265,41 @@ public class TaskManagement : MonoBehaviour
     {
         for (int i = 0; i < puzzleViews.Count; i++)
         {
-            if (puzzleViews[i].IsOn  && (puzzleViews[i].RawIcon.texture.name.Equals(puzzleLayout.ModelTextures[puzzleLayout.ModelIcons[i]].name)))
+            if (!puzzleViews[i].IsOn || (puzzleViews[i].RawIcon.texture.name.Equals(puzzleLayout.TexlistOns[i].name)))
             {
-                return true;
+                continue;
             }
             else return false;
         }
-        return false;
+        return true;
     }
-    private bool TwoViewsSelected()
+    private void SwapTwoViewsSelected()
     {
-        List<Texture> images = new List<Texture>();
-        int count = 0;
-        int index = 0;
-        for (int i = 0; i < puzzleViews.Count; i++)
+        if (selectedViewsCounter == 2)
         {
-            if (puzzleViews[i].IsSelected)
+            List<Texture> images = new List<Texture>();
+            List<int> index = new List<int>();
+
+            for (int i = 0; i < puzzleViews.Count; i++)
             {
-                count++;
-                //print("View got selected");
-                if (count == 1)
+                if (puzzleViews[i].IsSelected)
                 {
                     images.Add(puzzleViews[i].RawIcon.texture);
-                    index = i;
-                }
-                if (count == 2)
-                {
-                    images.Add(puzzleViews[i].RawIcon.texture);
-                    puzzleViews[index].RawIcon.texture = images[1];
-                    puzzleViews[i].RawIcon.texture = images[0];
-                    print("two views selected. Swap now");
-                    puzzleViews[i].changeColor(Color.white);
-                    puzzleViews[index].changeColor(Color.white);
-                    return true;
+                    index.Add(i);
+                    puzzleViews[i].IsSelected = false;
                 }
             }
+            // now swap..
+            puzzleViews[index[0]].RawIcon.texture = images[1];
+            puzzleViews[index[1]].RawIcon.texture = images[0];
+            puzzleViews[index[0]].changeColor(Color.white);
+            puzzleViews[index[1]].changeColor(Color.white);
+
+
+            selectedViewsCounter = 0;
         }
-        return false;
     }
+
     private void EnableSwap()
     {
         for (int i = 0; i < numberOfWindows; i++)
@@ -432,5 +432,9 @@ public class TaskManagement : MonoBehaviour
         {
             print(view);
         }
+    }
+    private void Update()
+    {
+        SwapTwoViewsSelected();
     }
 }

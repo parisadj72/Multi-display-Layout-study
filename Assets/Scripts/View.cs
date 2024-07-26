@@ -9,6 +9,7 @@ using static Unity.VisualScripting.Metadata;
 
 public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerClickHandler
 {
+    private TaskManagement parent;
     private Toggle toggle;
     private string icon;
     private RawImage rawIcon;
@@ -66,6 +67,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     private void InitializeView()
     {
+        parent = GetComponentInParent<TaskManagement>();
         toggle = GetComponent<Toggle>();
         selectedColor = toggle.colors.pressedColor;
 
@@ -159,6 +161,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
             IsSelected = true;
             StartCoroutine(WaitUntilOff());
             //print("view clicked. Disable now?");
+            parent.SelectedViewsCounter++;
         }
     }
 
@@ -166,9 +169,8 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     {
         if (Swap)
         {
-            changeColor(selectedColor);
             TurnOn(true, true);
-            Swap = false;
+            changeColor(selectedColor);
         }
         print("Got deselected?");
     }
