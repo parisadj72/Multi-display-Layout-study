@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Windows;
 using UnityEngine.XR.Interaction.Toolkit;
 using static Unity.VisualScripting.Metadata;
 
@@ -156,7 +157,12 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     public void OnSelect(BaseEventData eventData)
     {
-        if (IsOn)
+        if (Swap && isSelected)
+        {
+            DisableInteraction();
+        }
+
+        if (IsOn && !IsSelected)
         {
             IsSelected = true;
             StartCoroutine(WaitUntilOff());
@@ -170,7 +176,8 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         if (Swap)
         {
             TurnOn(true, true);
-            changeColor(selectedColor);
+            if (parent.SelectedViewsCounter == 1)
+                changeColor(selectedColor);
         }
         print("Got deselected?");
     }

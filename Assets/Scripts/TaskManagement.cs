@@ -243,8 +243,6 @@ public class TaskManagement : MonoBehaviour
             puzzleViews[i].TurnOn(true, true);
         }
 
-        yield return new WaitForSeconds(1);
-
         for (int i = 0; i < views.Count; i++)
         {
             if (!views[i].IsOn)
@@ -271,6 +269,12 @@ public class TaskManagement : MonoBehaviour
             }
             else return false;
         }
+        
+        for(int i = 0; i < puzzleViews.Count; i++)
+        {
+            puzzleViews[i].DisableInteraction();
+        }
+
         return true;
     }
     private void SwapTwoViewsSelected()
@@ -292,8 +296,8 @@ public class TaskManagement : MonoBehaviour
             // now swap..
             puzzleViews[index[0]].RawIcon.texture = images[1];
             puzzleViews[index[1]].RawIcon.texture = images[0];
-            puzzleViews[index[0]].changeColor(Color.white);
-            puzzleViews[index[1]].changeColor(Color.white);
+            puzzleViews[index[1]].changeColor(puzzleViews[index[1]].NormalColor);
+            puzzleViews[index[0]].changeColor(puzzleViews[index[0]].NormalColor);
 
 
             selectedViewsCounter = 0;

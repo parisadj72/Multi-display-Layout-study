@@ -61,20 +61,22 @@ public class Experiments : MonoBehaviour
 
 
             //print(currentLayout.name);
-            Destroy(currentLayout.gameObject, 5);
-
             if (experiment == Experiment.Exp3)
             {
+                Destroy(currentLayout.gameObject);
                 GameObject[] remainingViews = GameObject.FindGameObjectsWithTag("View");
 
                 foreach (GameObject go in remainingViews)
                 {
-                    Destroy(go, 5);
+                    Destroy(go);
                 }
+                yield return new WaitForSeconds(1);
+
+            } else {
+                Destroy(currentLayout.gameObject, 5);
+                yield return new WaitForSeconds(5);
+
             }
-
-
-            yield return new WaitForSeconds(5);
             //StartCoroutine(TakeBreak(5));
         }
     }
