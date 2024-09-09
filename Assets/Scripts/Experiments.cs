@@ -15,7 +15,7 @@ public class Experiments : MonoBehaviour
 
     private float timer;
     float sumOfNumberOfWorngSelections;
-    private string timerFilePath;
+    public string timerFilePath;
 
     public enum Experiment { Exp1, Exp2, Exp3 };
     public Experiment experiment;

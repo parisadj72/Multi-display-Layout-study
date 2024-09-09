@@ -26,7 +26,12 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     public Boolean disabledAtStartup = true;
 
+    public bool flagViewLookedAt = false;
+    public bool flagViewSelected = false;
+
     private float wrongClickCounter = 0;
+    private float localSelectedTimer = 0.0f;
+    public float selectedTimer = 0.0f;
     public float WrongClickCounter
     {
         get { return wrongClickCounter; }
@@ -101,6 +106,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         IsOn = isOn;
         toggle.interactable = enableInteraction;
         toggle.isOn = isOn;
+        flagViewSelected = false;
         //print("Interaction enabled: " + toggle.interactable);
     }
 
@@ -157,6 +163,11 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     public void OnSelect(BaseEventData eventData)
     {
+        flagViewSelected = true;
+        selectedTimer = localSelectedTimer;
+        localSelectedTimer = 0;
+        print("View selected: " + flagViewSelected);
+
         if (Swap && isSelected)
         {
             DisableInteraction();
@@ -196,5 +207,9 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         {
             wrongClickCounter++;
         }
+    }
+    private void Update()
+    {
+        localSelectedTimer += Time.deltaTime;
     }
 }

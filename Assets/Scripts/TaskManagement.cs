@@ -145,6 +145,8 @@ public class TaskManagement : MonoBehaviour
             //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
+
+            views[windowNumberOn].flagViewLookedAt = false;
         }
         TaskDone = true;
     }
@@ -357,7 +359,7 @@ public class TaskManagement : MonoBehaviour
         foreach (View view in views)
         {
             view.GetComponent<XRGrabInteractable>().enabled = false;
-            view.GetComponent<BoxCollider>().enabled = false;
+            //view.GetComponent<BoxCollider>().enabled = false;
         }
 
         foreach (LayoutSocket socket in sockets)
@@ -439,6 +441,7 @@ public class TaskManagement : MonoBehaviour
     }
     private void Update()
     {
-        SwapTwoViewsSelected();
+        if(parent.experiment == Experiments.Experiment.Exp3)
+            SwapTwoViewsSelected();
     }
 }
