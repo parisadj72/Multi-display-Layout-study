@@ -1,6 +1,0 @@
-OUTPUT OF EACH RUN (Exp2): 
- 
-(time per 2 Selections): 7.711899
- 
-(Errors / Wrong Selections per 2 Selections): 0
- 
