@@ -13,6 +13,10 @@ TagManager:
   - Model
   - LeftRay
   - RightRay
+  - Pickable
+  - Cube
+  - Fracture
+  - PromptText
   layers:
   - Default
   - TransparentFX

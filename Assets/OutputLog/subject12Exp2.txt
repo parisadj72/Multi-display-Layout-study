@@ -1,0 +1,18 @@
+OUTPUT OF EACH RUN (Exp2): 
+ 
+(time per 5 Selections): 7.733872
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+(time per 2 Selections): 6.815002
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+(time per 5 Selections): 9.333239
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+(time per 2 Selections): 6.603029
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 

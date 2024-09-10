@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.UI;
+using TMPro;
 
 public class TaskManagement : MonoBehaviour
 {
@@ -153,6 +154,9 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator RandomWindowsOn()
     {
+        TMP_Text userPrompt = GameObject.FindObjectOfType<TMP_Text>(true);
+        userPrompt.text = "";
+
         GameObject left = GameObject.FindGameObjectWithTag("LeftRay");
         GameObject right = GameObject.FindGameObjectWithTag("RightRay");
 
@@ -181,6 +185,9 @@ public class TaskManagement : MonoBehaviour
 
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].DisableInteraction();
+
+        // show a hint to user that all views has been selected
+        userPrompt.text = "Well Done!";
 
         TaskDone = true;
 
