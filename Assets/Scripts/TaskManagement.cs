@@ -137,6 +137,9 @@ public class TaskManagement : MonoBehaviour
     // It is meant to turn on one view at a time
     IEnumerator RandomWindowOn()
     {
+        GameObject userPrompt = GameObject.FindGameObjectWithTag("PromptText");
+        userPrompt.GetComponent<TextMeshPro>().text = "";
+
         for (int i = task1Selections; i > 0; i--)
         {
             windowNumberOn = UnityEngine.Random.Range(0, numberOfWindows);
@@ -149,13 +152,17 @@ public class TaskManagement : MonoBehaviour
 
             views[windowNumberOn].flagViewLookedAt = false;
         }
+
+        // show a hint to user that all views has been selected
+        userPrompt.GetComponent<TextMeshPro>().text = "Well Done!";
+
         TaskDone = true;
     }
 
     IEnumerator RandomWindowsOn()
     {
-        TMP_Text userPrompt = GameObject.FindObjectOfType<TMP_Text>(true);
-        userPrompt.text = "";
+        GameObject userPrompt = GameObject.FindGameObjectWithTag("PromptText");
+        userPrompt.GetComponent<TextMeshPro>().text = "";
 
         GameObject left = GameObject.FindGameObjectWithTag("LeftRay");
         GameObject right = GameObject.FindGameObjectWithTag("RightRay");
@@ -187,7 +194,7 @@ public class TaskManagement : MonoBehaviour
             views[viewOrder[i]].DisableInteraction();
 
         // show a hint to user that all views has been selected
-        userPrompt.text = "Well Done!";
+        userPrompt.GetComponent<TextMeshPro>().text = "Well Done!";
 
         TaskDone = true;
 
@@ -418,7 +425,7 @@ public class TaskManagement : MonoBehaviour
                 StartCoroutine(Task2());
                 break;
             case Experiments.Experiment.Exp3:
-                //DisableDrag();
+                DisableDrag();
                 EnableSwap();
                 print("Exp3 selected");
                 puzzleLayout.gameObject.SetActive(true);
