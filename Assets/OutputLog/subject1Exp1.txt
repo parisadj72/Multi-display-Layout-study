@@ -1,0 +1,614 @@
+OUTPUT OF EACH RUN (Exp1): 
+ 
+
+ View looked at in 0.5345594 seconds 
+Time per selection = 1.158503
+ 
+
+ View looked at in 0.6239435 seconds 
+
+ View looked at in 0.2209666 seconds 
+Time per selection = 0.533612
+ 
+
+ View looked at in 0.3126454 seconds 
+
+ View looked at in 0 seconds 
+Time per selection = 0.6338019
+ 
+
+ View looked at in 0.4925308 seconds 
+
+ View looked at in 0 seconds 
+(time per 2 Selections): 4.075747
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 3.158223
+ 
+
+ View looked at in 0.4157662 seconds 
+Time per selection = 1.036144
+ 
+
+ View looked at in 0.6203781 seconds 
+Time per selection = 0.5135868
+ 
+
+ View looked at in 0.4072788 seconds 
+Time per selection = 0.6541556
+ 
+
+ View looked at in 0.1134152 seconds 
+Time per selection = 0.6644916
+ 
+(time per 3 Selections): 6.676206
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.5050767 seconds 
+Time per selection = 0.9257857
+ 
+Time per selection = 0.6337838
+ 
+
+ View looked at in 0.3236722 seconds 
+Time per selection = 0.4984246
+ 
+
+ View looked at in 0.1747524 seconds 
+Time per selection = 0.6629345
+ 
+
+ View looked at in 0.544924 seconds 
+(time per 2 Selections): 3.759067
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+Time per selection = 3.163851
+ 
+
+ View looked at in 3.271745 seconds 
+Time per selection = 0.5433492
+ 
+Time per selection = 0.8811035
+ 
+Time per selection = 0.4888043
+ 
+
+ View looked at in 0.503401 seconds 
+Time per selection = 1.242443
+ 
+
+ View looked at in 0.7390417 seconds 
+(time per 5 Selections): 8.186283
+ 
+(Errors / Wrong Selections per 5 Selections): 1
+ 
+Time per selection = 1.096133
+ 
+
+ View looked at in 0.2274414 seconds 
+Time per selection = 0.486765
+ 
+Time per selection = 0.5668129
+ 
+
+ View looked at in 0.4399225 seconds 
+Time per selection = 0.5292261
+ 
+
+ View looked at in 0.218161 seconds 
+
+ View looked at in 0.4549473 seconds 
+Time per selection = 0.6253973
+ 
+
+ View looked at in 0.1704499 seconds 
+(time per 5 Selections): 4.326335
+ 
+(Errors / Wrong Selections per 5 Selections): 1
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.7169292
+ 
+
+ View looked at in 0.7169292 seconds 
+Time per selection = 0.5789619
+ 
+
+ View looked at in 0.3111428 seconds 
+Time per selection = 0.6071296
+ 
+
+ View looked at in 0.2959868 seconds 
+Time per selection = 0.4935545
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 1.14005
+ 
+
+ View looked at in 0.9967791 seconds 
+(time per 3 Selections): 4.205253
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+Time per selection = 0.7015921
+ 
+Time per selection = 0.5201902
+ 
+
+ View looked at in 0.3492972 seconds 
+Time per selection = 0.5394843
+ 
+
+ View looked at in 0.1901871 seconds 
+Time per selection = 0.6248946
+ 
+Time per selection = 0.6964996
+ 
+(time per 3 Selections): 3.712701
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.5532114 seconds 
+Time per selection = 1.279241
+ 
+
+ View looked at in 0.7096317 seconds 
+Time per selection = 1.438506
+ 
+
+ View looked at in 0.7288742 seconds 
+Time per selection = 0.6446126
+ 
+Time per selection = 0.4735086
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.7347836
+ 
+(time per 5 Selections): 5.959566
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.5893223 seconds 
+Time per selection = 0.6133998
+ 
+
+ View looked at in 0.0240775 seconds 
+
+ View looked at in 0 seconds 
+Time per selection = 0.5893741
+ 
+
+ View looked at in 0.5893741 seconds 
+
+ View looked at in 0 seconds 
+Time per selection = 0.6039355
+ 
+
+ View looked at in 1.202784 seconds 
+Time per selection = 1.693578
+ 
+
+ View looked at in 0.4907936 seconds 
+Time per selection = 0.6426379
+ 
+(time per 2 Selections): 4.746217
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0.3115491 seconds 
+Time per selection = 0.9681034
+ 
+
+ View looked at in 0.6565543 seconds 
+
+ View looked at in 0.4122305 seconds 
+Time per selection = 0.9748257
+ 
+
+ View looked at in 0.562595 seconds 
+
+ View looked at in 0.2658917 seconds 
+Time per selection = 0.7377406
+ 
+
+ View looked at in 0.4718488 seconds 
+
+ View looked at in 0.4340066 seconds 
+Time per selection = 0.7846044
+ 
+
+ View looked at in 0.2607178 seconds 
+Time per selection = 0.570488
+ 
+
+ View looked at in 0.1996189 seconds 
+(time per 2 Selections): 4.565675
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 2.323304
+ 
+Time per selection = 0.5356187
+ 
+
+ View looked at in 0.2512537 seconds 
+Time per selection = 0.6328967
+ 
+
+ View looked at in 0.2322546 seconds 
+Time per selection = 0.5523884
+ 
+(time per 2 Selections): 5.111091
+ 
+(Errors / Wrong Selections per 2 Selections): 1
+ 
+Time per selection = 0.9137841
+ 
+Time per selection = 0.8357089
+ 
+
+ View looked at in 0.2574232 seconds 
+Time per selection = 0.5521709
+ 
+
+ View looked at in 0.2947477 seconds 
+Time per selection = 0.5762308
+ 
+Time per selection = 0.5221884
+ 
+(time per 5 Selections): 4.424476
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.2812919 seconds 
+Time per selection = 0.5228384
+ 
+
+ View looked at in 0.2415465 seconds 
+
+ View looked at in 0.2660606 seconds 
+Time per selection = 0.481272
+ 
+
+ View looked at in 0.2152114 seconds 
+Time per selection = 0.5148751
+ 
+Time per selection = 0.6311844
+ 
+Time per selection = 0.647201
+ 
+(time per 5 Selections): 3.563305
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+Time per selection = 0.55933
+ 
+
+ View looked at in 0.2785748 seconds 
+Time per selection = 0.5381357
+ 
+
+ View looked at in 0.2595608 seconds 
+Time per selection = 0.4826705
+ 
+
+ View looked at in 0.275167 seconds 
+Time per selection = 0.6711155
+ 
+
+ View looked at in 0.1747846 seconds 
+
+ View looked at in 0 seconds 
+(time per 2 Selections): 3.193243
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0.3817862 seconds 
+Time per selection = 0.6025789
+ 
+
+ View looked at in 0.2207928 seconds 
+Time per selection = 0.601733
+ 
+
+ View looked at in 0.3190833 seconds 
+Time per selection = 0.6146501
+ 
+
+ View looked at in 0.1349375 seconds 
+Time per selection = 0.5444669
+ 
+
+ View looked at in 0.5145605 seconds 
+
+ View looked at in 0 seconds 
+(time per 2 Selections): 3.393679
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+Time per selection = 0.6466451
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.4673944
+ 
+
+ View looked at in 0.4673944 seconds 
+Time per selection = 0.5131983
+ 
+Time per selection = 0.777338
+ 
+Time per selection = 0.7019412
+ 
+(time per 3 Selections): 3.782759
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.3735678 seconds 
+Time per selection = 0.7249292
+ 
+
+ View looked at in 0.3513614 seconds 
+Time per selection = 0.4948784
+ 
+Time per selection = 0.5596277
+ 
+Time per selection = 0.6345945
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.5732403
+ 
+
+ View looked at in 0.5732403 seconds 
+(time per 3 Selections): 3.793754
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.6072341
+ 
+
+ View looked at in 0.6072341 seconds 
+
+ View looked at in 0.3873355 seconds 
+Time per selection = 0.5163929
+ 
+
+ View looked at in 0.1290575 seconds 
+Time per selection = 0.5159749
+ 
+
+ View looked at in 0.2706849 seconds 
+Time per selection = 0.479717
+ 
+
+ View looked at in 0.2090321 seconds 
+Time per selection = 0.4964585
+ 
+(time per 3 Selections): 3.576602
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+Time per selection = 0.817197
+ 
+Time per selection = 0.8166714
+ 
+Time per selection = 0.6040372
+ 
+
+ View looked at in 0.3110515 seconds 
+Time per selection = 1.128806
+ 
+
+ View looked at in 0.3101638 seconds 
+Time per selection = 0.4380237
+ 
+
+ View looked at in 0.1278599 seconds 
+(time per 5 Selections): 4.703551
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.417 seconds 
+Time per selection = 1.166112
+ 
+Time per selection = 1.054767
+ 
+
+ View looked at in 0.6231048 seconds 
+Time per selection = 0.9370527
+ 
+Time per selection = 0.7760565
+ 
+Time per selection = 0.5173578
+ 
+(time per 5 Selections): 5.864135
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.4831555 seconds 
+Time per selection = 0.5908254
+ 
+
+ View looked at in 0.10767 seconds 
+Time per selection = 0.6837808
+ 
+Time per selection = 0.6362542
+ 
+Time per selection = 0.7478803
+ 
+(time per 2 Selections): 3.813493
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+Time per selection = 0.8147532
+ 
+Time per selection = 0.5083048
+ 
+
+ View looked at in 0.4751037 seconds 
+Time per selection = 0.7487471
+ 
+
+ View looked at in 0.2736433 seconds 
+
+ View looked at in 0.7415919 seconds 
+Time per selection = 1.146401
+ 
+
+ View looked at in 0.4048091 seconds 
+
+ View looked at in 0.3239012 seconds 
+Time per selection = 0.5682025
+ 
+
+ View looked at in 0.2443013 seconds 
+(time per 5 Selections): 4.781955
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+Time per selection = 0.8623996
+ 
+
+ View looked at in 0.2415298 seconds 
+Time per selection = 0.6070773
+ 
+
+ View looked at in 0.3655475 seconds 
+Time per selection = 0.6239117
+ 
+Time per selection = 1.125011
+ 
+
+ View looked at in 1.462082 seconds 
+Time per selection = 1.690485
+ 
+
+ View looked at in 0.0458845 seconds 
+(time per 5 Selections): 5.678189
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.3621166 seconds 
+Time per selection = 0.6507273
+ 
+
+ View looked at in 0.2886107 seconds 
+
+ View looked at in 0 seconds 
+Time per selection = 0.51838
+ 
+
+ View looked at in 0.339886 seconds 
+
+ View looked at in 0.2192378 seconds 
+Time per selection = 0.4926744
+ 
+
+ View looked at in 0.2734366 seconds 
+Time per selection = 0.5174721
+ 
+Time per selection = 0.5156834
+ 
+(time per 2 Selections): 3.294601
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0.2826907 seconds 
+Time per selection = 1.079037
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.4818217
+ 
+
+ View looked at in 0.6214404 seconds 
+Time per selection = 0.5413141
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.6574994
+ 
+
+ View looked at in 0.4983998 seconds 
+
+ View looked at in 0 seconds 
+(time per 3 Selections): 3.670395
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.7161643 seconds 
+Time per selection = 0.7623897
+ 
+
+ View looked at in 0.0462254 seconds 
+
+ View looked at in 0 seconds 
+Time per selection = 0.5314233
+ 
+
+ View looked at in 0.3093164 seconds 
+Time per selection = 0.962654
+ 
+
+ View looked at in 0.6995356 seconds 
+Time per selection = 0.4575097
+ 
+
+ View looked at in 0.2698509 seconds 
+Time per selection = 0.4782755
+ 
+(time per 3 Selections): 3.895744
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.3193525 seconds 
+Time per selection = 0.9305694
+ 
+
+ View looked at in 0.6112168 seconds 
+Time per selection = 0.485203
+ 
+
+ View looked at in 0.5668893 seconds 
+
+ View looked at in 0.3676068 seconds 
+Time per selection = 0.4778484
+ 
+
+ View looked at in 0.1102416 seconds 
+Time per selection = 0.4540022
+ 
+
+ View looked at in 0 seconds 
+Time per selection = 0.6114359
+ 
+(time per 3 Selections): 3.688348
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 

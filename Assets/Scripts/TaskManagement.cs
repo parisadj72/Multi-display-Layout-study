@@ -150,6 +150,8 @@ public class TaskManagement : MonoBehaviour
 
             yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
 
+            views[windowNumberOn].lookedAtTimer = 0.0f;
+
             views[windowNumberOn].flagViewLookedAt = false;
         }
 

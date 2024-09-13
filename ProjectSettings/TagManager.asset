@@ -17,6 +17,7 @@ TagManager:
   - Cube
   - Fracture
   - PromptText
+  - experiment
   layers:
   - Default
   - TransparentFX

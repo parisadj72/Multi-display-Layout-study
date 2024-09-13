@@ -91,8 +91,6 @@ public class StudyEyeTracking : MonoBehaviour
     int gazeDataCount = 0;
     float gazeTimer = 0f;
 
-    private float lookedAtTimer = 0.0f;
-
     public Experiments exp;
 
     void GetDevice()
@@ -134,8 +132,6 @@ public class StudyEyeTracking : MonoBehaviour
 
     void Update()
     {
-        lookedAtTimer += Time.deltaTime;
-
         if (logging && printFramerate)
         {
             gazeTimer += Time.deltaTime;
@@ -282,20 +278,20 @@ public class StudyEyeTracking : MonoBehaviour
                 if (!view.flagViewLookedAt)
                 {
                     view.flagViewLookedAt = true;
-                    File.AppendAllText(exp.timerFilePath, "\n View looked at in " + lookedAtTimer + " seconds \n");
-                    lookedAtTimer = 0;
+                    File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.lookedAtTimer + " seconds \n");
+                    view.lookedAtTimer = 0.0f;
                 }
-                if (view.flagViewSelected)
+                /*if (view.flagViewSelected)
                 {
                     File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.selectedTimer + " seconds \n");
-                }
+                }*/
             }
 
             // Alternative way to check if you hit object with tag
-            if (hit.transform.CompareTag("FreeRotating"))
+            /*if (hit.transform.CompareTag("FreeRotating"))
             {
                 AddForceAtHitPosition();
-            }
+            }*/
         }
         else
         {

@@ -1003,6 +1003,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1678117926605014621, guid: 5a76f2e62f3099642a7d4187ba6da613,
+        type: 3}
+      propertyPath: m_TagString
+      value: experiment
+      objectReference: {fileID: 0}
     - target: {fileID: 2712694551463122878, guid: 5a76f2e62f3099642a7d4187ba6da613,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1056,7 +1061,7 @@ PrefabInstance:
     - target: {fileID: 3310802541938593171, guid: 5a76f2e62f3099642a7d4187ba6da613,
         type: 3}
       propertyPath: experiment
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3310802541938593171, guid: 5a76f2e62f3099642a7d4187ba6da613,
         type: 3}
@@ -2396,6 +2401,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 3687228294677938342, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
+        type: 3}
+      propertyPath: exp
+      value: 
+      objectReference: {fileID: 1910130806}
     - target: {fileID: 4619695164928011444, guid: c1b7c159825fb1f4a8ac0f5dc499b73e,
         type: 3}
       propertyPath: user_prompt

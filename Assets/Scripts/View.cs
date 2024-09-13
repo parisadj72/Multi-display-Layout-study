@@ -27,11 +27,12 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     public Boolean disabledAtStartup = true;
 
     public bool flagViewLookedAt = false;
-    public bool flagViewSelected = false;
+    public float lookedAtTimer = 0.0f;
+    //public bool flagViewSelected = false;
+
 
     private float wrongClickCounter = 0;
     private float localSelectedTimer = 0.0f;
-    public float selectedTimer = 0.0f;
     public float WrongClickCounter
     {
         get { return wrongClickCounter; }
@@ -106,7 +107,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         IsOn = isOn;
         toggle.interactable = enableInteraction;
         toggle.isOn = isOn;
-        flagViewSelected = false;
+        //flagViewSelected = false;
         //print("Interaction enabled: " + toggle.interactable);
     }
 
@@ -163,10 +164,12 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     public void OnSelect(BaseEventData eventData)
     {
-        flagViewSelected = true;
-        selectedTimer = localSelectedTimer;
+        //flagViewSelected = true;
+        flagViewLookedAt = false;
+
+        System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
         localSelectedTimer = 0;
-        print("View selected: " + flagViewSelected);
+        //print("View selected: " + flagViewSelected);
 
         if (Swap && isSelected)
         {
@@ -210,6 +213,10 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     }
     private void Update()
     {
-        localSelectedTimer += Time.deltaTime;
+        if (IsOn)
+        {
+            lookedAtTimer += Time.deltaTime;
+            localSelectedTimer += Time.deltaTime;
+        }
     }
 }
