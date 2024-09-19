@@ -8,10 +8,10 @@ using TMPro;
 
 public class PracticeTaskManagement : MonoBehaviour
 {
-    private List<View> views = new List<View>();
+    private List<PracticeView> views = new List<PracticeView>();
     private List<LayoutSocket> sockets = new List<LayoutSocket>();
-    private PuzzleLayout puzzleLayout;
-    private List<View> puzzleViews = new List<View>();
+    private PracticePuzzleLayout puzzleLayout;
+    private List<PracticeView> puzzleViews = new List<PracticeView>();
     private PracticeExperiments parent;
 
     private List<Texture2D> textures = new List<Texture2D>();
@@ -33,7 +33,7 @@ public class PracticeTaskManagement : MonoBehaviour
         set { taskDone = value; }
     }
 
-    public List<View> Views
+    public List<PracticeView> Views
     {
         get { return views; }
         set { views = value; }
@@ -62,13 +62,13 @@ public class PracticeTaskManagement : MonoBehaviour
     private void InitializeLayout()
     {
         parent = GetComponentInParent<PracticeExperiments>();
-        puzzleLayout = GetComponentInChildren<PuzzleLayout>(true);
+        puzzleLayout = GetComponentInChildren<PracticePuzzleLayout>(true);
 
         Transform[] childTransforms = GetComponentsInChildren<Transform>();
 
         foreach (Transform childTransform in childTransforms)
         {
-            View view = childTransform.GetComponent<View>();
+            PracticeView view = childTransform.GetComponent<PracticeView>();
             LayoutSocket socket = childTransform.GetComponent<LayoutSocket>();
 
             if (view != null && view.gameObject.tag.Equals("View"))
@@ -131,10 +131,6 @@ public class PracticeTaskManagement : MonoBehaviour
             //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
-
-            views[windowNumberOn].lookedAtTimer = 0.0f;
-
-            views[windowNumberOn].flagViewLookedAt = false;
         }
 
         // show a hint to user that all views has been selected
@@ -185,7 +181,7 @@ public class PracticeTaskManagement : MonoBehaviour
         yield return new WaitForSeconds(1);
     }
 
-    private bool checkAllOnDisableOns(List<View> views, List<int> viewOrder)
+    private bool checkAllOnDisableOns(List<PracticeView> views, List<int> viewOrder)
     {
         for (int i = 0; i < selections; i++)
             if (views[viewOrder[i]].IsOn)
@@ -226,7 +222,7 @@ public class PracticeTaskManagement : MonoBehaviour
         TaskDone = true;
     }
 
-    private bool CpompareIcons(PuzzleLayout puzzleLayout)
+    private bool CpompareIcons(PracticePuzzleLayout puzzleLayout)
     {
         for (int i = 0; i < puzzleViews.Count; i++)
         {
@@ -307,7 +303,7 @@ public class PracticeTaskManagement : MonoBehaviour
 
     public void DisableDrag()
     {
-        foreach (View view in views)
+        foreach (PracticeView view in views)
         {
             view.GetComponent<XRGrabInteractable>().enabled = false;
             //view.GetComponent<BoxCollider>().enabled = false;
@@ -319,7 +315,7 @@ public class PracticeTaskManagement : MonoBehaviour
         }
     }
 
-    public void DisableDrag(View view, LayoutSocket socket)
+    public void DisableDrag(PracticeView view, LayoutSocket socket)
     {
         view.GetComponent<XRGrabInteractable>().enabled = false;
         view.GetComponent<BoxCollider>().enabled = false;
