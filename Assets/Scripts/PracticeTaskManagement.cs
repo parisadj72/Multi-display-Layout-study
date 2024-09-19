@@ -2,14 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.UI;
+using TMPro;
 
 public class PracticeTaskManagement : MonoBehaviour
 {
     private List<View> views = new List<View>();
     private List<LayoutSocket> sockets = new List<LayoutSocket>();
     private PuzzleLayout puzzleLayout;
+    private List<View> puzzleViews = new List<View>();
     private PracticeExperiments parent;
 
     private List<Texture2D> textures = new List<Texture2D>();
@@ -20,6 +22,8 @@ public class PracticeTaskManagement : MonoBehaviour
     private int numberOfWindows;
     private int windowNumberOn;
     public int selections = 5;
+    public int task1Selections = 5;
+    private int selectedViewsCounter = 0;
 
     private Boolean taskDone;
 
@@ -38,6 +42,7 @@ public class PracticeTaskManagement : MonoBehaviour
     public List<Texture2D> Textures { get => textures; set => textures = value; }
     public List<int> RandomIcons { get => randomIcons; set => randomIcons = value; }
     public int NumberOfWindows { get => numberOfWindows; set => numberOfWindows = value; }
+    public int SelectedViewsCounter { get => selectedViewsCounter; set => selectedViewsCounter = value; }
 
     private void Awake()
     {
@@ -49,7 +54,6 @@ public class PracticeTaskManagement : MonoBehaviour
         InitializeIconList();
         viewOrder = RandomGenerator.randomizeList(numberOfWindows);
         randomIcons = RandomGenerator.randomizeList(numberOfWindows);
-        //print("Icons: " + randomIcons.Count);
         RandomizeIcons();
 
         ExperimentSetup();
@@ -78,6 +82,9 @@ public class PracticeTaskManagement : MonoBehaviour
             }
         }
         numberOfWindows = views.Count;
+
+        selections = (numberOfWindows / 3) + 1;
+
         TaskDone = false;
 
     }
@@ -108,39 +115,55 @@ public class PracticeTaskManagement : MonoBehaviour
         puzzleLayout.CopyFields(textures, randomIcons, viewOrder);
     }
 
+    // This method is for task 1
+    // It is meant to turn on one view at a time
     IEnumerator RandomWindowOn()
     {
-        GameObject.Find("CanvasText/Scroll View/Viewport/Content/Text").GetComponent<Text>().text = "Running....";
+        GameObject userPrompt = GameObject.FindGameObjectWithTag("PromptText");
+        userPrompt.GetComponent<TextMeshPro>().text = "";
 
-        for (int i = selections; i > 0; i--)
+        for (int i = task1Selections; i > 0; i--)
         {
             windowNumberOn = UnityEngine.Random.Range(0, numberOfWindows);
-            //print("Number was: " + turnedOnWindow);
+            //print("Number was: " + windowNumberOn);
 
             views[windowNumberOn].TurnOn(true, true);
             //print("Window on is: " + (turnedOnWindow + 1));
 
             yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
+
+            views[windowNumberOn].lookedAtTimer = 0.0f;
+
+            views[windowNumberOn].flagViewLookedAt = false;
         }
 
-        GameObject.Find("CanvasText/Scroll View/Viewport/Content/Text").GetComponent<Text>().text = "Done.";
+        // show a hint to user that all views has been selected
+        userPrompt.GetComponent<TextMeshPro>().text = "Well Done!";
 
         TaskDone = true;
     }
 
     IEnumerator RandomWindowsOn()
     {
-        GameObject.Find("CanvasText/Scroll View/Viewport/Content/Text").GetComponent<Text>().text = "Running....";
-        GameObject.Find("Canvas/Scroll View/Viewport/Experiment2/Text").GetComponent<Text>().text = "Wait... \n Memorize the views that are on.";
-        
-        selections = (numberOfWindows / 3) + 1;
+        GameObject userPrompt = GameObject.FindGameObjectWithTag("PromptText");
+        userPrompt.GetComponent<TextMeshPro>().text = "";
+
+        GameObject left = GameObject.FindGameObjectWithTag("LeftRay");
+        GameObject right = GameObject.FindGameObjectWithTag("RightRay");
+
+        XRInteractorLineVisual leftRay = left.GetComponent<XRInteractorLineVisual>();
+        XRInteractorLineVisual rightRay = right.GetComponent<XRInteractorLineVisual>();
+
+        leftRay.enabled = false;
+        rightRay.enabled = false;
 
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(true, false);
 
         yield return new WaitForSeconds(5);
 
-        GameObject.Find("Canvas/Scroll View/Viewport/Experiment2/Text").GetComponent<Text>().text = "Ok... \n Now Select the views that were on before, as fast as possible.";
+        leftRay.enabled = true;
+        rightRay.enabled = true;
 
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].TurnOn(false, true);
@@ -154,7 +177,8 @@ public class PracticeTaskManagement : MonoBehaviour
         for (int i = 0; i < selections; i++)
             views[viewOrder[i]].DisableInteraction();
 
-        GameObject.Find("CanvasText/Scroll View/Viewport/Content/Text").GetComponent<Text>().text = "Done.";
+        // show a hint to user that all views has been selected
+        userPrompt.GetComponent<TextMeshPro>().text = "Well Done!";
 
         TaskDone = true;
 
@@ -176,42 +200,84 @@ public class PracticeTaskManagement : MonoBehaviour
         return true;
     }
 
-    IEnumerator KeepRandomOn()
+    IEnumerator PuzzleTaskSwap()
     {
-        GameObject.Find("CanvasText/Scroll View/Viewport/Content/Text").GetComponent<Text>().text = "Running....";
         selections = (numberOfWindows / 3) + 1;
 
         for (int i = 0; i < selections; i++)
-            views[viewOrder[i]].TurnOn(true, false);
-
-        yield return new WaitForSeconds(2);
+        {
+            puzzleViews.Add(views[viewOrder[i]]);
+            puzzleViews[i].TurnOn(true, true);
+        }
 
         for (int i = 0; i < views.Count; i++)
         {
             if (!views[i].IsOn)
             {
                 DisableDrag(views[i], sockets[i]);
+                views[i].GetComponent<TrackedDeviceGraphicRaycaster>().enabled = false;
             }
         }
 
-        yield return new WaitForSeconds(3);
+        //yield return new WaitUntil(() => TwoViewsSelected());
 
-        foreach (LayoutSocket socket in sockets)
-        {
-            print(socket.LastIcon);
-        }
+        yield return new WaitUntil(() => CpompareIcons(puzzleLayout));
 
-        foreach (View v in puzzleLayout.Views)
-        {
-            print(v.RawIcon.texture.name);
-        }
-
-        yield return new WaitUntil(() => CheckIcons(sockets, puzzleLayout));
-
-        GameObject.Find("CanvasText/Scroll View/Viewport/Content/Text").GetComponent<Text>().text = "Done.";
         TaskDone = true;
     }
 
+    private bool CpompareIcons(PuzzleLayout puzzleLayout)
+    {
+        for (int i = 0; i < puzzleViews.Count; i++)
+        {
+            if (!puzzleViews[i].IsOn || (puzzleViews[i].RawIcon.texture.name.Equals(puzzleLayout.TexlistOns[i].name)))
+            {
+                continue;
+            }
+            else return false;
+        }
+
+        for (int i = 0; i < puzzleViews.Count; i++)
+        {
+            puzzleViews[i].DisableInteraction();
+        }
+
+        return true;
+    }
+    private void SwapTwoViewsSelected()
+    {
+        if (selectedViewsCounter == 2)
+        {
+            List<Texture> images = new List<Texture>();
+            List<int> index = new List<int>();
+
+            for (int i = 0; i < puzzleViews.Count; i++)
+            {
+                if (puzzleViews[i].IsSelected)
+                {
+                    images.Add(puzzleViews[i].RawIcon.texture);
+                    index.Add(i);
+                    puzzleViews[i].IsSelected = false;
+                }
+            }
+            // now swap..
+            puzzleViews[index[0]].RawIcon.texture = images[1];
+            puzzleViews[index[1]].RawIcon.texture = images[0];
+            puzzleViews[index[1]].changeColor(puzzleViews[index[1]].NormalColor);
+            puzzleViews[index[0]].changeColor(puzzleViews[index[0]].NormalColor);
+
+
+            selectedViewsCounter = 0;
+        }
+    }
+
+    private void EnableSwap()
+    {
+        for (int i = 0; i < numberOfWindows; i++)
+        {
+            views[viewOrder[i]].Swap = true;
+        }
+    }
 
     IEnumerator Task1()
     {
@@ -232,8 +298,8 @@ public class PracticeTaskManagement : MonoBehaviour
     IEnumerator Task3()
     {
         CopyLayout();
-        StartCoroutine(KeepRandomOn());
-        // Call coroutine here and set task done
+        StartCoroutine(PuzzleTaskSwap());
+
         yield return new WaitUntil(() => TaskDone);
         print("Task3 is finished");
     }
@@ -244,7 +310,7 @@ public class PracticeTaskManagement : MonoBehaviour
         foreach (View view in views)
         {
             view.GetComponent<XRGrabInteractable>().enabled = false;
-            view.GetComponent<BoxCollider>().enabled = false;
+            //view.GetComponent<BoxCollider>().enabled = false;
         }
 
         foreach (LayoutSocket socket in sockets)
@@ -261,20 +327,6 @@ public class PracticeTaskManagement : MonoBehaviour
         socket.gameObject.SetActive(false);
     }
 
-    private bool CheckIcons(List<LayoutSocket> layoutSockets, PuzzleLayout puzzleLayout)
-    {
-        List<View> viewsList = puzzleLayout.Views;
-        for (int i = 0; i < layoutSockets.Count; i++)
-        {
-            if (!views[i].IsOn || (layoutSockets[i].LastIcon.Equals(viewsList[i].RawIcon.texture.name) && layoutSockets[i].GetComponent<XRSocketInteractor>().hasSelection))
-            {
-                continue;
-            }
-            else return false;
-        }
-        return true;
-    }
-
     private void ExperimentSetup()
     {
 
@@ -286,21 +338,21 @@ public class PracticeTaskManagement : MonoBehaviour
         switch (parent.experiment)
         {
             case PracticeExperiments.Experiment.Exp1:
-                CanvasControl(true, false, false);
                 print("Exp1 selected");
                 DisableDrag();
                 StartCoroutine(Task1());
                 break;
             case PracticeExperiments.Experiment.Exp2:
-                CanvasControl(false, true, false);
                 print("Exp2 selected");
                 DisableDrag();
                 StartCoroutine(Task2());
                 break;
             case PracticeExperiments.Experiment.Exp3:
-                CanvasControl(false, false, true);
+                DisableDrag();
+                EnableSwap();
                 print("Exp3 selected");
                 puzzleLayout.gameObject.SetActive(true);
+                // StartCoroutine() or method to copy and randomize puzzle layout
                 StartCoroutine(Task3());
                 break;
 
@@ -309,11 +361,10 @@ public class PracticeTaskManagement : MonoBehaviour
                 break;
         }
     }
-
-    private void CanvasControl(bool Exp1, bool Exp2, bool Exp3)
+    
+    private void Update()
     {
-        GameObject.Find("Canvas/Scroll View/Viewport/Experiment1").SetActive(Exp1);
-        GameObject.Find("Canvas/Scroll View/Viewport/Experiment2").SetActive(Exp2);
-        GameObject.Find("Canvas/Scroll View/Viewport/Experiment3").SetActive(Exp3);
+        if (parent.experiment == PracticeExperiments.Experiment.Exp3)
+            SwapTwoViewsSelected();
     }
 }

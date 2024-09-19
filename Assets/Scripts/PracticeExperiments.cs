@@ -12,12 +12,13 @@ public class PracticeExperiments : MonoBehaviour
 
     private int instantiatedLayout;
 
+    public int numberOfRepeatEachLayout = 1;
     public enum Experiment { Exp1, Exp2, Exp3 };
     public Experiment experiment;
 
     private void Awake()
     {
-        randomLayouts = RandomGenerator.generateUniqueRandoms(layouts.Count, 1);
+        randomLayouts = RandomGenerator.generateUniqueRandoms(layouts.Count, numberOfRepeatEachLayout);
     }
     private void Start()
     {
@@ -30,7 +31,6 @@ public class PracticeExperiments : MonoBehaviour
 
         for (int i = 0; i < randomLayouts.Count; i++)
         {
-
             instantiatedLayout = randomLayouts[i];
 
             Instantiate(layouts[instantiatedLayout], transform);
@@ -39,18 +39,24 @@ public class PracticeExperiments : MonoBehaviour
 
             yield return new WaitUntil(() => currentLayout.TaskDone);
 
-            Destroy(currentLayout.gameObject, 5);
-
             if (experiment == Experiment.Exp3)
             {
+                Destroy(currentLayout.gameObject);
                 GameObject[] remainingViews = GameObject.FindGameObjectsWithTag("View");
 
                 foreach (GameObject go in remainingViews)
                 {
-                    Destroy(go, 5);
+                    Destroy(go);
                 }
+                yield return new WaitForSeconds(1);
+
             }
-            yield return new WaitForSeconds(5);
+            else
+            {
+                Destroy(currentLayout.gameObject, 5);
+                yield return new WaitForSeconds(5);
+
+            }
         }
     }
 }
