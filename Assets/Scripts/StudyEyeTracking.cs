@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using Varjo.XR;
 using System.Threading;
+using TMPro;
 
 public class StudyEyeTracking : MonoBehaviour
 {
@@ -93,6 +94,10 @@ public class StudyEyeTracking : MonoBehaviour
 
     public Experiments exp;
 
+    private View view;
+    private View prevView;
+
+    private string overlookedFilePath;
     void GetDevice()
     {
         InputDevices.GetDevicesAtXRNode(XRNode.CenterEye, devices);
@@ -109,6 +114,8 @@ public class StudyEyeTracking : MonoBehaviour
 
     private void Start()
     {
+        createOverlookedDataFile();
+
         VarjoEyeTracking.SetGazeOutputFrequency(frequency);
         //Hiding the gazetarget if gaze is not available or if the gaze calibration is not done
         if (VarjoEyeTracking.IsGazeAllowed() && VarjoEyeTracking.IsGazeCalibrated())
@@ -271,20 +278,24 @@ public class StudyEyeTracking : MonoBehaviour
             // Prefer layers or tags to identify looked objects in your application
             // This is done here using GetComponent for the sake of clarity as an example
 
-            View view = hit.collider.gameObject.GetComponent<View>();
+            view = hit.collider.gameObject.GetComponent<View>();
+
             if (view.IsOn)
             {
-                print(view.name);
+                File.AppendAllText(overlookedFilePath, "\n View looked at in " + view.lookedAtTimer + " sec!\n");
+                //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
+
                 if (!view.flagViewLookedAt)
                 {
+                    print(view.name);
+                    //write View first time looked at timer into the prompt!
+                    //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
+
                     view.flagViewLookedAt = true;
-                    File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.lookedAtTimer + " seconds \n");
+                    File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.lookedAtTimer + " seconds for the first time!\n");
+                    File.AppendAllText(overlookedFilePath, "\n --------------------- View looked at in " + view.lookedAtTimer + " seconds for the first time! ------------------- \n");
                     view.lookedAtTimer = 0.0f;
                 }
-                /*if (view.flagViewSelected)
-                {
-                    File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.selectedTimer + " seconds \n");
-                }*/
             }
 
             // Alternative way to check if you hit object with tag
@@ -442,5 +453,16 @@ public class StudyEyeTracking : MonoBehaviour
     void OnApplicationQuit()
     {
         StopLogging();
+    }
+
+    private void createOverlookedDataFile()
+    {
+        int subjectID = 1;
+        overlookedFilePath = "Assets/OutputLog/subject" + subjectID + "_overlooked.txt";
+        while (File.Exists(overlookedFilePath))
+        {
+            subjectID++;
+            overlookedFilePath = "Assets/OutputLog/subject" + subjectID + "_overlooked.txt";
+        }
     }
 }

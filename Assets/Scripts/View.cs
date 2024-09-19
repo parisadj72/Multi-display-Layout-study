@@ -1,12 +1,9 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.Windows;
-using UnityEngine.XR.Interaction.Toolkit;
-using static Unity.VisualScripting.Metadata;
+using TMPro;
 
 public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerClickHandler
 {
@@ -33,6 +30,8 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     private float wrongClickCounter = 0;
     private float localSelectedTimer = 0.0f;
+
+
     public float WrongClickCounter
     {
         get { return wrongClickCounter; }
@@ -165,11 +164,15 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     public void OnSelect(BaseEventData eventData)
     {
         //flagViewSelected = true;
-        flagViewLookedAt = false;
+        //flagViewLookedAt = false;
 
-        System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
-        localSelectedTimer = 0;
-        //print("View selected: " + flagViewSelected);
+        if (IsOn) {
+            /*//write time per selection for each view into the prompt
+            parent.UserPrompt.GetComponent<TextMeshPro>().text = "Time per selection = " + localSelectedTimer;*/
+
+            System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
+            localSelectedTimer = 0;
+        }
 
         if (Swap && isSelected)
         {

@@ -47,6 +47,10 @@ public class TaskManagement : MonoBehaviour
     public int NumberOfWindows { get => numberOfWindows; set => numberOfWindows = value; }
     public int SelectedViewsCounter { get => selectedViewsCounter; set => selectedViewsCounter = value; }
 
+    private GameObject userPrompt;
+    public GameObject UserPrompt { get => userPrompt; set => userPrompt = value; }
+
+
     private void Awake()
     {
         InitializeLayout();
@@ -54,6 +58,7 @@ public class TaskManagement : MonoBehaviour
 
     private void Start()
     {
+        userPrompt = GameObject.FindGameObjectWithTag("PromptText");
         InitializeIconList();
         viewOrder = RandomGenerator.randomizeList(numberOfWindows);
         randomIcons = RandomGenerator.randomizeList(numberOfWindows);
@@ -137,7 +142,6 @@ public class TaskManagement : MonoBehaviour
     // It is meant to turn on one view at a time
     IEnumerator RandomWindowOn()
     {
-        GameObject userPrompt = GameObject.FindGameObjectWithTag("PromptText");
         userPrompt.GetComponent<TextMeshPro>().text = "";
 
         for (int i = task1Selections; i > 0; i--)
@@ -163,7 +167,6 @@ public class TaskManagement : MonoBehaviour
 
     IEnumerator RandomWindowsOn()
     {
-        GameObject userPrompt = GameObject.FindGameObjectWithTag("PromptText");
         userPrompt.GetComponent<TextMeshPro>().text = "";
 
         GameObject left = GameObject.FindGameObjectWithTag("LeftRay");
