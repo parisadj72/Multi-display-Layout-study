@@ -206,6 +206,11 @@ PrefabInstance:
       propertyPath: exp
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8849698284006716491, guid: bba8f992431da2046bf5f48363280835,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34381,8 +34386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &5345562500074229167
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36184,8 +36187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &5558351254945546088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39495,8 +39496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &6034467956032219173
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41180,8 +41179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &6322695507157776840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42028,8 +42025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!4 &6409877851142997614
 Transform:
   m_ObjectHideFlags: 0
@@ -44650,8 +44645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &6872409876445095108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46282,8 +46275,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &7148029463931078956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -46789,8 +46780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &7275006954333138452
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -46969,8 +46958,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &7307040943014502078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47270,8 +47257,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &7359313464164646923
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48260,8 +48245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!54 &7540979326369177816
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48747,8 +48730,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!4 &7594570810882038246
 Transform:
   m_ObjectHideFlags: 0
@@ -48846,8 +48827,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &7604010470330940575
 Canvas:
   m_ObjectHideFlags: 0
@@ -48884,8 +48863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!23 &7605222933202071678
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49013,8 +48990,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &7614369755913360213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49132,8 +49107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &7634668563436725139
 RectTransform:
   m_ObjectHideFlags: 0
@@ -49937,8 +49910,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &7746102828698378481
 Canvas:
   m_ObjectHideFlags: 0
@@ -50120,8 +50091,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &7772223617839404778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50421,8 +50390,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &7793366624222960560
 GameObject:
   m_ObjectHideFlags: 0
@@ -50824,8 +50791,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &7872380751337542799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51325,8 +51290,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &7949297287896562935
 Canvas:
   m_ObjectHideFlags: 0
@@ -51363,8 +51326,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &7957224704339093409
 Canvas:
   m_ObjectHideFlags: 0
@@ -51420,8 +51381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &7959130956909255964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51552,8 +51511,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &7968121176965682086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52132,8 +52089,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8078252961117225153
 GameObject:
   m_ObjectHideFlags: 0
@@ -52801,8 +52756,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &8180977639686138538
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53028,8 +52981,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!4 &8214701011849162136
 Transform:
   m_ObjectHideFlags: 0
@@ -53184,8 +53135,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &8242669012212543155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53694,8 +53643,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8316810743441652492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53918,8 +53865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &8353695749838059488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54213,8 +54158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8409040889582467444
 GameObject:
   m_ObjectHideFlags: 0
@@ -54250,8 +54193,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &8409465513778128042
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54468,8 +54409,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8435663390010646850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54690,8 +54629,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8483849260888018311
 GameObject:
   m_ObjectHideFlags: 0
@@ -54727,8 +54664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &8484144527792965841
 Canvas:
   m_ObjectHideFlags: 0
@@ -55267,8 +55202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &8593477403865356929
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -55307,8 +55240,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8594684694206934007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55458,8 +55389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8612537079256194609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55742,8 +55671,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!4 &8655191221337538808
 Transform:
   m_ObjectHideFlags: 0
@@ -55846,8 +55773,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8683651506926445235
 GameObject:
   m_ObjectHideFlags: 0
@@ -55984,8 +55909,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8708437087128035949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56172,8 +56095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8731406479771895157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56261,8 +56182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8739680874591617891
 GameObject:
   m_ObjectHideFlags: 0
@@ -56311,8 +56230,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8749541195819625477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56343,8 +56260,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!222 &8750639360427949454
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -56512,8 +56427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!54 &8764989790692215519
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -56554,8 +56467,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &8765567094396484772
 RectTransform:
   m_ObjectHideFlags: 0
@@ -56590,8 +56501,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!23 &8772667078366736268
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -56712,8 +56621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!54 &8793753790805818017
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -56754,8 +56661,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8797184379075340926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56922,8 +56827,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!65 &8801184659590858102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57027,8 +56930,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8814790304682967660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57194,8 +57095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8837680296452927931
 GameObject:
   m_ObjectHideFlags: 0
@@ -57262,8 +57161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &8843058009172584314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57300,8 +57197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8843121600508245491
 GameObject:
   m_ObjectHideFlags: 0
@@ -57360,8 +57255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8852419682657085565
 GameObject:
   m_ObjectHideFlags: 0
@@ -57488,8 +57381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8871304843074451556
 GameObject:
   m_ObjectHideFlags: 0
@@ -57544,8 +57435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &8876694007753782629
 Canvas:
   m_ObjectHideFlags: 0
@@ -57737,8 +57626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8884862673365668174
 GameObject:
   m_ObjectHideFlags: 0
@@ -58056,8 +57943,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &8935281705939330453
 GameObject:
   m_ObjectHideFlags: 0
@@ -58177,8 +58062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &9004331996494921512
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58340,8 +58223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!4 &9034208006170446474
 Transform:
   m_ObjectHideFlags: 0
@@ -58457,8 +58338,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!114 &9044019650617068758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58546,8 +58425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!4 &9058310959226637070
 Transform:
   m_ObjectHideFlags: 0
@@ -58648,8 +58525,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &9059525717664412886
 GameObject:
   m_ObjectHideFlags: 0
@@ -58740,8 +58615,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &9066325557568563876
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59190,8 +59063,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!223 &9111561551061483287
 Canvas:
   m_ObjectHideFlags: 0
@@ -59359,8 +59230,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!23 &9126280135322629551
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -59456,8 +59325,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &9147020194428911115
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59492,8 +59359,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!224 &9151772240940644583
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59655,8 +59520,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1 &9205540129980933883
 GameObject:
   m_ObjectHideFlags: 0
@@ -59735,8 +59598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledAtStartup: 1
-  flagViewLookedAt: 0
-  lookedAtTimer: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
