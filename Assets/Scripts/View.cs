@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
+using static Experiments;
 
 public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerClickHandler
 {
@@ -24,6 +25,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     public Boolean disabledAtStartup = true;
 
     public bool flagViewLookedAt = false;
+    public float firstTimeLookedAtTimer = 0.0f;
     public float lookedAtTimer = 0.0f;
     //public bool flagViewSelected = false;
 
@@ -36,6 +38,12 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     {
         get { return wrongClickCounter; }
         set { wrongClickCounter = value; }
+    }
+
+    public Toggle Toggle
+    {
+        get { return toggle; }
+        set { toggle = value; }
     }
 
     public Boolean IsOn
@@ -166,13 +174,13 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         //flagViewSelected = true;
         //flagViewLookedAt = false;
 
-        if (IsOn) {
-            /*//write time per selection for each view into the prompt
-            parent.UserPrompt.GetComponent<TextMeshPro>().text = "Time per selection = " + localSelectedTimer;*/
+        /*if (IsOn) {
+            *//*//write time per selection for each view into the prompt
+            parent.UserPrompt.GetComponent<TextMeshPro>().text = "Time per selection = " + localSelectedTimer;*//*
 
             System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
             localSelectedTimer = 0;
-        }
+        }*/
 
         if (Swap && isSelected)
         {
@@ -213,11 +221,23 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         {
             wrongClickCounter++;
         }
+        if (toggle.interactable)
+        {
+            System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
+            localSelectedTimer = 0;
+        }
     }
     private void Update()
     {
-        if (IsOn)
+        if (GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp1 && IsOn)
         {
+            firstTimeLookedAtTimer += Time.deltaTime;
+            lookedAtTimer += Time.deltaTime;
+            localSelectedTimer += Time.deltaTime;
+        }
+        if(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp2 && !IsOn && toggle.interactable)
+        {
+            firstTimeLookedAtTimer += Time.deltaTime;
             lookedAtTimer += Time.deltaTime;
             localSelectedTimer += Time.deltaTime;
         }

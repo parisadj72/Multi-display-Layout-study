@@ -50,14 +50,24 @@ public class Experiments : MonoBehaviour
             yield return new WaitUntil(() => currentLayout.TaskDone);
 
             //Log time per trial in the file
-            File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections): " + timer + "\n \n");
+            if(experiment == Experiment.Exp1)
+                File.AppendAllText(timerFilePath, "(time per " + currentLayout.task1Selections + " Selections): " + timer + "\n \n");
+            else if (experiment == Experiment.Exp2)
+                File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections): " + timer + "\n \n");
+            else if (experiment == Experiment.Exp3)
+                File.AppendAllText(timerFilePath, "Trial time: " + timer + "\n \n");
 
             //log Error: Wrong Selections
             for (int k = 0; k < currentLayout.Views.Count; k++)
             {
                 sumOfNumberOfWorngSelections += currentLayout.Views[k].WrongClickCounter;
             }
-            File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
+            if (experiment == Experiment.Exp1)
+                File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.task1Selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
+            else if (experiment == Experiment.Exp2)
+                File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
+            else if (experiment == Experiment.Exp3)
+                File.AppendAllText(timerFilePath, "Errors per trial: " + sumOfNumberOfWorngSelections + "\n \n");
 
 
             //print(currentLayout.name);

@@ -1,0 +1,406 @@
+OUTPUT OF EACH RUN (Exp2): 
+ 
+
+ View looked at in 0 seconds for the first time!
+
+ View looked at in 0.0983807 seconds for the first time!
+Time per selection = 0.9235817
+ 
+
+ View looked at in 1.086609 seconds for the first time!
+Time per selection = 1.427869
+ 
+Time per selection = 2.058571
+ 
+(time per 3 Selections): 7.165463
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7786393
+ 
+
+ View looked at in 1.403035 seconds for the first time!
+Time per selection = 1.494011
+ 
+Time per selection = 1.994227
+ 
+
+ View looked at in 2.380327 seconds for the first time!
+Time per selection = 2.580101
+ 
+
+ View looked at in 3.055034 seconds for the first time!
+Time per selection = 3.105678
+ 
+(time per 5 Selections): 8.260878
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7923893
+ 
+
+ View looked at in 1.111428 seconds for the first time!
+Time per selection = 1.266045
+ 
+
+ View looked at in 1.639832 seconds for the first time!
+Time per selection = 1.831462
+ 
+
+ View looked at in 2.199173 seconds for the first time!
+Time per selection = 2.68053
+ 
+Time per selection = 3.225995
+ 
+(time per 5 Selections): 8.371608
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+Time per selection = 0.6681775
+ 
+Time per selection = 1.037949
+ 
+(time per 2 Selections): 6.110936
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+
+ View looked at in 0.1348082 seconds for the first time!
+Time per selection = 0.5957076
+ 
+Time per selection = 0.8490704
+ 
+(time per 2 Selections): 5.939812
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0.2425833 seconds for the first time!
+Time per selection = 0.6470443
+ 
+
+ View looked at in 1.150582 seconds for the first time!
+Time per selection = 1.39975
+ 
+
+ View looked at in 1.731999 seconds for the first time!
+Time per selection = 2.055713
+ 
+
+ View looked at in 2.782136 seconds for the first time!
+Time per selection = 3.055753
+ 
+
+ View looked at in 3.544845 seconds for the first time!
+Time per selection = 3.803797
+ 
+(time per 5 Selections): 8.958022
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.6492634 seconds for the first time!
+Time per selection = 0.6845706
+ 
+Time per selection = 0.9613616
+ 
+(time per 2 Selections): 6.054997
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+
+ View looked at in 0.3918241 seconds for the first time!
+Time per selection = 0.6032827
+ 
+Time per selection = 0.992715
+ 
+
+ View looked at in 1.243677 seconds for the first time!
+Time per selection = 1.865245
+ 
+Time per selection = 2.311466
+ 
+
+ View looked at in 2.787032 seconds for the first time!
+Time per selection = 2.833876
+ 
+(time per 5 Selections): 7.999345
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.3553176 seconds for the first time!
+Time per selection = 0.9296365
+ 
+Time per selection = 1.222179
+ 
+(time per 2 Selections): 6.299942
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7872085
+ 
+Time per selection = 1.083896
+ 
+Time per selection = 1.46058
+ 
+(time per 3 Selections): 6.579673
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.8088667
+ 
+
+ View looked at in 0.9837319 seconds for the first time!
+Time per selection = 1.377852
+ 
+Time per selection = 2.081085
+ 
+(time per 3 Selections): 7.208776
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.0246009 seconds for the first time!
+
+ View looked at in 0.077899 seconds for the first time!
+
+ View looked at in 0.3861404 seconds for the first time!
+
+ View looked at in 0.4536793 seconds for the first time!
+Time per selection = 1.107003
+ 
+Time per selection = 1.894818
+ 
+Time per selection = 3.025217
+ 
+Time per selection = 4.380759
+ 
+Time per selection = 7.389414
+ 
+(time per 5 Selections): 12.55191
+ 
+(Errors / Wrong Selections per 5 Selections): 1
+ 
+
+ View looked at in 0 seconds for the first time!
+
+ View looked at in 0.628616 seconds for the first time!
+Time per selection = 0.7230091
+ 
+Time per selection = 1.112133
+ 
+Time per selection = 1.562653
+ 
+
+ View looked at in 1.970467 seconds for the first time!
+Time per selection = 2.061724
+ 
+Time per selection = 2.554471
+ 
+(time per 5 Selections): 7.714282
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+
+ View looked at in 0.5991902 seconds for the first time!
+Time per selection = 0.783103
+ 
+Time per selection = 1.346086
+ 
+(time per 2 Selections): 6.435557
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6719521
+ 
+Time per selection = 0.9852563
+ 
+Time per selection = 1.428038
+ 
+Time per selection = 1.895959
+ 
+Time per selection = 2.332508
+ 
+(time per 5 Selections): 7.476793
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.1217389 seconds for the first time!
+Time per selection = 0.9954233
+ 
+
+ View looked at in 1.706996 seconds for the first time!
+
+ View looked at in 1.732673 seconds for the first time!
+
+ View looked at in 1.815845 seconds for the first time!
+Time per selection = 3.159285
+ 
+Time per selection = 3.793205
+ 
+
+ View looked at in 4.097418 seconds for the first time!
+Time per selection = 4.41016
+ 
+Time per selection = 5.477621
+ 
+(time per 5 Selections): 10.62855
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+
+ View looked at in 0.3729861 seconds for the first time!
+
+ View looked at in 0.3987745 seconds for the first time!
+Time per selection = 0.8138469
+ 
+Time per selection = 0.9899052
+ 
+Time per selection = 1.6318
+ 
+(time per 3 Selections): 6.741663
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.4839478 seconds for the first time!
+Time per selection = 0.6650242
+ 
+Time per selection = 0.8577942
+ 
+(time per 2 Selections): 5.934702
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7526365
+ 
+Time per selection = 1.042375
+ 
+(time per 2 Selections): 6.121194
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+Time per selection = 0.6514454
+ 
+Time per selection = 0.8689882
+ 
+(time per 2 Selections): 5.954592
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0.3854834 seconds for the first time!
+Time per selection = 0.6387216
+ 
+Time per selection = 0.8292482
+ 
+(time per 2 Selections): 5.905384
+ 
+(Errors / Wrong Selections per 2 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6697501
+ 
+Time per selection = 0.8504663
+ 
+Time per selection = 1.179224
+ 
+(time per 3 Selections): 6.283464
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7298254
+ 
+Time per selection = 1.255425
+ 
+
+ View looked at in 1.363678 seconds for the first time!
+Time per selection = 1.846037
+ 
+(time per 3 Selections): 6.961932
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5588773
+ 
+Time per selection = 1.055438
+ 
+
+ View looked at in 1.45181 seconds for the first time!
+Time per selection = 1.50479
+ 
+Time per selection = 2.027725
+ 
+
+ View looked at in 2.359256 seconds for the first time!
+Time per selection = 2.482329
+ 
+(time per 5 Selections): 7.710727
+ 
+(Errors / Wrong Selections per 5 Selections): 0
+ 
+
+ View looked at in 0.3398176 seconds for the first time!
+
+ View looked at in 0.3719229 seconds for the first time!
+Time per selection = 0.8540238
+ 
+Time per selection = 1.1046
+ 
+Time per selection = 1.47459
+ 
+(time per 3 Selections): 6.589036
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0.3778744 seconds for the first time!
+Time per selection = 0.7261173
+ 
+Time per selection = 1.002252
+ 
+Time per selection = 1.430809
+ 
+(time per 3 Selections): 6.550167
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6966305
+ 
+Time per selection = 0.8907372
+ 
+Time per selection = 1.16846
+ 
+(time per 3 Selections): 6.267866
+ 
+(Errors / Wrong Selections per 3 Selections): 0
+ 

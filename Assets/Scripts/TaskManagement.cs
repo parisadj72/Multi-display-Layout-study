@@ -154,6 +154,7 @@ public class TaskManagement : MonoBehaviour
 
             yield return new WaitUntil(() => !views[windowNumberOn].IsOn);
 
+            views[windowNumberOn].firstTimeLookedAtTimer = 0.0f;
             views[windowNumberOn].lookedAtTimer = 0.0f;
 
             views[windowNumberOn].flagViewLookedAt = false;
@@ -179,7 +180,9 @@ public class TaskManagement : MonoBehaviour
         rightRay.enabled = false;
 
         for (int i = 0; i < selections; i++)
+        {
             views[viewOrder[i]].TurnOn(true, false);
+        }
 
         yield return new WaitForSeconds(5);
 
@@ -210,7 +213,13 @@ public class TaskManagement : MonoBehaviour
     {
         for (int i = 0; i < selections; i++)
             if (views[viewOrder[i]].IsOn)
+            {
                 views[viewOrder[i]].DisableInteraction();
+
+                views[viewOrder[i]].firstTimeLookedAtTimer = 0.0f;
+                views[viewOrder[i]].lookedAtTimer = 0.0f;
+                views[viewOrder[i]].flagViewLookedAt = false;
+            }
         for (int i = 0; i < selections; i++)
         {
             if (views[viewOrder[i]].IsOn)
