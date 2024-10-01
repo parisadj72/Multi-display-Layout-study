@@ -169,6 +169,11 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         toggle.interactable = false;
     }
 
+    public void EnableInteraction()
+    {
+        toggle.interactable = true;
+    }
+
     public void OnSelect(BaseEventData eventData)
     {
         //flagViewSelected = true;
@@ -180,39 +185,50 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
             System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
             localSelectedTimer = 0;
-        }*/
+        }
 
-        if (Swap && isSelected)
+        if (swap && isSelected)
         {
             DisableInteraction();
         }
 
-        if (IsOn && !IsSelected)
+        if (isOn && !isSelected)
         {
-            IsSelected = true;
-            StartCoroutine(WaitUntilOff());
+            isSelected = true;
+            //StartCoroutine(WaitAndOff());
             //print("view clicked. Disable now?");
             parent.SelectedViewsCounter++;
+        }*/
+        if (swap)
+        {
+            if (isOn && !isSelected)
+            {
+                isSelected = true;
+                StartCoroutine(WaitAndOff());
+                parent.SelectedViewsCounter++;
+            }
+            else
+                DisableInteraction();
         }
     }
 
     public void OnDeselect(BaseEventData eventData)
     {
-        if (Swap)
+        if (swap)
         {
             TurnOn(true, true);
             if (parent.SelectedViewsCounter == 1)
                 changeColor(selectedColor);
+            print("Got deselected?");
         }
-        print("Got deselected?");
     }
 
-    IEnumerator WaitUntilOff()
+    IEnumerator WaitAndOff()
     {
-        yield return new WaitUntil(() => !IsOn);
-
-        //print("view is now off");
-        DisableInteraction();
+        yield return new WaitUntil(() => !isOn);
+        //yield return new WaitForEndOfFrame();
+        TurnOn(true, false);
+        //DisableInteraction();
     }
 
     public void OnPointerClick(PointerEventData eventData)
