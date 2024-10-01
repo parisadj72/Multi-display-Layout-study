@@ -27,6 +27,8 @@ public class TaskManagement : MonoBehaviour
 
     private int selectedViewsCounter = 0;
 
+    private int numberOfSwaps = 0;
+    private float swapTime = 0.0f;
 
     private Boolean taskDone;
 
@@ -49,7 +51,7 @@ public class TaskManagement : MonoBehaviour
 
     private GameObject userPrompt;
     public GameObject UserPrompt { get => userPrompt; set => userPrompt = value; }
-
+    public int NumberOfSwaps { get => numberOfSwaps; set => numberOfSwaps = value; }
 
     private void Awake()
     {
@@ -311,6 +313,7 @@ public class TaskManagement : MonoBehaviour
     {
         if (selectedViewsCounter == 2)
         {
+            numberOfSwaps++;
             List<Texture> images = new List<Texture>();
             List<int> index = new List<int>();
 
@@ -329,7 +332,9 @@ public class TaskManagement : MonoBehaviour
             puzzleViews[index[1]].changeColor(puzzleViews[index[1]].NormalColor);
             puzzleViews[index[0]].changeColor(puzzleViews[index[0]].NormalColor);
 
-
+            System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per swap = " + swapTime + "\n \n");
+            swapTime = 0;
+            
             selectedViewsCounter = 0;
         }
     }
@@ -469,7 +474,10 @@ public class TaskManagement : MonoBehaviour
     }
     private void Update()
     {
-        if(parent.experiment == Experiments.Experiment.Exp3)
+        if (parent.experiment == Experiments.Experiment.Exp3)
+        {
             SwapTwoViewsSelected();
+            swapTime += Time.deltaTime;
+        }
     }
 }

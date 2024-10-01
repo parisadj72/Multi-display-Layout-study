@@ -237,7 +237,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         {
             wrongClickCounter++;
         }
-        if (toggle.interactable)
+        if (toggle.interactable && GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment != Experiment.Exp3)
         {
             System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
             localSelectedTimer = 0;

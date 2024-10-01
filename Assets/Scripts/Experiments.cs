@@ -46,6 +46,7 @@ public class Experiments : MonoBehaviour
             Instantiate(layouts[instantiatedLayout], transform);
 
             currentLayout = GetComponentInChildren<TaskManagement>();
+            currentLayout.NumberOfSwaps = 0;
 
             yield return new WaitUntil(() => currentLayout.TaskDone);
 
@@ -55,7 +56,7 @@ public class Experiments : MonoBehaviour
             else if (experiment == Experiment.Exp2)
                 File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections): " + timer + "\n \n");
             else if (experiment == Experiment.Exp3)
-                File.AppendAllText(timerFilePath, "Trial time: " + timer + "\n \n");
+                File.AppendAllText(timerFilePath, "Trial time (# " + currentLayout.NumberOfSwaps + " swaps): " + timer + "\n \n");
 
             //log Error: Wrong Selections
             for (int k = 0; k < currentLayout.Views.Count; k++)
