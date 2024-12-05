@@ -1,0 +1,224 @@
+OUTPUT OF EACH RUN (Exp3): 
+ 
+Time per swap = 5.379554
+ 
+Time per swap = 1.406597
+ 
+Time per swap = 0.9198735
+ 
+Trial time (# 3 swaps): 7.738088
+ 
+Errors per trial: 0
+ 
+Time per swap = 3.997703
+ 
+Time per swap = 1.143911
+ 
+Trial time (# 2 swaps): 5.171371
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.843693
+ 
+Trial time (# 1 swaps): 1.875454
+ 
+Errors per trial: 0
+ 
+Time per swap = 3.871556
+ 
+Time per swap = 2.529454
+ 
+Time per swap = 0.7047722
+ 
+Trial time (# 3 swaps): 7.135748
+ 
+Errors per trial: 1
+ 
+Time per swap = 1.955812
+ 
+Trial time (# 1 swaps): 1.987352
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.840798
+ 
+Time per swap = 0.6211901
+ 
+Trial time (# 2 swaps): 2.491107
+ 
+Errors per trial: 0
+ 
+Time per swap = 2.379184
+ 
+Time per swap = 1.26225
+ 
+Trial time (# 2 swaps): 3.675617
+ 
+Errors per trial: 0
+ 
+Time per swap = 2.899112
+ 
+Time per swap = 5.827934
+ 
+Time per swap = 2.883708
+ 
+Trial time (# 3 swaps): 11.64079
+ 
+Errors per trial: 0
+ 
+Time per swap = 7.085725
+ 
+Time per swap = 1.437404
+ 
+Time per swap = 1.677132
+ 
+Time per swap = 0.9621295
+ 
+Trial time (# 4 swaps): 11.19236
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.019319
+ 
+Trial time (# 1 swaps): 1.048371
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.285614
+ 
+Trial time (# 1 swaps): 1.318272
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.015
+ 
+Trial time (# 1 swaps): 1.048663
+ 
+Errors per trial: 0
+ 
+Time per swap = 4.144083
+ 
+Time per swap = 1.377508
+ 
+Trial time (# 2 swaps): 5.552337
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.010728
+ 
+Trial time (# 1 swaps): 1.039923
+ 
+Errors per trial: 0
+ 
+Time per swap = 0.9491138
+ 
+Trial time (# 1 swaps): 0.9791762
+ 
+Errors per trial: 0
+ 
+Time per swap = 2.254128
+ 
+Trial time (# 1 swaps): 2.290881
+ 
+Errors per trial: 0
+ 
+Time per swap = 5.381988
+ 
+Time per swap = 2.066633
+ 
+Trial time (# 2 swaps): 7.483224
+ 
+Errors per trial: 0
+ 
+Time per swap = 2.797884
+ 
+Time per swap = 1.886741
+ 
+Time per swap = 1.514951
+ 
+Trial time (# 3 swaps): 6.229506
+ 
+Errors per trial: 0
+ 
+Time per swap = 5.049682
+ 
+Time per swap = 2.863697
+ 
+Trial time (# 2 swaps): 7.948618
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.560362
+ 
+Trial time (# 1 swaps): 1.593188
+ 
+Errors per trial: 0
+ 
+Time per swap = 2.386823
+ 
+Time per swap = 1.137794
+ 
+Trial time (# 2 swaps): 3.553164
+ 
+Errors per trial: 0
+ 
+Time per swap = 4.530808
+ 
+Time per swap = 2.670094
+ 
+Time per swap = 2.027566
+ 
+Time per swap = 2.240807
+ 
+Time per swap = 3.524455
+ 
+Time per swap = 1.873426
+ 
+Trial time (# 6 swaps): 16.8975
+ 
+Errors per trial: 0
+ 
+Time per swap = 5.2135
+ 
+Time per swap = 2.933198
+ 
+Trial time (# 2 swaps): 8.178258
+ 
+Errors per trial: 0
+ 
+Time per swap = 4.035156
+ 
+Time per swap = 1.515764
+ 
+Trial time (# 2 swaps): 5.583045
+ 
+Errors per trial: 0
+ 
+Time per swap = 5.137807
+ 
+Time per swap = 5.560565
+ 
+Time per swap = 3.930616
+ 
+Trial time (# 3 swaps): 14.66051
+ 
+Errors per trial: 0
+ 
+Time per swap = 1.090393
+ 
+Trial time (# 1 swaps): 1.13087
+ 
+Errors per trial: 0
+ 
+Time per swap = 5.346133
+ 
+Time per swap = 2.337118
+ 
+Time per swap = 2.095256
+ 
+Time per swap = 1.0966
+ 
+Trial time (# 4 swaps): 10.9074
+ 
+Errors per trial: 0
+ 

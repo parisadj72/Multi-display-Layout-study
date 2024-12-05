@@ -1,0 +1,5834 @@
+
+ View looked at in 0.353847 sec!
+
+ --------------------- View looked at in 0.353847 seconds for the first time! ------------------- 
+
+ View looked at in 0.3742546 sec!
+
+ View looked at in 0.3972868 sec!
+
+ View looked at in 0.41816 sec!
+
+ View looked at in 0.4394915 sec!
+
+ View looked at in 0.4609778 sec!
+
+ View looked at in 0.4819102 sec!
+
+ View looked at in 0.5034963 sec!
+
+ View looked at in 0.5254054 sec!
+
+ View looked at in 0.5473723 sec!
+
+ View looked at in 0.5681993 sec!
+
+ View looked at in 0.5897876 sec!
+
+ View looked at in 0.6104439 sec!
+
+ View looked at in 0.631461 sec!
+
+ View looked at in 0.6524764 sec!
+
+ View looked at in 0.6745 sec!
+
+ View looked at in 0.6954207 sec!
+
+ View looked at in 0.717112 sec!
+
+ View looked at in 0.7381262 sec!
+
+ View looked at in 0.7585538 sec!
+
+ View looked at in 0.7789539 sec!
+
+ View looked at in 0.8000097 sec!
+
+ View looked at in 0.8203329 sec!
+
+ View looked at in 0.8421625 sec!
+
+ View looked at in 0.8635643 sec!
+
+ View looked at in 0.8844476 sec!
+
+ View looked at in 0.9048502 sec!
+
+ View looked at in 0.9268731 sec!
+
+ View looked at in 0.9478559 sec!
+
+ View looked at in 0.9691163 sec!
+
+ View looked at in 0.9901041 sec!
+
+ View looked at in 1.011413 sec!
+
+ View looked at in 1.032727 sec!
+
+ View looked at in 1.054687 sec!
+
+ View looked at in 1.076352 sec!
+
+ View looked at in 1.097494 sec!
+
+ View looked at in 1.118326 sec!
+
+ View looked at in 1.139856 sec!
+
+ View looked at in 0.4806077 sec!
+
+ --------------------- View looked at in 0.4806077 seconds for the first time! ------------------- 
+
+ View looked at in 0.5022781 sec!
+
+ View looked at in 0.5265003 sec!
+
+ View looked at in 0.547424 sec!
+
+ View looked at in 0.5687162 sec!
+
+ View looked at in 0.4578035 sec!
+
+ --------------------- View looked at in 0.4578035 seconds for the first time! ------------------- 
+
+ View looked at in 0.4792057 sec!
+
+ View looked at in 0.5020454 sec!
+
+ View looked at in 0.5238259 sec!
+
+ View looked at in 0.5456373 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0220135 sec!
+
+ View looked at in 0.0445677 sec!
+
+ View looked at in 0.0666539 sec!
+
+ View looked at in 0.0880223 sec!
+
+ View looked at in 0.1089277 sec!
+
+ View looked at in 0.1302313 sec!
+
+ View looked at in 0.1532855 sec!
+
+ View looked at in 0.1751401 sec!
+
+ View looked at in 0.1968888 sec!
+
+ View looked at in 0.2182845 sec!
+
+ View looked at in 0.2394407 sec!
+
+ View looked at in 0.2607773 sec!
+
+ View looked at in 0.2824841 sec!
+
+ View looked at in 0.3033349 sec!
+
+ View looked at in 0.3242829 sec!
+
+ View looked at in 0.3455203 sec!
+
+ View looked at in 0.3678139 sec!
+
+ View looked at in 0.3890993 sec!
+
+ View looked at in 0.4105575 sec!
+
+ View looked at in 0.4312143 sec!
+
+ View looked at in 0.4527693 sec!
+
+ View looked at in 0.4739923 sec!
+
+ View looked at in 0.494926 sec!
+
+ View looked at in 0.5162119 sec!
+
+ View looked at in 0.5371046 sec!
+
+ View looked at in 0.5583998 sec!
+
+ View looked at in 0.5797878 sec!
+
+ View looked at in 0.601019 sec!
+
+ View looked at in 0.6224633 sec!
+
+ View looked at in 0.6436733 sec!
+
+ View looked at in 0.1829232 sec!
+
+ --------------------- View looked at in 0.1829232 seconds for the first time! ------------------- 
+
+ View looked at in 0.5714477 sec!
+
+ View looked at in 0.5934345 sec!
+
+ View looked at in 0.6151536 sec!
+
+ View looked at in 0.6367949 sec!
+
+ View looked at in 0.6593798 sec!
+
+ View looked at in 0.6822321 sec!
+
+ View looked at in 0.7044926 sec!
+
+ View looked at in 0.7267467 sec!
+
+ View looked at in 0.7489939 sec!
+
+ View looked at in 0.7711161 sec!
+
+ View looked at in 0.7930652 sec!
+
+ View looked at in 0.8148881 sec!
+
+ View looked at in 0.8389887 sec!
+
+ View looked at in 0.8608837 sec!
+
+ View looked at in 0.8828537 sec!
+
+ View looked at in 0.9045323 sec!
+
+ View looked at in 0.9269898 sec!
+
+ View looked at in 0.9480468 sec!
+
+ View looked at in 0.9689213 sec!
+
+ View looked at in 0.9898684 sec!
+
+ View looked at in 1.011911 sec!
+
+ View looked at in 1.032842 sec!
+
+ View looked at in 1.0548 sec!
+
+ View looked at in 1.075804 sec!
+
+ View looked at in 1.097334 sec!
+
+ View looked at in 1.118332 sec!
+
+ View looked at in 1.139436 sec!
+
+ View looked at in 1.160437 sec!
+
+ View looked at in 1.181411 sec!
+
+ View looked at in 1.202819 sec!
+
+ View looked at in 1.225997 sec!
+
+ View looked at in 1.247118 sec!
+
+ View looked at in 1.270685 sec!
+
+ View looked at in 1.293357 sec!
+
+ View looked at in 1.316618 sec!
+
+ View looked at in 1.339526 sec!
+
+ View looked at in 1.362343 sec!
+
+ View looked at in 1.384353 sec!
+
+ View looked at in 1.406705 sec!
+
+ View looked at in 1.428816 sec!
+
+ View looked at in 1.451728 sec!
+
+ View looked at in 1.47345 sec!
+
+ View looked at in 1.495638 sec!
+
+ View looked at in 1.51791 sec!
+
+ View looked at in 1.540094 sec!
+
+ View looked at in 1.562369 sec!
+
+ View looked at in 1.584801 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0220133 sec!
+
+ View looked at in 0.0459927 sec!
+
+ View looked at in 0.0674715 sec!
+
+ View looked at in 0.0916601 sec!
+
+ View looked at in 0.115397 sec!
+
+ View looked at in 0.1370723 sec!
+
+ View looked at in 0.15903 sec!
+
+ View looked at in 0.1814785 sec!
+
+ View looked at in 0.2031151 sec!
+
+ View looked at in 0.2245882 sec!
+
+ View looked at in 0.2456004 sec!
+
+ View looked at in 0.2667762 sec!
+
+ View looked at in 0.288008 sec!
+
+ View looked at in 0.3094709 sec!
+
+ View looked at in 0.3305964 sec!
+
+ View looked at in 0.3526052 sec!
+
+ View looked at in 0.373386 sec!
+
+ View looked at in 0.3945438 sec!
+
+ View looked at in 0.4155617 sec!
+
+ View looked at in 0.4364523 sec!
+
+ View looked at in 0.4571965 sec!
+
+ View looked at in 0.4781408 sec!
+
+ View looked at in 0.5005198 sec!
+
+ View looked at in 0.5226089 sec!
+
+ View looked at in 0.5449142 sec!
+
+ View looked at in 0.5662478 sec!
+
+ View looked at in 0.5874184 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0214744 sec!
+
+ View looked at in 0.0444375 sec!
+
+ View looked at in 0.0663024 sec!
+
+ View looked at in 0.08755869 sec!
+
+ View looked at in 0.1113615 sec!
+
+ View looked at in 0.1339729 sec!
+
+ View looked at in 0.1551162 sec!
+
+ View looked at in 0.1771479 sec!
+
+ View looked at in 0.1984669 sec!
+
+ View looked at in 0.2424736 sec!
+
+ View looked at in 0.2856504 sec!
+
+ View looked at in 0.3066705 sec!
+
+ View looked at in 0.3275545 sec!
+
+ View looked at in 0.348253 sec!
+
+ View looked at in 0.3695036 sec!
+
+ View looked at in 0.3905476 sec!
+
+ View looked at in 0.411746 sec!
+
+ View looked at in 0.4327373 sec!
+
+ View looked at in 0.4558589 sec!
+
+ View looked at in 0.4771549 sec!
+
+ View looked at in 0.4987485 sec!
+
+ View looked at in 0.5199292 sec!
+
+ View looked at in 0.2943417 sec!
+
+ --------------------- View looked at in 0.2943417 seconds for the first time! ------------------- 
+
+ View looked at in 0.3163419 sec!
+
+ View looked at in 0.338746 sec!
+
+ View looked at in 0.3601496 sec!
+
+ View looked at in 0.3810255 sec!
+
+ View looked at in 0.4024157 sec!
+
+ View looked at in 0.4242156 sec!
+
+ View looked at in 0.4452337 sec!
+
+ View looked at in 0.4663785 sec!
+
+ View looked at in 0.4877737 sec!
+
+ View looked at in 0.508327 sec!
+
+ View looked at in 0.5294742 sec!
+
+ View looked at in 0.5507777 sec!
+
+ View looked at in 0.572322 sec!
+
+ View looked at in 0.5934762 sec!
+
+ View looked at in 0.6145869 sec!
+
+ View looked at in 0.6354222 sec!
+
+ View looked at in 0.6567647 sec!
+
+ View looked at in 0.6784984 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0219176 sec!
+
+ View looked at in 0.043989 sec!
+
+ View looked at in 0.0650727 sec!
+
+ View looked at in 0.086475 sec!
+
+ View looked at in 0.1082653 sec!
+
+ View looked at in 0.1315497 sec!
+
+ View looked at in 0.1542058 sec!
+
+ View looked at in 0.1748172 sec!
+
+ View looked at in 0.1976607 sec!
+
+ View looked at in 0.2183533 sec!
+
+ View looked at in 0.2395333 sec!
+
+ View looked at in 0.2609619 sec!
+
+ View looked at in 0.2826903 sec!
+
+ View looked at in 0.3044006 sec!
+
+ View looked at in 0.3249911 sec!
+
+ View looked at in 0.3460991 sec!
+
+ View looked at in 0.3673585 sec!
+
+ View looked at in 0.3876791 sec!
+
+ View looked at in 0.4084176 sec!
+
+ View looked at in 0.4293907 sec!
+
+ View looked at in 0.4502134 sec!
+
+ View looked at in 0.4711752 sec!
+
+ View looked at in 0.4925692 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0249865 sec!
+
+ View looked at in 0.0491738 sec!
+
+ View looked at in 0.0714833 sec!
+
+ View looked at in 0.0931476 sec!
+
+ View looked at in 0.119731 sec!
+
+ View looked at in 0.1424439 sec!
+
+ View looked at in 0.162719 sec!
+
+ View looked at in 0.1833614 sec!
+
+ View looked at in 0.2042679 sec!
+
+ View looked at in 0.2251476 sec!
+
+ View looked at in 0.2456881 sec!
+
+ View looked at in 0.2669686 sec!
+
+ View looked at in 0.2875246 sec!
+
+ View looked at in 0.309257 sec!
+
+ View looked at in 0.3297096 sec!
+
+ View looked at in 0.3505291 sec!
+
+ View looked at in 0.3715536 sec!
+
+ View looked at in 0.3927591 sec!
+
+ View looked at in 0.4136984 sec!
+
+ View looked at in 0.4345118 sec!
+
+ View looked at in 0.4554037 sec!
+
+ View looked at in 0.4763942 sec!
+
+ View looked at in 0.4966867 sec!
+
+ View looked at in 0.5180259 sec!
+
+ View looked at in 0.5391664 sec!
+
+ View looked at in 0.5600938 sec!
+
+ View looked at in 0.5810615 sec!
+
+ View looked at in 0.602536 sec!
+
+ View looked at in 0.6237017 sec!
+
+ View looked at in 0.6452353 sec!
+
+ View looked at in 0.6659808 sec!
+
+ View looked at in 0.6875209 sec!
+
+ View looked at in 0.7097192 sec!
+
+ View looked at in 0.7313296 sec!
+
+ View looked at in 0.7523597 sec!
+
+ View looked at in 0.773264 sec!
+
+ View looked at in 0.793866 sec!
+
+ View looked at in 0.8157521 sec!
+
+ View looked at in 0.83661 sec!
+
+ View looked at in 0.8577282 sec!
+
+ View looked at in 0.8785341 sec!
+
+ View looked at in 0.8991438 sec!
+
+ View looked at in 0.9201682 sec!
+
+ View looked at in 0.9416169 sec!
+
+ View looked at in 0.2939067 sec!
+
+ --------------------- View looked at in 0.2939067 seconds for the first time! ------------------- 
+
+ View looked at in 0.3143997 sec!
+
+ View looked at in 0.3370898 sec!
+
+ View looked at in 0.3581038 sec!
+
+ View looked at in 0.3785387 sec!
+
+ View looked at in 0.3991938 sec!
+
+ View looked at in 0.4205428 sec!
+
+ View looked at in 0.4413363 sec!
+
+ View looked at in 0.4623479 sec!
+
+ View looked at in 0.4830851 sec!
+
+ View looked at in 0.5042832 sec!
+
+ View looked at in 0.5247972 sec!
+
+ View looked at in 0.5477637 sec!
+
+ View looked at in 0.5692808 sec!
+
+ View looked at in 0.590479 sec!
+
+ View looked at in 0.6116422 sec!
+
+ View looked at in 0.63265 sec!
+
+ View looked at in 0.653914 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0214055 sec!
+
+ View looked at in 0.043664 sec!
+
+ View looked at in 0.0655196 sec!
+
+ View looked at in 0.088289 sec!
+
+ View looked at in 0.1109955 sec!
+
+ View looked at in 0.1317789 sec!
+
+ View looked at in 0.1531857 sec!
+
+ View looked at in 0.1739084 sec!
+
+ View looked at in 0.1946607 sec!
+
+ View looked at in 0.2155406 sec!
+
+ View looked at in 0.2365492 sec!
+
+ View looked at in 0.257549 sec!
+
+ View looked at in 0.2789927 sec!
+
+ View looked at in 0.2998668 sec!
+
+ View looked at in 0.3210655 sec!
+
+ View looked at in 0.3411933 sec!
+
+ View looked at in 0.3621556 sec!
+
+ View looked at in 0.382264 sec!
+
+ View looked at in 0.4033839 sec!
+
+ View looked at in 0.4253221 sec!
+
+ View looked at in 0.4466662 sec!
+
+ View looked at in 0.4678088 sec!
+
+ View looked at in 0.4886431 sec!
+
+ View looked at in 0.5093307 sec!
+
+ View looked at in 0.2127349 sec!
+
+ --------------------- View looked at in 0.2127349 seconds for the first time! ------------------- 
+
+ View looked at in 0.2330809 sec!
+
+ View looked at in 0.2550786 sec!
+
+ View looked at in 0.2766503 sec!
+
+ View looked at in 0.2971152 sec!
+
+ View looked at in 0.3184972 sec!
+
+ View looked at in 0.3392736 sec!
+
+ View looked at in 0.3604904 sec!
+
+ View looked at in 0.3806872 sec!
+
+ View looked at in 0.4020168 sec!
+
+ View looked at in 0.4225988 sec!
+
+ View looked at in 0.4437312 sec!
+
+ View looked at in 0.4636812 sec!
+
+ View looked at in 0.485066 sec!
+
+ View looked at in 0.5069371 sec!
+
+ View looked at in 0.5286976 sec!
+
+ View looked at in 0.5491899 sec!
+
+ View looked at in 0.5707738 sec!
+
+ View looked at in 0.5919475 sec!
+
+ View looked at in 0.6131401 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0208908 sec!
+
+ View looked at in 0.0434613 sec!
+
+ View looked at in 0.065138 sec!
+
+ View looked at in 0.0860078 sec!
+
+ View looked at in 0.1071795 sec!
+
+ View looked at in 0.129025 sec!
+
+ View looked at in 0.1504244 sec!
+
+ View looked at in 0.173954 sec!
+
+ View looked at in 0.1959863 sec!
+
+ View looked at in 0.2175757 sec!
+
+ View looked at in 0.2384282 sec!
+
+ View looked at in 0.2594338 sec!
+
+ View looked at in 0.2809088 sec!
+
+ View looked at in 0.3021469 sec!
+
+ View looked at in 0.3228761 sec!
+
+ View looked at in 0.3442402 sec!
+
+ View looked at in 0.3646472 sec!
+
+ View looked at in 0.3853404 sec!
+
+ View looked at in 0.4278396 sec!
+
+ View looked at in 0.388326 sec!
+
+ --------------------- View looked at in 0.388326 seconds for the first time! ------------------- 
+
+ View looked at in 0.4094846 sec!
+
+ View looked at in 0.4329214 sec!
+
+ View looked at in 0.4539927 sec!
+
+ View looked at in 0.4750774 sec!
+
+ View looked at in 0.4959846 sec!
+
+ View looked at in 0.5167344 sec!
+
+ View looked at in 0.5375057 sec!
+
+ View looked at in 0.5588403 sec!
+
+ View looked at in 0.5799893 sec!
+
+ View looked at in 0.6010104 sec!
+
+ View looked at in 0.6217899 sec!
+
+ View looked at in 0.6434363 sec!
+
+ View looked at in 0.6644583 sec!
+
+ View looked at in 0.6856582 sec!
+
+ View looked at in 0.7064431 sec!
+
+ View looked at in 0.7274189 sec!
+
+ View looked at in 0.7477914 sec!
+
+ View looked at in 0.7688393 sec!
+
+ View looked at in 0.7902162 sec!
+
+ View looked at in 0.8110376 sec!
+
+ View looked at in 0.8319345 sec!
+
+ View looked at in 0.8531422 sec!
+
+ View looked at in 0.87426 sec!
+
+ View looked at in 0.8954098 sec!
+
+ View looked at in 0.9165436 sec!
+
+ View looked at in 0.937616 sec!
+
+ View looked at in 0.9580546 sec!
+
+ View looked at in 0.9795962 sec!
+
+ View looked at in 1.000957 sec!
+
+ View looked at in 1.022417 sec!
+
+ View looked at in 1.04317 sec!
+
+ View looked at in 0.2500051 sec!
+
+ --------------------- View looked at in 0.2500051 seconds for the first time! ------------------- 
+
+ View looked at in 0.2706992 sec!
+
+ View looked at in 0.2928465 sec!
+
+ View looked at in 0.3153819 sec!
+
+ View looked at in 0.3370964 sec!
+
+ View looked at in 0.3581698 sec!
+
+ View looked at in 0.3792305 sec!
+
+ View looked at in 0.4001645 sec!
+
+ View looked at in 0.4208063 sec!
+
+ View looked at in 0.4416798 sec!
+
+ View looked at in 0.4628045 sec!
+
+ View looked at in 0.4836778 sec!
+
+ View looked at in 0.504284 sec!
+
+ View looked at in 0.5256463 sec!
+
+ View looked at in 0.5465361 sec!
+
+ View looked at in 0.5679855 sec!
+
+ View looked at in 0.5891283 sec!
+
+ View looked at in 0.61127 sec!
+
+ View looked at in 0.6322452 sec!
+
+ View looked at in 0.6534556 sec!
+
+ View looked at in 0.6742173 sec!
+
+ View looked at in 0.6951995 sec!
+
+ View looked at in 0.7162154 sec!
+
+ View looked at in 0.7369043 sec!
+
+ View looked at in 0.7581668 sec!
+
+ View looked at in 0.7796884 sec!
+
+ View looked at in 0.8008513 sec!
+
+ View looked at in 0.3091065 sec!
+
+ --------------------- View looked at in 0.3091065 seconds for the first time! ------------------- 
+
+ View looked at in 0.3289986 sec!
+
+ View looked at in 0.4542518 sec!
+
+ View looked at in 0.4752609 sec!
+
+ View looked at in 0.4976932 sec!
+
+ View looked at in 0.5191729 sec!
+
+ View looked at in 0.5398464 sec!
+
+ View looked at in 0.5614721 sec!
+
+ View looked at in 0.5827789 sec!
+
+ View looked at in 0.6039537 sec!
+
+ View looked at in 0.6248989 sec!
+
+ View looked at in 0.6462113 sec!
+
+ View looked at in 0.6676711 sec!
+
+ View looked at in 0.6890331 sec!
+
+ View looked at in 0.710135 sec!
+
+ View looked at in 0.7317804 sec!
+
+ View looked at in 0.8749102 sec!
+
+ View looked at in 0.8960984 sec!
+
+ View looked at in 0.9166209 sec!
+
+ View looked at in 0.2731721 sec!
+
+ --------------------- View looked at in 0.2731721 seconds for the first time! ------------------- 
+
+ View looked at in 0.2929129 sec!
+
+ View looked at in 0.3154362 sec!
+
+ View looked at in 0.337395 sec!
+
+ View looked at in 0.358663 sec!
+
+ View looked at in 0.3791959 sec!
+
+ View looked at in 0.4417891 sec!
+
+ View looked at in 0.461897 sec!
+
+ View looked at in 0.4830398 sec!
+
+ View looked at in 0.5667369 sec!
+
+ View looked at in 0.5870883 sec!
+
+ View looked at in 0.6084725 sec!
+
+ View looked at in 0.6292139 sec!
+
+ View looked at in 0.650782 sec!
+
+ View looked at in 0.6713532 sec!
+
+ View looked at in 0.6922203 sec!
+
+ View looked at in 0.7131519 sec!
+
+ View looked at in 0.7347115 sec!
+
+ View looked at in 0.7559531 sec!
+
+ View looked at in 0.7772064 sec!
+
+ View looked at in 0.7979134 sec!
+
+ View looked at in 0.8196753 sec!
+
+ View looked at in 0.2696613 sec!
+
+ --------------------- View looked at in 0.2696613 seconds for the first time! ------------------- 
+
+ View looked at in 0.4567212 sec!
+
+ View looked at in 0.4772979 sec!
+
+ View looked at in 0.0322598 sec!
+
+ --------------------- View looked at in 0.0322598 seconds for the first time! ------------------- 
+
+ View looked at in 0.0557314 sec!
+
+ View looked at in 0.0835508 sec!
+
+ View looked at in 0.1055613 sec!
+
+ View looked at in 0.1269317 sec!
+
+ View looked at in 0.1485211 sec!
+
+ View looked at in 0.1701789 sec!
+
+ View looked at in 0.1914375 sec!
+
+ View looked at in 0.2127232 sec!
+
+ View looked at in 0.2334495 sec!
+
+ View looked at in 0.2557117 sec!
+
+ View looked at in 0.2770162 sec!
+
+ View looked at in 0.2982896 sec!
+
+ View looked at in 0.3194531 sec!
+
+ View looked at in 0.3407045 sec!
+
+ View looked at in 0.3616951 sec!
+
+ View looked at in 0.3827013 sec!
+
+ View looked at in 0.4039874 sec!
+
+ View looked at in 0.4254391 sec!
+
+ View looked at in 0.6338324 sec!
+
+ View looked at in 0.6545752 sec!
+
+ View looked at in 0.6772134 sec!
+
+ View looked at in 0.6987728 sec!
+
+ View looked at in 0.7206276 sec!
+
+ View looked at in 0.7414904 sec!
+
+ View looked at in 0.7636814 sec!
+
+ View looked at in 0.7848864 sec!
+
+ View looked at in 0.8065758 sec!
+
+ View looked at in 0.9323609 sec!
+
+ View looked at in 0.9536042 sec!
+
+ View looked at in 0.9745368 sec!
+
+ View looked at in 0.9955245 sec!
+
+ View looked at in 1.017024 sec!
+
+ View looked at in 1.038019 sec!
+
+ View looked at in 1.059651 sec!
+
+ View looked at in 1.080851 sec!
+
+ View looked at in 1.10244 sec!
+
+ View looked at in 1.123701 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0217931 sec!
+
+ View looked at in 0.0445233 sec!
+
+ View looked at in 0.0677467 sec!
+
+ View looked at in 0.0900952 sec!
+
+ View looked at in 0.111971 sec!
+
+ View looked at in 0.1336342 sec!
+
+ View looked at in 0.1553119 sec!
+
+ View looked at in 0.1766342 sec!
+
+ View looked at in 0.1983692 sec!
+
+ View looked at in 0.2199994 sec!
+
+ View looked at in 0.2410565 sec!
+
+ View looked at in 0.2625811 sec!
+
+ View looked at in 0.28465 sec!
+
+ View looked at in 0.3061981 sec!
+
+ View looked at in 0.3280589 sec!
+
+ View looked at in 0.3496932 sec!
+
+ View looked at in 0.3708711 sec!
+
+ View looked at in 0.3926576 sec!
+
+ View looked at in 0.4142455 sec!
+
+ View looked at in 0.4357032 sec!
+
+ View looked at in 0.4576799 sec!
+
+ View looked at in 0.4783466 sec!
+
+ View looked at in 0.2549011 sec!
+
+ --------------------- View looked at in 0.2549011 seconds for the first time! ------------------- 
+
+ View looked at in 0.3610215 sec!
+
+ View looked at in 0.3818381 sec!
+
+ View looked at in 0.5913706 sec!
+
+ View looked at in 0.6123157 sec!
+
+ View looked at in 0.6340219 sec!
+
+ View looked at in 0.6552604 sec!
+
+ View looked at in 0.6768454 sec!
+
+ View looked at in 0.6985647 sec!
+
+ View looked at in 0.7202891 sec!
+
+ View looked at in 0.7412101 sec!
+
+ View looked at in 0.7627049 sec!
+
+ View looked at in 0.7850241 sec!
+
+ View looked at in 0.8058099 sec!
+
+ View looked at in 0.4663013 sec!
+
+ --------------------- View looked at in 0.4663013 seconds for the first time! ------------------- 
+
+ View looked at in 0.4869694 sec!
+
+ View looked at in 0.5092223 sec!
+
+ View looked at in 0.5306726 sec!
+
+ View looked at in 0.5516235 sec!
+
+ View looked at in 0.572533 sec!
+
+ View looked at in 0.5936782 sec!
+
+ View looked at in 0.6151451 sec!
+
+ View looked at in 0.6365069 sec!
+
+ View looked at in 0.6588045 sec!
+
+ View looked at in 0.679932 sec!
+
+ View looked at in 0.7009424 sec!
+
+ View looked at in 0.7218786 sec!
+
+ View looked at in 0.743533 sec!
+
+ View looked at in 0.7648423 sec!
+
+ View looked at in 0.7864844 sec!
+
+ View looked at in 0.808377 sec!
+
+ View looked at in 0.8298605 sec!
+
+ View looked at in 0.8514873 sec!
+
+ View looked at in 0.8754272 sec!
+
+ View looked at in 0.8965598 sec!
+
+ View looked at in 0.4007496 sec!
+
+ --------------------- View looked at in 0.4007496 seconds for the first time! ------------------- 
+
+ View looked at in 0.4741645 sec!
+
+ --------------------- View looked at in 0.4741645 seconds for the first time! ------------------- 
+
+ View looked at in 0.4950113 sec!
+
+ View looked at in 0.5167527 sec!
+
+ View looked at in 0.5379716 sec!
+
+ View looked at in 0.5596784 sec!
+
+ View looked at in 0.58024 sec!
+
+ View looked at in 0.6016362 sec!
+
+ View looked at in 0.6231372 sec!
+
+ View looked at in 0.6453444 sec!
+
+ View looked at in 0.6662198 sec!
+
+ View looked at in 0.6877094 sec!
+
+ View looked at in 0.7081689 sec!
+
+ View looked at in 0.7301764 sec!
+
+ View looked at in 0.7513943 sec!
+
+ View looked at in 0.7729264 sec!
+
+ View looked at in 0.7941994 sec!
+
+ View looked at in 0.815738 sec!
+
+ View looked at in 0.8365216 sec!
+
+ View looked at in 0.8578738 sec!
+
+ View looked at in 0.8788777 sec!
+
+ View looked at in 0.9004609 sec!
+
+ View looked at in 0.9211465 sec!
+
+ View looked at in 0.9430423 sec!
+
+ View looked at in 0.9645041 sec!
+
+ View looked at in 0.9861693 sec!
+
+ View looked at in 1.007369 sec!
+
+ View looked at in 1.028691 sec!
+
+ View looked at in 1.050556 sec!
+
+ View looked at in 1.07173 sec!
+
+ View looked at in 1.092686 sec!
+
+ View looked at in 1.113864 sec!
+
+ View looked at in 1.134929 sec!
+
+ View looked at in 1.156798 sec!
+
+ View looked at in 1.177854 sec!
+
+ View looked at in 1.198943 sec!
+
+ View looked at in 1.219446 sec!
+
+ View looked at in 1.240968 sec!
+
+ View looked at in 1.261725 sec!
+
+ View looked at in 1.283054 sec!
+
+ View looked at in 1.303865 sec!
+
+ View looked at in 1.324907 sec!
+
+ View looked at in 0.3764918 sec!
+
+ --------------------- View looked at in 0.3764918 seconds for the first time! ------------------- 
+
+ View looked at in 0.3961562 sec!
+
+ View looked at in 0.4194168 sec!
+
+ View looked at in 0.4411845 sec!
+
+ View looked at in 0.4625044 sec!
+
+ View looked at in 0.4833024 sec!
+
+ View looked at in 0.5046122 sec!
+
+ View looked at in 0.5257211 sec!
+
+ View looked at in 0.5472822 sec!
+
+ View looked at in 0.5682068 sec!
+
+ View looked at in 0.5895532 sec!
+
+ View looked at in 0.6106154 sec!
+
+ View looked at in 0.6324334 sec!
+
+ View looked at in 0.6541231 sec!
+
+ View looked at in 0.6751782 sec!
+
+ View looked at in 0.6965023 sec!
+
+ View looked at in 0.7173336 sec!
+
+ View looked at in 0.0677175 sec!
+
+ --------------------- View looked at in 0.0677175 seconds for the first time! ------------------- 
+
+ View looked at in 0.0889244 sec!
+
+ View looked at in 0.112844 sec!
+
+ View looked at in 0.1354009 sec!
+
+ View looked at in 0.1561836 sec!
+
+ View looked at in 0.1772258 sec!
+
+ View looked at in 0.1984211 sec!
+
+ View looked at in 0.2198951 sec!
+
+ View looked at in 0.2407795 sec!
+
+ View looked at in 0.2624879 sec!
+
+ View looked at in 0.2838822 sec!
+
+ View looked at in 0.3061465 sec!
+
+ View looked at in 0.3277115 sec!
+
+ View looked at in 0.3483581 sec!
+
+ View looked at in 0.3700561 sec!
+
+ View looked at in 0.3917037 sec!
+
+ View looked at in 0.4128389 sec!
+
+ View looked at in 0.4346226 sec!
+
+ View looked at in 0.4557179 sec!
+
+ View looked at in 0.4771668 sec!
+
+ View looked at in 0.4981557 sec!
+
+ View looked at in 0.5206127 sec!
+
+ View looked at in 0.5422696 sec!
+
+ View looked at in 0.5638217 sec!
+
+ View looked at in 0.5852056 sec!
+
+ View looked at in 0.6069884 sec!
+
+ View looked at in 0.6276909 sec!
+
+ View looked at in 0.6495299 sec!
+
+ View looked at in 0.6710302 sec!
+
+ View looked at in 0.6932023 sec!
+
+ View looked at in 0.7143363 sec!
+
+ View looked at in 0.7358531 sec!
+
+ View looked at in 0.7564654 sec!
+
+ View looked at in 0.317946 sec!
+
+ --------------------- View looked at in 0.317946 seconds for the first time! ------------------- 
+
+ View looked at in 0.3374533 sec!
+
+ View looked at in 0.3600827 sec!
+
+ View looked at in 0.3815021 sec!
+
+ View looked at in 0.4026902 sec!
+
+ View looked at in 0.4236978 sec!
+
+ View looked at in 0.4449443 sec!
+
+ View looked at in 0.4659454 sec!
+
+ View looked at in 0.4876307 sec!
+
+ View looked at in 0.5078316 sec!
+
+ View looked at in 0.5293453 sec!
+
+ View looked at in 0.5507061 sec!
+
+ View looked at in 0.571852 sec!
+
+ View looked at in 0.5930068 sec!
+
+ View looked at in 0.6143793 sec!
+
+ View looked at in 0.635047 sec!
+
+ View looked at in 0.2315802 sec!
+
+ --------------------- View looked at in 0.2315802 seconds for the first time! ------------------- 
+
+ View looked at in 0.2516152 sec!
+
+ View looked at in 0.2735457 sec!
+
+ View looked at in 0.2947402 sec!
+
+ View looked at in 0.3161869 sec!
+
+ View looked at in 0.336654 sec!
+
+ View looked at in 1.358513 sec!
+
+ View looked at in 1.379215 sec!
+
+ View looked at in 0.3774535 sec!
+
+ --------------------- View looked at in 0.3774535 seconds for the first time! ------------------- 
+
+ View looked at in 0.3987061 sec!
+
+ View looked at in 0.4206169 sec!
+
+ View looked at in 0.4416032 sec!
+
+ View looked at in 0.4632204 sec!
+
+ View looked at in 0.4841042 sec!
+
+ View looked at in 0.5059459 sec!
+
+ View looked at in 0.526915 sec!
+
+ View looked at in 0.5480996 sec!
+
+ View looked at in 0.569699 sec!
+
+ View looked at in 0.5927662 sec!
+
+ View looked at in 0.614898 sec!
+
+ View looked at in 0.638015 sec!
+
+ View looked at in 0.6594813 sec!
+
+ View looked at in 2.120398 sec!
+
+ View looked at in 2.140612 sec!
+
+ View looked at in 2.161429 sec!
+
+ View looked at in 2.182546 sec!
+
+ View looked at in 2.204149 sec!
+
+ View looked at in 2.225335 sec!
+
+ View looked at in 2.246719 sec!
+
+ View looked at in 2.267501 sec!
+
+ View looked at in 2.288933 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0204622 sec!
+
+ View looked at in 0.0439226 sec!
+
+ View looked at in 0.06509 sec!
+
+ View looked at in 0.0862312 sec!
+
+ View looked at in 0.1084039 sec!
+
+ View looked at in 0.1317158 sec!
+
+ View looked at in 0.1548995 sec!
+
+ View looked at in 0.1758525 sec!
+
+ View looked at in 0.197041 sec!
+
+ View looked at in 0.2184388 sec!
+
+ View looked at in 0.239821 sec!
+
+ View looked at in 0.2618046 sec!
+
+ View looked at in 0.282984 sec!
+
+ View looked at in 0.3041835 sec!
+
+ View looked at in 0.3250348 sec!
+
+ View looked at in 0.3457888 sec!
+
+ View looked at in 0.3672163 sec!
+
+ View looked at in 0.3884989 sec!
+
+ View looked at in 0.4097328 sec!
+
+ View looked at in 0.4314094 sec!
+
+ View looked at in 0.4521596 sec!
+
+ View looked at in 0.4731682 sec!
+
+ View looked at in 0.4953169 sec!
+
+ View looked at in 0.5161822 sec!
+
+ View looked at in 0.860828 sec!
+
+ --------------------- View looked at in 0.860828 seconds for the first time! ------------------- 
+
+ View looked at in 0.8813047 sec!
+
+ View looked at in 0.9030014 sec!
+
+ View looked at in 0.9242069 sec!
+
+ View looked at in 0.9450991 sec!
+
+ View looked at in 0.9662741 sec!
+
+ View looked at in 0.3094819 sec!
+
+ --------------------- View looked at in 0.3094819 seconds for the first time! ------------------- 
+
+ View looked at in 0.3299188 sec!
+
+ View looked at in 0.3523289 sec!
+
+ View looked at in 0.3733509 sec!
+
+ View looked at in 0.3941367 sec!
+
+ View looked at in 0.4149884 sec!
+
+ View looked at in 0.4359553 sec!
+
+ View looked at in 0.457959 sec!
+
+ View looked at in 0.4796152 sec!
+
+ View looked at in 0.5009647 sec!
+
+ View looked at in 0.521533 sec!
+
+ View looked at in 0.5426343 sec!
+
+ View looked at in 0.5636759 sec!
+
+ View looked at in 0.5850159 sec!
+
+ View looked at in 0.6062752 sec!
+
+ View looked at in 0.6291194 sec!
+
+ View looked at in 0.6500544 sec!
+
+ View looked at in 0.6711717 sec!
+
+ View looked at in 0.6920326 sec!
+
+ View looked at in 0.7128004 sec!
+
+ View looked at in 0.7337133 sec!
+
+ View looked at in 0.7551128 sec!
+
+ View looked at in 0.775804 sec!
+
+ View looked at in 0.2704641 sec!
+
+ --------------------- View looked at in 0.2704641 seconds for the first time! ------------------- 
+
+ View looked at in 0.4166327 sec!
+
+ View looked at in 0.4376403 sec!
+
+ View looked at in 0.4590958 sec!
+
+ View looked at in 0.4799789 sec!
+
+ View looked at in 0.5009893 sec!
+
+ View looked at in 0.6473184 sec!
+
+ View looked at in 0.66818 sec!
+
+ View looked at in 0.6893439 sec!
+
+ View looked at in 0.7111002 sec!
+
+ View looked at in 0.7322062 sec!
+
+ View looked at in 0.7533042 sec!
+
+ View looked at in 0.7740058 sec!
+
+ View looked at in 0.2504295 sec!
+
+ --------------------- View looked at in 0.2504295 seconds for the first time! ------------------- 
+
+ View looked at in 0.2705094 sec!
+
+ View looked at in 0.2927146 sec!
+
+ View looked at in 0.3131823 sec!
+
+ View looked at in 0.3345914 sec!
+
+ View looked at in 0.3555755 sec!
+
+ View looked at in 0.3767211 sec!
+
+ View looked at in 0.3978399 sec!
+
+ View looked at in 0.419433 sec!
+
+ View looked at in 0.4405417 sec!
+
+ View looked at in 0.4611904 sec!
+
+ View looked at in 0.4823815 sec!
+
+ View looked at in 0.5039778 sec!
+
+ View looked at in 0.5250024 sec!
+
+ View looked at in 0.5466377 sec!
+
+ View looked at in 0.5680459 sec!
+
+ View looked at in 0.5891393 sec!
+
+ View looked at in 0.6098946 sec!
+
+ View looked at in 0.6309068 sec!
+
+ View looked at in 0.6520757 sec!
+
+ View looked at in 0.6736174 sec!
+
+ View looked at in 0.6940885 sec!
+
+ View looked at in 0.7152263 sec!
+
+ View looked at in 0.7358714 sec!
+
+ View looked at in 0.7569395 sec!
+
+ View looked at in 0.276916 sec!
+
+ --------------------- View looked at in 0.276916 seconds for the first time! ------------------- 
+
+ View looked at in 0.2987303 sec!
+
+ View looked at in 0.3202187 sec!
+
+ View looked at in 0.3416728 sec!
+
+ View looked at in 0.3636505 sec!
+
+ View looked at in 0.3851637 sec!
+
+ View looked at in 0.4060128 sec!
+
+ View looked at in 0.4266763 sec!
+
+ View looked at in 0.4477247 sec!
+
+ View looked at in 0.4691738 sec!
+
+ View looked at in 0.4897768 sec!
+
+ View looked at in 0.5113987 sec!
+
+ View looked at in 0.532791 sec!
+
+ View looked at in 0.5544816 sec!
+
+ View looked at in 0.5750995 sec!
+
+ View looked at in 0.5961571 sec!
+
+ View looked at in 0.6170292 sec!
+
+ View looked at in 0.6380907 sec!
+
+ View looked at in 0.6591907 sec!
+
+ View looked at in 0.6798776 sec!
+
+ View looked at in 0.7006924 sec!
+
+ View looked at in 0.7220274 sec!
+
+ View looked at in 0.743034 sec!
+
+ View looked at in 0.7639032 sec!
+
+ View looked at in 0.4666683 sec!
+
+ --------------------- View looked at in 0.4666683 seconds for the first time! ------------------- 
+
+ View looked at in 0.4866697 sec!
+
+ View looked at in 0.5104192 sec!
+
+ View looked at in 0.5312205 sec!
+
+ View looked at in 0.5522258 sec!
+
+ View looked at in 0.5724398 sec!
+
+ View looked at in 0.5934625 sec!
+
+ View looked at in 0.614199 sec!
+
+ View looked at in 0.6348078 sec!
+
+ View looked at in 0.6555382 sec!
+
+ View looked at in 0.6764226 sec!
+
+ View looked at in 0.6969829 sec!
+
+ View looked at in 0.7177102 sec!
+
+ View looked at in 0.7389783 sec!
+
+ View looked at in 0.7602709 sec!
+
+ View looked at in 0.7808975 sec!
+
+ View looked at in 0.8021356 sec!
+
+ View looked at in 0.823002 sec!
+
+ View looked at in 0.843711 sec!
+
+ View looked at in 0.8648506 sec!
+
+ View looked at in 0.8855572 sec!
+
+ View looked at in 0.905826 sec!
+
+ View looked at in 0.9267794 sec!
+
+ View looked at in 0.9475865 sec!
+
+ View looked at in 0.9687119 sec!
+
+ View looked at in 0.9895999 sec!
+
+ View looked at in 1.010398 sec!
+
+ View looked at in 1.031661 sec!
+
+ View looked at in 1.05257 sec!
+
+ View looked at in 1.073208 sec!
+
+ View looked at in 1.094209 sec!
+
+ View looked at in 1.114605 sec!
+
+ View looked at in 1.136157 sec!
+
+ View looked at in 1.157021 sec!
+
+ View looked at in 1.178904 sec!
+
+ View looked at in 1.20122 sec!
+
+ View looked at in 1.222185 sec!
+
+ View looked at in 1.242471 sec!
+
+ View looked at in 1.2637 sec!
+
+ View looked at in 1.284739 sec!
+
+ View looked at in 1.305494 sec!
+
+ View looked at in 1.326058 sec!
+
+ View looked at in 1.346668 sec!
+
+ View looked at in 1.367329 sec!
+
+ View looked at in 1.388121 sec!
+
+ View looked at in 1.40856 sec!
+
+ View looked at in 1.429296 sec!
+
+ View looked at in 1.449639 sec!
+
+ View looked at in 1.470702 sec!
+
+ View looked at in 1.49186 sec!
+
+ View looked at in 1.513165 sec!
+
+ View looked at in 1.534344 sec!
+
+ View looked at in 1.555241 sec!
+
+ View looked at in 1.575666 sec!
+
+ View looked at in 1.597072 sec!
+
+ View looked at in 1.617998 sec!
+
+ View looked at in 1.638538 sec!
+
+ View looked at in 1.658733 sec!
+
+ View looked at in 1.679698 sec!
+
+ View looked at in 1.701012 sec!
+
+ View looked at in 1.721795 sec!
+
+ View looked at in 1.742139 sec!
+
+ View looked at in 1.763119 sec!
+
+ View looked at in 1.783478 sec!
+
+ View looked at in 1.804763 sec!
+
+ View looked at in 1.825319 sec!
+
+ View looked at in 1.846531 sec!
+
+ View looked at in 1.867015 sec!
+
+ View looked at in 1.888504 sec!
+
+ View looked at in 0.2697462 sec!
+
+ --------------------- View looked at in 0.2697462 seconds for the first time! ------------------- 
+
+ View looked at in 0.2905948 sec!
+
+ View looked at in 0.3125733 sec!
+
+ View looked at in 0.3333061 sec!
+
+ View looked at in 0.353703 sec!
+
+ View looked at in 0.3742082 sec!
+
+ View looked at in 0.3947652 sec!
+
+ View looked at in 0.4154415 sec!
+
+ View looked at in 0.4361738 sec!
+
+ View looked at in 0.4570429 sec!
+
+ View looked at in 0.4775262 sec!
+
+ View looked at in 0.4980755 sec!
+
+ View looked at in 0.5188396 sec!
+
+ View looked at in 0.5400236 sec!
+
+ View looked at in 0.5605102 sec!
+
+ View looked at in 0.5820777 sec!
+
+ View looked at in 0.6035032 sec!
+
+ View looked at in 0.6244091 sec!
+
+ View looked at in 0.6451963 sec!
+
+ View looked at in 0.6666835 sec!
+
+ View looked at in 0.6873015 sec!
+
+ View looked at in 0.7076531 sec!
+
+ View looked at in 0.728096 sec!
+
+ View looked at in 0.3481004 sec!
+
+ --------------------- View looked at in 0.3481004 seconds for the first time! ------------------- 
+
+ View looked at in 0.3686379 sec!
+
+ View looked at in 0.3912713 sec!
+
+ View looked at in 0.2701814 sec!
+
+ --------------------- View looked at in 0.2701814 seconds for the first time! ------------------- 
+
+ View looked at in 0.2910021 sec!
+
+ View looked at in 0.3139626 sec!
+
+ View looked at in 0.3358024 sec!
+
+ View looked at in 0.4624468 sec!
+
+ View looked at in 0.4828607 sec!
+
+ View looked at in 0.5033339 sec!
+
+ View looked at in 0.5239856 sec!
+
+ View looked at in 0.5454519 sec!
+
+ View looked at in 0.5671852 sec!
+
+ View looked at in 0.5878096 sec!
+
+ View looked at in 0.6089029 sec!
+
+ View looked at in 0.629102 sec!
+
+ View looked at in 0.6500953 sec!
+
+ View looked at in 0.0625441 sec!
+
+ --------------------- View looked at in 0.0625441 seconds for the first time! ------------------- 
+
+ View looked at in 0.0847573 sec!
+
+ View looked at in 0.1071165 sec!
+
+ View looked at in 0.1281336 sec!
+
+ View looked at in 0.149954 sec!
+
+ View looked at in 0.1715827 sec!
+
+ View looked at in 0.1931419 sec!
+
+ View looked at in 0.2148101 sec!
+
+ View looked at in 0.2355036 sec!
+
+ View looked at in 0.2564812 sec!
+
+ View looked at in 0.2770769 sec!
+
+ View looked at in 0.2981684 sec!
+
+ View looked at in 0.3184403 sec!
+
+ View looked at in 0.3399847 sec!
+
+ View looked at in 0.3611931 sec!
+
+ View looked at in 0.3846693 sec!
+
+ View looked at in 0.4052734 sec!
+
+ View looked at in 0.4268125 sec!
+
+ View looked at in 0.4482162 sec!
+
+ View looked at in 0.4694878 sec!
+
+ View looked at in 0.4904044 sec!
+
+ View looked at in 0.5116715 sec!
+
+ View looked at in 0.5326269 sec!
+
+ View looked at in 0.5538806 sec!
+
+ View looked at in 0.5750155 sec!
+
+ View looked at in 0.5959679 sec!
+
+ View looked at in 0.6163822 sec!
+
+ View looked at in 0.6370823 sec!
+
+ View looked at in 0.6579369 sec!
+
+ View looked at in 0.6788573 sec!
+
+ View looked at in 0.6999669 sec!
+
+ View looked at in 0.721374 sec!
+
+ View looked at in 0.7421907 sec!
+
+ View looked at in 0.7631776 sec!
+
+ View looked at in 0.7837051 sec!
+
+ View looked at in 0.8046619 sec!
+
+ View looked at in 0.8258969 sec!
+
+ View looked at in 0.8467594 sec!
+
+ View looked at in 0.8674048 sec!
+
+ View looked at in 0.8891001 sec!
+
+ View looked at in 0.9100881 sec!
+
+ View looked at in 0.9328817 sec!
+
+ View looked at in 0.297017 sec!
+
+ --------------------- View looked at in 0.297017 seconds for the first time! ------------------- 
+
+ View looked at in 0.3169431 sec!
+
+ View looked at in 0.338637 sec!
+
+ View looked at in 0.3601865 sec!
+
+ View looked at in 0.3807266 sec!
+
+ View looked at in 0.4017186 sec!
+
+ View looked at in 0.4240925 sec!
+
+ View looked at in 0.445365 sec!
+
+ View looked at in 0.4667027 sec!
+
+ View looked at in 0.4882431 sec!
+
+ View looked at in 0.5093431 sec!
+
+ View looked at in 0.5298365 sec!
+
+ View looked at in 0.5507946 sec!
+
+ View looked at in 0.5716465 sec!
+
+ View looked at in 0.5926912 sec!
+
+ View looked at in 0.6141496 sec!
+
+ View looked at in 0.6348224 sec!
+
+ View looked at in 0.6559054 sec!
+
+ View looked at in 0.6771986 sec!
+
+ View looked at in 0.6980812 sec!
+
+ View looked at in 0.719307 sec!
+
+ View looked at in 0.7398064 sec!
+
+ View looked at in 0.7599398 sec!
+
+ View looked at in 0.7809661 sec!
+
+ View looked at in 0.8017215 sec!
+
+ View looked at in 0.8237374 sec!
+
+ View looked at in 0.8449584 sec!
+
+ View looked at in 0.866226 sec!
+
+ View looked at in 0.8871822 sec!
+
+ View looked at in 0.9079828 sec!
+
+ View looked at in 0.2681985 sec!
+
+ --------------------- View looked at in 0.2681985 seconds for the first time! ------------------- 
+
+ View looked at in 0.2883187 sec!
+
+ View looked at in 0.3101106 sec!
+
+ View looked at in 0.3312727 sec!
+
+ View looked at in 0.3523101 sec!
+
+ View looked at in 0.3730888 sec!
+
+ View looked at in 0.3939198 sec!
+
+ View looked at in 0.4152506 sec!
+
+ View looked at in 0.4360622 sec!
+
+ View looked at in 0.4565878 sec!
+
+ View looked at in 0.4773295 sec!
+
+ View looked at in 0.4984541 sec!
+
+ View looked at in 0.5198558 sec!
+
+ View looked at in 0.5409268 sec!
+
+ View looked at in 0.561682 sec!
+
+ View looked at in 0.5831957 sec!
+
+ View looked at in 0.604372 sec!
+
+ View looked at in 0.6252342 sec!
+
+ View looked at in 0.6460419 sec!
+
+ View looked at in 0.6672286 sec!
+
+ View looked at in 0.6878476 sec!
+
+ View looked at in 0.7094857 sec!
+
+ View looked at in 0.7304341 sec!
+
+ View looked at in 0.7511683 sec!
+
+ View looked at in 0.7722474 sec!
+
+ View looked at in 0.793007 sec!
+
+ View looked at in 0.8136629 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0220916 sec!
+
+ View looked at in 0.0439189 sec!
+
+ View looked at in 0.0646897 sec!
+
+ View looked at in 0.0856906 sec!
+
+ View looked at in 0.1067064 sec!
+
+ View looked at in 0.1274938 sec!
+
+ View looked at in 0.15044 sec!
+
+ View looked at in 0.1731299 sec!
+
+ View looked at in 0.1941786 sec!
+
+ View looked at in 0.2156134 sec!
+
+ View looked at in 0.2358972 sec!
+
+ View looked at in 0.256025 sec!
+
+ View looked at in 0.277844 sec!
+
+ View looked at in 0.2981245 sec!
+
+ View looked at in 0.3194371 sec!
+
+ View looked at in 0.3400162 sec!
+
+ View looked at in 0.3605661 sec!
+
+ View looked at in 0.3822448 sec!
+
+ View looked at in 0.4040112 sec!
+
+ View looked at in 0.424541 sec!
+
+ View looked at in 0.4448245 sec!
+
+ View looked at in 0.4656534 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0212771 sec!
+
+ View looked at in 0.0435316 sec!
+
+ View looked at in 0.0642726 sec!
+
+ View looked at in 0.0862864 sec!
+
+ View looked at in 0.1072979 sec!
+
+ View looked at in 0.1294753 sec!
+
+ View looked at in 0.1513078 sec!
+
+ View looked at in 0.1720568 sec!
+
+ View looked at in 0.1933895 sec!
+
+ View looked at in 0.2138493 sec!
+
+ View looked at in 0.2345184 sec!
+
+ View looked at in 0.2555669 sec!
+
+ View looked at in 0.276297 sec!
+
+ View looked at in 0.2976168 sec!
+
+ View looked at in 0.3180828 sec!
+
+ View looked at in 0.3387476 sec!
+
+ View looked at in 0.3589212 sec!
+
+ View looked at in 0.3792308 sec!
+
+ View looked at in 0.4003169 sec!
+
+ View looked at in 0.4210276 sec!
+
+ View looked at in 0.4421549 sec!
+
+ View looked at in 0.4637206 sec!
+
+ View looked at in 0.4858922 sec!
+
+ View looked at in 0.2278124 sec!
+
+ --------------------- View looked at in 0.2278124 seconds for the first time! ------------------- 
+
+ View looked at in 0.248351 sec!
+
+ View looked at in 0.2707176 sec!
+
+ View looked at in 0.2917195 sec!
+
+ View looked at in 0.4545277 sec!
+
+ View looked at in 0.4746689 sec!
+
+ View looked at in 0.495895 sec!
+
+ View looked at in 0.5161572 sec!
+
+ View looked at in 0.5369784 sec!
+
+ View looked at in 0.5577589 sec!
+
+ View looked at in 0.5786691 sec!
+
+ View looked at in 0.5990223 sec!
+
+ View looked at in 0.6201257 sec!
+
+ View looked at in 0.6407474 sec!
+
+ View looked at in 0.6615878 sec!
+
+ View looked at in 0.6825259 sec!
+
+ View looked at in 0.7037569 sec!
+
+ View looked at in 0.407255 sec!
+
+ --------------------- View looked at in 0.407255 seconds for the first time! ------------------- 
+
+ View looked at in 0.4278237 sec!
+
+ View looked at in 0.4505787 sec!
+
+ View looked at in 0.4715657 sec!
+
+ View looked at in 0.4927756 sec!
+
+ View looked at in 0.5132536 sec!
+
+ View looked at in 0.5346073 sec!
+
+ View looked at in 0.555431 sec!
+
+ View looked at in 0.57667 sec!
+
+ View looked at in 0.5973359 sec!
+
+ View looked at in 0.6183164 sec!
+
+ View looked at in 0.6395801 sec!
+
+ View looked at in 0.6608796 sec!
+
+ View looked at in 0.6815326 sec!
+
+ View looked at in 0.7022452 sec!
+
+ View looked at in 0.7228115 sec!
+
+ View looked at in 0.7443609 sec!
+
+ View looked at in 0.7655439 sec!
+
+ View looked at in 0.7866175 sec!
+
+ View looked at in 0.8075259 sec!
+
+ View looked at in 0.8293037 sec!
+
+ View looked at in 0.8505732 sec!
+
+ View looked at in 0.2494535 sec!
+
+ --------------------- View looked at in 0.2494535 seconds for the first time! ------------------- 
+
+ View looked at in 0.2704033 sec!
+
+ View looked at in 0.2924204 sec!
+
+ View looked at in 0.3137457 sec!
+
+ View looked at in 0.3353029 sec!
+
+ View looked at in 0.3559755 sec!
+
+ View looked at in 0.3768373 sec!
+
+ View looked at in 0.3984613 sec!
+
+ View looked at in 0.4190451 sec!
+
+ View looked at in 0.4404333 sec!
+
+ View looked at in 0.4615581 sec!
+
+ View looked at in 0.4831372 sec!
+
+ View looked at in 0.5036925 sec!
+
+ View looked at in 0.5243873 sec!
+
+ View looked at in 0.545312 sec!
+
+ View looked at in 0.5664218 sec!
+
+ View looked at in 0.5876143 sec!
+
+ View looked at in 0.6083099 sec!
+
+ View looked at in 0.6291669 sec!
+
+ View looked at in 0.6500026 sec!
+
+ View looked at in 0.6710669 sec!
+
+ View looked at in 0.6926723 sec!
+
+ View looked at in 0.712756 sec!
+
+ View looked at in 0.2520331 sec!
+
+ --------------------- View looked at in 0.2520331 seconds for the first time! ------------------- 
+
+ View looked at in 0.2722976 sec!
+
+ View looked at in 0.2947165 sec!
+
+ View looked at in 0.3156632 sec!
+
+ View looked at in 0.3371166 sec!
+
+ View looked at in 0.3576974 sec!
+
+ View looked at in 0.378821 sec!
+
+ View looked at in 0.4003827 sec!
+
+ View looked at in 0.422204 sec!
+
+ View looked at in 0.4432083 sec!
+
+ View looked at in 0.4644261 sec!
+
+ View looked at in 0.485325 sec!
+
+ View looked at in 0.5064718 sec!
+
+ View looked at in 0.5279548 sec!
+
+ View looked at in 0.5484892 sec!
+
+ View looked at in 0.5691741 sec!
+
+ View looked at in 0.5906116 sec!
+
+ View looked at in 0.611302 sec!
+
+ View looked at in 0.6328375 sec!
+
+ View looked at in 0.6538764 sec!
+
+ View looked at in 0.6748121 sec!
+
+ View looked at in 0.6957638 sec!
+
+ View looked at in 0.7163751 sec!
+
+ View looked at in 0.7368569 sec!
+
+ View looked at in 0.2345283 sec!
+
+ --------------------- View looked at in 0.2345283 seconds for the first time! ------------------- 
+
+ View looked at in 0.2550458 sec!
+
+ View looked at in 0.2780538 sec!
+
+ View looked at in 0.2983894 sec!
+
+ View looked at in 0.319675 sec!
+
+ View looked at in 0.3411842 sec!
+
+ View looked at in 0.3625318 sec!
+
+ View looked at in 0.3842731 sec!
+
+ View looked at in 0.4051803 sec!
+
+ View looked at in 0.4259853 sec!
+
+ View looked at in 0.4472761 sec!
+
+ View looked at in 0.4682427 sec!
+
+ View looked at in 0.4892869 sec!
+
+ View looked at in 0.5095157 sec!
+
+ View looked at in 0.5308315 sec!
+
+ View looked at in 0.5515147 sec!
+
+ View looked at in 0.5726336 sec!
+
+ View looked at in 0.5938931 sec!
+
+ View looked at in 0.6150386 sec!
+
+ View looked at in 0.6357729 sec!
+
+ View looked at in 0.6566725 sec!
+
+ View looked at in 0.6781504 sec!
+
+ View looked at in 0.6993685 sec!
+
+ View looked at in 0.7201149 sec!
+
+ View looked at in 0.3772907 sec!
+
+ --------------------- View looked at in 0.3772907 seconds for the first time! ------------------- 
+
+ View looked at in 0.3972339 sec!
+
+ View looked at in 0.4192136 sec!
+
+ View looked at in 0.4423221 sec!
+
+ View looked at in 0.4645679 sec!
+
+ View looked at in 0.4871286 sec!
+
+ View looked at in 0.5087328 sec!
+
+ View looked at in 0.5298003 sec!
+
+ View looked at in 0.5508087 sec!
+
+ View looked at in 0.5713473 sec!
+
+ View looked at in 0.5927716 sec!
+
+ View looked at in 0.6135771 sec!
+
+ View looked at in 0.6340852 sec!
+
+ View looked at in 0.6551258 sec!
+
+ View looked at in 0.6762146 sec!
+
+ View looked at in 0.6974203 sec!
+
+ View looked at in 0.7191267 sec!
+
+ View looked at in 0.7403811 sec!
+
+ View looked at in 0.7611852 sec!
+
+ View looked at in 0.782093 sec!
+
+ View looked at in 0.8031958 sec!
+
+ View looked at in 0.8241203 sec!
+
+ View looked at in 0.8456266 sec!
+
+ View looked at in 0.8668765 sec!
+
+ View looked at in 0.8884444 sec!
+
+ View looked at in 0.2696853 sec!
+
+ --------------------- View looked at in 0.2696853 seconds for the first time! ------------------- 
+
+ View looked at in 0.290505 sec!
+
+ View looked at in 0.3121972 sec!
+
+ View looked at in 0.3336753 sec!
+
+ View looked at in 0.354353 sec!
+
+ View looked at in 0.3759102 sec!
+
+ View looked at in 0.3972613 sec!
+
+ View looked at in 0.4186161 sec!
+
+ View looked at in 0.4391999 sec!
+
+ View looked at in 0.4603263 sec!
+
+ View looked at in 0.4805512 sec!
+
+ View looked at in 0.5017335 sec!
+
+ View looked at in 0.5235507 sec!
+
+ View looked at in 0.5443208 sec!
+
+ View looked at in 0.5651929 sec!
+
+ View looked at in 0.5857447 sec!
+
+ View looked at in 0.6070963 sec!
+
+ View looked at in 0.6293092 sec!
+
+ View looked at in 0.649952 sec!
+
+ View looked at in 0.6711849 sec!
+
+ View looked at in 0.6917496 sec!
+
+ View looked at in 0.7122399 sec!
+
+ View looked at in 0.7334427 sec!
+
+ View looked at in 0.3925856 sec!
+
+ --------------------- View looked at in 0.3925856 seconds for the first time! ------------------- 
+
+ View looked at in 0.4126377 sec!
+
+ View looked at in 0.4347114 sec!
+
+ View looked at in 0.4559409 sec!
+
+ View looked at in 0.4770724 sec!
+
+ View looked at in 0.4975804 sec!
+
+ View looked at in 0.5183499 sec!
+
+ View looked at in 0.5395456 sec!
+
+ View looked at in 0.5604905 sec!
+
+ View looked at in 0.5814582 sec!
+
+ View looked at in 0.602851 sec!
+
+ View looked at in 0.2882003 sec!
+
+ --------------------- View looked at in 0.2882003 seconds for the first time! ------------------- 
+
+ View looked at in 0.3083233 sec!
+
+ View looked at in 0.331044 sec!
+
+ View looked at in 0.3516771 sec!
+
+ View looked at in 0.3733636 sec!
+
+ View looked at in 0.3944605 sec!
+
+ View looked at in 0.4156966 sec!
+
+ View looked at in 0.4367677 sec!
+
+ View looked at in 0.4580394 sec!
+
+ View looked at in 0.4787296 sec!
+
+ View looked at in 0.4999931 sec!
+
+ View looked at in 0.5209756 sec!
+
+ View looked at in 0.5426919 sec!
+
+ View looked at in 0.563584 sec!
+
+ View looked at in 0.5845576 sec!
+
+ View looked at in 0.6047226 sec!
+
+ View looked at in 0.6255396 sec!
+
+ View looked at in 0.6456801 sec!
+
+ View looked at in 0.6664739 sec!
+
+ View looked at in 0.6874959 sec!
+
+ View looked at in 0.7086806 sec!
+
+ View looked at in 0.7295202 sec!
+
+ View looked at in 0.7505499 sec!
+
+ View looked at in 0.770962 sec!
+
+ View looked at in 0.7915593 sec!
+
+ View looked at in 0.4393364 sec!
+
+ --------------------- View looked at in 0.4393364 seconds for the first time! ------------------- 
+
+ View looked at in 0.459474 sec!
+
+ View looked at in 0.4817761 sec!
+
+ View looked at in 0.5033107 sec!
+
+ View looked at in 0.5247321 sec!
+
+ View looked at in 0.5458905 sec!
+
+ View looked at in 0.5664275 sec!
+
+ View looked at in 0.5879126 sec!
+
+ View looked at in 0.0409867 sec!
+
+ --------------------- View looked at in 0.0409867 seconds for the first time! ------------------- 
+
+ View looked at in 0.0612068 sec!
+
+ View looked at in 0.0840454 sec!
+
+ View looked at in 0.1055467 sec!
+
+ View looked at in 0.1278398 sec!
+
+ View looked at in 0.1498 sec!
+
+ View looked at in 0.170808 sec!
+
+ View looked at in 0.1921909 sec!
+
+ View looked at in 0.2125898 sec!
+
+ View looked at in 0.2336545 sec!
+
+ View looked at in 0.2544894 sec!
+
+ View looked at in 0.2757676 sec!
+
+ View looked at in 0.2965025 sec!
+
+ View looked at in 0.3173328 sec!
+
+ View looked at in 0.3388034 sec!
+
+ View looked at in 0.3596523 sec!
+
+ View looked at in 0.380463 sec!
+
+ View looked at in 0.4023932 sec!
+
+ View looked at in 0.4235192 sec!
+
+ View looked at in 0.4442697 sec!
+
+ View looked at in 0.4648468 sec!
+
+ View looked at in 0.4861725 sec!
+
+ View looked at in 0.5072772 sec!
+
+ View looked at in 0.527108 sec!
+
+ View looked at in 0.5485962 sec!
+
+ View looked at in 0.5694102 sec!
+
+ View looked at in 0.5913318 sec!
+
+ View looked at in 0.6122605 sec!
+
+ View looked at in 0.6336539 sec!
+
+ View looked at in 0.6559964 sec!
+
+ View looked at in 0.6776769 sec!
+
+ View looked at in 0.6988931 sec!
+
+ View looked at in 0.719795 sec!
+
+ View looked at in 0.740201 sec!
+
+ View looked at in 0.7614326 sec!
+
+ View looked at in 0.7822448 sec!
+
+ View looked at in 0.8033467 sec!
+
+ View looked at in 0.8239721 sec!
+
+ View looked at in 0.8444047 sec!
+
+ View looked at in 0.8651749 sec!
+
+ View looked at in 0.886323 sec!
+
+ View looked at in 0.907152 sec!
+
+ View looked at in 1.312567 sec!
+
+ View looked at in 1.333109 sec!
+
+ View looked at in 1.353815 sec!
+
+ View looked at in 1.374708 sec!
+
+ View looked at in 1.395405 sec!
+
+ View looked at in 1.415857 sec!
+
+ View looked at in 1.437038 sec!
+
+ View looked at in 1.458212 sec!
+
+ View looked at in 1.479372 sec!
+
+ View looked at in 1.500552 sec!
+
+ View looked at in 1.521048 sec!
+
+ View looked at in 1.542699 sec!
+
+ View looked at in 1.564296 sec!
+
+ View looked at in 1.588058 sec!
+
+ View looked at in 1.609375 sec!
+
+ View looked at in 1.630557 sec!
+
+ View looked at in 1.651034 sec!
+
+ View looked at in 1.671959 sec!
+
+ View looked at in 1.692918 sec!
+
+ View looked at in 1.713769 sec!
+
+ View looked at in 1.734098 sec!
+
+ View looked at in 1.755473 sec!
+
+ View looked at in 1.775643 sec!
+
+ View looked at in 1.796745 sec!
+
+ View looked at in 1.817742 sec!
+
+ View looked at in 1.838456 sec!
+
+ View looked at in 1.858523 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0251975 sec!
+
+ View looked at in 0.0485921 sec!
+
+ View looked at in 0.0742401 sec!
+
+ View looked at in 0.259817 sec!
+
+ View looked at in 0.2804046 sec!
+
+ View looked at in 0.3021818 sec!
+
+ View looked at in 0.322903 sec!
+
+ View looked at in 0.3435594 sec!
+
+ View looked at in 0.3652618 sec!
+
+ View looked at in 0.3862969 sec!
+
+ View looked at in 0.4079044 sec!
+
+ View looked at in 0.4284083 sec!
+
+ View looked at in 0.4494065 sec!
+
+ View looked at in 0.4700579 sec!
+
+ View looked at in 0.4904212 sec!
+
+ View looked at in 0.5112289 sec!
+
+ View looked at in 0.5320802 sec!
+
+ View looked at in 0.5535168 sec!
+
+ View looked at in 0.574474 sec!
+
+ View looked at in 0.5952467 sec!
+
+ View looked at in 0.6161563 sec!
+
+ View looked at in 0.6367373 sec!
+
+ View looked at in 0.6575639 sec!
+
+ View looked at in 0.6783251 sec!
+
+ View looked at in 0.6992825 sec!
+
+ View looked at in 0.7209594 sec!
+
+ View looked at in 0.7413434 sec!
+
+ View looked at in 0.7621135 sec!
+
+ View looked at in 0.7829201 sec!
+
+ View looked at in 0.8045589 sec!
+
+ View looked at in 0.8265427 sec!
+
+ View looked at in 0.8480088 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0220699 sec!
+
+ View looked at in 0.0448782 sec!
+
+ View looked at in 0.0662764 sec!
+
+ View looked at in 0.08734021 sec!
+
+ View looked at in 0.1087348 sec!
+
+ View looked at in 0.1311924 sec!
+
+ View looked at in 0.1529298 sec!
+
+ View looked at in 0.1731484 sec!
+
+ View looked at in 0.1943268 sec!
+
+ View looked at in 0.2151466 sec!
+
+ View looked at in 0.2360641 sec!
+
+ View looked at in 0.2567371 sec!
+
+ View looked at in 0.2775524 sec!
+
+ View looked at in 0.2987047 sec!
+
+ View looked at in 0.3201784 sec!
+
+ View looked at in 0.340717 sec!
+
+ View looked at in 0.3623311 sec!
+
+ View looked at in 0.3833099 sec!
+
+ View looked at in 0.4047176 sec!
+
+ View looked at in 0.4255101 sec!
+
+ View looked at in 0.4462813 sec!
+
+ View looked at in 0.4670151 sec!
+
+ View looked at in 0.487929 sec!
+
+ View looked at in 0.5086023 sec!
+
+ View looked at in 0.5295388 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0211319 sec!
+
+ View looked at in 0.0438224 sec!
+
+ View looked at in 0.0665212 sec!
+
+ View looked at in 0.0884995 sec!
+
+ View looked at in 0.1100718 sec!
+
+ View looked at in 0.1310415 sec!
+
+ View looked at in 0.1518893 sec!
+
+ View looked at in 0.1730708 sec!
+
+ View looked at in 0.1934223 sec!
+
+ View looked at in 0.2148765 sec!
+
+ View looked at in 0.2357282 sec!
+
+ View looked at in 0.2578373 sec!
+
+ View looked at in 0.2785853 sec!
+
+ View looked at in 0.2993419 sec!
+
+ View looked at in 0.3207076 sec!
+
+ View looked at in 0.3417034 sec!
+
+ View looked at in 0.3625251 sec!
+
+ View looked at in 0.3831186 sec!
+
+ View looked at in 0.4035055 sec!
+
+ View looked at in 0.4250875 sec!
+
+ View looked at in 0.4460956 sec!
+
+ View looked at in 0.4681234 sec!
+
+ View looked at in 0.4885164 sec!
+
+ View looked at in 0.5093078 sec!
+
+ View looked at in 0.3101608 sec!
+
+ --------------------- View looked at in 0.3101608 seconds for the first time! ------------------- 
+
+ View looked at in 0.3307536 sec!
+
+ View looked at in 0.3531053 sec!
+
+ View looked at in 0.3744539 sec!
+
+ View looked at in 0.3956856 sec!
+
+ View looked at in 0.4167762 sec!
+
+ View looked at in 0.4375443 sec!
+
+ View looked at in 0.4588136 sec!
+
+ View looked at in 0.4796482 sec!
+
+ View looked at in 0.5007705 sec!
+
+ View looked at in 0.5220813 sec!
+
+ View looked at in 0.5430812 sec!
+
+ View looked at in 0.563707 sec!
+
+ View looked at in 0.5844521 sec!
+
+ View looked at in 0.6058018 sec!
+
+ View looked at in 0.6267458 sec!
+
+ View looked at in 0.6473647 sec!
+
+ View looked at in 0.668157 sec!
+
+ View looked at in 0.6888092 sec!
+
+ View looked at in 0.2073637 sec!
+
+ --------------------- View looked at in 0.2073637 seconds for the first time! ------------------- 
+
+ View looked at in 0.2283759 sec!
+
+ View looked at in 0.2507145 sec!
+
+ View looked at in 0.2714562 sec!
+
+ View looked at in 0.2929748 sec!
+
+ View looked at in 0.3149442 sec!
+
+ View looked at in 0.3351602 sec!
+
+ View looked at in 0.3556843 sec!
+
+ View looked at in 0.3763403 sec!
+
+ View looked at in 0.3971949 sec!
+
+ View looked at in 0.4181761 sec!
+
+ View looked at in 0.439054 sec!
+
+ View looked at in 0.4605207 sec!
+
+ View looked at in 0.2943684 sec!
+
+ --------------------- View looked at in 0.2943684 seconds for the first time! ------------------- 
+
+ View looked at in 0.3146316 sec!
+
+ View looked at in 0.3370374 sec!
+
+ View looked at in 0.3579881 sec!
+
+ View looked at in 0.3784762 sec!
+
+ View looked at in 0.3989505 sec!
+
+ View looked at in 0.4193869 sec!
+
+ View looked at in 0.4404626 sec!
+
+ View looked at in 0.4612989 sec!
+
+ View looked at in 0.4833761 sec!
+
+ View looked at in 0.5040646 sec!
+
+ View looked at in 0.5254897 sec!
+
+ View looked at in 0.5466003 sec!
+
+ View looked at in 0.5670077 sec!
+
+ View looked at in 0.5874527 sec!
+
+ View looked at in 0.6085616 sec!
+
+ View looked at in 0.6287795 sec!
+
+ View looked at in 0.6507224 sec!
+
+ View looked at in 0.6715598 sec!
+
+ View looked at in 0.6924716 sec!
+
+ View looked at in 0.7135224 sec!
+
+ View looked at in 0.7345412 sec!
+
+ View looked at in 0.7551229 sec!
+
+ View looked at in 0.7756655 sec!
+
+ View looked at in 0.7963354 sec!
+
+ View looked at in 0.8169844 sec!
+
+ View looked at in 0.8374794 sec!
+
+ View looked at in 0.8595306 sec!
+
+ View looked at in 0.3072562 sec!
+
+ --------------------- View looked at in 0.3072562 seconds for the first time! ------------------- 
+
+ View looked at in 0.3277875 sec!
+
+ View looked at in 0.3496285 sec!
+
+ View looked at in 0.3709042 sec!
+
+ View looked at in 0.3919641 sec!
+
+ View looked at in 0.4127236 sec!
+
+ View looked at in 0.4337485 sec!
+
+ View looked at in 0.4551296 sec!
+
+ View looked at in 0.4757446 sec!
+
+ View looked at in 0.4967003 sec!
+
+ View looked at in 0.5171449 sec!
+
+ View looked at in 0.5378186 sec!
+
+ View looked at in 0.5586949 sec!
+
+ View looked at in 0.5802008 sec!
+
+ View looked at in 0.6009851 sec!
+
+ View looked at in 0.6221905 sec!
+
+ View looked at in 0.6432613 sec!
+
+ View looked at in 0.6643974 sec!
+
+ View looked at in 0.6855112 sec!
+
+ View looked at in 0.7067532 sec!
+
+ View looked at in 0.7271494 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0223698 sec!
+
+ View looked at in 0.0475061 sec!
+
+ View looked at in 0.0707151 sec!
+
+ View looked at in 0.2149349 sec!
+
+ View looked at in 0.2961974 sec!
+
+ View looked at in 0.3160345 sec!
+
+ View looked at in 0.3369264 sec!
+
+ View looked at in 0.3577725 sec!
+
+ View looked at in 0.3784064 sec!
+
+ View looked at in 0.3992624 sec!
+
+ View looked at in 0.4200314 sec!
+
+ View looked at in 0.4413381 sec!
+
+ View looked at in 0.1465176 sec!
+
+ --------------------- View looked at in 0.1465176 seconds for the first time! ------------------- 
+
+ View looked at in 0.1664209 sec!
+
+ View looked at in 0.1880461 sec!
+
+ View looked at in 0.209173 sec!
+
+ View looked at in 0.2302139 sec!
+
+ View looked at in 0.2521028 sec!
+
+ View looked at in 0.2730546 sec!
+
+ View looked at in 0.2949805 sec!
+
+ View looked at in 0.3159797 sec!
+
+ View looked at in 0.3368418 sec!
+
+ View looked at in 0.3577435 sec!
+
+ View looked at in 0.379185 sec!
+
+ View looked at in 0.3999983 sec!
+
+ View looked at in 0.4212899 sec!
+
+ View looked at in 0.4416655 sec!
+
+ View looked at in 0.4632731 sec!
+
+ View looked at in 0.4662482 sec!
+
+ --------------------- View looked at in 0.4662482 seconds for the first time! ------------------- 
+
+ View looked at in 0.4864084 sec!
+
+ View looked at in 0.5087152 sec!
+
+ View looked at in 0.5296956 sec!
+
+ View looked at in 0.5504479 sec!
+
+ View looked at in 0.5715114 sec!
+
+ View looked at in 0.5923938 sec!
+
+ View looked at in 0.6132919 sec!
+
+ View looked at in 0.633904 sec!
+
+ View looked at in 0.6548067 sec!
+
+ View looked at in 0.6754924 sec!
+
+ View looked at in 0.0654238 sec!
+
+ --------------------- View looked at in 0.0654238 seconds for the first time! ------------------- 
+
+ View looked at in 0.0870188 sec!
+
+ View looked at in 0.1101657 sec!
+
+ View looked at in 0.1314879 sec!
+
+ View looked at in 0.1525607 sec!
+
+ View looked at in 0.1732948 sec!
+
+ View looked at in 0.1947301 sec!
+
+ View looked at in 0.2153329 sec!
+
+ View looked at in 0.2365941 sec!
+
+ View looked at in 0.2569251 sec!
+
+ View looked at in 0.2782709 sec!
+
+ View looked at in 0.2988544 sec!
+
+ View looked at in 0.3200609 sec!
+
+ View looked at in 0.340496 sec!
+
+ View looked at in 0.3609174 sec!
+
+ View looked at in 0.3811013 sec!
+
+ View looked at in 0.4022731 sec!
+
+ View looked at in 0.423838 sec!
+
+ View looked at in 0.4449453 sec!
+
+ View looked at in 0.465212 sec!
+
+ View looked at in 0.4870958 sec!
+
+ View looked at in 0.5078932 sec!
+
+ View looked at in 0.5293664 sec!
+
+ View looked at in 0.5505248 sec!
+
+ View looked at in 0.5716105 sec!
+
+ View looked at in 0.5924011 sec!
+
+ View looked at in 0.6138632 sec!
+
+ View looked at in 0.6355869 sec!
+
+ View looked at in 0.6567175 sec!
+
+ View looked at in 0.6773697 sec!
+
+ View looked at in 0.6982719 sec!
+
+ View looked at in 0.7189704 sec!
+
+ View looked at in 0.7406048 sec!
+
+ View looked at in 0.7610517 sec!
+
+ View looked at in 0.7819967 sec!
+
+ View looked at in 0.802397 sec!
+
+ View looked at in 0.3278666 sec!
+
+ --------------------- View looked at in 0.3278666 seconds for the first time! ------------------- 
+
+ View looked at in 0.3484527 sec!
+
+ View looked at in 0.3706877 sec!
+
+ View looked at in 0.3918669 sec!
+
+ View looked at in 0.4126407 sec!
+
+ View looked at in 0.4336607 sec!
+
+ View looked at in 0.4556852 sec!
+
+ View looked at in 0.4765479 sec!
+
+ View looked at in 0.4975426 sec!
+
+ View looked at in 0.5186596 sec!
+
+ View looked at in 0.5398945 sec!
+
+ View looked at in 0.5614161 sec!
+
+ View looked at in 0.5826179 sec!
+
+ View looked at in 0.6037314 sec!
+
+ View looked at in 0.6248214 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0215145 sec!
+
+ View looked at in 0.6021328 sec!
+
+ --------------------- View looked at in 0.6021328 seconds for the first time! ------------------- 
+
+ View looked at in 0.6227133 sec!
+
+ View looked at in 0.6449817 sec!
+
+ View looked at in 0.6666293 sec!
+
+ View looked at in 0.6879428 sec!
+
+ View looked at in 0.7092865 sec!
+
+ View looked at in 0.7300823 sec!
+
+ View looked at in 0.751069 sec!
+
+ View looked at in 0.7719012 sec!
+
+ View looked at in 0.7929369 sec!
+
+ View looked at in 0.8140463 sec!
+
+ View looked at in 0.835844 sec!
+
+ View looked at in 0.8574181 sec!
+
+ View looked at in 0.8789552 sec!
+
+ View looked at in 0.8999298 sec!
+
+ View looked at in 0.9211901 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0292642 sec!
+
+ View looked at in 0.4065261 sec!
+
+ View looked at in 0.4273664 sec!
+
+ View looked at in 0.4481494 sec!
+
+ View looked at in 0.468936 sec!
+
+ View looked at in 0.489376 sec!
+
+ View looked at in 0.5099849 sec!
+
+ View looked at in 0.5312061 sec!
+
+ View looked at in 0.5523757 sec!
+
+ View looked at in 0.5734167 sec!
+
+ View looked at in 0.5946752 sec!
+
+ View looked at in 0.6153452 sec!
+
+ View looked at in 0.6363946 sec!
+
+ View looked at in 0.6568468 sec!
+
+ View looked at in 0.6776668 sec!
+
+ View looked at in 0.6984591 sec!
+
+ View looked at in 0.7196961 sec!
+
+ View looked at in 0.7409184 sec!
+
+ View looked at in 0.7618343 sec!
+
+ View looked at in 0.7827013 sec!
+
+ View looked at in 0.3099668 sec!
+
+ --------------------- View looked at in 0.3099668 seconds for the first time! ------------------- 
+
+ View looked at in 0.3295623 sec!
+
+ View looked at in 0.351451 sec!
+
+ View looked at in 0.3721815 sec!
+
+ View looked at in 0.3932999 sec!
+
+ View looked at in 0.4143117 sec!
+
+ View looked at in 0.4352604 sec!
+
+ View looked at in 0.4560312 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0219568 sec!
+
+ View looked at in 0.0454477 sec!
+
+ View looked at in 0.0664699 sec!
+
+ View looked at in 0.0871704 sec!
+
+ View looked at in 0.1080264 sec!
+
+ View looked at in 0.1293115 sec!
+
+ View looked at in 0.1508904 sec!
+
+ View looked at in 0.1733366 sec!
+
+ View looked at in 0.1949925 sec!
+
+ View looked at in 0.2155911 sec!
+
+ View looked at in 0.2366186 sec!
+
+ View looked at in 0.2573079 sec!
+
+ View looked at in 0.2784364 sec!
+
+ View looked at in 0.2993515 sec!
+
+ View looked at in 0.3198702 sec!
+
+ View looked at in 0.3405239 sec!
+
+ View looked at in 0.3614886 sec!
+
+ View looked at in 0.3826383 sec!
+
+ View looked at in 0.4041078 sec!
+
+ View looked at in 0.4254874 sec!
+
+ View looked at in 0.4461598 sec!
+
+ View looked at in 0.4669507 sec!
+
+ View looked at in 0.4880644 sec!
+
+ View looked at in 0.5085788 sec!
+
+ View looked at in 0.5300854 sec!
+
+ View looked at in 0.5507106 sec!
+
+ View looked at in 0.5723597 sec!
+
+ View looked at in 0.5930988 sec!
+
+ View looked at in 0.6137898 sec!
+
+ View looked at in 0.655654 sec!
+
+ View looked at in 0.6759636 sec!
+
+ View looked at in 0.6972905 sec!
+
+ View looked at in 0.7184777 sec!
+
+ View looked at in 0.7391378 sec!
+
+ View looked at in 0.7591363 sec!
+
+ View looked at in 0.7803892 sec!
+
+ View looked at in 0.8006735 sec!
+
+ View looked at in 0.8215852 sec!
+
+ View looked at in 0.8427726 sec!
+
+ View looked at in 0.8636688 sec!
+
+ View looked at in 0.8844444 sec!
+
+ View looked at in 0.9058793 sec!
+
+ View looked at in 0.9265597 sec!
+
+ View looked at in 0.9476976 sec!
+
+ View looked at in 0.9679527 sec!
+
+ View looked at in 0.3903156 sec!
+
+ --------------------- View looked at in 0.3903156 seconds for the first time! ------------------- 
+
+ View looked at in 0.41151 sec!
+
+ View looked at in 0.4337832 sec!
+
+ View looked at in 0.4756178 sec!
+
+ View looked at in 0.4958829 sec!
+
+ View looked at in 0.5169225 sec!
+
+ View looked at in 0.5377232 sec!
+
+ View looked at in 0.5584891 sec!
+
+ View looked at in 0.5791219 sec!
+
+ View looked at in 0.6004705 sec!
+
+ View looked at in 0.6210156 sec!
+
+ View looked at in 0.642259 sec!
+
+ View looked at in 0.6638224 sec!
+
+ View looked at in 0.6847971 sec!
+
+ View looked at in 0.7055836 sec!
+
+ View looked at in 0.7270414 sec!
+
+ View looked at in 0.253243 sec!
+
+ --------------------- View looked at in 0.253243 seconds for the first time! ------------------- 
+
+ View looked at in 0.2733916 sec!
+
+ View looked at in 0.2962536 sec!
+
+ View looked at in 0.3167812 sec!
+
+ View looked at in 0.33756 sec!
+
+ View looked at in 0.3791516 sec!
+
+ View looked at in 0.3988975 sec!
+
+ View looked at in 0.4202118 sec!
+
+ View looked at in 0.4405869 sec!
+
+ View looked at in 0.4624168 sec!
+
+ View looked at in 0.4832014 sec!
+
+ View looked at in 0.5046426 sec!
+
+ View looked at in 0.5265689 sec!
+
+ View looked at in 0.546944 sec!
+
+ View looked at in 0.5677617 sec!
+
+ View looked at in 0.5888461 sec!
+
+ View looked at in 0.6097333 sec!
+
+ View looked at in 0.630702 sec!
+
+ View looked at in 0.6521636 sec!
+
+ View looked at in 0.6733357 sec!
+
+ View looked at in 0.6943346 sec!
+
+ View looked at in 0.716587 sec!
+
+ View looked at in 0.7377994 sec!
+
+ View looked at in 0.7588744 sec!
+
+ View looked at in 0.3808997 sec!
+
+ --------------------- View looked at in 0.3808997 seconds for the first time! ------------------- 
+
+ View looked at in 0.4010881 sec!
+
+ View looked at in 0.4237001 sec!
+
+ View looked at in 0.4447409 sec!
+
+ View looked at in 0.4661431 sec!
+
+ View looked at in 0.4881565 sec!
+
+ View looked at in 0.5098808 sec!
+
+ View looked at in 0.5323116 sec!
+
+ View looked at in 0.5545677 sec!
+
+ View looked at in 0.576395 sec!
+
+ View looked at in 0.5972127 sec!
+
+ View looked at in 0.6175147 sec!
+
+ View looked at in 0.638488 sec!
+
+ View looked at in 0.659166 sec!
+
+ View looked at in 0.6801941 sec!
+
+ View looked at in 0.7010627 sec!
+
+ View looked at in 0.7216797 sec!
+
+ View looked at in 0.7424919 sec!
+
+ View looked at in 0.76341 sec!
+
+ View looked at in 0.783961 sec!
+
+ View looked at in 0.8046905 sec!
+
+ View looked at in 0.8260112 sec!
+
+ View looked at in 0.84646 sec!
+
+ View looked at in 0.8673822 sec!
+
+ View looked at in 0.8881373 sec!
+
+ View looked at in 0.9087744 sec!
+
+ View looked at in 0.9296786 sec!
+
+ View looked at in 0.9510049 sec!
+
+ View looked at in 0.972012 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.021452 sec!
+
+ View looked at in 0.0440073 sec!
+
+ View looked at in 0.0667636 sec!
+
+ View looked at in 0.0891058 sec!
+
+ View looked at in 0.1101771 sec!
+
+ View looked at in 0.1313108 sec!
+
+ View looked at in 0.1522101 sec!
+
+ View looked at in 0.1733037 sec!
+
+ View looked at in 0.1942539 sec!
+
+ View looked at in 0.2154939 sec!
+
+ View looked at in 0.2358946 sec!
+
+ View looked at in 0.2564532 sec!
+
+ View looked at in 0.278034 sec!
+
+ View looked at in 0.2992503 sec!
+
+ View looked at in 0.319936 sec!
+
+ View looked at in 0.3412925 sec!
+
+ View looked at in 0.3619733 sec!
+
+ View looked at in 0.3829748 sec!
+
+ View looked at in 0.4038078 sec!
+
+ View looked at in 0.4251505 sec!
+
+ View looked at in 0.4463622 sec!
+
+ View looked at in 0.4674299 sec!
+
+ View looked at in 0.4879121 sec!
+
+ View looked at in 0.5090425 sec!
+
+ View looked at in 0.2700417 sec!
+
+ --------------------- View looked at in 0.2700417 seconds for the first time! ------------------- 
+
+ View looked at in 0.2907666 sec!
+
+ View looked at in 0.3134994 sec!
+
+ View looked at in 0.3346997 sec!
+
+ View looked at in 0.3557716 sec!
+
+ View looked at in 0.3767518 sec!
+
+ View looked at in 0.3969807 sec!
+
+ View looked at in 0.4178747 sec!
+
+ View looked at in 0.4392528 sec!
+
+ View looked at in 0.4605295 sec!
+
+ View looked at in 0.4815306 sec!
+
+ View looked at in 0.5025332 sec!
+
+ View looked at in 0.5233914 sec!
+
+ View looked at in 0.5449883 sec!
+
+ View looked at in 0.566027 sec!
+
+ View looked at in 0.5865663 sec!
+
+ View looked at in 0.607128 sec!
+
+ View looked at in 0.6281541 sec!
+
+ View looked at in 0.6485328 sec!
+
+ View looked at in 0.6700464 sec!
+
+ View looked at in 0.6907984 sec!
+
+ View looked at in 0.7119459 sec!
+
+ View looked at in 0.7327084 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0210065 sec!
+
+ View looked at in 0.043408 sec!
+
+ View looked at in 0.0665944 sec!
+
+ View looked at in 0.0896155 sec!
+
+ View looked at in 0.1104329 sec!
+
+ View looked at in 0.1311144 sec!
+
+ View looked at in 0.1519895 sec!
+
+ View looked at in 0.172305 sec!
+
+ View looked at in 0.1941022 sec!
+
+ View looked at in 0.2158322 sec!
+
+ View looked at in 0.2369095 sec!
+
+ View looked at in 0.2577776 sec!
+
+ View looked at in 0.2788569 sec!
+
+ View looked at in 0.2994734 sec!
+
+ View looked at in 0.3202707 sec!
+
+ View looked at in 0.3405568 sec!
+
+ View looked at in 0.3616843 sec!
+
+ View looked at in 0.3830972 sec!
+
+ View looked at in 0.4044075 sec!
+
+ View looked at in 0.4254408 sec!
+
+ View looked at in 0.4464614 sec!
+
+ View looked at in 0.4674855 sec!
+
+ View looked at in 0.4888876 sec!
+
+ View looked at in 0.5092844 sec!
+
+ View looked at in 0.5308986 sec!
+
+ View looked at in 0.5520495 sec!
+
+ View looked at in 0.7073342 sec!
+
+ --------------------- View looked at in 0.7073342 seconds for the first time! ------------------- 
+
+ View looked at in 0.7281297 sec!
+
+ View looked at in 0.7502406 sec!
+
+ View looked at in 0.7718538 sec!
+
+ View looked at in 0.7925452 sec!
+
+ View looked at in 0.3416942 sec!
+
+ --------------------- View looked at in 0.3416942 seconds for the first time! ------------------- 
+
+ View looked at in 0.361832 sec!
+
+ View looked at in 0.3842478 sec!
+
+ View looked at in 0.4059504 sec!
+
+ View looked at in 0.4272949 sec!
+
+ View looked at in 0.448373 sec!
+
+ View looked at in 0.4698448 sec!
+
+ View looked at in 0.4903109 sec!
+
+ View looked at in 0.5115968 sec!
+
+ View looked at in 0.5323766 sec!
+
+ View looked at in 0.5529006 sec!
+
+ View looked at in 0.5732448 sec!
+
+ View looked at in 0.5945146 sec!
+
+ View looked at in 0.616086 sec!
+
+ View looked at in 0.6369313 sec!
+
+ View looked at in 0.6578806 sec!
+
+ View looked at in 0.6789182 sec!
+
+ View looked at in 0.6998077 sec!
+
+ View looked at in 0.7209677 sec!
+
+ View looked at in 0.7417173 sec!
+
+ View looked at in 0.7626112 sec!
+
+ View looked at in 0.7834845 sec!
+
+ View looked at in 0.8047785 sec!
+
+ View looked at in 0.8259353 sec!
+
+ View looked at in 0.8466609 sec!
+
+ View looked at in 0.8675747 sec!
+
+ View looked at in 0.8887699 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0222059 sec!
+
+ View looked at in 0.0484173 sec!
+
+ View looked at in 0.0716419 sec!
+
+ View looked at in 0.0934883 sec!
+
+ View looked at in 0.1155794 sec!
+
+ View looked at in 0.1379658 sec!
+
+ View looked at in 0.1607388 sec!
+
+ View looked at in 0.1821237 sec!
+
+ View looked at in 0.2025042 sec!
+
+ View looked at in 0.2233832 sec!
+
+ View looked at in 0.2439815 sec!
+
+ View looked at in 0.2649709 sec!
+
+ View looked at in 0.2858848 sec!
+
+ View looked at in 0.3067888 sec!
+
+ View looked at in 0.3275282 sec!
+
+ View looked at in 0.3484594 sec!
+
+ View looked at in 0.3697211 sec!
+
+ View looked at in 0.3907101 sec!
+
+ View looked at in 0.4108672 sec!
+
+ View looked at in 0.4317596 sec!
+
+ View looked at in 0.4525316 sec!
+
+ View looked at in 0.3315014 sec!
+
+ --------------------- View looked at in 0.3315014 seconds for the first time! ------------------- 
+
+ View looked at in 0.3527815 sec!
+
+ View looked at in 0.3768562 sec!
+
+ View looked at in 0.3973307 sec!
+
+ View looked at in 0.4181444 sec!
+
+ View looked at in 0.4395332 sec!
+
+ View looked at in 0.4612057 sec!
+
+ View looked at in 0.481994 sec!
+
+ View looked at in 0.5035675 sec!
+
+ View looked at in 0.5254025 sec!
+
+ View looked at in 0.5475646 sec!
+
+ View looked at in 0.5690798 sec!
+
+ View looked at in 0.5900097 sec!
+
+ View looked at in 0.6106983 sec!
+
+ View looked at in 0.6320296 sec!
+
+ View looked at in 0.6524544 sec!
+
+ View looked at in 0.673369 sec!
+
+ View looked at in 0.6936823 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0201835 sec!
+
+ View looked at in 0.0437649 sec!
+
+ View looked at in 0.0655607 sec!
+
+ View looked at in 0.0870783 sec!
+
+ View looked at in 0.1098869 sec!
+
+ View looked at in 0.131851 sec!
+
+ View looked at in 0.1523633 sec!
+
+ View looked at in 0.173143 sec!
+
+ View looked at in 0.1937155 sec!
+
+ View looked at in 0.2150212 sec!
+
+ View looked at in 0.235761 sec!
+
+ View looked at in 0.2566776 sec!
+
+ View looked at in 0.2772577 sec!
+
+ View looked at in 0.2979958 sec!
+
+ View looked at in 0.3188685 sec!
+
+ View looked at in 0.3398196 sec!
+
+ View looked at in 0.3607019 sec!
+
+ View looked at in 0.3819919 sec!
+
+ View looked at in 0.4020338 sec!
+
+ View looked at in 0.4228823 sec!
+
+ View looked at in 0.4437175 sec!
+
+ View looked at in 0.4647143 sec!
+
+ View looked at in 0.4851907 sec!
+
+ View looked at in 0.6358861 sec!
+
+ --------------------- View looked at in 0.6358861 seconds for the first time! ------------------- 
+
+ View looked at in 0.6564385 sec!
+
+ View looked at in 0.679196 sec!
+
+ View looked at in 0.6997193 sec!
+
+ View looked at in 0.7205689 sec!
+
+ View looked at in 0.741262 sec!
+
+ View looked at in 0.7625222 sec!
+
+ View looked at in 0.7839266 sec!
+
+ View looked at in 0.8052604 sec!
+
+ View looked at in 0.826591 sec!
+
+ View looked at in 0.2698778 sec!
+
+ --------------------- View looked at in 0.2698778 seconds for the first time! ------------------- 
+
+ View looked at in 0.2906375 sec!
+
+ View looked at in 0.3137156 sec!
+
+ View looked at in 0.3352649 sec!
+
+ View looked at in 0.3565243 sec!
+
+ View looked at in 0.3777685 sec!
+
+ View looked at in 0.3994933 sec!
+
+ View looked at in 0.4224328 sec!
+
+ View looked at in 0.445668 sec!
+
+ View looked at in 0.4675742 sec!
+
+ View looked at in 0.4886392 sec!
+
+ View looked at in 0.5106727 sec!
+
+ View looked at in 0.5317749 sec!
+
+ View looked at in 0.5527164 sec!
+
+ View looked at in 0.573257 sec!
+
+ View looked at in 0.5943883 sec!
+
+ View looked at in 0.6156043 sec!
+
+ View looked at in 0.6368836 sec!
+
+ View looked at in 0.6579599 sec!
+
+ View looked at in 0.6793118 sec!
+
+ View looked at in 0.7008836 sec!
+
+ View looked at in 0.7219068 sec!
+
+ View looked at in 0.7426974 sec!
+
+ View looked at in 0.7641641 sec!
+
+ View looked at in 0.7849809 sec!
+
+ View looked at in 0.8061777 sec!
+
+ View looked at in 0.8272238 sec!
+
+ View looked at in 0.8486905 sec!
+
+ View looked at in 0.8700014 sec!
+
+ View looked at in 0.2925457 sec!
+
+ --------------------- View looked at in 0.2925457 seconds for the first time! ------------------- 
+
+ View looked at in 0.7310426 sec!
+
+ View looked at in 0.7513173 sec!
+
+ View looked at in 0.7727649 sec!
+
+ View looked at in 0.7940184 sec!
+
+ View looked at in 0.8159422 sec!
+
+ View looked at in 0.8366836 sec!
+
+ View looked at in 0.2534582 sec!
+
+ --------------------- View looked at in 0.2534582 seconds for the first time! ------------------- 
+
+ View looked at in 0.2736014 sec!
+
+ View looked at in 0.2957853 sec!
+
+ View looked at in 0.3173474 sec!
+
+ View looked at in 0.3376725 sec!
+
+ View looked at in 0.3588794 sec!
+
+ View looked at in 0.3798503 sec!
+
+ View looked at in 0.4011033 sec!
+
+ View looked at in 0.4225898 sec!
+
+ View looked at in 0.443381 sec!
+
+ View looked at in 0.4647374 sec!
+
+ View looked at in 0.486296 sec!
+
+ View looked at in 0.5072833 sec!
+
+ View looked at in 0.5284998 sec!
+
+ View looked at in 0.549501 sec!
+
+ View looked at in 0.5703417 sec!
+
+ View looked at in 0.5914522 sec!
+
+ View looked at in 0.6122538 sec!
+
+ View looked at in 0.6337396 sec!
+
+ View looked at in 0.6551455 sec!
+
+ View looked at in 0.6765323 sec!
+
+ View looked at in 0.6982058 sec!
+
+ View looked at in 0.7192529 sec!
+
+ View looked at in 0.7409019 sec!
+
+ View looked at in 0.7620184 sec!
+
+ View looked at in 0.5210685 sec!
+
+ --------------------- View looked at in 0.5210685 seconds for the first time! ------------------- 
+
+ View looked at in 0.5414621 sec!
+
+ View looked at in 0.5641344 sec!
+
+ View looked at in 0.5850706 sec!
+
+ View looked at in 0.6065732 sec!
+
+ View looked at in 0.6272213 sec!
+
+ View looked at in 0.64842 sec!
+
+ View looked at in 0.6694136 sec!
+
+ View looked at in 0.7950395 sec!
+
+ View looked at in 0.8159102 sec!
+
+ View looked at in 0.4996292 sec!
+
+ --------------------- View looked at in 0.4996292 seconds for the first time! ------------------- 
+
+ View looked at in 0.2951307 sec!
+
+ --------------------- View looked at in 0.2951307 seconds for the first time! ------------------- 
+
+ View looked at in 0.3160351 sec!
+
+ View looked at in 0.6108 sec!
+
+ --------------------- View looked at in 0.6108 seconds for the first time! ------------------- 
+
+ View looked at in 0.6316128 sec!
+
+ View looked at in 0.6551954 sec!
+
+ View looked at in 0.6765953 sec!
+
+ View looked at in 0.6983646 sec!
+
+ View looked at in 0.7194359 sec!
+
+ View looked at in 0.7411521 sec!
+
+ View looked at in 0.7629564 sec!
+
+ View looked at in 0.7837592 sec!
+
+ View looked at in 0.8050637 sec!
+
+ View looked at in 0.4708091 sec!
+
+ --------------------- View looked at in 0.4708091 seconds for the first time! ------------------- 
+
+ View looked at in 0.4913664 sec!
+
+ View looked at in 0.5137471 sec!
+
+ View looked at in 0.5348397 sec!
+
+ View looked at in 0.5564872 sec!
+
+ View looked at in 0.5775573 sec!
+
+ View looked at in 0.59856 sec!
+
+ View looked at in 0.6200571 sec!
+
+ View looked at in 0.6415125 sec!
+
+ View looked at in 0.6640963 sec!
+
+ View looked at in 0.6852728 sec!
+
+ View looked at in 0.7068268 sec!
+
+ View looked at in 0.728442 sec!
+
+ View looked at in 0.7499959 sec!
+
+ View looked at in 0.770461 sec!
+
+ View looked at in 0.792011 sec!
+
+ View looked at in 0.812842 sec!
+
+ View looked at in 0.8339472 sec!
+
+ View looked at in 0.8551554 sec!
+
+ View looked at in 0.8765231 sec!
+
+ View looked at in 0.8980919 sec!
+
+ View looked at in 0.9194776 sec!
+
+ View looked at in 0.9405239 sec!
+
+ View looked at in 0.9623908 sec!
+
+ View looked at in 0.983721 sec!
+
+ View looked at in 1.005352 sec!
+
+ View looked at in 1.026142 sec!
+
+ View looked at in 0.5840595 sec!
+
+ --------------------- View looked at in 0.5840595 seconds for the first time! ------------------- 
+
+ View looked at in 0.6479956 sec!
+
+ View looked at in 0.6696369 sec!
+
+ View looked at in 0.6912568 sec!
+
+ View looked at in 1.105447 sec!
+
+ View looked at in 1.12644 sec!
+
+ View looked at in 0.3013001 sec!
+
+ --------------------- View looked at in 0.3013001 seconds for the first time! ------------------- 
+
+ View looked at in 0.322652 sec!
+
+ View looked at in 0.3455163 sec!
+
+ View looked at in 0.3664627 sec!
+
+ View looked at in 0.38774 sec!
+
+ View looked at in 0.4089445 sec!
+
+ View looked at in 0.4302832 sec!
+
+ View looked at in 0.4512067 sec!
+
+ View looked at in 0.4727343 sec!
+
+ View looked at in 0.4938093 sec!
+
+ View looked at in 0.5145441 sec!
+
+ View looked at in 0.5364366 sec!
+
+ View looked at in 0.5579059 sec!
+
+ View looked at in 0.5793142 sec!
+
+ View looked at in 0.600805 sec!
+
+ View looked at in 0.622197 sec!
+
+ View looked at in 0.6433828 sec!
+
+ View looked at in 0.6650451 sec!
+
+ View looked at in 0.6866799 sec!
+
+ View looked at in 0.7080923 sec!
+
+ View looked at in 0.7289463 sec!
+
+ View looked at in 0.7497033 sec!
+
+ View looked at in 0.7707097 sec!
+
+ View looked at in 0.7926516 sec!
+
+ View looked at in 0.8132974 sec!
+
+ View looked at in 0.8343283 sec!
+
+ View looked at in 0.8555581 sec!
+
+ View looked at in 0.8771405 sec!
+
+ View looked at in 0.8988726 sec!
+
+ View looked at in 0.9202601 sec!
+
+ View looked at in 0.9417672 sec!
+
+ View looked at in 0.5070219 sec!
+
+ --------------------- View looked at in 0.5070219 seconds for the first time! ------------------- 
+
+ View looked at in 0.5281342 sec!
+
+ View looked at in 0.5508723 sec!
+
+ View looked at in 0.5724781 sec!
+
+ View looked at in 0.594119 sec!
+
+ View looked at in 0.615788 sec!
+
+ View looked at in 0.6375136 sec!
+
+ View looked at in 0.6590176 sec!
+
+ View looked at in 0.6809857 sec!
+
+ View looked at in 0.701948 sec!
+
+ View looked at in 0.7239804 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0226929 sec!
+
+ View looked at in 0.0474824 sec!
+
+ View looked at in 0.0705137 sec!
+
+ View looked at in 0.0915418 sec!
+
+ View looked at in 0.1129866 sec!
+
+ View looked at in 0.1342704 sec!
+
+ View looked at in 0.1558784 sec!
+
+ View looked at in 0.1773294 sec!
+
+ View looked at in 0.1988814 sec!
+
+ View looked at in 0.2202322 sec!
+
+ View looked at in 0.2417554 sec!
+
+ View looked at in 0.2625605 sec!
+
+ View looked at in 0.2834327 sec!
+
+ View looked at in 0.3046983 sec!
+
+ View looked at in 0.3259834 sec!
+
+ View looked at in 0.348094 sec!
+
+ View looked at in 0.3696294 sec!
+
+ View looked at in 0.3905721 sec!
+
+ View looked at in 0.4124816 sec!
+
+ View looked at in 0.4339147 sec!
+
+ View looked at in 0.4557595 sec!
+
+ View looked at in 0.4771415 sec!
+
+ View looked at in 0.4984435 sec!
+
+ View looked at in 0.5200736 sec!
+
+ View looked at in 0.5414671 sec!
+
+ View looked at in 0.3382577 sec!
+
+ --------------------- View looked at in 0.3382577 seconds for the first time! ------------------- 
+
+ View looked at in 0.4020002 sec!
+
+ View looked at in 0.4225417 sec!
+
+ View looked at in 0.4437139 sec!
+
+ View looked at in 0.4653812 sec!
+
+ View looked at in 0.4866081 sec!
+
+ View looked at in 0.5081022 sec!
+
+ View looked at in 0.5293272 sec!
+
+ View looked at in 0.5504975 sec!
+
+ View looked at in 0.5726804 sec!
+
+ View looked at in 0.5939896 sec!
+
+ View looked at in 0.615697 sec!
+
+ View looked at in 0.6367825 sec!
+
+ View looked at in 0.6583706 sec!
+
+ View looked at in 0.6801147 sec!
+
+ View looked at in 0.7009075 sec!
+
+ View looked at in 0.7221084 sec!
+
+ View looked at in 0.7435119 sec!
+
+ View looked at in 0.765039 sec!
+
+ View looked at in 0.7866475 sec!
+
+ View looked at in 0.8083212 sec!
+
+ View looked at in 0.8297425 sec!
+
+ View looked at in 0.8521027 sec!
+
+ View looked at in 0.8743214 sec!
+
+ View looked at in 0.8959909 sec!
+
+ View looked at in 0.9173228 sec!
+
+ View looked at in 0.9391427 sec!
+
+ View looked at in 0.9617031 sec!
+
+ View looked at in 0.9843646 sec!
+
+ View looked at in 1.005649 sec!
+
+ View looked at in 1.027581 sec!
+
+ View looked at in 1.049273 sec!
+
+ View looked at in 1.072026 sec!
+
+ View looked at in 1.09421 sec!
+
+ View looked at in 1.114994 sec!
+
+ View looked at in 1.136926 sec!
+
+ View looked at in 1.159277 sec!
+
+ View looked at in 1.181135 sec!
+
+ View looked at in 1.202882 sec!
+
+ View looked at in 1.224417 sec!
+
+ View looked at in 1.245646 sec!
+
+ View looked at in 1.266776 sec!
+
+ View looked at in 1.28836 sec!
+
+ View looked at in 1.309312 sec!
+
+ View looked at in 1.33062 sec!
+
+ View looked at in 1.35298 sec!
+
+ View looked at in 1.374987 sec!
+
+ View looked at in 1.395915 sec!
+
+ View looked at in 1.418172 sec!
+
+ View looked at in 1.439768 sec!
+
+ View looked at in 0.4327698 sec!
+
+ --------------------- View looked at in 0.4327698 seconds for the first time! ------------------- 
+
+ View looked at in 0.4536921 sec!
+
+ View looked at in 0.4758219 sec!
+
+ View looked at in 0.497522 sec!
+
+ View looked at in 0.5194396 sec!
+
+ View looked at in 0.540906 sec!
+
+ View looked at in 0.5620407 sec!
+
+ View looked at in 0.5836756 sec!
+
+ View looked at in 0.6045139 sec!
+
+ View looked at in 0.6259087 sec!
+
+ View looked at in 0.6480719 sec!
+
+ View looked at in 0.6710054 sec!
+
+ View looked at in 0.6922507 sec!
+
+ View looked at in 0.7134119 sec!
+
+ View looked at in 0.734596 sec!
+
+ View looked at in 0.7558697 sec!
+
+ View looked at in 0.7768584 sec!
+
+ View looked at in 0.3138196 sec!
+
+ --------------------- View looked at in 0.3138196 seconds for the first time! ------------------- 
+
+ View looked at in 0.334901 sec!
+
+ View looked at in 0.357192 sec!
+
+ View looked at in 0.3794414 sec!
+
+ View looked at in 0.4010743 sec!
+
+ View looked at in 0.4227313 sec!
+
+ View looked at in 0.4438171 sec!
+
+ View looked at in 0.4648935 sec!
+
+ View looked at in 0.4859574 sec!
+
+ View looked at in 0.5075665 sec!
+
+ View looked at in 0.5290508 sec!
+
+ View looked at in 0.5503437 sec!
+
+ View looked at in 0.5712868 sec!
+
+ View looked at in 0.5921075 sec!
+
+ View looked at in 0.6129518 sec!
+
+ View looked at in 0.6341631 sec!
+
+ View looked at in 0.65554 sec!
+
+ View looked at in 0.6766039 sec!
+
+ View looked at in 0.6976513 sec!
+
+ View looked at in 0.7194511 sec!
+
+ View looked at in 0.5052117 sec!
+
+ --------------------- View looked at in 0.5052117 seconds for the first time! ------------------- 
+
+ View looked at in 0.5255631 sec!
+
+ View looked at in 0.5485243 sec!
+
+ View looked at in 0.5696211 sec!
+
+ View looked at in 0.5912476 sec!
+
+ View looked at in 0.6124644 sec!
+
+ View looked at in 0.6338213 sec!
+
+ View looked at in 0.6559211 sec!
+
+ View looked at in 0.6780367 sec!
+
+ View looked at in 0.6990328 sec!
+
+ View looked at in 0.7203626 sec!
+
+ View looked at in 0.7410036 sec!
+
+ View looked at in 0.7620884 sec!
+
+ View looked at in 0.7831106 sec!
+
+ View looked at in 0.8039911 sec!
+
+ View looked at in 0.8247233 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.02169 sec!
+
+ View looked at in 0.0464225 sec!
+
+ View looked at in 0.0675441 sec!
+
+ View looked at in 0.0891352 sec!
+
+ View looked at in 0.1113418 sec!
+
+ View looked at in 0.1332138 sec!
+
+ View looked at in 0.1560859 sec!
+
+ View looked at in 0.1791652 sec!
+
+ View looked at in 0.2000425 sec!
+
+ View looked at in 0.2215418 sec!
+
+ View looked at in 0.2437994 sec!
+
+ View looked at in 0.2651065 sec!
+
+ View looked at in 0.2864732 sec!
+
+ View looked at in 0.3080484 sec!
+
+ View looked at in 0.3289574 sec!
+
+ View looked at in 0.3504561 sec!
+
+ View looked at in 0.3735042 sec!
+
+ View looked at in 0.395201 sec!
+
+ View looked at in 0.4164787 sec!
+
+ View looked at in 0.4381089 sec!
+
+ View looked at in 0.4588142 sec!
+
+ View looked at in 0.4802944 sec!
+
+ View looked at in 0.5022812 sec!
+
+ View looked at in 0.5241528 sec!
+
+ View looked at in 0.3877367 sec!
+
+ --------------------- View looked at in 0.3877367 seconds for the first time! ------------------- 
+
+ View looked at in 0.4080039 sec!
+
+ View looked at in 0.431285 sec!
+
+ View looked at in 0.4520572 sec!
+
+ View looked at in 0.4734318 sec!
+
+ View looked at in 3.113987 sec!
+
+ View looked at in 3.134615 sec!
+
+ View looked at in 3.155754 sec!
+
+ View looked at in 3.176543 sec!
+
+ View looked at in 3.198064 sec!
+
+ View looked at in 3.343159 sec!
+
+ View looked at in 3.363991 sec!
+
+ View looked at in 3.385676 sec!
+
+ View looked at in 3.407336 sec!
+
+ View looked at in 3.428813 sec!
+
+ View looked at in 3.449889 sec!
+
+ View looked at in 3.471272 sec!
+
+ View looked at in 3.492202 sec!
+
+ View looked at in 0.3791667 sec!
+
+ --------------------- View looked at in 0.3791667 seconds for the first time! ------------------- 
+
+ View looked at in 0.399914 sec!
+
+ View looked at in 0.4222596 sec!
+
+ View looked at in 0.443197 sec!
+
+ View looked at in 0.4652585 sec!
+
+ View looked at in 0.4866539 sec!
+
+ View looked at in 0.5078217 sec!
+
+ View looked at in 0.5288901 sec!
+
+ View looked at in 0.5507206 sec!
+
+ View looked at in 0.5721035 sec!
+
+ View looked at in 0.5941502 sec!
+
+ View looked at in 0.6153033 sec!
+
+ View looked at in 0.6365692 sec!
+
+ View looked at in 0.6577733 sec!
+
+ View looked at in 0.6794308 sec!
+
+ View looked at in 0.7005336 sec!
+
+ View looked at in 0.7218071 sec!
+
+ View looked at in 0.7425118 sec!
+
+ View looked at in 0.7637929 sec!
+
+ View looked at in 0.7851198 sec!
+
+ View looked at in 0.8065401 sec!
+
+ View looked at in 0.8273689 sec!
+
+ View looked at in 0.8492044 sec!
+
+ View looked at in 0.8698803 sec!
+
+ View looked at in 0.8920412 sec!
+
+ View looked at in 0.9130662 sec!
+
+ View looked at in 1.021736 sec!
+
+ --------------------- View looked at in 1.021736 seconds for the first time! ------------------- 
+
+ View looked at in 1.041596 sec!
+
+ View looked at in 1.064424 sec!
+
+ View looked at in 1.085216 sec!
+
+ View looked at in 1.460443 sec!
+
+ View looked at in 1.686473 sec!
+
+ View looked at in 1.70742 sec!
+
+ View looked at in 0.2362211 sec!
+
+ --------------------- View looked at in 0.2362211 seconds for the first time! ------------------- 
+
+ View looked at in 0.2569768 sec!
+
+ View looked at in 0.2798653 sec!
+
+ View looked at in 0.3007683 sec!
+
+ View looked at in 0.3221103 sec!
+
+ View looked at in 0.3428789 sec!
+
+ View looked at in 0.3637974 sec!
+
+ View looked at in 0.3859263 sec!
+
+ View looked at in 0.4068589 sec!
+
+ View looked at in 0.4279161 sec!
+
+ View looked at in 0.4485592 sec!
+
+ View looked at in 0.469713 sec!
+
+ View looked at in 0.4910155 sec!
+
+ View looked at in 0.511996 sec!
+
+ View looked at in 0.533385 sec!
+
+ View looked at in 0.5551918 sec!
+
+ View looked at in 0.5759789 sec!
+
+ View looked at in 0.5971721 sec!
+
+ View looked at in 0.6187347 sec!
+
+ View looked at in 0.6396627 sec!
+
+ View looked at in 0.6615133 sec!
+
+ View looked at in 0.6826162 sec!
+
+ View looked at in 0.7038962 sec!
+
+ View looked at in 0.7260774 sec!
+
+ View looked at in 0.747502 sec!
+
+ View looked at in 0.7684849 sec!
+
+ View looked at in 0.7894226 sec!
+
+ View looked at in 0.329428 sec!
+
+ --------------------- View looked at in 0.329428 seconds for the first time! ------------------- 
+
+ View looked at in 0.3507065 sec!
+
+ View looked at in 0.3730755 sec!
+
+ View looked at in 0.3944031 sec!
+
+ View looked at in 0.4151158 sec!
+
+ View looked at in 0.4363147 sec!
+
+ View looked at in 0.4582422 sec!
+
+ View looked at in 0.4799577 sec!
+
+ View looked at in 0.5008998 sec!
+
+ View looked at in 0.5224367 sec!
+
+ View looked at in 0.5435302 sec!
+
+ View looked at in 0.5652606 sec!
+
+ View looked at in 0.5861056 sec!
+
+ View looked at in 0.607384 sec!
+
+ View looked at in 0.6281282 sec!
+
+ View looked at in 0.6492203 sec!
+
+ View looked at in 0.670959 sec!
+
+ View looked at in 0.6925466 sec!
+
+ View looked at in 0.7133714 sec!
+
+ View looked at in 0.7350058 sec!
+
+ View looked at in 0.7559133 sec!
+
+ View looked at in 0.7769858 sec!
+
+ View looked at in 0.7982836 sec!
+
+ View looked at in 0.8190941 sec!
+
+ View looked at in 0.8398618 sec!
+
+ View looked at in 0.8612739 sec!
+
+ View looked at in 0.8825349 sec!
+
+ View looked at in 0.9035652 sec!
+
+ View looked at in 0.9246586 sec!
+
+ View looked at in 0.9462345 sec!
+
+ View looked at in 0.9670189 sec!
+
+ View looked at in 0.9882235 sec!
+
+ View looked at in 1.008979 sec!
+
+ View looked at in 1.030138 sec!
+
+ View looked at in 1.051043 sec!
+
+ View looked at in 1.072547 sec!
+
+ View looked at in 1.093749 sec!
+
+ View looked at in 1.11497 sec!
+
+ View looked at in 1.135424 sec!
+
+ View looked at in 1.156792 sec!
+
+ View looked at in 1.178272 sec!
+
+ View looked at in 0.5047436 sec!
+
+ --------------------- View looked at in 0.5047436 seconds for the first time! ------------------- 
+
+ View looked at in 0.5256866 sec!
+
+ View looked at in 0.5486282 sec!
+
+ View looked at in 0.5696226 sec!
+
+ View looked at in 0.5907977 sec!
+
+ View looked at in 0.6124647 sec!
+
+ View looked at in 0.6336386 sec!
+
+ View looked at in 0.6555179 sec!
+
+ View looked at in 0.6765023 sec!
+
+ View looked at in 0.6980162 sec!
+
+ View looked at in 0.7193092 sec!
+
+ View looked at in 0.7410309 sec!
+
+ View looked at in 0.7621506 sec!
+
+ View looked at in 0.7835003 sec!
+
+ View looked at in 0.8052887 sec!
+
+ View looked at in 0.8264922 sec!
+
+ View looked at in 0.8476506 sec!
+
+ View looked at in 0.8687276 sec!
+
+ View looked at in 0.8897179 sec!
+
+ View looked at in 0.9144266 sec!
+
+ View looked at in 0.9350768 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0216575 sec!
+
+ View looked at in 0.0445896 sec!
+
+ View looked at in 0.0658567 sec!
+
+ View looked at in 0.0882123 sec!
+
+ View looked at in 0.1104876 sec!
+
+ View looked at in 0.1321185 sec!
+
+ View looked at in 0.1534577 sec!
+
+ View looked at in 0.1762149 sec!
+
+ View looked at in 0.1987999 sec!
+
+ View looked at in 0.2199429 sec!
+
+ View looked at in 0.2409685 sec!
+
+ View looked at in 0.2622775 sec!
+
+ View looked at in 0.2845307 sec!
+
+ View looked at in 0.3060086 sec!
+
+ View looked at in 0.327619 sec!
+
+ View looked at in 0.3490571 sec!
+
+ View looked at in 0.3708391 sec!
+
+ View looked at in 0.3925331 sec!
+
+ View looked at in 0.4141763 sec!
+
+ View looked at in 0.7546632 sec!
+
+ --------------------- View looked at in 0.7546632 seconds for the first time! ------------------- 
+
+ View looked at in 0.7756849 sec!
+
+ View looked at in 0.7986112 sec!
+
+ View looked at in 0.819923 sec!
+
+ View looked at in 0.8413913 sec!
+
+ View looked at in 0.8618313 sec!
+
+ View looked at in 0.8832342 sec!
+
+ View looked at in 0.9040614 sec!
+
+ View looked at in 0.9254932 sec!
+
+ View looked at in 0.9466275 sec!
+
+ View looked at in 0.9677257 sec!
+
+ View looked at in 0.9877778 sec!
+
+ View looked at in 1.00848 sec!
+
+ View looked at in 1.02941 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0213212 sec!
+
+ View looked at in 0.0439294 sec!
+
+ View looked at in 0.066446 sec!
+
+ View looked at in 0.0888213 sec!
+
+ View looked at in 0.1113382 sec!
+
+ View looked at in 0.1321488 sec!
+
+ View looked at in 0.1532029 sec!
+
+ View looked at in 0.1747473 sec!
+
+ View looked at in 0.1965439 sec!
+
+ View looked at in 0.2170928 sec!
+
+ View looked at in 0.2383435 sec!
+
+ View looked at in 0.2592002 sec!
+
+ View looked at in 0.2800068 sec!
+
+ View looked at in 0.3008478 sec!
+
+ View looked at in 0.3217788 sec!
+
+ View looked at in 0.342635 sec!
+
+ View looked at in 0.3636628 sec!
+
+ View looked at in 0.3846731 sec!
+
+ View looked at in 0.4075241 sec!
+
+ View looked at in 0.4281806 sec!
+
+ View looked at in 0.4490785 sec!
+
+ View looked at in 0.4694497 sec!
+
+ View looked at in 0.4914924 sec!
+
+ View looked at in 0.5127593 sec!
+
+ View looked at in 0.5342076 sec!
+
+ View looked at in 0.9649681 sec!
+
+ View looked at in 0.9852401 sec!
+
+ View looked at in 1.00586 sec!
+
+ View looked at in 1.026498 sec!
+
+ View looked at in 1.047183 sec!
+
+ View looked at in 1.067555 sec!
+
+ View looked at in 1.08854 sec!
+
+ View looked at in 1.111085 sec!
+
+ View looked at in 1.133018 sec!
+
+ View looked at in 1.154905 sec!
+
+ View looked at in 1.176134 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0229587 sec!
+
+ View looked at in 0.0459407 sec!
+
+ View looked at in 0.0677844 sec!
+
+ View looked at in 0.0894095 sec!
+
+ View looked at in 0.1118663 sec!
+
+ View looked at in 0.1330954 sec!
+
+ View looked at in 0.1555971 sec!
+
+ View looked at in 0.177567 sec!
+
+ View looked at in 0.1986073 sec!
+
+ View looked at in 0.2188914 sec!
+
+ View looked at in 0.2402026 sec!
+
+ View looked at in 0.2612885 sec!
+
+ View looked at in 0.2823926 sec!
+
+ View looked at in 0.3034675 sec!
+
+ View looked at in 0.3242095 sec!
+
+ View looked at in 0.3447232 sec!
+
+ View looked at in 0.3650765 sec!
+
+ View looked at in 0.3856021 sec!
+
+ View looked at in 0.406647 sec!
+
+ View looked at in 0.4276795 sec!
+
+ View looked at in 0.4486066 sec!
+
+ View looked at in 0.4692502 sec!
+
+ View looked at in 0.2312239 sec!
+
+ --------------------- View looked at in 0.2312239 seconds for the first time! ------------------- 
+
+ View looked at in 0.2512935 sec!
+
+ View looked at in 0.2731829 sec!
+
+ View looked at in 0.2940219 sec!
+
+ View looked at in 0.3157131 sec!
+
+ View looked at in 0.3363855 sec!
+
+ View looked at in 0.3580858 sec!
+
+ View looked at in 0.3792384 sec!
+
+ View looked at in 0.4003318 sec!
+
+ View looked at in 0.420882 sec!
+
+ View looked at in 0.4417437 sec!
+
+ View looked at in 0.463594 sec!
+
+ View looked at in 0.4849621 sec!
+
+ View looked at in 0.5058032 sec!
+
+ View looked at in 0.5272993 sec!
+
+ View looked at in 0.5485001 sec!
+
+ View looked at in 0.5703469 sec!
+
+ View looked at in 0.5921415 sec!
+
+ View looked at in 0.6132695 sec!
+
+ View looked at in 0.6349752 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0201584 sec!
+
+ View looked at in 0.0440705 sec!
+
+ View looked at in 0.0654384 sec!
+
+ View looked at in 0.0885269 sec!
+
+ View looked at in 0.110889 sec!
+
+ View looked at in 0.1320877 sec!
+
+ View looked at in 0.1531198 sec!
+
+ View looked at in 0.174862 sec!
+
+ View looked at in 0.1955799 sec!
+
+ View looked at in 0.2167508 sec!
+
+ View looked at in 0.2375637 sec!
+
+ View looked at in 0.2601381 sec!
+
+ View looked at in 0.2812424 sec!
+
+ View looked at in 0.3021956 sec!
+
+ View looked at in 0.3231468 sec!
+
+ View looked at in 0.3447642 sec!
+
+ View looked at in 0.3659867 sec!
+
+ View looked at in 0.3876653 sec!
+
+ View looked at in 0.40842 sec!
+
+ View looked at in 0.4300975 sec!
+
+ View looked at in 0.4512477 sec!
+
+ View looked at in 0.4723347 sec!
+
+ View looked at in 0.4930277 sec!
+
+ View looked at in 0.5140433 sec!
+
+ View looked at in 0.5351983 sec!
+
+ View looked at in 0.5554916 sec!
+
+ View looked at in 0.5772256 sec!
+
+ View looked at in 0.5976813 sec!
+
+ View looked at in 0.6182826 sec!
+
+ View looked at in 0.6391789 sec!
+
+ View looked at in 0.6598032 sec!
+
+ View looked at in 0.6810941 sec!
+
+ View looked at in 0.702148 sec!
+
+ View looked at in 0.7232494 sec!
+
+ View looked at in 0.7447169 sec!
+
+ View looked at in 0.7656016 sec!
+
+ View looked at in 0.7859901 sec!
+
+ View looked at in 0.8075088 sec!
+
+ View looked at in 0.827509 sec!
+
+ View looked at in 0.8486817 sec!
+
+ View looked at in 0.8695228 sec!
+
+ View looked at in 0.8902093 sec!
+
+ View looked at in 0.9114746 sec!
+
+ View looked at in 0.9329063 sec!
+
+ View looked at in 0.9546295 sec!
+
+ View looked at in 0.9756696 sec!
+
+ View looked at in 0.9972417 sec!
+
+ View looked at in 1.018451 sec!
+
+ View looked at in 1.038898 sec!
+
+ View looked at in 1.060497 sec!
+
+ View looked at in 1.081379 sec!
+
+ View looked at in 1.102351 sec!
+
+ View looked at in 1.123438 sec!
+
+ View looked at in 1.144492 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0201051 sec!
+
+ View looked at in 0.0425953 sec!
+
+ View looked at in 0.0632408 sec!
+
+ View looked at in 0.08321749 sec!
+
+ View looked at in 0.1043957 sec!
+
+ View looked at in 0.1257976 sec!
+
+ View looked at in 0.1484546 sec!
+
+ View looked at in 0.1706357 sec!
+
+ View looked at in 0.1916035 sec!
+
+ View looked at in 0.2120342 sec!
+
+ View looked at in 0.2331272 sec!
+
+ View looked at in 0.2534918 sec!
+
+ View looked at in 0.2747248 sec!
+
+ View looked at in 0.2961104 sec!
+
+ View looked at in 0.3171463 sec!
+
+ View looked at in 0.338063 sec!
+
+ View looked at in 0.3593273 sec!
+
+ View looked at in 0.3799731 sec!
+
+ View looked at in 0.4015197 sec!
+
+ View looked at in 0.4224309 sec!
+
+ View looked at in 0.4434943 sec!
+
+ View looked at in 0.4643886 sec!
+
+ View looked at in 0.9161862 sec!
+
+ View looked at in 0.936084 sec!
+
+ View looked at in 0.9568268 sec!
+
+ View looked at in 0.97797 sec!
+
+ View looked at in 1.000697 sec!
+
+ View looked at in 1.022493 sec!
+
+ View looked at in 1.043543 sec!
+
+ View looked at in 1.065001 sec!
+
+ View looked at in 1.086006 sec!
+
+ View looked at in 1.107188 sec!
+
+ View looked at in 1.165531 sec!
+
+ View looked at in 1.185794 sec!
+
+ View looked at in 1.208214 sec!
+
+ View looked at in 1.23043 sec!
+
+ View looked at in 1.252782 sec!
+
+ View looked at in 1.273407 sec!
+
+ View looked at in 1.294734 sec!
+
+ View looked at in 1.316544 sec!
+
+ View looked at in 0.5338822 sec!
+
+ --------------------- View looked at in 0.5338822 seconds for the first time! ------------------- 
+
+ View looked at in 0.555836 sec!
+
+ View looked at in 0.5785937 sec!
+
+ View looked at in 0.6000717 sec!
+
+ View looked at in 0.6218334 sec!
+
+ View looked at in 0.642764 sec!
+
+ View looked at in 0.6631085 sec!
+
+ View looked at in 0.6841038 sec!
+
+ View looked at in 0.7052867 sec!
+
+ View looked at in 0.7268761 sec!
+
+ View looked at in 0.7482656 sec!
+
+ View looked at in 0.7703317 sec!
+
+ View looked at in 0.7908611 sec!
+
+ View looked at in 0.811769 sec!
+
+ View looked at in 0.8332999 sec!
+
+ View looked at in 0.8546735 sec!
+
+ View looked at in 0.8755777 sec!
+
+ View looked at in 0.896793 sec!
+
+ View looked at in 0.9176722 sec!
+
+ View looked at in 0.9392532 sec!
+
+ View looked at in 0.960363 sec!
+
+ View looked at in 0.3384635 sec!
+
+ --------------------- View looked at in 0.3384635 seconds for the first time! ------------------- 
+
+ View looked at in 0.3594221 sec!
+
+ View looked at in 0.3817795 sec!
+
+ View looked at in 0.4031698 sec!
+
+ View looked at in 0.4259331 sec!
+
+ View looked at in 0.4472253 sec!
+
+ View looked at in 0.4684663 sec!
+
+ View looked at in 0.4901145 sec!
+
+ View looked at in 0.511088 sec!
+
+ View looked at in 0.5331935 sec!
+
+ View looked at in 0.5540468 sec!
+
+ View looked at in 0.5753006 sec!
+
+ View looked at in 0.5969276 sec!
+
+ View looked at in 0.6180287 sec!
+
+ View looked at in 0.6395863 sec!
+
+ View looked at in 0.6614412 sec!
+
+ View looked at in 0.6834231 sec!
+
+ View looked at in 0.7048039 sec!
+
+ View looked at in 0.7261739 sec!
+
+ View looked at in 0.747906 sec!
+
+ View looked at in 0.7695359 sec!
+
+ View looked at in 0.7909556 sec!
+
+ View looked at in 0.8128985 sec!
+
+ View looked at in 0.8337329 sec!
+
+ View looked at in 0.8554272 sec!
+
+ View looked at in 0.8768987 sec!
+
+ View looked at in 0.9003181 sec!
+
+ View looked at in 0.9215845 sec!
+
+ View looked at in 0.360014 sec!
+
+ --------------------- View looked at in 0.360014 seconds for the first time! ------------------- 
+
+ View looked at in 0.3814443 sec!
+
+ View looked at in 0.4046911 sec!
+
+ View looked at in 0.4272838 sec!
+
+ View looked at in 0.4491096 sec!
+
+ View looked at in 0.4708196 sec!
+
+ View looked at in 0.4923311 sec!
+
+ View looked at in 0.5144217 sec!
+
+ View looked at in 0.5361855 sec!
+
+ View looked at in 0.5585901 sec!
+
+ View looked at in 0.5795611 sec!
+
+ View looked at in 0.6009635 sec!
+
+ View looked at in 0.6231473 sec!
+
+ View looked at in 0.6444214 sec!
+
+ View looked at in 0.6658177 sec!
+
+ View looked at in 0.6880188 sec!
+
+ View looked at in 0.7094795 sec!
+
+ View looked at in 0.7301611 sec!
+
+ View looked at in 0.7511578 sec!
+
+ View looked at in 0.7722051 sec!
+
+ View looked at in 0.7950665 sec!
+
+ View looked at in 0.8164006 sec!
+
+ View looked at in 0.8376372 sec!
+
+ View looked at in 0.8594376 sec!
+
+ View looked at in 0.8799943 sec!
+
+ View looked at in 0.9014353 sec!
+
+ View looked at in 0.9226189 sec!
+
+ View looked at in 0.9433562 sec!
+
+ View looked at in 0.96507 sec!
+
+ View looked at in 0.9864047 sec!
+
+ View looked at in 1.007634 sec!
+
+ View looked at in 1.030471 sec!
+
+ View looked at in 1.052016 sec!
+
+ View looked at in 1.073899 sec!
+
+ View looked at in 1.095473 sec!
+
+ View looked at in 1.116944 sec!
+
+ View looked at in 0.8796052 sec!
+
+ --------------------- View looked at in 0.8796052 seconds for the first time! ------------------- 
+
+ View looked at in 0.9005473 sec!
+
+ View looked at in 0.9232515 sec!
+
+ View looked at in 0.9437842 sec!
+
+ View looked at in 0.9661498 sec!
+
+ View looked at in 0.9873153 sec!
+
+ View looked at in 1.008928 sec!
+
+ View looked at in 1.03029 sec!
+
+ View looked at in 1.051219 sec!
+
+ View looked at in 1.071971 sec!
+
+ View looked at in 1.093001 sec!
+
+ View looked at in 1.113896 sec!
+
+ View looked at in 1.135145 sec!
+
+ View looked at in 1.155745 sec!
+
+ View looked at in 1.177313 sec!
+
+ View looked at in 1.198294 sec!
+
+ View looked at in 1.220063 sec!
+
+ View looked at in 1.241241 sec!
+
+ View looked at in 1.26253 sec!
+
+ View looked at in 1.283433 sec!
+
+ View looked at in 1.304992 sec!
+
+ View looked at in 1.325768 sec!
+
+ View looked at in 1.347121 sec!
+
+ View looked at in 1.367683 sec!
+
+ View looked at in 1.389083 sec!
+
+ View looked at in 1.409646 sec!
+
+ View looked at in 1.430682 sec!
+
+ View looked at in 1.452184 sec!
+
+ View looked at in 1.473126 sec!
+
+ View looked at in 1.494074 sec!
+
+ View looked at in 1.516084 sec!
+
+ View looked at in 1.537618 sec!
+
+ View looked at in 0.5478726 sec!
+
+ --------------------- View looked at in 0.5478726 seconds for the first time! ------------------- 
+
+ View looked at in 0.5692262 sec!
+
+ View looked at in 0.592033 sec!
+
+ View looked at in 0.6140823 sec!
+
+ View looked at in 0.6348727 sec!
+
+ View looked at in 0.6985037 sec!
+
+ View looked at in 0.7421681 sec!
+
+ View looked at in 0.7869574 sec!
+
+ View looked at in 0.8518773 sec!
+
+ View looked at in 0.872252 sec!
+
+ View looked at in 0.8930867 sec!
+
+ View looked at in 0.9144707 sec!
+
+ View looked at in 0.9355996 sec!
+
+ View looked at in 0.2979686 sec!
+
+ --------------------- View looked at in 0.2979686 seconds for the first time! ------------------- 
+
+ View looked at in 0.3188336 sec!
+
+ View looked at in 0.3418559 sec!
+
+ View looked at in 0.3634888 sec!
+
+ View looked at in 0.3849441 sec!
+
+ View looked at in 0.4058228 sec!
+
+ View looked at in 0.4272613 sec!
+
+ View looked at in 0.4484795 sec!
+
+ View looked at in 0.470598 sec!
+
+ View looked at in 0.4917988 sec!
+
+ View looked at in 0.5134808 sec!
+
+ View looked at in 0.5344622 sec!
+
+ View looked at in 0.556016 sec!
+
+ View looked at in 0.5770924 sec!
+
+ View looked at in 0.5983321 sec!
+
+ View looked at in 0.620534 sec!
+
+ View looked at in 0.6422904 sec!
+
+ View looked at in 0.6627834 sec!
+
+ View looked at in 0.684203 sec!
+
+ View looked at in 0.705071 sec!
+
+ View looked at in 0.7260111 sec!
+
+ View looked at in 0.7473576 sec!
+
+ View looked at in 0.7687139 sec!
+
+ View looked at in 0.7897363 sec!
+
+ View looked at in 0.2568984 sec!
+
+ --------------------- View looked at in 0.2568984 seconds for the first time! ------------------- 
+
+ View looked at in 0.2782326 sec!
+
+ View looked at in 0.3007692 sec!
+
+ View looked at in 0.3219602 sec!
+
+ View looked at in 0.3428385 sec!
+
+ View looked at in 0.3638345 sec!
+
+ View looked at in 0.4930414 sec!
+
+ View looked at in 0.5133656 sec!
+
+ View looked at in 0.5348517 sec!
+
+ View looked at in 0.5563303 sec!
+
+ View looked at in 0.5777343 sec!
+
+ View looked at in 0.600034 sec!
+
+ View looked at in 0.6213261 sec!
+
+ View looked at in 0.6430761 sec!
+
+ View looked at in 0.66474 sec!
+
+ View looked at in 0.6864359 sec!
+
+ View looked at in 0.7080268 sec!
+
+ View looked at in 0.7290015 sec!
+
+ View looked at in 0.7500657 sec!
+
+ View looked at in 0.7715551 sec!
+
+ View looked at in 0.7925938 sec!
+
+ View looked at in 0.8138613 sec!
+
+ View looked at in 0.8345418 sec!
+
+ View looked at in 0.8555909 sec!
+
+ View looked at in 0.8780207 sec!
+
+ View looked at in 0.8992473 sec!
+
+ View looked at in 0.9210594 sec!
+
+ View looked at in 0.9431624 sec!
+
+ View looked at in 0.964139 sec!
+
+ View looked at in 0.9850872 sec!
+
+ View looked at in 1.006324 sec!
+
+ View looked at in 1.027932 sec!
+
+ View looked at in 1.048882 sec!
+
+ View looked at in 1.069826 sec!
+
+ View looked at in 0 sec!
+
+ --------------------- View looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.0231131 sec!
+
+ View looked at in 0.0458711 sec!
+
+ View looked at in 0.0679242 sec!
+
+ View looked at in 0.08856 sec!
+
+ View looked at in 0.1106339 sec!
+
+ View looked at in 0.1317358 sec!
+
+ View looked at in 0.1554112 sec!
+
+ View looked at in 0.1783254 sec!
+
+ View looked at in 0.2001984 sec!
+
+ View looked at in 0.2223157 sec!
+
+ View looked at in 0.24415 sec!
+
+ View looked at in 0.2651966 sec!
+
+ View looked at in 0.286884 sec!
+
+ View looked at in 0.6238211 sec!
