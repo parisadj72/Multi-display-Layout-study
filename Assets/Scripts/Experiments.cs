@@ -7,7 +7,6 @@ public class Experiments : MonoBehaviour
 {
     public List<TaskManagement> layouts = new List<TaskManagement>();
     private TaskManagement currentLayout;
-    private TaskManagement layoutCopy;
 
     private List<int> randomLayouts = new List<int>();
 
@@ -70,8 +69,6 @@ public class Experiments : MonoBehaviour
             else if (experiment == Experiment.Exp3)
                 File.AppendAllText(timerFilePath, "Errors per trial: " + sumOfNumberOfWorngSelections + "\n \n");
 
-
-            //print(currentLayout.name);
             if (experiment == Experiment.Exp3)
             {
                 Destroy(currentLayout.gameObject);
@@ -88,7 +85,6 @@ public class Experiments : MonoBehaviour
                 yield return new WaitForSeconds(5);
 
             }
-            //StartCoroutine(TakeBreak(5));
         }
     }
     private void createOutputFile()
@@ -103,14 +99,6 @@ public class Experiments : MonoBehaviour
         File.WriteAllText(timerFilePath, "OUTPUT OF EACH RUN (" + experiment + "): \n \n");
     }
 
-    IEnumerator TakeBreak(int time)
-    {
-        //Learned something new today: Calling a coroutine to stop the 
-        // execution of another one does not work. 
-        // What stops is the coroutine you call. Not the calling coroutine
-        yield return new WaitForSeconds(time);
-    }
-
     private void LayoutInfo()
     {
         print(instantiatedLayout);
@@ -123,22 +111,6 @@ public class Experiments : MonoBehaviour
         if (Input.GetKey(KeyCode.I))
         {
             LayoutInfo();
-        }
-    }
-
-    private void TraverseList(List<TaskManagement> list)
-    {
-        foreach (TaskManagement selT in list)
-        {
-            print(selT.name);
-        }
-    }
-
-    private void TraverseList(List<int> list)
-    {
-        foreach (int selT in list)
-        {
-            print(selT);
         }
     }
 }

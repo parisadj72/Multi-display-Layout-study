@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using TMPro;
 using static Experiments;
 
 public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerClickHandler
@@ -15,20 +14,13 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     private Color selectedColor;
     private Color normalColor;
 
-    private GameObject on;
-
-    private Boolean isOn;
-    private Boolean isInteractable;
-    private bool swap = false;
-    private bool isSelected = false;
+    public bool isSelected = false;
 
     public Boolean disabledAtStartup = true;
 
     public bool flagViewLookedAt = false;
     public float firstTimeLookedAtTimer = 0.0f;
     public float lookedAtTimer = 0.0f;
-    //public bool flagViewSelected = false;
-
 
     private float wrongClickCounter = 0;
     private float localSelectedTimer = 0.0f;
@@ -39,17 +31,13 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         get { return wrongClickCounter; }
         set { wrongClickCounter = value; }
     }
-
-    public Toggle Toggle
+    public bool isOn()
     {
-        get { return toggle; }
-        set { toggle = value; }
+        return toggle.isOn;
     }
-
-    public Boolean IsOn
+    public bool isInteractable()
     {
-        get { return isOn; }
-        set { isOn = value; }
+        return toggle.interactable;
     }
 
     public string Icon
@@ -64,11 +52,7 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
         set { rawIcon = value; }
     }
 
-    public Color SelectedColor { get => selectedColor; set => selectedColor = value; }
     public Color NormalColor { get => normalColor; set => normalColor = value; }
-    public bool Swap { get => swap; set => swap = value; }
-    public bool IsSelected { get => isSelected; set => isSelected = value; }
-
     private void Awake()
     {
         InitializeView();
@@ -83,39 +67,29 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     {
         parent = GetComponentInParent<TaskManagement>();
         toggle = GetComponent<Toggle>();
+        isSelected = false;
         selectedColor = toggle.colors.pressedColor;
-
-        //icon = GetImage();
-        //print(icon);
-        isInteractable = toggle.interactable;
-        IsOn = toggle.isOn;
 
         Transform[] children = GetComponentsInChildren<Transform>(true);
 
         foreach (Transform child in children)
         {
-            //print(child.gameObject);
             if (child.gameObject.name == "On")
             {
-                on = child.gameObject;
+                //on = child.gameObject;
                 rawIcon = child.GetComponentInChildren<RawImage>();
                 normalColor = child.GetComponent<Image>().color;
-                //print(rawImage.texture);
             }
         }
     }
-    public void SetStatus()
-    {
-        IsOn = toggle.isOn;
-    }
 
-    public void TurnOn(Boolean isOn, bool enableInteraction)
+    public void TurnOn()
     {
-        IsOn = isOn;
-        toggle.interactable = enableInteraction;
-        toggle.isOn = isOn;
-        //flagViewSelected = false;
-        //print("Interaction enabled: " + toggle.interactable);
+        toggle.isOn = true;
+    }
+    public void TurnOff()
+    {
+        toggle.isOn = false;
     }
 
 
@@ -125,11 +99,9 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
         foreach (Transform child in children)
         {
-            //print(child.gameObject);
             if (child.gameObject.name == "On")
             {
                 rawIcon = child.GetComponentInChildren<RawImage>();
-                //print(rawImage.texture);
             }
         }
         return rawIcon.texture.name;
@@ -141,11 +113,9 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
         foreach (Transform child in children)
         {
-            //print(child.gameObject);
             if (child.gameObject.name == "On")
             {
                 rawIcon = child.GetComponentInChildren<RawImage>();
-                //print(rawImage.texture);
             }
         }
     }
@@ -156,7 +126,6 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
         foreach (Transform child in children)
         {
-            //print(child.gameObject);
             if (child.gameObject.name == "On")
             {
                 child.gameObject.GetComponent<Image>().color = color;
@@ -176,32 +145,9 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
 
     public void OnSelect(BaseEventData eventData)
     {
-        //flagViewSelected = true;
-        //flagViewLookedAt = false;
-
-        /*if (IsOn) {
-            *//*//write time per selection for each view into the prompt
-            parent.UserPrompt.GetComponent<TextMeshPro>().text = "Time per selection = " + localSelectedTimer;*//*
-
-            System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
-            localSelectedTimer = 0;
-        }
-
-        if (swap && isSelected)
+        /*if (parent.IsExp3())
         {
-            DisableInteraction();
-        }
-
-        if (isOn && !isSelected)
-        {
-            isSelected = true;
-            //StartCoroutine(WaitAndOff());
-            //print("view clicked. Disable now?");
-            parent.SelectedViewsCounter++;
-        }*/
-        if (swap)
-        {
-            if (isOn && !isSelected)
+            if (toggle.isOn && !isSelected)
             {
                 isSelected = true;
                 StartCoroutine(WaitAndOff());
@@ -209,35 +155,51 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
             }
             else
                 DisableInteraction();
-        }
-    }
 
-    public void OnDeselect(BaseEventData eventData)
-    {
-        if (swap)
-        {
-            TurnOn(true, true);
-            if (parent.SelectedViewsCounter == 1)
-                changeColor(selectedColor);
-            print("Got deselected?");
-        }
+        }*/
     }
-
     IEnumerator WaitAndOff()
     {
-        yield return new WaitUntil(() => !isOn);
-        //yield return new WaitForEndOfFrame();
-        TurnOn(true, false);
-        //DisableInteraction();
+        yield return new WaitUntil(() => !toggle.isOn);
+        TurnOn();
+        DisableInteraction();
     }
+    public void OnDeselect(BaseEventData eventData)
+    {
+        /*if (parent.IsExp3())
+        {
+            TurnOn();
+            EnableInteraction();
+            if (parent.SelectedViewsCounter == 1)
+                changeColor(selectedColor);
+        }*/
+    }
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (parent.IsExp3())
+        {
+            if (toggle.interactable && !isSelected)
+            {
+                isSelected = true;
+                parent.SelectedViewsCounter++;
+                TurnOn();
+                EnableInteraction();
+                changeColor(selectedColor);
+            }
+            else if (isSelected)
+            {
+                TurnOn();
+            }
+        }
+
+        // Counting Errors...
         if (!toggle.interactable)
         {
             wrongClickCounter++;
         }
-        if (toggle.interactable && GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment != Experiment.Exp3)
+        if (toggle.interactable && !parent.IsExp3())
         {
             System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per selection = " + localSelectedTimer + "\n \n");
             localSelectedTimer = 0;
@@ -245,13 +207,13 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     }
     private void Update()
     {
-        if (GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp1 && IsOn)
+        if (GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp1 && toggle.isOn)
         {
             firstTimeLookedAtTimer += Time.deltaTime;
             lookedAtTimer += Time.deltaTime;
             localSelectedTimer += Time.deltaTime;
         }
-        if(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp2 && !IsOn && toggle.interactable)
+        if(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp2 && !toggle.isOn && toggle.interactable)
         {
             firstTimeLookedAtTimer += Time.deltaTime;
             lookedAtTimer += Time.deltaTime;

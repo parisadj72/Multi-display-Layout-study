@@ -34,7 +34,6 @@ public class PuzzleLayout : MonoBehaviour
             if (view != null)
             {
                 views.Add(view);
-                //print("View added");
             }
         }
     }
@@ -46,20 +45,19 @@ public class PuzzleLayout : MonoBehaviour
             modelTextures.Add(texList[i]);
             modelIcons.Add(icons[i]);
             modelOrder.Add(viewOrder[i]);
-            //print(modelTextures[i].name);
         }
 
         for (int i = 0; i < views.Count; i++)
         {
             views[i].RawIcon.texture = modelTextures[modelIcons[i]];
-            //print("Icons index: " + modelIcons[i]);
         }
 
         int selections = (views.Count / 3) + 1;
 
         for (int i = 0; i < selections; i++)
         {
-            views[modelOrder[i]].TurnOn(true, false);
+            views[modelOrder[i]].TurnOn();
+            views[modelOrder[i]].DisableInteraction();
         }
 
         for (int i = 0; i < selections; i++)
@@ -83,10 +81,9 @@ public class PuzzleLayout : MonoBehaviour
         }
 
 
-        //print("3 or 6-view layout is present");
         for (int i = 0; i < copy.Count; ++i)
         {
-            if (!views[i].IsOn)
+            if (!views[i].isOn())
             {
                 continue;
             }
@@ -107,24 +104,5 @@ public class PuzzleLayout : MonoBehaviour
         {
             views[modelOrder[i]].RawIcon.texture = texlistOns[i];
         }
-
-
-
-
-        //bool flag = true;
-        //while (flag)
-        //{
-        //    for (int i = 0; i < texlistOns.Count; i++)
-        //    {
-        //        while (copy[i] != texlistOns[i])
-        //        {
-        //            flag = false;
-        //        }
-        //    }
-        //    if (flag)
-        //    {
-        //        texlistOns = RandomGenerator.shuffleList(texlistOns);
-        //    }
-        //}
     }
 }

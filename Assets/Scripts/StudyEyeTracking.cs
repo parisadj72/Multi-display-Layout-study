@@ -281,7 +281,7 @@ public class StudyEyeTracking : MonoBehaviour
 
             view = hit.collider.gameObject.GetComponent<View>();
 
-            if (exp.experiment == Experiment.Exp1 && view.IsOn)
+            if (exp.experiment == Experiment.Exp1 && view.isOn())
             {
                 File.AppendAllText(overlookedFilePath, "\n View looked at in " + view.lookedAtTimer + " sec!\n");
                 //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
@@ -299,7 +299,7 @@ public class StudyEyeTracking : MonoBehaviour
                 }
             }
 
-            if (exp.experiment == Experiment.Exp2 && view.Toggle.interactable)
+            if (exp.experiment == Experiment.Exp2 && view.isInteractable())
             {
                 File.AppendAllText(overlookedFilePath, "\n View looked at in " + view.lookedAtTimer + " sec!\n");
                 //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
