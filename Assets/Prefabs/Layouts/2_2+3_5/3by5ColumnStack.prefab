@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 8003972323805061057}
   - component: {fileID: 4619695164928011444}
   m_Layer: 0
-  m_Name: 3by5RowStack
+  m_Name: 3by5ColumnStack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4874,7 +4874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7576698783485874272
 Transform:
   m_ObjectHideFlags: 0
