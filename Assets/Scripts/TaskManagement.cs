@@ -179,7 +179,8 @@ public class TaskManagement : MonoBehaviour
             views[viewOrder[i]].DisableInteraction();
         }
 
-        yield return new WaitForSeconds(5);
+        float waitTime = selections;
+        yield return new WaitForSeconds(waitTime);
 
         leftRay.enabled = true;
         rightRay.enabled = true;
