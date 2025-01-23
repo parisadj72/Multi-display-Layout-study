@@ -782,6 +782,11 @@ PrefabInstance:
       objectReference: {fileID: 1825734719}
     - target: {fileID: 3310802541938593171, guid: 5a76f2e62f3099642a7d4187ba6da613,
         type: 3}
+      propertyPath: studyNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3310802541938593171, guid: 5a76f2e62f3099642a7d4187ba6da613,
+        type: 3}
       propertyPath: layouts.Array.size
       value: 4
       objectReference: {fileID: 0}

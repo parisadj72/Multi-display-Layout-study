@@ -476,11 +476,11 @@ public class StudyEyeTracking : MonoBehaviour
     private void createOverlookedDataFile()
     {
         int subjectID = 1;
-        overlookedFilePath = "Assets/OutputLog/subject" + subjectID + exp.experiment + "_overlooked.txt";
+        overlookedFilePath = "Assets/OutputLog/" + exp.studyNumber + "subject" + subjectID + exp.experiment + "_overlooked.txt";
         while (File.Exists(overlookedFilePath))
         {
             subjectID++;
-            overlookedFilePath = "Assets/OutputLog/subject" + subjectID + exp.experiment + "_overlooked.txt";
+            overlookedFilePath = "Assets/OutputLog/" + exp.studyNumber + "subject" + subjectID + exp.experiment + "_overlooked.txt";
         }
     }
 }

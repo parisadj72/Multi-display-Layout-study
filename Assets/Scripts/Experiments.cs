@@ -19,6 +19,9 @@ public class Experiments : MonoBehaviour
     public enum Experiment { Exp1, Exp2, Exp3 };
     public Experiment experiment;
 
+    public enum StudyNumber { Study1, Study2 };
+    public StudyNumber studyNumber;
+
     private void Awake()
     {
         randomLayouts = RandomGenerator.generateUniqueRandoms(layouts.Count, 3);
@@ -90,11 +93,11 @@ public class Experiments : MonoBehaviour
     private void createOutputFile()
     {
         int subjectID = 1;
-        timerFilePath = "Assets/OutputLog/subject" + subjectID + experiment + ".txt";
+        timerFilePath = "Assets/OutputLog/"+ studyNumber +"subject" + subjectID + experiment + ".txt";
         while (File.Exists(timerFilePath))
         {
             subjectID++;
-            timerFilePath = "Assets/OutputLog/subject" + subjectID + experiment + ".txt";
+            timerFilePath = "Assets/OutputLog/" + studyNumber + "subject" + subjectID + experiment + ".txt";
         }
         File.WriteAllText(timerFilePath, "OUTPUT OF EACH RUN (" + experiment + "): \n \n");
     }
