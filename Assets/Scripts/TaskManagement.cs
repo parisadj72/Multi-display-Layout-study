@@ -53,6 +53,9 @@ public class TaskManagement : MonoBehaviour
     public GameObject UserPrompt { get => userPrompt; set => userPrompt = value; }
     public int NumberOfSwaps { get => numberOfSwaps; set => numberOfSwaps = value; }
 
+    public enum LayoutName { Flat, Curve, Stack, Sphere };
+    public LayoutName layoutName;
+
     private void Awake()
     {
         InitializeLayout();
@@ -65,8 +68,20 @@ public class TaskManagement : MonoBehaviour
         viewOrder = RandomGenerator.randomizeList(numberOfWindows);
         randomIcons = RandomGenerator.randomizeList(numberOfWindows);
         RandomizeIcons();
-
+        SetLayoutName();
         ExperimentSetup();
+    }
+
+    private void SetLayoutName()
+    {
+        if (gameObject.name.Contains("Sphere"))
+            layoutName = LayoutName.Sphere;
+        else if (gameObject.name.Contains("Curve"))
+            layoutName = LayoutName.Curve;
+        else if (gameObject.name.Contains("Flat"))
+            layoutName = LayoutName.Flat;
+        else if (gameObject.name.Contains("Stack"))
+            layoutName = LayoutName.Stack;
     }
 
     private void InitializeLayout()
@@ -298,7 +313,7 @@ public class TaskManagement : MonoBehaviour
             puzzleViews[index[1]].changeColor(puzzleViews[index[1]].NormalColor);
             puzzleViews[index[0]].changeColor(puzzleViews[index[0]].NormalColor);
 
-            System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per swap = " + swapTime + "\n \n");
+            System.IO.File.AppendAllText(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().timerFilePath, "Time per swap for the " + layoutName +" layout = " + swapTime + "\n \n");
             swapTime = 0;
             
             selectedViewsCounter = 0;

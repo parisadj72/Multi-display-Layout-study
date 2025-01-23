@@ -54,11 +54,11 @@ public class Experiments : MonoBehaviour
 
             //Log time per trial in the file
             if(experiment == Experiment.Exp1)
-                File.AppendAllText(timerFilePath, "(time per " + currentLayout.task1Selections + " Selections): " + timer + "\n \n");
+                File.AppendAllText(timerFilePath, "(time per " + currentLayout.task1Selections + " Selections for the " + currentLayout.layoutName + " layout): " + timer + "\n \n");
             else if (experiment == Experiment.Exp2)
-                File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections): " + timer + "\n \n");
+                File.AppendAllText(timerFilePath, "(time per " + currentLayout.selections + " Selections for the " + currentLayout.layoutName + " layout): " + timer + "\n \n");
             else if (experiment == Experiment.Exp3)
-                File.AppendAllText(timerFilePath, "Trial time (# " + currentLayout.NumberOfSwaps + " swaps): " + timer + "\n \n");
+                File.AppendAllText(timerFilePath, "Trial time (# " + currentLayout.NumberOfSwaps + " swaps for the " + currentLayout.layoutName + " layout): " + timer + "\n \n");
 
             //log Error: Wrong Selections
             for (int k = 0; k < currentLayout.Views.Count; k++)
@@ -66,11 +66,11 @@ public class Experiments : MonoBehaviour
                 sumOfNumberOfWorngSelections += currentLayout.Views[k].WrongClickCounter;
             }
             if (experiment == Experiment.Exp1)
-                File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.task1Selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
+                File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.task1Selections + " Selections for the " + currentLayout.layoutName + " layout): " + sumOfNumberOfWorngSelections + "\n \n");
             else if (experiment == Experiment.Exp2)
-                File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.selections + " Selections): " + sumOfNumberOfWorngSelections + "\n \n");
+                File.AppendAllText(timerFilePath, "(Errors / Wrong Selections per " + currentLayout.selections + " Selections for the " + currentLayout.layoutName + " layout): " + sumOfNumberOfWorngSelections + "\n \n");
             else if (experiment == Experiment.Exp3)
-                File.AppendAllText(timerFilePath, "Errors per trial: " + sumOfNumberOfWorngSelections + "\n \n");
+                File.AppendAllText(timerFilePath, "Errors per trial for the " + currentLayout.layoutName + " layout: " + sumOfNumberOfWorngSelections + "\n \n");
 
             if (experiment == Experiment.Exp3)
             {
