@@ -15,6 +15,9 @@ public class TaskManagement : MonoBehaviour
     private PuzzleLayout puzzleLayout;
     private Experiments parent;
 
+    public Boolean previouslyLookedAtOnView = false;
+    public Boolean overlookOffViewHappened = false;
+
     private List<Texture2D> textures = new List<Texture2D>();
     private List<int> randomIcons;
 
@@ -163,10 +166,12 @@ public class TaskManagement : MonoBehaviour
 
             views[windowNumberOn].DisableInteraction();
 
-            views[windowNumberOn].firstTimeLookedAtTimer = 0.0f;
             views[windowNumberOn].lookedAtTimer = 0.0f;
-
             views[windowNumberOn].flagViewLookedAt = false;
+
+            previouslyLookedAtOnView = false;
+            overlookOffViewHappened = false;
+
         }
 
         // show a hint to user that all views has been selected
@@ -230,7 +235,6 @@ public class TaskManagement : MonoBehaviour
             {
                 views[viewOrder[i]].DisableInteraction();
 
-                views[viewOrder[i]].firstTimeLookedAtTimer = 0.0f;
                 views[viewOrder[i]].lookedAtTimer = 0.0f;
                 views[viewOrder[i]].flagViewLookedAt = false;
             }

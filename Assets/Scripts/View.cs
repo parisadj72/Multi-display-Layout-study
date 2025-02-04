@@ -19,7 +19,6 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     public Boolean disabledAtStartup = true;
 
     public bool flagViewLookedAt = false;
-    public float firstTimeLookedAtTimer = 0.0f;
     public float lookedAtTimer = 0.0f;
 
     private float wrongClickCounter = 0;
@@ -209,13 +208,11 @@ public class View : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerCli
     {
         if (GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp1 && toggle.isOn)
         {
-            firstTimeLookedAtTimer += Time.deltaTime;
             lookedAtTimer += Time.deltaTime;
             localSelectedTimer += Time.deltaTime;
         }
         if(GameObject.FindGameObjectWithTag("experiment").GetComponent<Experiments>().experiment == Experiment.Exp2 && !toggle.isOn && toggle.interactable)
         {
-            firstTimeLookedAtTimer += Time.deltaTime;
             lookedAtTimer += Time.deltaTime;
             localSelectedTimer += Time.deltaTime;
         }

@@ -281,7 +281,45 @@ public class StudyEyeTracking : MonoBehaviour
 
             view = hit.collider.gameObject.GetComponent<View>();
 
-            if (exp.experiment == Experiment.Exp1 && view.isOn())
+            TaskManagement taskManagement = GameObject.FindAnyObjectByType<TaskManagement>();
+
+            if (exp.experiment == Experiment.Exp1)
+            {
+                //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
+                if (view.isOn())
+                {
+                    if (!view.flagViewLookedAt)
+                    {
+                        print(view.name);
+                        //write View first time looked at timer into the prompt!
+                        //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
+
+                        view.flagViewLookedAt = true;
+                        taskManagement.previouslyLookedAtOnView = true;
+                        File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.lookedAtTimer + " seconds for the first time!\n");
+                        File.AppendAllText(overlookedFilePath, "\n ------------------- View " + view.name + " in the " + taskManagement.layoutName + " layout was looked at in " + view.lookedAtTimer + " seconds for the first time! ------------------- \n");
+                        view.lookedAtTimer = 0.0f;
+                    }
+                    else
+                    {
+                        if (taskManagement.overlookOffViewHappened)
+                        {
+                            File.AppendAllText(overlookedFilePath, "\n View looked at in " + view.lookedAtTimer + " sec!\n");
+                            view.lookedAtTimer = 0.0f;
+                            taskManagement.overlookOffViewHappened = false;
+                        }
+                    }
+                }
+                else if (!view.isOn()) //if view is off
+                {
+                    if (taskManagement.previouslyLookedAtOnView)
+                    {
+                        taskManagement.overlookOffViewHappened = true;
+                    }
+                }
+            }
+
+            /*if (exp.experiment == Experiment.Exp2 && view.isInteractable())
             {
                 File.AppendAllText(overlookedFilePath, "\n View looked at in " + view.lookedAtTimer + " sec!\n");
                 //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
@@ -297,25 +335,8 @@ public class StudyEyeTracking : MonoBehaviour
                     File.AppendAllText(overlookedFilePath, "\n --------------------- View looked at in " + view.firstTimeLookedAtTimer + " seconds for the first time! ------------------- \n");
                     view.firstTimeLookedAtTimer = 0.0f;
                 }
-            }
+            }*/
 
-            if (exp.experiment == Experiment.Exp2 && view.isInteractable())
-            {
-                File.AppendAllText(overlookedFilePath, "\n View looked at in " + view.lookedAtTimer + " sec!\n");
-                //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
-
-                if (!view.flagViewLookedAt)
-                {
-                    print(view.name);
-                    //write View first time looked at timer into the prompt!
-                    //exp.GetComponentInChildren<TaskManagement>().UserPrompt.GetComponent<TextMeshPro>().text = "View looked at in " + view.lookedAtTimer;
-
-                    view.flagViewLookedAt = true;
-                    File.AppendAllText(exp.timerFilePath, "\n View looked at in " + view.firstTimeLookedAtTimer + " seconds for the first time!\n");
-                    File.AppendAllText(overlookedFilePath, "\n --------------------- View looked at in " + view.firstTimeLookedAtTimer + " seconds for the first time! ------------------- \n");
-                    view.firstTimeLookedAtTimer = 0.0f;
-                }
-            }
             // Alternative way to check if you hit object with tag
             /*if (hit.transform.CompareTag("FreeRotating"))
             {
