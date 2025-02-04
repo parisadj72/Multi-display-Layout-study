@@ -1,0 +1,146 @@
+OUTPUT OF EACH RUN (Exp2): 
+ 
+Time per selection = 1.196919
+ 
+Time per selection = 1.214537
+ 
+(time per 2 Selections for the Sphere layout): 3.280275
+ 
+(Errors / Wrong Selections per 2 Selections for the Sphere layout): 0
+ 
+Time per selection = 2.135064
+ 
+Time per selection = 2.135064
+ 
+(time per 2 Selections for the Sphere layout): 4.188373
+ 
+(Errors / Wrong Selections per 2 Selections for the Sphere layout): 2
+ 
+Time per selection = 0.7879686
+ 
+Time per selection = 0.8183062
+ 
+(time per 2 Selections for the Curve layout): 2.881338
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 2
+ 
+Time per selection = 0.8761641
+ 
+Time per selection = 0.8951069
+ 
+Time per selection = 1.530073
+ 
+Time per selection = 2.209399
+ 
+Time per selection = 2.209399
+ 
+Time per selection = 3.111854
+ 
+(time per 6 Selections for the Curve layout): 9.227904
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 0
+ 
+Time per selection = 1.080495
+ 
+Time per selection = 1.927888
+ 
+Time per selection = 2.394243
+ 
+Time per selection = 3.245458
+ 
+Time per selection = 3.78651
+ 
+Time per selection = 7.69716
+ 
+(time per 6 Selections for the Curve layout): 13.81847
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 5
+ 
+Time per selection = 1.117073
+ 
+Time per selection = 1.117073
+ 
+(time per 2 Selections for the Curve layout): 3.169134
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 0
+ 
+Time per selection = 0.2109893
+ 
+Time per selection = 1.052428
+ 
+(time per 2 Selections for the Sphere layout): 3.104083
+ 
+(Errors / Wrong Selections per 2 Selections for the Sphere layout): 0
+ 
+Time per selection = 1.404587
+ 
+Time per selection = 1.434488
+ 
+Time per selection = 2.182414
+ 
+Time per selection = 3.30121
+ 
+Time per selection = 3.315578
+ 
+Time per selection = 4.057424
+ 
+(time per 6 Selections for the Sphere layout): 10.16655
+ 
+(Errors / Wrong Selections per 6 Selections for the Sphere layout): 0
+ 
+Time per selection = 0.9505858
+ 
+Time per selection = 0.9653633
+ 
+Time per selection = 1.825712
+ 
+Time per selection = 2.644561
+ 
+Time per selection = 2.65934
+ 
+Time per selection = 4.575173
+ 
+(time per 6 Selections for the Curve layout): 10.69424
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 2
+ 
+Time per selection = 1.26491
+ 
+Time per selection = 1.26491
+ 
+Time per selection = 2.027302
+ 
+Time per selection = 2.655323
+ 
+Time per selection = 3.8685
+ 
+Time per selection = 4.412066
+ 
+(time per 6 Selections for the Sphere layout): 10.53037
+ 
+(Errors / Wrong Selections per 6 Selections for the Sphere layout): 1
+ 
+Time per selection = 1.094681
+ 
+Time per selection = 1.155567
+ 
+(time per 2 Selections for the Curve layout): 3.205109
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 0
+ 
+Time per selection = 0.9314577
+ 
+Time per selection = 0.9458077
+ 
+Time per selection = 2.419685
+ 
+Time per selection = 3.084653
+ 
+Time per selection = 4.81875
+ 
+Time per selection = 4.81875
+ 
+(time per 6 Selections for the Sphere layout): 10.92568
+ 
+(Errors / Wrong Selections per 6 Selections for the Sphere layout): 1
+ 

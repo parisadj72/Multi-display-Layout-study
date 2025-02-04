@@ -1,0 +1,128 @@
+OUTPUT OF EACH RUN (Exp3): 
+ 
+Time per swap for the Curve layout = 1.95505
+ 
+Trial time (# 1 swaps for the Curve layout): 1.994175
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 2.956572
+ 
+Time per swap for the Curve layout = 2.450982
+ 
+Time per swap for the Curve layout = 2.197433
+ 
+Time per swap for the Curve layout = 3.391817
+ 
+Trial time (# 4 swaps for the Curve layout): 11.0284
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 2.767655
+ 
+Time per swap for the Curve layout = 4.827896
+ 
+Time per swap for the Curve layout = 1.737973
+ 
+Time per swap for the Curve layout = 2.142792
+ 
+Trial time (# 4 swaps for the Curve layout): 11.51294
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Sphere layout = 4.810083
+ 
+Time per swap for the Sphere layout = 5.944293
+ 
+Time per swap for the Sphere layout = 3.007926
+ 
+Time per swap for the Sphere layout = 2.579612
+ 
+Time per swap for the Sphere layout = 2.733798
+ 
+Time per swap for the Sphere layout = 2.275961
+ 
+Trial time (# 6 swaps for the Sphere layout): 21.38926
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Curve layout = 1.705114
+ 
+Trial time (# 1 swaps for the Curve layout): 1.736063
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 8.913044
+ 
+Time per swap for the Curve layout = 4.347871
+ 
+Time per swap for the Curve layout = 0.8302028
+ 
+Time per swap for the Curve layout = 3.262652
+ 
+Time per swap for the Curve layout = 2.862955
+ 
+Trial time (# 5 swaps for the Curve layout): 20.24896
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 1.069107
+ 
+Trial time (# 1 swaps for the Curve layout): 1.103589
+ 
+Errors per trial for the Curve layout: 0
+ 
+Trial time (# 0 swaps for the Sphere layout): 0.0370404
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Sphere layout = 3.360499
+ 
+Time per swap for the Sphere layout = 1.634363
+ 
+Time per swap for the Sphere layout = 1.75437
+ 
+Time per swap for the Sphere layout = 1.871801
+ 
+Time per swap for the Sphere layout = 3.972315
+ 
+Time per swap for the Sphere layout = 0.845022
+ 
+Time per swap for the Sphere layout = 2.036407
+ 
+Trial time (# 7 swaps for the Sphere layout): 15.51316
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Sphere layout = 1.474443
+ 
+Trial time (# 1 swaps for the Sphere layout): 1.507408
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Sphere layout = 1.146356
+ 
+Trial time (# 1 swaps for the Sphere layout): 1.177566
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Sphere layout = 6.950624
+ 
+Time per swap for the Sphere layout = 2.131535
+ 
+Time per swap for the Sphere layout = 2.716755
+ 
+Time per swap for the Sphere layout = 3.939066
+ 
+Time per swap for the Sphere layout = 5.417974
+ 
+Time per swap for the Sphere layout = 2.787037
+ 
+Time per swap for the Sphere layout = 3.890362
+ 
+Time per swap for the Sphere layout = 1.685389
+ 
+Trial time (# 8 swaps for the Sphere layout): 29.55818
+ 
+Errors per trial for the Sphere layout: 0
+ 
