@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-04-14T00:35:39.519562+00:00",
+  "output_directory": "C:\\Users\\Parisa\\Documents\\Unity Projects\\EyeTrackingAnalysis\\layout_study01_openxr\\Assets\\OutputLog\\behavior_log_inferential_stats",
+  "scipy_available": true,
+  "methods": "session_omnibus: layout (Kruskal\u2013Wallis) and 4 vs 15 (Mann\u2013Whitney) per Study\u00d7Exp. layout_within_display: compare layouts holding display count at 4 or 15. display_within_layout: compare 4 vs 15 holding layout_fixed. Trial outcomes for Exp1\u20132: selection time, TTFF, re-engagement, overlooked samples, delayed-discovery flag, log process density. Exp3 (swap): completion time only (no TTFF-linked metrics). Block error rate = errors_wrong_selections / block_n_selections (N selections per Exp1\u20132 block; 1 per Exp3 trial). Companions: Shapiro\u2013Wilk per group (exploratory normality screen); after KW p<0.05, pairwise Mann\u2013Whitney with Holm adjustment; after MW p<0.05, Cliff delta + median direction for 4 vs 15. Participant-level: paired Wilcoxon on per-participant medians for 4 vs 15; two layouts = paired Wilcoxon on layout medians; three or more layouts = Friedman on complete cases (see inferential_participant_level_tests.csv).",
+  "n_result_rows": 208,
+  "n_companion_descriptive_rows": 355,
+  "n_companion_posthoc_rows": 39,
+  "n_companion_mw_effect_rows": 54,
+  "n_participant_level_rows": 208,
+  "participant_level_note": "Participant-level tests: paired Wilcoxon on per-participant medians for 4 vs 15; two layouts = paired Wilcoxon on layout medians; three or more layouts = Friedman on subjects with complete medians across all layouts. Complements trial-level screening.",
+  "inferential_figure_errors": [],
+  "n_enriched_rows": 208
+}
