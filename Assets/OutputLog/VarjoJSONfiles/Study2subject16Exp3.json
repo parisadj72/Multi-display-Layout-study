@@ -1,0 +1,83 @@
+{
+  "file_name": "varjo_capture_2025-04-22_15-00-30-637",
+  "participant_id": "P16",
+  "study": "Study2",
+  "task": "Puzzle",
+
+  "video_time_unit": "seconds",
+
+  "conditions": [
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "3by5Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "3by5Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "2by2Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "2by2Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "3by5Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "2by2Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    },
+	{
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": []
+    }
+    ]
+}

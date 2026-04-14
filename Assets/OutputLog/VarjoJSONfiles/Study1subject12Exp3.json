@@ -1,0 +1,119 @@
+{
+  "file_name": "varjo_capture_2025-04-15_14-38-11-983",
+  "participant_id": "P12",
+  "study": "Study1",
+  "task": "Puzzle",
+
+  "video_time_unit": "seconds",
+
+  "conditions": [
+        {
+            "condition": "2by2Flat",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Cylindrical",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Cylindrical",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Cylindrical",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Flat",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Stack",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Flat",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Cylindrical",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Flat",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Stack",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Stack",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Cylindrical",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Stack",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Flat",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Cylindrical",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Stack",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "2by2Stack",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        },
+        {
+            "condition": "3by5Flat",
+            "start_time": 1,
+            "end_time": 1,
+            "targets": []
+        }
+    ]
+}

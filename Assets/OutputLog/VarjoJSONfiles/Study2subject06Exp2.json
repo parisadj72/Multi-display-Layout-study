@@ -1,0 +1,215 @@
+{
+  "file_name": "varjo_capture_2025-01-30_13-35-55-365",
+  "participant_id": "P06",
+  "study": "Study2",
+  "task": "Memory",
+
+  "video_time_unit": "seconds",
+
+  "conditions": [
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Spherical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    }
+    ]
+}

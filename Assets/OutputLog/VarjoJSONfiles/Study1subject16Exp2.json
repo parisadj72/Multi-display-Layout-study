@@ -1,0 +1,317 @@
+{
+  "file_name": "varjo_capture_2025-04-22_14-15-40-894",
+  "participant_id": "P16",
+  "study": "Study1",
+  "task": "Memory",
+
+  "video_time_unit": "seconds",
+
+  "conditions": [
+    {
+        "condition": "2by2Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "3by5Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+        ]
+    }
+    ]
+}

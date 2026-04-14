@@ -1,0 +1,587 @@
+{
+  "file_name": "varjo_capture_2025-02-04_12-14-55-569",
+  "participant_id": "P07",
+  "study": "Study1",
+  "task": "Selection",
+
+  "video_time_unit": "seconds",
+
+  "conditions": [
+    {
+        "condition": "3by5Flat",
+        "start_time": 33.80,
+        "end_time": 40.19,
+        "targets": [
+            {
+                "position": "mid-2nd-right",
+                "start_time": 33.80,
+                "end_time": 35.39
+            },
+            {
+                "position": "top-left",
+                "start_time": 35.40,
+                "end_time": 36.69
+            },
+            {
+                "position": "top-right",
+                "start_time": 36.70,
+                "end_time": 38.15
+            },
+            {
+                "position": "mid-2nd-right",
+                "start_time": 38.16,
+                "end_time": 38.95
+            },
+            {
+                "position": "mid-2nd-right",
+                "start_time": 38.96,
+                "end_time": 40.19
+            }
+        ]
+    },
+    {
+        "condition": "2by2Flat",
+        "start_time": 45.23,
+        "end_time": 50.13,
+        "targets": [
+            {
+                "position": "bottom-left",
+                "start_time": 45.23,
+                "end_time": 46.42
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 46.43,
+                "end_time": 47.62
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 47.63,
+                "end_time": 48.66
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 48.67,
+                "end_time": 49.42
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 49.43,
+                "end_time": 50.13
+            }
+        ]
+    },
+    {
+        "condition": "2by2Flat",
+        "start_time": 55.17,
+        "end_time": 59.46,
+        "targets": [
+            {
+                "position": "top-right",
+                "start_time": 55.17,
+                "end_time": 56.46
+            },
+            {
+                "position": "top-left",
+                "start_time": 56.47,
+                "end_time": 57.26
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 57.27,
+                "end_time": 58.02
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 58.03,
+                "end_time": 58.79
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 58.80,
+                "end_time": 59.46
+            }
+        ]
+    },
+    {
+        "condition": "3by5Stack",
+        "start_time": 64.50,
+        "end_time": 69.15,
+        "targets": [
+            {
+                "position": "bottom-2nd-left",
+                "start_time": 64.50,
+                "end_time": 65.92
+            },
+            {
+                "position": "top-2nd-left",
+                "start_time": 65.93,
+                "end_time": 66.89
+            },
+            {
+                "position": "mid-2nd-right",
+                "start_time": 66.90,
+                "end_time": 67.62
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 67.63,
+                "end_time": 68.63
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 68.64,
+                "end_time": 69.15
+            }
+        ]
+    },
+    {
+        "condition": "2by2Flat",
+        "start_time": 74.20,
+        "end_time": 79.99,
+        "targets": [
+            {
+                "position": "top-left",
+                "start_time": 74.20,
+                "end_time": 75.32
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 75.33,
+                "end_time": 76.12
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 76.13,
+                "end_time": 77.59
+            },
+            {
+                "position": "top-left",
+                "start_time": 77.60,
+                "end_time": 78.79
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 78.80,
+                "end_time": 79.99
+            }
+        ]
+    },
+    {
+        "condition": "3by5Stack",
+        "start_time": 85.04,
+        "end_time": 90.29,
+        "targets": [
+            {
+                "position": "bottom-mid",
+                "start_time": 85.04,
+                "end_time": 86.19
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 86.20,
+                "end_time": 87.15
+            },
+            {
+                "position": "mid-2nd-left",
+                "start_time": 87.16,
+                "end_time": 88.02
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 88.03,
+                "end_time": 89.39
+            },
+            {
+                "position": "top-2nd-right",
+                "start_time": 89.40,
+                "end_time": 90.29
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 95.34,
+        "end_time": 100.90,
+        "targets": [
+            {
+                "position": "bottom-mid",
+                "start_time": 95.34,
+                "end_time": 96.39
+            },
+            {
+                "position": "mid-2nd-right",
+                "start_time": 96.40,
+                "end_time": 97.22
+            },
+            {
+                "position": "mid-right",
+                "start_time": 97.23,
+                "end_time": 98.19
+            },
+            {
+                "position": "mid-mid",
+                "start_time": 98.20,
+                "end_time": 99.82
+            },
+            {
+                "position": "bottom-2nd-right",
+                "start_time": 99.83,
+                "end_time": 100.90
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 105.94,
+        "end_time": 109.90,
+        "targets": [
+            {
+                "position": "bottom-right",
+                "start_time": 105.94,
+                "end_time": 106.89
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 106.90,
+                "end_time": 107.62
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 107.63,
+                "end_time": 108.62
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 108.63,
+                "end_time": 109.22
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 109.23,
+                "end_time": 109.90
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 114.93,
+        "end_time": 119.52,
+        "targets": [
+            {
+                "position": "top-right",
+                "start_time": 114.93,
+                "end_time": 115.89
+            },
+            {
+                "position": "top-left",
+                "start_time": 115.90,
+                "end_time": 117.02
+            },
+            {
+                "position": "top-left",
+                "start_time": 117.03,
+                "end_time": 117.66
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 117.67,
+                "end_time": 118.62
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 118.63,
+                "end_time": 119.52
+            }
+        ]
+    },
+    {
+        "condition": "2by2Stack",
+        "start_time": 124.57,
+        "end_time": 130.49,
+        "targets": [
+            {
+                "position": "bottom-right",
+                "start_time": 124.57,
+                "end_time": 125.39
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 125.40,
+                "end_time": 126.45
+            },
+            {
+                "position": "top-left",
+                "start_time": 126.46,
+                "end_time": 128.02
+            },
+            {
+                "position": "top-left",
+                "start_time": 128.03,
+                "end_time": 129.06
+            },
+            {
+                "position": "top-left",
+                "start_time": 129.07,
+                "end_time": 130.49
+            }
+        ]
+    },
+    {
+        "condition": "2by2Stack",
+        "start_time": 135.53,
+        "end_time": 142.09,
+        "targets": [
+            {
+                "position": "top-left",
+                "start_time": 135.53,
+                "end_time": 136.75
+            },
+            {
+                "position": "top-left",
+                "start_time": 136.76,
+                "end_time": 137.49
+            },
+            {
+                "position": "top-left",
+                "start_time": 137.50,
+                "end_time": 140.09
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 140.10,
+                "end_time": 141.09
+            },
+            {
+                "position": "top-left",
+                "start_time": 141.10,
+                "end_time": 142.09
+            }
+        ]
+    },
+    {
+        "condition": "2by2Cylindrical",
+        "start_time": 147.13,
+        "end_time": 151.89,
+        "targets": [
+            {
+                "position": "top-right",
+                "start_time": 147.13,
+                "end_time": 147.86
+            },
+            {
+                "position": "top-right",
+                "start_time": 147.87,
+                "end_time": 148.79
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 148.80,
+                "end_time": 149.92
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 149.93,
+                "end_time": 150.86
+            },
+            {
+                "position": "bottom-left",
+                "start_time": 150.87,
+                "end_time": 151.89
+            }
+        ]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 156.94,
+        "end_time": 162.96,
+        "targets": [
+            {
+                "position": "mid-left",
+                "start_time": 156.94,
+                "end_time": 158.53
+            },
+            {
+                "position": "top-2nd-right",
+                "start_time": 153.54,
+                "end_time": 160.02
+            },
+            {
+                "position": "mid-right",
+                "start_time": 160.03,
+                "end_time": 160.99
+            },
+            {
+                "position": "top-right",
+                "start_time": 161.00,
+                "end_time": 161.82
+            },
+            {
+                "position": "top-2nd-left",
+                "start_time": 161.83,
+                "end_time": 162.96
+            }
+        ]
+    },
+    {
+        "condition": "2by2Stack",
+        "start_time": 168.00,
+        "end_time": 171.0,
+        "targets": [
+            {
+                "position": "bottom-right",
+                "start_time": 168.00,
+                "end_time": 168.89
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 168.90,
+                "end_time": 169.72
+            },
+            {
+                "position": "bottom-right",
+                "start_time": 169.73,
+                "end_time": 170.76
+            },
+            {
+                "position": "top-right",
+                "start_time": 170.77,
+                "end_time": 171.72
+            },
+            {
+                "position": "top-left",
+                "start_time": 171.73,
+                "end_time": 172.0
+            }
+        ]
+    },
+    {
+        "condition": "3by5Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+		]
+    },
+    {
+        "condition": "3by5Cylindrical",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+		]
+    },
+    {
+        "condition": "3by5Flat",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+		]
+    },
+    {
+        "condition": "3by5Stack",
+        "start_time": 1,
+        "end_time": 1,
+        "targets": [
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            },
+            {
+                "position": "",
+                "start_time": 1,
+                "end_time": 1
+            }
+		]
+    }
+  ]
+}
