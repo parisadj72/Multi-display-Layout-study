@@ -1,0 +1,218 @@
+OUTPUT OF EACH RUN (Exp2): 
+ 
+Time per selection = 0.8421014
+ 
+Time per selection = 1.19754
+ 
+(time per 2 Selections for the Flat layout): 3.253983
+ 
+(Errors / Wrong Selections per 2 Selections for the Flat layout): 0
+ 
+Time per selection = 1.239381
+ 
+Time per selection = 1.736639
+ 
+(time per 2 Selections for the Stack layout): 3.794031
+ 
+(Errors / Wrong Selections per 2 Selections for the Stack layout): 0
+ 
+Time per selection = 0.9305316
+ 
+Time per selection = 1.940228
+ 
+Time per selection = 2.435026
+ 
+Time per selection = 3.28994
+ 
+Time per selection = 3.983822
+ 
+Time per selection = 7.342186
+ 
+(time per 6 Selections for the Curve layout): 13.45404
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 0
+ 
+Time per selection = 1.448762
+ 
+Time per selection = 1.913189
+ 
+Time per selection = 2.414737
+ 
+Time per selection = 2.839638
+ 
+Time per selection = 3.317779
+ 
+Time per selection = 3.838121
+ 
+(time per 6 Selections for the Curve layout): 9.960179
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 0
+ 
+Time per selection = 1.24782
+ 
+Time per selection = 2.236232
+ 
+Time per selection = 2.784953
+ 
+Time per selection = 3.183872
+ 
+Time per selection = 9.427266
+ 
+Time per selection = 10.75259
+ 
+(time per 6 Selections for the Curve layout): 16.88535
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 4
+ 
+Time per selection = 0.6370149
+ 
+Time per selection = 0.6536549
+ 
+(time per 2 Selections for the Flat layout): 2.720767
+ 
+(Errors / Wrong Selections per 2 Selections for the Flat layout): 0
+ 
+Time per selection = 4.592855
+ 
+Time per selection = 4.592855
+ 
+(time per 2 Selections for the Curve layout): 6.645357
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 0
+ 
+Time per selection = 0.7430241
+ 
+Time per selection = 1.198445
+ 
+Time per selection = 2.319656
+ 
+Time per selection = 2.903105
+ 
+Time per selection = 4.749794
+ 
+Time per selection = 5.255268
+ 
+(time per 6 Selections for the Flat layout): 11.37876
+ 
+(Errors / Wrong Selections per 6 Selections for the Flat layout): 0
+ 
+Time per selection = 1.069981
+ 
+Time per selection = 2.280635
+ 
+Time per selection = 3.085922
+ 
+Time per selection = 4.274153
+ 
+Time per selection = 7.922372
+ 
+Time per selection = 11.42147
+ 
+(time per 6 Selections for the Stack layout): 17.55257
+ 
+(Errors / Wrong Selections per 6 Selections for the Stack layout): 7
+ 
+Time per selection = 1.021778
+ 
+Time per selection = 1.021778
+ 
+(time per 2 Selections for the Flat layout): 3.083387
+ 
+(Errors / Wrong Selections per 2 Selections for the Flat layout): 0
+ 
+Time per selection = 0.8349251
+ 
+Time per selection = 0.8662696
+ 
+(time per 2 Selections for the Stack layout): 2.92857
+ 
+(Errors / Wrong Selections per 2 Selections for the Stack layout): 1
+ 
+Time per selection = 0.8176901
+ 
+Time per selection = 1.395089
+ 
+Time per selection = 2.125906
+ 
+Time per selection = 2.674704
+ 
+Time per selection = 2.973339
+ 
+Time per selection = 3.178018
+ 
+(time per 6 Selections for the Flat layout): 9.296849
+ 
+(Errors / Wrong Selections per 6 Selections for the Flat layout): 0
+ 
+Time per selection = 0.9694166
+ 
+Time per selection = 0.9694166
+ 
+Time per selection = 2.161798
+ 
+Time per selection = 2.853203
+ 
+Time per selection = 3.182856
+ 
+Time per selection = 3.34627
+ 
+(time per 6 Selections for the Flat layout): 9.473864
+ 
+(Errors / Wrong Selections per 6 Selections for the Flat layout): 0
+ 
+Time per selection = 0.8692226
+ 
+Time per selection = 0.8692226
+ 
+(time per 2 Selections for the Stack layout): 2.939404
+ 
+(Errors / Wrong Selections per 2 Selections for the Stack layout): 0
+ 
+Time per selection = 1.016025
+ 
+Time per selection = 1.791056
+ 
+Time per selection = 2.314437
+ 
+Time per selection = 3.271341
+ 
+Time per selection = 3.620102
+ 
+Time per selection = 5.215291
+ 
+(time per 6 Selections for the Stack layout): 11.33558
+ 
+(Errors / Wrong Selections per 6 Selections for the Stack layout): 3
+ 
+Time per selection = 0.7487039
+ 
+Time per selection = 1.967524
+ 
+Time per selection = 3.552923
+ 
+Time per selection = 5.38586
+ 
+Time per selection = 6.446143
+ 
+Time per selection = 8.60387
+ 
+(time per 6 Selections for the Stack layout): 14.71464
+ 
+(Errors / Wrong Selections per 6 Selections for the Stack layout): 4
+ 
+Time per selection = 0.7541041
+ 
+Time per selection = 0.7678586
+ 
+(time per 2 Selections for the Curve layout): 2.818983
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 0
+ 
+Time per selection = 0.3833078
+ 
+Time per selection = 0.3833078
+ 
+(time per 2 Selections for the Curve layout): 2.442117
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 0
+ 

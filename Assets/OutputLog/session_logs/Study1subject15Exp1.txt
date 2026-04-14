@@ -1,0 +1,508 @@
+OUTPUT OF EACH RUN (Exp1): 
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 1.043133
+ 
+
+ View looked at in 0.4523495 seconds for the first time!
+Time per selection = 1.082339
+ 
+
+ View looked at in 0.46652 seconds for the first time!
+Time per selection = 1.099616
+ 
+
+ View looked at in 0.2558285 seconds for the first time!
+Time per selection = 1.039237
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7531191
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(time per 5 Selections for the Stack layout): 5.164473
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.8601174 seconds for the first time!
+Time per selection = 1.061532
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6299369
+ 
+
+ View looked at in 0.3451561 seconds for the first time!
+Time per selection = 0.6524493
+ 
+
+ View looked at in 0.2379385 seconds for the first time!
+Time per selection = 0.5418625
+ 
+Time per selection = 0.5116687
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(time per 5 Selections for the Flat layout): 3.539662
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0.3225102 seconds for the first time!
+Time per selection = 0.6883547
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4596259
+ 
+Time per selection = 0.5826014
+ 
+Time per selection = 0.5106276
+ 
+Time per selection = 0.4913345
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 2.878053
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.5438929 seconds for the first time!
+Time per selection = 0.9421444
+ 
+
+ View looked at in 0.3308516 seconds for the first time!
+Time per selection = 0.6394361
+ 
+
+ View looked at in 0.7986364 seconds for the first time!
+Time per selection = 1.123915
+ 
+
+ View looked at in 0.4591706 seconds for the first time!
+Time per selection = 0.8363258
+ 
+
+ View looked at in 0.2871849 seconds for the first time!
+Time per selection = 0.7868402
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 4.479276
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.6889253 seconds for the first time!
+Time per selection = 1.191655
+ 
+
+ View looked at in 0.2082813 seconds for the first time!
+Time per selection = 0.5105753
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6978959
+ 
+
+ View looked at in 0.2786639 seconds for the first time!
+Time per selection = 0.5028751
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4529898
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(time per 5 Selections for the Stack layout): 3.502803
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.4064107 seconds for the first time!
+Time per selection = 0.7076178
+ 
+Time per selection = 0.9129039
+ 
+
+ View looked at in 0.4660521 seconds for the first time!
+Time per selection = 0.8219644
+ 
+
+ View looked at in 0.4056128 seconds for the first time!
+Time per selection = 0.6879883
+ 
+
+ View looked at in 0.815009 seconds for the first time!
+Time per selection = 1.041381
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 4.326132
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.5143688 seconds for the first time!
+Time per selection = 1.001518
+ 
+
+ View looked at in 0.5584283 seconds for the first time!
+Time per selection = 0.975298
+ 
+
+ View looked at in 0.18449 seconds for the first time!
+Time per selection = 0.7637134
+ 
+
+ View looked at in 1.167025 seconds for the first time!
+Time per selection = 1.394845
+ 
+Time per selection = 0.6661625
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 4.951071
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.5429352 seconds for the first time!
+Time per selection = 1.458737
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.9799717
+ 
+
+ View looked at in 0.2565434 seconds for the first time!
+Time per selection = 0.863651
+ 
+
+ View looked at in 0.0498536 seconds for the first time!
+Time per selection = 0.5005055
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.8394541
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(time per 5 Selections for the Stack layout): 4.792449
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.4645796 seconds for the first time!
+Time per selection = 1.068399
+ 
+
+ View looked at in 0.2916651 seconds for the first time!
+Time per selection = 0.6758519
+ 
+Time per selection = 0.7061453
+ 
+
+ View looked at in 0.0748104 seconds for the first time!
+Time per selection = 0.7075129
+ 
+Time per selection = 0.747588
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(time per 5 Selections for the Stack layout): 4.046114
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.3216559 seconds for the first time!
+Time per selection = 0.8570493
+ 
+
+ View looked at in 0.0503652 seconds for the first time!
+Time per selection = 0.7448896
+ 
+
+ View looked at in 0.3515018 seconds for the first time!
+Time per selection = 0.7093197
+ 
+
+ View looked at in 0.2235275 seconds for the first time!
+Time per selection = 0.6783203
+ 
+
+ View looked at in 0.2476545 seconds for the first time!
+Time per selection = 0.5898845
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(time per 5 Selections for the Stack layout): 3.725337
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.5160995 seconds for the first time!
+Time per selection = 0.8998862
+ 
+
+ View looked at in 0.3007741 seconds for the first time!
+Time per selection = 0.7353176
+ 
+
+ View looked at in 0.2239644 seconds for the first time!
+Time per selection = 0.6578774
+ 
+
+ View looked at in 0.2654194 seconds for the first time!
+Time per selection = 0.6786038
+ 
+
+ View looked at in 0.2221847 seconds for the first time!
+Time per selection = 0.5152442
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(time per 5 Selections for the Stack layout): 3.634176
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7071326
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5708516
+ 
+Time per selection = 0.4851364
+ 
+Time per selection = 0.4319563
+ 
+
+ View looked at in 0.3107353 seconds for the first time!
+Time per selection = 0.5206828
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 2.855444
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.355311 seconds for the first time!
+Time per selection = 0.7850427
+ 
+Time per selection = 0.5005099
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6223055
+ 
+
+ View looked at in 0.2440692 seconds for the first time!
+Time per selection = 0.5535284
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4920993
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 3.100133
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.4121252 seconds for the first time!
+Time per selection = 0.9212303
+ 
+
+ View looked at in 0.3912105 seconds for the first time!
+Time per selection = 0.7998568
+ 
+
+ View looked at in 0.07436299 seconds for the first time!
+Time per selection = 0.794532
+ 
+Time per selection = 0.8722225
+ 
+Time per selection = 1.283769
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(time per 5 Selections for the Flat layout): 4.816825
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0.5164829 seconds for the first time!
+Time per selection = 0.8487903
+ 
+
+ View looked at in 0.2887407 seconds for the first time!
+Time per selection = 0.7148975
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6289294
+ 
+Time per selection = 1.449473
+ 
+
+ View looked at in 0.801262 seconds for the first time!
+Time per selection = 1.233096
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(time per 5 Selections for the Flat layout): 5.02015
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0.4448836 seconds for the first time!
+Time per selection = 0.846391
+ 
+
+ View looked at in 1.62952 seconds for the first time!
+Time per selection = 1.723386
+ 
+
+ View looked at in 0.2432216 seconds for the first time!
+Time per selection = 0.6389222
+ 
+
+ View looked at in 0.2390816 seconds for the first time!
+Time per selection = 0.4792694
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5399541
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(time per 5 Selections for the Flat layout): 4.372837
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0.5797111 seconds for the first time!
+Time per selection = 1.074565
+ 
+
+ View looked at in 0.4383849 seconds for the first time!
+Time per selection = 0.9061895
+ 
+
+ View looked at in 0.3629087 seconds for the first time!
+Time per selection = 0.6541125
+ 
+
+ View looked at in 0.2392618 seconds for the first time!
+Time per selection = 0.5462896
+ 
+
+ View looked at in 0.1973803 seconds for the first time!
+Time per selection = 0.5992969
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(time per 5 Selections for the Flat layout): 3.926629
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5830895
+ 
+Time per selection = 0.4758381
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4720944
+ 
+Time per selection = 0.5600781
+ 
+Time per selection = 0.4517045
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(time per 5 Selections for the Flat layout): 2.687046
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 

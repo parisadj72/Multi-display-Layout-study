@@ -1,0 +1,130 @@
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 2.593653 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Curve layout was looked at in 0.5117723 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.4657201 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.6292666 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (5) in the Curve layout was looked at in 0.183241 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (14) in the Curve layout was looked at in 1.672915 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.3618173 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (11) in the Curve layout was looked at in 0.764091 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2690076 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Curve layout was looked at in 0.52463 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Sphere layout was looked at in 0.4899214 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.4348696 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.8611733 sec!
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.3008387 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.4199 sec!
+
+ View looked at in 0.2386452 sec!
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.4314845 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.8164553 sec!
+
+ ------------------- View ViewOff (10) in the Curve layout was looked at in 0.9263152 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (6) in the Curve layout was looked at in 0.2907166 seconds for the first time! ------------------- 
+
+ View looked at in 0.4035731 sec!
+
+ ------------------- View ViewOff (13) in the Curve layout was looked at in 0.9654436 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 1.267427 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (10) in the Sphere layout was looked at in 0.5949714 seconds for the first time! ------------------- 
+
+ View looked at in 1.064596 sec!
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.2771763 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.2619469 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.5326052 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.5586188 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.5359051 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.4198973 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.3125142 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.5208092 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.2886191 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.3349127 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.254783 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.3037498 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 2.139389 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Sphere layout was looked at in 1.337851 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (14) in the Sphere layout was looked at in 0.4923736 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (5) in the Sphere layout was looked at in 1.075621 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (12) in the Sphere layout was looked at in 0.8941262 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.4694558 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Sphere layout was looked at in 0.3346445 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.2811065 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.3847544 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Sphere layout was looked at in 0.2178603 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (8) in the Sphere layout was looked at in 0.4535717 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (8) in the Sphere layout was looked at in 0.3630842 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.4534734 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (4) in the Sphere layout was looked at in 2.788318 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.583509 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.2440689 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.3542475 seconds for the first time! ------------------- 

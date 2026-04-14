@@ -1,0 +1,160 @@
+OUTPUT OF EACH RUN (Exp3): 
+ 
+Time per swap for the Curve layout = 8.286739
+ 
+Time per swap for the Curve layout = 3.798677
+ 
+Time per swap for the Curve layout = 2.451219
+ 
+Time per swap for the Curve layout = 3.564342
+ 
+Trial time (# 4 swaps for the Curve layout): 18.13699
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 3.475102
+ 
+Time per swap for the Curve layout = 3.856703
+ 
+Time per swap for the Curve layout = 4.498351
+ 
+Trial time (# 3 swaps for the Curve layout): 11.86535
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Flat layout = 3.546589
+ 
+Time per swap for the Flat layout = 1.958949
+ 
+Time per swap for the Flat layout = 3.203844
+ 
+Time per swap for the Flat layout = 4.726374
+ 
+Trial time (# 4 swaps for the Flat layout): 13.47101
+ 
+Errors per trial for the Flat layout: 0
+ 
+Trial time (# 0 swaps for the Stack layout): 0.0417171
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Flat layout = 4.159614
+ 
+Time per swap for the Flat layout = 3.488007
+ 
+Time per swap for the Flat layout = 4.436265
+ 
+Time per swap for the Flat layout = 2.193646
+ 
+Trial time (# 4 swaps for the Flat layout): 14.31269
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Flat layout = 3.366163
+ 
+Time per swap for the Flat layout = 2.554108
+ 
+Time per swap for the Flat layout = 1.683933
+ 
+Time per swap for the Flat layout = 1.556968
+ 
+Trial time (# 4 swaps for the Flat layout): 9.196822
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Stack layout = 4.783239
+ 
+Time per swap for the Stack layout = 1.99383
+ 
+Time per swap for the Stack layout = 1.529508
+ 
+Time per swap for the Stack layout = 2.386508
+ 
+Trial time (# 4 swaps for the Stack layout): 10.72801
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Stack layout = 4.54868
+ 
+Time per swap for the Stack layout = 3.926857
+ 
+Time per swap for the Stack layout = 3.431418
+ 
+Time per swap for the Stack layout = 4.176689
+ 
+Trial time (# 4 swaps for the Stack layout): 16.1175
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Curve layout = 2.697079
+ 
+Trial time (# 1 swaps for the Curve layout): 2.729838
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 3.751878
+ 
+Time per swap for the Curve layout = 2.94041
+ 
+Time per swap for the Curve layout = 2.346218
+ 
+Time per swap for the Curve layout = 2.318
+ 
+Time per swap for the Curve layout = 2.829145
+ 
+Trial time (# 5 swaps for the Curve layout): 14.22029
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Stack layout = 3.571333
+ 
+Time per swap for the Stack layout = 2.215363
+ 
+Time per swap for the Stack layout = 2.360404
+ 
+Time per swap for the Stack layout = 7.300355
+ 
+Trial time (# 4 swaps for the Stack layout): 15.48318
+ 
+Errors per trial for the Stack layout: 0
+ 
+Trial time (# 0 swaps for the Flat layout): 0.0367979
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Flat layout = 1.758724
+ 
+Trial time (# 1 swaps for the Flat layout): 1.791635
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Stack layout = 1.878531
+ 
+Trial time (# 1 swaps for the Stack layout): 1.912892
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Flat layout = 2.419129
+ 
+Trial time (# 1 swaps for the Flat layout): 2.455025
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Stack layout = 1.632652
+ 
+Trial time (# 1 swaps for the Stack layout): 1.668122
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Curve layout = 1.53731
+ 
+Trial time (# 1 swaps for the Curve layout): 1.571452
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 1.537346
+ 
+Trial time (# 1 swaps for the Curve layout): 1.571167
+ 
+Errors per trial for the Curve layout: 0
+ 

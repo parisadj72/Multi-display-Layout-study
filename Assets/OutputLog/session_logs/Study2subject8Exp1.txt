@@ -1,0 +1,284 @@
+OUTPUT OF EACH RUN (Exp1): 
+ 
+
+ View looked at in 0.5705917 seconds for the first time!
+Time per selection = 1.215016
+ 
+
+ View looked at in 0.2354386 seconds for the first time!
+Time per selection = 1.10172
+ 
+
+ View looked at in 0.3357731 seconds for the first time!
+Time per selection = 0.6911094
+ 
+
+ View looked at in 0.2867631 seconds for the first time!
+Time per selection = 1.914969
+ 
+
+ View looked at in 0.4729587 seconds for the first time!
+Time per selection = 0.905362
+ 
+(time per 5 Selections for the Sphere layout): 5.927045
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.3819666 seconds for the first time!
+Time per selection = 0.978088
+ 
+
+ View looked at in 0.2055849 seconds for the first time!
+Time per selection = 0.4901205
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5626701
+ 
+Time per selection = 0.7640697
+ 
+
+ View looked at in 0.2394065 seconds for the first time!
+Time per selection = 0.5061384
+ 
+(time per 5 Selections for the Curve layout): 3.395637
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 1.03326 seconds for the first time!
+Time per selection = 1.330185
+ 
+
+ View looked at in 0.8576031 seconds for the first time!
+Time per selection = 1.185236
+ 
+
+ View looked at in 0.3975437 seconds for the first time!
+Time per selection = 1.199191
+ 
+
+ View looked at in 0.285477 seconds for the first time!
+Time per selection = 0.9138567
+ 
+
+ View looked at in 0.7339776 seconds for the first time!
+Time per selection = 1.215838
+ 
+(time per 5 Selections for the Sphere layout): 5.938498
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.5779488 seconds for the first time!
+Time per selection = 1.093289
+ 
+
+ View looked at in 0.2973619 seconds for the first time!
+Time per selection = 0.8089479
+ 
+
+ View looked at in 0.2184443 seconds for the first time!
+Time per selection = 0.8291909
+ 
+
+ View looked at in 0.2733515 seconds for the first time!
+Time per selection = 0.5980173
+ 
+
+ View looked at in 0.2512678 seconds for the first time!
+Time per selection = 0.8317181
+ 
+(time per 5 Selections for the Curve layout): 4.262217
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.3731539 seconds for the first time!
+Time per selection = 0.6590173
+ 
+
+ View looked at in 0.248526 seconds for the first time!
+Time per selection = 0.7477143
+ 
+
+ View looked at in 0.2923307 seconds for the first time!
+Time per selection = 1.156641
+ 
+
+ View looked at in 0.244703 seconds for the first time!
+Time per selection = 0.7492825
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5378458
+ 
+(time per 5 Selections for the Curve layout): 3.944765
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.2652114 seconds for the first time!
+Time per selection = 0.759885
+ 
+
+ View looked at in 0.2280631 seconds for the first time!
+Time per selection = 0.6467341
+ 
+
+ View looked at in 0.2238672 seconds for the first time!
+Time per selection = 0.7930658
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5816611
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6326368
+ 
+(time per 5 Selections for the Curve layout): 3.517923
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6857505
+ 
+
+ View looked at in 0.2901046 seconds for the first time!
+Time per selection = 0.496759
+ 
+
+ View looked at in 0.2524142 seconds for the first time!
+Time per selection = 0.5453426
+ 
+
+ View looked at in 0.220147 seconds for the first time!
+Time per selection = 0.6408632
+ 
+
+ View looked at in 0.2313521 seconds for the first time!
+Time per selection = 0.4865254
+ 
+(time per 5 Selections for the Sphere layout): 2.946295
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.0659865 seconds for the first time!
+Time per selection = 0.7992306
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5438508
+ 
+
+ View looked at in 0.2071217 seconds for the first time!
+Time per selection = 0.5070259
+ 
+
+ View looked at in 0.2954946 seconds for the first time!
+Time per selection = 0.6142259
+ 
+
+ View looked at in 0.6066288 seconds for the first time!
+Time per selection = 0.6988809
+ 
+(time per 5 Selections for the Sphere layout): 3.252451
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.2694008 seconds for the first time!
+Time per selection = 0.6413459
+ 
+Time per selection = 0.8753086
+ 
+Time per selection = 0.6146104
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7267493
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7183259
+ 
+(time per 5 Selections for the Sphere layout): 3.673297
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.3893723 seconds for the first time!
+Time per selection = 0.8413972
+ 
+
+ View looked at in 0.4574749 seconds for the first time!
+Time per selection = 0.7841681
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5243239
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4574239
+ 
+
+ View looked at in 0.2522732 seconds for the first time!
+Time per selection = 0.7355372
+ 
+(time per 5 Selections for the Curve layout): 3.436375
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 1
+ 
+
+ View looked at in 0.494624 seconds for the first time!
+Time per selection = 0.9376043
+ 
+
+ View looked at in 0.2990829 seconds for the first time!
+Time per selection = 1.252298
+ 
+
+ View looked at in 0.3804726 seconds for the first time!
+Time per selection = 1.892738
+ 
+
+ View looked at in 0.7486842 seconds for the first time!
+Time per selection = 1.257986
+ 
+
+ View looked at in 0.3051658 seconds for the first time!
+Time per selection = 0.7104438
+ 
+(time per 5 Selections for the Curve layout): 6.140874
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.309536 seconds for the first time!
+Time per selection = 0.8076134
+ 
+
+ View looked at in 0.3712645 seconds for the first time!
+Time per selection = 1.029558
+ 
+
+ View looked at in 0.3324295 seconds for the first time!
+Time per selection = 0.9087802
+ 
+
+ View looked at in 0.2500406 seconds for the first time!
+Time per selection = 0.7589375
+ 
+
+ View looked at in 0.2227515 seconds for the first time!
+Time per selection = 0.8108926
+ 
+(time per 5 Selections for the Sphere layout): 4.415832
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 

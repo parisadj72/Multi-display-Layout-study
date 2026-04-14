@@ -1,0 +1,196 @@
+OUTPUT OF EACH RUN (Exp3): 
+ 
+Time per swap for the Sphere layout = 11.99775
+ 
+Time per swap for the Sphere layout = 2.503195
+ 
+Time per swap for the Sphere layout = 1.831858
+ 
+Time per swap for the Sphere layout = 3.854282
+ 
+Time per swap for the Sphere layout = 1.682982
+ 
+Time per swap for the Sphere layout = 2.572617
+ 
+Time per swap for the Sphere layout = 2.733324
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+Trial time (# 7 swaps for the Sphere layout): 27.21099
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+Errors per trial for the Sphere layout: 1
+ 
+Time per swap for the Curve layout = 1.223916
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Trial time (# 1 swaps for the Curve layout): 1.270494
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Sphere layout = 8.248544
+ 
+Time per swap for the Sphere layout = 2.429804
+ 
+Time per swap for the Sphere layout = 4.837117
+ 
+Time per swap for the Sphere layout = 4.642836
+ 
+Time per swap for the Sphere layout = 3.133198
+ 
+Time per swap for the Sphere layout = 2.751108
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+Trial time (# 6 swaps for the Sphere layout): 26.07853
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Curve layout = 4.814104
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Trial time (# 1 swaps for the Curve layout): 4.845167
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Sphere layout = 1.525849
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+Trial time (# 1 swaps for the Sphere layout): 1.561877
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Curve layout = 0.9621996
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Trial time (# 1 swaps for the Curve layout): 1.000291
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Sphere layout = 1.334167
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+Trial time (# 1 swaps for the Sphere layout): 1.36938
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Curve layout = 3.727488
+ 
+Time per swap for the Curve layout = 3.125922
+ 
+Time per swap for the Curve layout = 2.573011
+ 
+Time per swap for the Curve layout = 3.938079
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Trial time (# 4 swaps for the Curve layout): 13.40149
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Sphere layout = 1.861602
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+Trial time (# 1 swaps for the Sphere layout): 1.894169
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+Errors per trial for the Sphere layout: 0
+ 
+Time per swap for the Curve layout = 8.786118
+ 
+Time per swap for the Curve layout = 2.668
+ 
+Time per swap for the Curve layout = 4.487464
+ 
+Time per swap for the Curve layout = 2.526018
+ 
+Time per swap for the Curve layout = 4.125565
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Trial time (# 5 swaps for the Curve layout): 22.62923
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 7.63083
+ 
+Time per swap for the Curve layout = 4.751787
+ 
+Time per swap for the Curve layout = 3.701099
+ 
+Time per swap for the Curve layout = 2.288665
+ 
+Time per swap for the Curve layout = 3.013131
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Trial time (# 5 swaps for the Curve layout): 21.42219
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Sphere layout = 11.59009
+ 
+Time per swap for the Sphere layout = 2.721395
+ 
+Time per swap for the Sphere layout = 2.29849
+ 
+Time per swap for the Sphere layout = 3.238763
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+Trial time (# 4 swaps for the Sphere layout): 19.88763
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+Errors per trial for the Sphere layout: 0
+ 

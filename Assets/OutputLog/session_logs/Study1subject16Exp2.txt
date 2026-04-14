@@ -1,0 +1,326 @@
+OUTPUT OF EACH RUN (Exp2): 
+ 
+Time per selection = 0.6048327
+ 
+Time per selection = 0.9149363
+ 
+Time per selection = 1.228619
+ 
+Time per selection = 1.727216
+ 
+Time per selection = 2.059192
+ 
+Time per selection = 2.424935
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 6 Selections for the Curve layout): 8.597784
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 0
+ 
+Time per selection = 0.6933136
+ 
+Time per selection = 0.6933136
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(time per 2 Selections for the Flat layout): 2.780808
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Flat layout): 0
+ 
+Time per selection = 0.4414205
+ 
+Time per selection = 0.4906391
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(time per 2 Selections for the Flat layout): 2.568661
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Flat layout): 0
+ 
+Time per selection = 0.3930691
+ 
+Time per selection = 0.4154566
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(time per 2 Selections for the Stack layout): 2.507909
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Stack layout): 0
+ 
+Time per selection = 0.3582695
+ 
+Time per selection = 0.3582695
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(time per 2 Selections for the Flat layout): 2.440705
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Flat layout): 0
+ 
+Time per selection = 0.3500257
+ 
+Time per selection = 0.3500257
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(time per 2 Selections for the Stack layout): 2.422281
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Stack layout): 0
+ 
+Time per selection = 0.4953492
+ 
+Time per selection = 0.5194651
+ 
+Time per selection = 0.8702322
+ 
+Time per selection = 1.11134
+ 
+Time per selection = 1.526641
+ 
+Time per selection = 1.749538
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 6 Selections for the Curve layout): 7.940723
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 0
+ 
+Time per selection = 0.7375392
+ 
+Time per selection = 1.075925
+ 
+Time per selection = 1.219375
+ 
+Time per selection = 1.855377
+ 
+Time per selection = 2.899898
+ 
+Time per selection = 8.223859
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(time per 6 Selections for the Stack layout): 14.3989
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Stack layout): 9
+ 
+Time per selection = 0.3951892
+ 
+Time per selection = 0.4171249
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(time per 2 Selections for the Stack layout): 2.506857
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Stack layout): 0
+ 
+Time per selection = 0.0242215
+ 
+Time per selection = 0.0242215
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 2 Selections for the Curve layout): 2.114219
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 0
+ 
+Time per selection = 0.4361877
+ 
+Time per selection = 0.4582958
+ 
+Time per selection = 0.7550772
+ 
+Time per selection = 2.075907
+ 
+Time per selection = 2.099955
+ 
+Time per selection = 2.316413
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 6 Selections for the Curve layout): 8.498417
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 2
+ 
+Time per selection = 0.4633542
+ 
+Time per selection = 0.4875322
+ 
+Time per selection = 0.7223102
+ 
+Time per selection = 1.030723
+ 
+Time per selection = 1.363955
+ 
+Time per selection = 1.90526
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(time per 6 Selections for the Flat layout): 8.088252
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Flat layout): 1
+ 
+Time per selection = 0.4050888
+ 
+Time per selection = 0.4050888
+ 
+Time per selection = 0.8100179
+ 
+Time per selection = 0.8811808
+ 
+Time per selection = 1.212846
+ 
+Time per selection = 1.401158
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(time per 6 Selections for the Flat layout): 7.602167
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Flat layout): 0
+ 
+Time per selection = 0.5843607
+ 
+Time per selection = 1.426928
+ 
+Time per selection = 1.688456
+ 
+Time per selection = 2.028965
+ 
+Time per selection = 2.296477
+ 
+Time per selection = 2.694631
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(time per 6 Selections for the Flat layout): 8.881289
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Flat layout): 0
+ 
+Time per selection = 0.4495229
+ 
+Time per selection = 0.7780221
+ 
+Time per selection = 0.8225796
+ 
+Time per selection = 1.67728
+ 
+Time per selection = 2.13038
+ 
+Time per selection = 4.233435
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(time per 6 Selections for the Stack layout): 10.42274
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Stack layout): 4
+ 
+Time per selection = 0.07080559
+ 
+Time per selection = 0.09546709
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 2 Selections for the Curve layout): 2.180933
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 4
+ 
+Time per selection = 0.5004122
+ 
+Time per selection = 0.5004122
+ 
+Time per selection = 0.9083869
+ 
+Time per selection = 1.291632
+ 
+Time per selection = 2.76601
+ 
+Time per selection = 11.06692
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(time per 6 Selections for the Stack layout): 17.24003
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Stack layout): 12
+ 
+Time per selection = 0
+ 
+Time per selection = 0.5643566
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 2 Selections for the Curve layout): 2.658687
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 7
+ 

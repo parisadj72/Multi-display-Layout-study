@@ -1,0 +1,218 @@
+OUTPUT OF EACH RUN (Exp2): 
+ 
+Time per selection = 0
+ 
+Time per selection = 0.0261988
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(time per 2 Selections for the Sphere layout): 2.111688
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Sphere layout): 4
+ 
+Time per selection = 0.461999
+ 
+Time per selection = 0.734175
+ 
+Time per selection = 1.078145
+ 
+Time per selection = 2.093324
+ 
+Time per selection = 2.433909
+ 
+Time per selection = 4.236198
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(time per 6 Selections for the Sphere layout): 10.41958
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Sphere layout): 1
+ 
+Time per selection = 0.0251236
+ 
+Time per selection = 0.0737564
+ 
+Time per selection = 0.7294458
+ 
+Time per selection = 1.040981
+ 
+Time per selection = 1.261301
+ 
+Time per selection = 1.460677
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 6 Selections for the Curve layout): 7.630712
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 29
+ 
+Time per selection = 0.0268512
+ 
+Time per selection = 0.3658523
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 2 Selections for the Curve layout): 2.441013
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 5
+ 
+Time per selection = 0
+ 
+Time per selection = 0.0225844
+ 
+Time per selection = 0.5760188
+ 
+Time per selection = 0.8965263
+ 
+Time per selection = 1.423746
+ 
+Time per selection = 1.931988
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(time per 6 Selections for the Sphere layout): 8.097331
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Sphere layout): 18
+ 
+Time per selection = 0.1097002
+ 
+Time per selection = 0.1318898
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 2 Selections for the Curve layout): 2.203215
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 11
+ 
+Time per selection = 0.16077
+ 
+Time per selection = 0.16077
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(time per 2 Selections for the Sphere layout): 2.241008
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Sphere layout): 15
+ 
+Time per selection = 0.024054
+ 
+Time per selection = 0.024054
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(time per 2 Selections for the Sphere layout): 2.115494
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Sphere layout): 6
+ 
+Time per selection = 0.2159622
+ 
+Time per selection = 0.7193039
+ 
+Time per selection = 0.9853738
+ 
+Time per selection = 1.382163
+ 
+Time per selection = 1.710268
+ 
+Time per selection = 2.257299
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(time per 6 Selections for the Sphere layout): 8.427732
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Sphere layout): 32
+ 
+Time per selection = 0
+ 
+Time per selection = 0.1931911
+ 
+Time per selection = 0.7283904
+ 
+Time per selection = 1.03922
+ 
+Time per selection = 1.234156
+ 
+Time per selection = 1.547699
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 6 Selections for the Curve layout): 7.73443
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 32
+ 
+Time per selection = 0.0676983
+ 
+Time per selection = 0.0676983
+ 
+Time per selection = 0.5914638
+ 
+Time per selection = 0.6430269
+ 
+Time per selection = 0.8805869
+ 
+Time per selection = 1.146367
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 6 Selections for the Curve layout): 7.324208
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 6 Selections for the Curve layout): 29
+ 
+Time per selection = 0.1807118
+ 
+Time per selection = 0.1807118
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 2 Selections for the Curve layout): 2.274147
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 2 Selections for the Curve layout): 7
+ 

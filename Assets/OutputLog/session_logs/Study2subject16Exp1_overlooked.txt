@@ -1,0 +1,114 @@
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.6193261 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Sphere layout was looked at in 0.2846118 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.4094521 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (11) in the Curve layout was looked at in 0.2888857 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Curve layout was looked at in 0.7254712 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (5) in the Curve layout was looked at in 0.8109832 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.779092 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Curve layout was looked at in 0.6272191 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.2421215 seconds for the first time! ------------------- 
+
+ View looked at in 0.6486764 sec!
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (4) in the Curve layout was looked at in 0.3175285 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.2410949 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (5) in the Sphere layout was looked at in 1.269789 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (4) in the Sphere layout was looked at in 0.7148991 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.6883209 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Sphere layout was looked at in 0.3417732 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Sphere layout was looked at in 0.3348348 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.3244927 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2387743 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.2680702 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.2622937 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.2133579 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.27197 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.0980598 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2614215 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.2291612 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.8665923 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.33173 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2822102 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.2458195 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Sphere layout was looked at in 0.2491412 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.2192557 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.2334738 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.3123016 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.2412756 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.2364635 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Sphere layout was looked at in 0.2231106 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.2392322 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Sphere layout was looked at in 0.246163 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Sphere layout was looked at in 0.3843321 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (4) in the Sphere layout was looked at in 0.8220093 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (8) in the Sphere layout was looked at in 0.2261035 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (13) in the Sphere layout was looked at in 0.2806638 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.259992 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (10) in the Sphere layout was looked at in 0.5617724 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (14) in the Sphere layout was looked at in 1.141042 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Sphere layout was looked at in 0.3539415 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Sphere layout was looked at in 0.3579829 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Curve layout was looked at in 1.009701 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Curve layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (13) in the Curve layout was looked at in 0.3618659 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Curve layout was looked at in 0.2506581 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.2561294 seconds for the first time! ------------------- 

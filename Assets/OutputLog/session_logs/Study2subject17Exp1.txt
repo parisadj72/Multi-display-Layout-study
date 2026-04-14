@@ -1,0 +1,362 @@
+OUTPUT OF EACH RUN (Exp1): 
+ 
+
+ View looked at in 3.035473 seconds for the first time!
+Time per selection = 4.110915
+ 
+
+ View looked at in 1.714639 seconds for the first time!
+Time per selection = 2.56258
+ 
+
+ View looked at in 0.7003636 seconds for the first time!
+Time per selection = 1.301536
+ 
+
+ View looked at in 2.284301 seconds for the first time!
+Time per selection = 2.988146
+ 
+
+ View looked at in 0.0699691 seconds for the first time!
+Time per selection = 1.084088
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(time per 5 Selections for the Sphere layout): 12.18445
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 1
+ 
+
+ View looked at in 0.6960197 seconds for the first time!
+Time per selection = 1.327383
+ 
+
+ View looked at in 0.2913673 seconds for the first time!
+Time per selection = 0.9155605
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 1.303499
+ 
+
+ View looked at in 0.3518631 seconds for the first time!
+Time per selection = 0.8710665
+ 
+
+ View looked at in 0.3318627 seconds for the first time!
+Time per selection = 1.035225
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 5.588463
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.3127697 seconds for the first time!
+Time per selection = 0.8774267
+ 
+
+ View looked at in 0.3467906 seconds for the first time!
+Time per selection = 0.9379246
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.8739144
+ 
+
+ View looked at in 0.2785683 seconds for the first time!
+Time per selection = 0.74712
+ 
+
+ View looked at in 0.319637 seconds for the first time!
+Time per selection = 0.8295006
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(time per 5 Selections for the Sphere layout): 4.404991
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.5641786 seconds for the first time!
+Time per selection = 1.048749
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 1.085479
+ 
+
+ View looked at in 0.187979 seconds for the first time!
+Time per selection = 0.8209748
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.8568755
+ 
+
+ View looked at in 0.7988256 seconds for the first time!
+Time per selection = 1.30013
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(time per 5 Selections for the Sphere layout): 5.245666
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.3844488 seconds for the first time!
+Time per selection = 1.075325
+ 
+
+ View looked at in 0.6272877 seconds for the first time!
+Time per selection = 2.096336
+ 
+
+ View looked at in 0.4025026 seconds for the first time!
+Time per selection = 1.066552
+ 
+
+ View looked at in 0.2842442 seconds for the first time!
+Time per selection = 0.8389637
+ 
+
+ View looked at in 1.219315 seconds for the first time!
+Time per selection = 1.878246
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 7.087572
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.3418793 seconds for the first time!
+Time per selection = 1.112839
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.7930779
+ 
+
+ View looked at in 0.3422377 seconds for the first time!
+Time per selection = 0.936294
+ 
+
+ View looked at in 0.3246499 seconds for the first time!
+Time per selection = 0.8216649
+ 
+
+ View looked at in 0.2953752 seconds for the first time!
+Time per selection = 0.7922311
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(time per 5 Selections for the Sphere layout): 4.588742
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.6588401 seconds for the first time!
+Time per selection = 1.222936
+ 
+
+ View looked at in 1.255576 seconds for the first time!
+Time per selection = 1.70344
+ 
+
+ View looked at in 4.859812 seconds for the first time!
+Time per selection = 5.482816
+ 
+
+ View looked at in 3.092003 seconds for the first time!
+Time per selection = 3.597646
+ 
+
+ View looked at in 0.301293 seconds for the first time!
+Time per selection = 0.9165629
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(time per 5 Selections for the Sphere layout): 13.05562
+ 
+
+ Layout Name: 3by5Sphere(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.7579412 seconds for the first time!
+Time per selection = 1.474843
+ 
+
+ View looked at in 0.3157219 seconds for the first time!
+Time per selection = 0.8442899
+ 
+
+ View looked at in 0.2778288 seconds for the first time!
+Time per selection = 0.7597359
+ 
+
+ View looked at in 0.3280168 seconds for the first time!
+Time per selection = 0.8503253
+ 
+
+ View looked at in 0.3117348 seconds for the first time!
+Time per selection = 0.7856765
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(time per 5 Selections for the Sphere layout): 4.844137
+ 
+
+ Layout Name: 2by2Sphere(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Sphere layout): 0
+ 
+
+ View looked at in 0.4812459 seconds for the first time!
+Time per selection = 1.37055
+ 
+
+ View looked at in 0.5298759 seconds for the first time!
+Time per selection = 0.8915147
+ 
+
+ View looked at in 0.5602502 seconds for the first time!
+Time per selection = 1.209824
+ 
+
+ View looked at in 0.3236359 seconds for the first time!
+Time per selection = 1.097462
+ 
+
+ View looked at in 1.391364 seconds for the first time!
+Time per selection = 1.750735
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 6.464457
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.3310214 seconds for the first time!
+Time per selection = 0.8231782
+ 
+
+ View looked at in 1.140488 seconds for the first time!
+Time per selection = 1.854591
+ 
+
+ View looked at in 0.3306816 seconds for the first time!
+Time per selection = 0.9401352
+ 
+
+ View looked at in 0.3682237 seconds for the first time!
+Time per selection = 1.318501
+ 
+
+ View looked at in 0.378225 seconds for the first time!
+Time per selection = 0.9811057
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 6.057913
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.1987251 seconds for the first time!
+Time per selection = 0.7984328
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.9175057
+ 
+
+ View looked at in 0.3672017 seconds for the first time!
+Time per selection = 0.893463
+ 
+
+ View looked at in 0.2948998 seconds for the first time!
+Time per selection = 1.333997
+ 
+
+ View looked at in 0.2967987 seconds for the first time!
+Time per selection = 0.7747095
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 4.8575
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.2861268 seconds for the first time!
+Time per selection = 0.9559655
+ 
+
+ View looked at in 0.3637005 seconds for the first time!
+Time per selection = 0.865948
+ 
+
+ View looked at in 0.3224496 seconds for the first time!
+Time per selection = 0.8084024
+ 
+
+ View looked at in 0.5204719 seconds for the first time!
+Time per selection = 1.004606
+ 
+
+ View looked at in 0.3199521 seconds for the first time!
+Time per selection = 0.7299846
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(time per 5 Selections for the Curve layout): 4.504911
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 

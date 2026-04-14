@@ -1,0 +1,102 @@
+
+ ------------------- View StackedView3 in the Stack layout was looked at in 0.2888511 seconds for the first time! ------------------- 
+
+ ------------------- View StackedView4 in the Stack layout was looked at in 0.2512052 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff12 in the Flat layout was looked at in 0.868679 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff2 in the Flat layout was looked at in 0.2535623 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff3 in the Flat layout was looked at in 0.2429093 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (11) in the Curve layout was looked at in 0.4294356 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (12) in the Curve layout was looked at in 0.2326945 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.2818035 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.2462579 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff3 in the Flat layout was looked at in 0.3205956 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff3 in the Flat layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff7 in the Flat layout was looked at in 0.3907753 seconds for the first time! ------------------- 
+
+ ------------------- View StackedView4 in the Stack layout was looked at in 0.3080339 seconds for the first time! ------------------- 
+
+ ------------------- View StackedView4 in the Stack layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View StackedView4 in the Stack layout was looked at in 0.2547929 seconds for the first time! ------------------- 
+
+ ------------------- View StackedView2 in the Stack layout was looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.4687124 sec!
+
+ ------------------- View StackedView3 in the Stack layout was looked at in 0 seconds for the first time! ------------------- 
+
+ View looked at in 0.3927558 sec!
+
+ ------------------- View ViewOff in the Flat layout was looked at in 0.6354173 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Flat layout was looked at in 0.231353 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Flat layout was looked at in 0 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Flat layout was looked at in 0.2526166 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Flat layout was looked at in 0.2149586 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (3) in the Curve layout was looked at in 0.4809768 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff4 in the Flat layout was looked at in 0.4818676 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff4 in the Flat layout was looked at in 0.4676692 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff2 in the Flat layout was looked at in 0.2501169 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Curve layout was looked at in 0.2468583 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Stack layout was looked at in 0.2916345 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (11) in the Stack layout was looked at in 0.3070873 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (9) in the Stack layout was looked at in 1.083161 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (6) in the Stack layout was looked at in 0.2294295 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (7) in the Stack layout was looked at in 0.262845 seconds for the first time! ------------------- 
+
+ View looked at in 0.1625767 sec!
+
+ ------------------- View ViewOff (13) in the Stack layout was looked at in 0.5972431 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Flat layout was looked at in 0.3437954 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Flat layout was looked at in 0.2284238 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Flat layout was looked at in 0.2427466 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2540297 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.2549957 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (6) in the Curve layout was looked at in 0.5309334 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (2) in the Curve layout was looked at in 0.2455462 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.7169821 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (8) in the Curve layout was looked at in 0.3804898 seconds for the first time! ------------------- 
+
+ View looked at in 0.1968631 sec!
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.4161678 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2554145 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff in the Curve layout was looked at in 0.321924 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2238324 seconds for the first time! ------------------- 
+
+ ------------------- View ViewOff (1) in the Curve layout was looked at in 0.2769809 seconds for the first time! ------------------- 

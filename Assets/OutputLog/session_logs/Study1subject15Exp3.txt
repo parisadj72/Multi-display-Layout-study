@@ -1,0 +1,286 @@
+OUTPUT OF EACH RUN (Exp3): 
+ 
+Time per swap for the Curve layout = 10.52788
+ 
+Time per swap for the Curve layout = 4.878477
+ 
+Time per swap for the Curve layout = 3.541287
+ 
+Time per swap for the Curve layout = 2.204056
+ 
+Time per swap for the Curve layout = 1.670812
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Trial time (# 5 swaps for the Curve layout): 22.87634
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Flat layout = 3.46981
+ 
+Time per swap for the Flat layout = 1.105403
+ 
+Time per swap for the Flat layout = 1.681687
+ 
+Time per swap for the Flat layout = 0.7331184
+ 
+Time per swap for the Flat layout = 1.775913
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+Trial time (# 5 swaps for the Flat layout): 8.813344
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Flat layout = 1.554836
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+Trial time (# 1 swaps for the Flat layout): 1.60268
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Stack layout = 2.225795
+ 
+Time per swap for the Stack layout = 1.230463
+ 
+Time per swap for the Stack layout = 1.376338
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+Trial time (# 3 swaps for the Stack layout): 4.882528
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Curve layout = 3.012998
+ 
+Time per swap for the Curve layout = 1.203509
+ 
+Time per swap for the Curve layout = 1.496211
+ 
+Time per swap for the Curve layout = 1.820856
+ 
+Time per swap for the Curve layout = 1.199578
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Trial time (# 5 swaps for the Curve layout): 8.786143
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 1.593427
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Trial time (# 1 swaps for the Curve layout): 1.643585
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Stack layout = 2.81269
+ 
+Time per swap for the Stack layout = 0.9147336
+ 
+Time per swap for the Stack layout = 2.549711
+ 
+Time per swap for the Stack layout = 4.241669
+ 
+Time per swap for the Stack layout = 1.843793
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+Trial time (# 5 swaps for the Stack layout): 12.40895
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Stack layout = 4.079913
+ 
+Time per swap for the Stack layout = 2.824203
+ 
+Time per swap for the Stack layout = 3.470169
+ 
+Time per swap for the Stack layout = 6.208036
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+Trial time (# 4 swaps for the Stack layout): 16.63832
+ 
+
+ Layout Name: 3by5ColumnStack(Clone)
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Flat layout = 1.269765
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+Trial time (# 1 swaps for the Flat layout): 1.3156
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Flat layout = 1.27045
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+Trial time (# 1 swaps for the Flat layout): 1.320078
+ 
+
+ Layout Name: 2by2Flat(Clone)
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Curve layout = 1.132639
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Trial time (# 1 swaps for the Curve layout): 1.182059
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 1.069866
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Trial time (# 1 swaps for the Curve layout): 1.1227
+ 
+
+ Layout Name: 2by2Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Curve layout = 2.016654
+ 
+Time per swap for the Curve layout = 0.7344456
+ 
+Time per swap for the Curve layout = 0.7202886
+ 
+Time per swap for the Curve layout = 1.053576
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Trial time (# 4 swaps for the Curve layout): 4.572529
+ 
+
+ Layout Name: 3by5Curve(Clone)
+ 
+Errors per trial for the Curve layout: 0
+ 
+Time per swap for the Flat layout = 2.339061
+ 
+Time per swap for the Flat layout = 2.62296
+ 
+Time per swap for the Flat layout = 1.12545
+ 
+Time per swap for the Flat layout = 1.526266
+ 
+Time per swap for the Flat layout = 2.4456
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+Trial time (# 5 swaps for the Flat layout): 10.10888
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Stack layout = 1.275141
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+Trial time (# 1 swaps for the Stack layout): 1.322132
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Stack layout = 2.054973
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+Trial time (# 1 swaps for the Stack layout): 2.10822
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+Errors per trial for the Stack layout: 0
+ 
+Time per swap for the Flat layout = 1.58599
+ 
+Time per swap for the Flat layout = 0.697101
+ 
+Time per swap for the Flat layout = 1.928611
+ 
+Time per swap for the Flat layout = 1.883086
+ 
+Time per swap for the Flat layout = 2.84933
+ 
+Time per swap for the Flat layout = 1.815747
+ 
+Time per swap for the Flat layout = 1.885367
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+Trial time (# 7 swaps for the Flat layout): 12.69505
+ 
+
+ Layout Name: 3by5Flat(Clone)
+ 
+Errors per trial for the Flat layout: 0
+ 
+Time per swap for the Stack layout = 1.344658
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+Trial time (# 1 swaps for the Stack layout): 1.397518
+ 
+
+ Layout Name: 2by2Stack(Clone)
+ 
+Errors per trial for the Stack layout: 0
+ 

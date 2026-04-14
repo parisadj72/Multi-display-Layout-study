@@ -1,0 +1,384 @@
+OUTPUT OF EACH RUN (Exp1): 
+ 
+
+ View looked at in 0.3424015 seconds for the first time!
+Time per selection = 4.238009
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 4.566923
+ 
+
+ View looked at in 0.301007 seconds for the first time!
+Time per selection = 0.9059225
+ 
+
+ View looked at in 0.1173242 seconds for the first time!
+Time per selection = 0.8512622
+ 
+
+ View looked at in 0.3978221 seconds for the first time!
+Time per selection = 0.6536264
+ 
+(time per 5 Selections for the Curve layout): 11.30976
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.9673256
+ 
+Time per selection = 0.8001807
+ 
+
+ View looked at in 0.5725431 seconds for the first time!
+Time per selection = 1.816735
+ 
+
+ View looked at in 0.1658456 seconds for the first time!
+Time per selection = 0.5330119
+ 
+Time per selection = 0.7213937
+ 
+(time per 5 Selections for the Stack layout): 4.934552
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.5875339 seconds for the first time!
+Time per selection = 0.6377606
+ 
+Time per selection = 0.5270303
+ 
+Time per selection = 0.5201641
+ 
+Time per selection = 0.7756669
+ 
+
+ View looked at in 0.2284183 seconds for the first time!
+Time per selection = 0.5980098
+ 
+(time per 5 Selections for the Curve layout): 3.160861
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+Time per selection = 0.764962
+ 
+Time per selection = 0.886255
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.795678
+ 
+Time per selection = 0.6348414
+ 
+Time per selection = 0.9779974
+ 
+(time per 5 Selections for the Flat layout): 4.16271
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 1
+ 
+
+ View looked at in 0.4254179 seconds for the first time!
+Time per selection = 2.404348
+ 
+Time per selection = 0.7011846
+ 
+
+ View looked at in 0.2042131 seconds for the first time!
+Time per selection = 0.8969672
+ 
+Time per selection = 0.5221244
+ 
+
+ View looked at in 0.2928465 seconds for the first time!
+Time per selection = 0.4861543
+ 
+(time per 5 Selections for the Stack layout): 5.110631
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.3228314 seconds for the first time!
+Time per selection = 0.7165543
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6356215
+ 
+
+ View looked at in 0.2094966 seconds for the first time!
+Time per selection = 0.5813056
+ 
+
+ View looked at in 0.2242588 seconds for the first time!
+Time per selection = 0.6892896
+ 
+
+ View looked at in 0.2060787 seconds for the first time!
+Time per selection = 0.5643341
+ 
+(time per 5 Selections for the Stack layout): 3.291291
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.2910698 seconds for the first time!
+Time per selection = 0.7071882
+ 
+
+ View looked at in 0.3204237 seconds for the first time!
+Time per selection = 0.8108055
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.6839465
+ 
+
+ View looked at in 0.5132434 seconds for the first time!
+Time per selection = 0.7247953
+ 
+
+ View looked at in 0.0350187 seconds for the first time!
+Time per selection = 0.6568327
+ 
+(time per 5 Selections for the Stack layout): 3.680119
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+Time per selection = 0.6183499
+ 
+Time per selection = 0.5942221
+ 
+
+ View looked at in 0.2219588 seconds for the first time!
+Time per selection = 0.9701824
+ 
+
+ View looked at in 0.2394682 seconds for the first time!
+Time per selection = 0.5028784
+ 
+
+ View looked at in 0.21177 seconds for the first time!
+Time per selection = 0.8946676
+ 
+(time per 5 Selections for the Flat layout): 3.681191
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0.1197074 seconds for the first time!
+Time per selection = 0.8011962
+ 
+
+ View looked at in 0.0939309 seconds for the first time!
+Time per selection = 0.5099069
+ 
+
+ View looked at in 0.0877502 seconds for the first time!
+Time per selection = 0.4726554
+ 
+
+ View looked at in 0.2974416 seconds for the first time!
+Time per selection = 0.4512839
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4978076
+ 
+(time per 5 Selections for the Stack layout): 2.83387
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+Time per selection = 0.8870793
+ 
+
+ View looked at in 0.2047287 seconds for the first time!
+Time per selection = 0.5185674
+ 
+
+ View looked at in 0.3293038 seconds for the first time!
+Time per selection = 0.6365798
+ 
+
+ View looked at in 0.527439 seconds for the first time!
+Time per selection = 0.9946436
+ 
+
+ View looked at in 0.1935368 seconds for the first time!
+Time per selection = 0.6091883
+ 
+(time per 5 Selections for the Curve layout): 3.752038
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 1
+ 
+
+ View looked at in 0.4776286 seconds for the first time!
+Time per selection = 0.8329989
+ 
+Time per selection = 0.4507151
+ 
+
+ View looked at in 0.3391992 seconds for the first time!
+Time per selection = 0.4513808
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4352396
+ 
+
+ View looked at in 0.3043522 seconds for the first time!
+Time per selection = 0.564826
+ 
+(time per 5 Selections for the Stack layout): 2.832172
+ 
+(Errors / Wrong Selections per 5 Selections for the Stack layout): 0
+ 
+
+ View looked at in 0.2561376 seconds for the first time!
+Time per selection = 0.6124457
+ 
+
+ View looked at in 0.2579688 seconds for the first time!
+Time per selection = 0.4634317
+ 
+
+ View looked at in 0.3368198 seconds for the first time!
+Time per selection = 0.839132
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4565409
+ 
+
+ View looked at in 0.2301509 seconds for the first time!
+Time per selection = 0.5396526
+ 
+(time per 5 Selections for the Curve layout): 3.010176
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
+
+ View looked at in 0.2927135 seconds for the first time!
+Time per selection = 0.6480934
+ 
+Time per selection = 0.5726144
+ 
+Time per selection = 0.4751361
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.5653144
+ 
+Time per selection = 0.551317
+ 
+(time per 5 Selections for the Flat layout): 2.912895
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+
+ View looked at in 0.4254538 seconds for the first time!
+Time per selection = 0.5928863
+ 
+Time per selection = 0.4850223
+ 
+
+ View looked at in 0.1784068 seconds for the first time!
+Time per selection = 0.4866168
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 0.4769509
+ 
+
+ View looked at in 0.4019421 seconds for the first time!
+Time per selection = 0.5676513
+ 
+(time per 5 Selections for the Flat layout): 2.713155
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+Time per selection = 0.5289895
+ 
+Time per selection = 0.299532
+ 
+
+ View looked at in 0.2503172 seconds for the first time!
+Time per selection = 0.4983443
+ 
+
+ View looked at in 0.1328704 seconds for the first time!
+Time per selection = 0.6116952
+ 
+
+ View looked at in 0.1978886 seconds for the first time!
+Time per selection = 0.4481243
+ 
+(time per 5 Selections for the Flat layout): 2.48266
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 1
+ 
+
+ View looked at in 0.5839783 seconds for the first time!
+Time per selection = 0.7821444
+ 
+
+ View looked at in 0 seconds for the first time!
+Time per selection = 1.001319
+ 
+
+ View looked at in 0.2562028 seconds for the first time!
+Time per selection = 0.7657081
+ 
+Time per selection = 0.8821675
+ 
+
+ View looked at in 0.2398329 seconds for the first time!
+Time per selection = 1.066278
+ 
+(time per 5 Selections for the Curve layout): 4.599289
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 1
+ 
+
+ View looked at in 0.2817402 seconds for the first time!
+Time per selection = 0.6794828
+ 
+Time per selection = 1.13807
+ 
+
+ View looked at in 0.531088 seconds for the first time!
+Time per selection = 0.7084713
+ 
+
+ View looked at in 0.2320523 seconds for the first time!
+Time per selection = 0.674568
+ 
+
+ View looked at in 0.2779438 seconds for the first time!
+Time per selection = 0.6082448
+ 
+(time per 5 Selections for the Flat layout): 3.907761
+ 
+(Errors / Wrong Selections per 5 Selections for the Flat layout): 0
+ 
+Time per selection = 1.289175
+ 
+Time per selection = 0.7286986
+ 
+
+ View looked at in 0.3932366 seconds for the first time!
+Time per selection = 0.8007008
+ 
+
+ View looked at in 0.1856245 seconds for the first time!
+Time per selection = 0.5515103
+ 
+
+ View looked at in 0.3202777 seconds for the first time!
+Time per selection = 0.6336259
+ 
+(time per 5 Selections for the Curve layout): 4.106774
+ 
+(Errors / Wrong Selections per 5 Selections for the Curve layout): 0
+ 
